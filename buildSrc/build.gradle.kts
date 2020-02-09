@@ -16,3 +16,10 @@ dependencies {
     implementation("com.squareup:kotlinpoet:1.5.0")
     implementation("org.apache.commons:commons-text:1.8")
 }
+
+tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+    kotlinOptions {
+        jvmTarget = "1.8"
+        freeCompilerArgs = listOf("-Xuse-experimental=kotlin.ExperimentalStdlibApi")
+    }
+}

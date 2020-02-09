@@ -46,7 +46,6 @@ data class EmojiItem(
 
 val EmojiItem.unicode: String get() = StringEscapeUtils.escapeJava(surrogates)
 
-@UseExperimental(ExperimentalStdlibApi::class)
 @Suppress("MemberVisibilityCanBePrivate")
 class EmojiPlugin : Plugin<Project> {
     private val snakeCase = Regex("""_\w""")

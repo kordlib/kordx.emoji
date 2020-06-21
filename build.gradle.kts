@@ -33,9 +33,8 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    implementation("com.gitlab.kordlib.kord:kord-core") {
+    implementation("com.gitlab.kordlib.kord:kord-core:${Versions.kordRange}") {
         version {
-            strictly(Versions.kordRange)
             prefer("latest.release")
         }
     }

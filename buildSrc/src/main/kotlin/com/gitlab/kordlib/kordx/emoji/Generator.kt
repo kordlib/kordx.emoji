@@ -2,6 +2,9 @@ package com.gitlab.kordlib.kordx.emoji
 
 import com.squareup.kotlinpoet.*
 import kotlinx.serialization.*
+import kotlinx.serialization.builtins.MapSerializer
+import kotlinx.serialization.builtins.list
+import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonConfiguration
 import org.apache.commons.text.StringEscapeUtils
@@ -164,7 +167,8 @@ class EmojiPlugin : Plugin<Project> {
 
     private fun parseEmojis(): Map<String, List<EmojiItem>> {
         val content = String(Generator::class.java.classLoader.getResourceAsStream("emojis.json")!!.readAllBytes(), Charset.forName("UTF-8"))
-        val serializer = Pair(String.serializer(), EmojiItem.serializer().list).map
+        val pair = Pair(String.serializer(), EmojiItem.serializer().list)
+        val serializer = MapSerializer(pair.first, pair.second)
         return Json(JsonConfiguration.Stable).parse(serializer, content)
     }
 

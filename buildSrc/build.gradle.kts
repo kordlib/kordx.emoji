@@ -1,7 +1,7 @@
 plugins {
     groovy
     `kotlin-dsl`
-    kotlin("plugin.serialization") version "1.3.61"
+    kotlin("plugin.serialization") version "1.3.72"
 }
 
 repositories {
@@ -11,8 +11,8 @@ repositories {
 dependencies {
     implementation(gradleApi())
     implementation(localGroovy())
-    implementation(kotlin("gradle-plugin-api", version = "1.3.61"))
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.14.0")
+    implementation(kotlin("gradle-plugin-api", version = "1.3.72"))
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.20.0")
     implementation("com.squareup:kotlinpoet:1.5.0")
     implementation("org.apache.commons:commons-text:1.8")
 }

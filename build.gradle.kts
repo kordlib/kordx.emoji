@@ -32,7 +32,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.gitlab.kordlib.kord:kord-core:${Versions.kordRange}") {
         version {
             prefer("latest.release")
@@ -51,7 +50,6 @@ tasks {
 
 apply<EmojiPlugin>()
 apply<BintrayPlugin>()
-apply<MavenPlugin>()
 
 val sourcesJar by tasks.registering(Jar::class) {
     archiveClassifier.set("sources")

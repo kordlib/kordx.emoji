@@ -1,22 +1,16 @@
 package com.gitlab.kordlib.kordx.emoji
 
 import com.squareup.kotlinpoet.*
-import kotlinx.serialization.*
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.MapSerializer
-import kotlinx.serialization.builtins.list
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.JsonConfiguration
 import org.apache.commons.text.StringEscapeUtils
 import org.gradle.api.Plugin
 import org.gradle.api.Project
-import org.gradle.kotlin.dsl.create
-import java.io.OutputStreamWriter
 import java.nio.charset.Charset
-import java.nio.charset.StandardCharsets
-import java.nio.file.Files
 import java.nio.file.Paths
-import kotlin.streams.toList
 
 private object Generator
 
@@ -167,9 +161,9 @@ class EmojiPlugin : Plugin<Project> {
 
     private fun parseEmojis(): Map<String, List<EmojiItem>> {
         val content = String(Generator::class.java.classLoader.getResourceAsStream("emojis.json")!!.readAllBytes(), Charset.forName("UTF-8"))
-        val pair = Pair(String.serializer(), EmojiItem.serializer().list)
+        val pair = Pair(String.serializer(), ListSerializer(EmojiItem.serializer()))
         val serializer = MapSerializer(pair.first, pair.second)
-        return Json(JsonConfiguration.Stable).parse(serializer, content)
+        return Json.decodeFromString(serializer, content)
     }
 
 }

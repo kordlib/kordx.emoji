@@ -26,7 +26,7 @@ sealed class DiscordEmoji {
      * An emoji that supports [SkinTones][SkinTone].
      */
     data class Diverse(val code: String, val tone: SkinTone = SkinTone.Default) : DiscordEmoji() {
-        fun withTone(tone: SkinTone): DiscordEmoji = copy(code = code, tone = tone)
+        fun withTone(tone: SkinTone): Diverse = copy(code = code, tone = tone)
 
         override val unicode: String
             get() = "$code${tone.unicode}"
@@ -63,3 +63,29 @@ suspend fun Message.deleteOwnReaction(emoji: DiscordEmoji) = deleteOwnReaction(e
 fun DiscordEmoji.toReaction() = ReactionEmoji.Unicode(unicode)
 
 fun ReactionEmoji.Companion.from(emoji: DiscordEmoji) = emoji.toReaction()
+
+internal fun String.toSkinTone(): SkinTone? {
+    val tones = listOf(
+            SkinTone.Dark,
+            SkinTone.MediumDark,
+            SkinTone.Medium,
+            SkinTone.MediumLight,
+            SkinTone.Light,
+            SkinTone.Default
+    )
+
+    return tones.firstOrNull {  this.endsWith(it.unicode) }
+}
+
+internal fun String.removeTone() : String {
+    val tones = listOf(
+            SkinTone.Dark,
+            SkinTone.MediumDark,
+            SkinTone.Medium,
+            SkinTone.MediumLight,
+            SkinTone.Light,
+            SkinTone.Default
+    )
+
+    return tones.fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
+}

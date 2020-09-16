@@ -17,6 +17,11 @@ private object Generator
 sealed class EmojiType {
     abstract val name: ClassName
 
+    object Base : EmojiType() {
+        override val name: ClassName
+            get() = ClassName("com.gitlab.kordlib.kordx.emoji", "DiscordEmoji")
+    }
+
     object Generic : EmojiType() {
         override val name: ClassName
             get() = ClassName("com.gitlab.kordlib.kordx.emoji", "DiscordEmoji.Generic")
@@ -60,8 +65,8 @@ class EmojiPlugin : Plugin<Project> {
                 """.trimIndent())
 
                 //disabled for now
-//                generateMapGetter()
-//                generateMap(emojis)
+                generateMapGetter()
+                generateMap(emojis)
                 emojis.values.asSequence().flatten().forEach { apply(it) }
             }
 
@@ -73,28 +78,29 @@ class EmojiPlugin : Plugin<Project> {
         file.writeTo(directory)
     }
 
+//    /**
+//     * Gets a discord emoji with the given [name].
+//     */
+//    operator fun Emojis.get(name: String) : DiscordEmoji? {
+//        val tone = name.toSkinTone()
+//        val emoji = Emojis.all[name.removeTone()]
+//
+//        return if (emoji is DiscordEmoji.Diverse) emoji.copy(tone = tone!!)
+//        else emoji
+//    }
+
     fun TypeSpec.Builder.generateMapGetter() {
-        val regex = buildProperty<Regex>("snakeCase") {
-            addModifiers(KModifier.PRIVATE)
-            initializer("%T(%S)", typeNameOf<Regex>(), """_\w""")
-        }
-
-        addProperty(regex)
-
-        val toCamelCase = FunSpec.builder("toCamelCase")
-                .receiver(typeNameOf<String>())
-                .returns(typeNameOf<String>())
-                .addModifiers(KModifier.PRIVATE)
-                .addCode("return snakeCase.replace(toLowerCase()) { result -> result.value.drop(1).toUpperCase() }")
-                .build()
-
-        addFunction(toCamelCase)
 
         val getter = FunSpec.builder("get")
-                .addKdoc("Gets a discord emoji with the given [name].")
+                .addKdoc("Gets a discord emoji with the given [unicode].")
                 .addModifiers(KModifier.OPERATOR)
-                .addParameter("name", typeNameOf<String>())
-                .addCode("return all[name.toCamelCase()]")
+                .addParameter("unicode", typeNameOf<String>())
+                .returns(EmojiType.Base.name.copy(nullable = true))
+                .addStatement("val tone = unicode.toSkinTone()")
+                .addStatement("val withoutTone = unicode.removeTone()")
+                .addStatement("val emoji = Emojis.all[withoutTone]")
+                .addStatement("")
+                .addStatement("return if (emoji is %T) emoji.copy(tone = tone!!) else emoji", EmojiType.Diverse.name)
                 .build()
 
         addFunction(getter)
@@ -108,8 +114,8 @@ class EmojiPlugin : Plugin<Project> {
         val property = buildProperty("all", type) {
             initializer("""mapOf(
                     |${
-            emojis.values.asSequence().flatten().flatMap { it.names.asSequence() }.joinToString(",\n") {
-                "        \"$it\" to `${it.toCamelCase()}`"
+            emojis.values.asSequence().flatten().joinToString(",\n") {
+                "        \"${it.unicode}\" to `${it.names.first().toCamelCase()}`"
             }
             }    
                     |)""".trimMargin())

@@ -1,3 +1,13 @@
+# 0.4.0
+
+## Additions
+
+* Added `Emojis#get(unicode)` to get a `DiscordEmoji` from a unicode `String`.
+
+## Fixes
+
+* `DiscordEmoji.Diverse#withTone` now correctly returns a `DiscordEmoji.Diverse` instead of just a `DiscordEmoji`.
+
 # 0.3.0
 
 ## Dependencies

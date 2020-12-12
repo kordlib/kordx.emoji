@@ -1,9 +1,5 @@
 import com.gitlab.kordlib.kordx.emoji.EmojiPlugin
-import com.jfrog.bintray.gradle.BintrayExtension
-import com.jfrog.bintray.gradle.BintrayPlugin
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import java.util.Date
-import org.gradle.api.tasks.bundling.Jar
+import com.jfrog.bintray.gradle.*
 
 version = Project.version
 group = Project.group
@@ -16,7 +12,7 @@ buildscript {
     dependencies {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}")
         classpath("com.jfrog.bintray.gradle:gradle-bintray-plugin:${Versions.bintray}")
-        classpath("com.github.jengelman.gradle.plugins:shadow:5.1.0")
+        classpath("com.github.jengelman.gradle.plugins:shadow:6.1.0")
     }
 }
 
@@ -42,10 +38,8 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
 
-tasks {
-    withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = "1.8"
-    }
+tasks.compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
 }
 
 apply<EmojiPlugin>()
@@ -90,5 +84,4 @@ configure<BintrayExtension> {
             vcsTag = Project.version
         }
     }
-
 }

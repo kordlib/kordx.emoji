@@ -171,5 +171,4 @@ class EmojiPlugin : Plugin<Project> {
         val serializer = MapSerializer(pair.first, pair.second)
         return Json.decodeFromString(serializer, content)
     }
-
 }

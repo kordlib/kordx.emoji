@@ -6,7 +6,7 @@ group = Project.group
 
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         maven(url = "https://plugins.gradle.org/m2/")
     }
     dependencies {
@@ -17,18 +17,17 @@ buildscript {
 }
 
 plugins {
-    id("org.jetbrains.kotlin.jvm") version Versions.kotlin
+    kotlin("jvm") version Versions.kotlin
     `maven-publish`
 }
 
 repositories {
-    jcenter()
-    maven(url = "https://jitpack.io")
+    mavenCentral()
     maven(url = "https://dl.bintray.com/kordlib/Kord")
 }
 
 dependencies {
-    implementation("com.gitlab.kordlib.kord:kord-core:${Versions.kordRange}") {
+    implementation("dev.kord:kord-core:${Versions.kordRange}") {
         version {
             prefer("latest.release")
         }

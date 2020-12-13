@@ -7,6 +7,6 @@ object Versions {
 object Project {
     val version = System.getenv("RELEASE_TAG") ?: System.getenv("GITHUB_SHA") ?:  System.getenv("VERSION") ?: "undefined"
     const val name = "kordx.emoji"
-    const val group = "com.gitlab.kordlib"
+    const val group = "dev.kord"
     const val description = "Discord Emoji constants for Kord"
 }

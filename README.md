@@ -29,7 +29,7 @@ repositories {
 
 ```kotlin
 dependencies {
-    implementation("com.gitlab.kordlib:kordx.emoji:{version}")
+    implementation("dev.kord:kordx.emoji:{version}")
 }
 ```
 
@@ -44,7 +44,7 @@ dependencies {
 
 ```xml
 <dependency>
-    <groupId>com.gitlab.kordlib</groupId>
+    <groupId>dev.kord</groupId>
     <artifactId>kordx.emoji</artifactId>
     <version>{version}</version>
 </dependency>

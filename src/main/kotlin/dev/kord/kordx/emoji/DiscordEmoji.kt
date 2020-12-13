@@ -1,4 +1,4 @@
-package com.gitlab.kordlib.kordx.emoji
+package dev.kord.kordx.emoji
 
 import com.gitlab.kordlib.core.entity.Message
 import com.gitlab.kordlib.core.entity.ReactionEmoji

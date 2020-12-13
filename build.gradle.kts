@@ -1,4 +1,4 @@
-import com.gitlab.kordlib.kordx.emoji.EmojiPlugin
+import dev.kord.kordx.emoji.EmojiPlugin
 import com.jfrog.bintray.gradle.*
 
 version = Project.version

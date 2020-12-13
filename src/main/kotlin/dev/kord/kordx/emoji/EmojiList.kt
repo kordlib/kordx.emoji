@@ -1,4 +1,4 @@
-package com.gitlab.kordlib.kordx.emoji
+package dev.kord.kordx.emoji
 
 import kotlin.String
 import kotlin.collections.Map
@@ -6,7 +6,7 @@ import kotlin.collections.Map
 /**
  * List of all supported discord emojis.
  */
-object Emojis {
+public object Emojis {
   private val all: Map<String, DiscordEmoji> = mapOf(
               "\uD83D\uDE00" to `grinning`,
               "\uD83D\uDE03" to `smiley`,
@@ -1755,5838 +1755,5838 @@ object Emojis {
               "\uD83C\uDDFA\uD83C\uDDF3" to `unitedNations`    
       )
 
-  val grinning: DiscordEmoji.Generic
+  public val grinning: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE00")
 
-  val smiley: DiscordEmoji.Generic
+  public val smiley: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE03")
 
-  val smile: DiscordEmoji.Generic
+  public val smile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE04")
 
-  val grin: DiscordEmoji.Generic
+  public val grin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE01")
 
-  val laughing: DiscordEmoji.Generic
+  public val laughing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE06")
 
-  val satisfied: DiscordEmoji.Generic
+  public val satisfied: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE06")
 
-  val sweatSmile: DiscordEmoji.Generic
+  public val sweatSmile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE05")
 
-  val joy: DiscordEmoji.Generic
+  public val joy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE02")
 
-  val rofl: DiscordEmoji.Generic
+  public val rofl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD23")
 
-  val rollingOnTheFloorLaughing: DiscordEmoji.Generic
+  public val rollingOnTheFloorLaughing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD23")
 
-  val relaxed: DiscordEmoji.Generic
+  public val relaxed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u263A\uFE0F")
 
-  val blush: DiscordEmoji.Generic
+  public val blush: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0A")
 
-  val innocent: DiscordEmoji.Generic
+  public val innocent: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE07")
 
-  val slightSmile: DiscordEmoji.Generic
+  public val slightSmile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE42")
 
-  val slightlySmilingFace: DiscordEmoji.Generic
+  public val slightlySmilingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE42")
 
-  val upsideDown: DiscordEmoji.Generic
+  public val upsideDown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE43")
 
-  val upsideDownFace: DiscordEmoji.Generic
+  public val upsideDownFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE43")
 
-  val wink: DiscordEmoji.Generic
+  public val wink: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE09")
 
-  val relieved: DiscordEmoji.Generic
+  public val relieved: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0C")
 
-  val heartEyes: DiscordEmoji.Generic
+  public val heartEyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0D")
 
-  val smilingFaceWith3Hearts: DiscordEmoji.Generic
+  public val smilingFaceWith3Hearts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD70")
 
-  val kissingHeart: DiscordEmoji.Generic
+  public val kissingHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE18")
 
-  val kissing: DiscordEmoji.Generic
+  public val kissing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE17")
 
-  val kissingSmilingEyes: DiscordEmoji.Generic
+  public val kissingSmilingEyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE19")
 
-  val kissingClosedEyes: DiscordEmoji.Generic
+  public val kissingClosedEyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE1A")
 
-  val yum: DiscordEmoji.Generic
+  public val yum: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0B")
 
-  val stuckOutTongue: DiscordEmoji.Generic
+  public val stuckOutTongue: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE1B")
 
-  val stuckOutTongueClosedEyes: DiscordEmoji.Generic
+  public val stuckOutTongueClosedEyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE1D")
 
-  val stuckOutTongueWinkingEye: DiscordEmoji.Generic
+  public val stuckOutTongueWinkingEye: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE1C")
 
-  val zanyFace: DiscordEmoji.Generic
+  public val zanyFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2A")
 
-  val faceWithRaisedEyebrow: DiscordEmoji.Generic
+  public val faceWithRaisedEyebrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD28")
 
-  val faceWithMonocle: DiscordEmoji.Generic
+  public val faceWithMonocle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDD0")
 
-  val nerd: DiscordEmoji.Generic
+  public val nerd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD13")
 
-  val nerdFace: DiscordEmoji.Generic
+  public val nerdFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD13")
 
-  val sunglasses: DiscordEmoji.Generic
+  public val sunglasses: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0E")
 
-  val starStruck: DiscordEmoji.Generic
+  public val starStruck: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD29")
 
-  val partyingFace: DiscordEmoji.Generic
+  public val partyingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD73")
 
-  val smirk: DiscordEmoji.Generic
+  public val smirk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0F")
 
-  val unamused: DiscordEmoji.Generic
+  public val unamused: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE12")
 
-  val disappointed: DiscordEmoji.Generic
+  public val disappointed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE1E")
 
-  val pensive: DiscordEmoji.Generic
+  public val pensive: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE14")
 
-  val worried: DiscordEmoji.Generic
+  public val worried: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE1F")
 
-  val confused: DiscordEmoji.Generic
+  public val confused: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE15")
 
-  val slightFrown: DiscordEmoji.Generic
+  public val slightFrown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE41")
 
-  val slightlyFrowningFace: DiscordEmoji.Generic
+  public val slightlyFrowningFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE41")
 
-  val frowning2: DiscordEmoji.Generic
+  public val frowning2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2639\uFE0F")
 
-  val whiteFrowningFace: DiscordEmoji.Generic
+  public val whiteFrowningFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2639\uFE0F")
 
-  val persevere: DiscordEmoji.Generic
+  public val persevere: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE23")
 
-  val confounded: DiscordEmoji.Generic
+  public val confounded: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE16")
 
-  val tiredFace: DiscordEmoji.Generic
+  public val tiredFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2B")
 
-  val weary: DiscordEmoji.Generic
+  public val weary: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE29")
 
-  val pleadingFace: DiscordEmoji.Generic
+  public val pleadingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7A")
 
-  val cry: DiscordEmoji.Generic
+  public val cry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE22")
 
-  val sob: DiscordEmoji.Generic
+  public val sob: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2D")
 
-  val triumph: DiscordEmoji.Generic
+  public val triumph: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE24")
 
-  val angry: DiscordEmoji.Generic
+  public val angry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE20")
 
-  val rage: DiscordEmoji.Generic
+  public val rage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE21")
 
-  val faceWithSymbolsOverMouth: DiscordEmoji.Generic
+  public val faceWithSymbolsOverMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2C")
 
-  val explodingHead: DiscordEmoji.Generic
+  public val explodingHead: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2F")
 
-  val flushed: DiscordEmoji.Generic
+  public val flushed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE33")
 
-  val hotFace: DiscordEmoji.Generic
+  public val hotFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD75")
 
-  val coldFace: DiscordEmoji.Generic
+  public val coldFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD76")
 
-  val scream: DiscordEmoji.Generic
+  public val scream: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE31")
 
-  val fearful: DiscordEmoji.Generic
+  public val fearful: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE28")
 
-  val coldSweat: DiscordEmoji.Generic
+  public val coldSweat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE30")
 
-  val disappointedRelieved: DiscordEmoji.Generic
+  public val disappointedRelieved: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE25")
 
-  val sweat: DiscordEmoji.Generic
+  public val sweat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE13")
 
-  val hugging: DiscordEmoji.Generic
+  public val hugging: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD17")
 
-  val huggingFace: DiscordEmoji.Generic
+  public val huggingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD17")
 
-  val thinking: DiscordEmoji.Generic
+  public val thinking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD14")
 
-  val thinkingFace: DiscordEmoji.Generic
+  public val thinkingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD14")
 
-  val faceWithHandOverMouth: DiscordEmoji.Generic
+  public val faceWithHandOverMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2D")
 
-  val yawningFace: DiscordEmoji.Generic
+  public val yawningFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD71")
 
-  val shushingFace: DiscordEmoji.Generic
+  public val shushingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2B")
 
-  val lyingFace: DiscordEmoji.Generic
+  public val lyingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD25")
 
-  val liar: DiscordEmoji.Generic
+  public val liar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD25")
 
-  val noMouth: DiscordEmoji.Generic
+  public val noMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE36")
 
-  val neutralFace: DiscordEmoji.Generic
+  public val neutralFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE10")
 
-  val expressionless: DiscordEmoji.Generic
+  public val expressionless: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE11")
 
-  val grimacing: DiscordEmoji.Generic
+  public val grimacing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2C")
 
-  val rollingEyes: DiscordEmoji.Generic
+  public val rollingEyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE44")
 
-  val faceWithRollingEyes: DiscordEmoji.Generic
+  public val faceWithRollingEyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE44")
 
-  val hushed: DiscordEmoji.Generic
+  public val hushed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2F")
 
-  val frowning: DiscordEmoji.Generic
+  public val frowning: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE26")
 
-  val anguished: DiscordEmoji.Generic
+  public val anguished: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE27")
 
-  val openMouth: DiscordEmoji.Generic
+  public val openMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2E")
 
-  val astonished: DiscordEmoji.Generic
+  public val astonished: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE32")
 
-  val sleeping: DiscordEmoji.Generic
+  public val sleeping: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE34")
 
-  val droolingFace: DiscordEmoji.Generic
+  public val droolingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD24")
 
-  val drool: DiscordEmoji.Generic
+  public val drool: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD24")
 
-  val sleepy: DiscordEmoji.Generic
+  public val sleepy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2A")
 
-  val dizzyFace: DiscordEmoji.Generic
+  public val dizzyFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE35")
 
-  val zipperMouth: DiscordEmoji.Generic
+  public val zipperMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD10")
 
-  val zipperMouthFace: DiscordEmoji.Generic
+  public val zipperMouthFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD10")
 
-  val woozyFace: DiscordEmoji.Generic
+  public val woozyFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD74")
 
-  val nauseatedFace: DiscordEmoji.Generic
+  public val nauseatedFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD22")
 
-  val sick: DiscordEmoji.Generic
+  public val sick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD22")
 
-  val faceVomiting: DiscordEmoji.Generic
+  public val faceVomiting: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2E")
 
-  val sneezingFace: DiscordEmoji.Generic
+  public val sneezingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD27")
 
-  val sneeze: DiscordEmoji.Generic
+  public val sneeze: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD27")
 
-  val mask: DiscordEmoji.Generic
+  public val mask: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE37")
 
-  val thermometerFace: DiscordEmoji.Generic
+  public val thermometerFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD12")
 
-  val faceWithThermometer: DiscordEmoji.Generic
+  public val faceWithThermometer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD12")
 
-  val headBandage: DiscordEmoji.Generic
+  public val headBandage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD15")
 
-  val faceWithHeadBandage: DiscordEmoji.Generic
+  public val faceWithHeadBandage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD15")
 
-  val moneyMouth: DiscordEmoji.Generic
+  public val moneyMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD11")
 
-  val moneyMouthFace: DiscordEmoji.Generic
+  public val moneyMouthFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD11")
 
-  val cowboy: DiscordEmoji.Generic
+  public val cowboy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD20")
 
-  val faceWithCowboyHat: DiscordEmoji.Generic
+  public val faceWithCowboyHat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD20")
 
-  val smilingImp: DiscordEmoji.Generic
+  public val smilingImp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE08")
 
-  val imp: DiscordEmoji.Generic
+  public val imp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC7F")
 
-  val japaneseOgre: DiscordEmoji.Generic
+  public val japaneseOgre: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC79")
 
-  val japaneseGoblin: DiscordEmoji.Generic
+  public val japaneseGoblin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC7A")
 
-  val clown: DiscordEmoji.Generic
+  public val clown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD21")
 
-  val clownFace: DiscordEmoji.Generic
+  public val clownFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD21")
 
-  val poop: DiscordEmoji.Generic
+  public val poop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA9")
 
-  val shit: DiscordEmoji.Generic
+  public val shit: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA9")
 
-  val hankey: DiscordEmoji.Generic
+  public val hankey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA9")
 
-  val poo: DiscordEmoji.Generic
+  public val poo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA9")
 
-  val ghost: DiscordEmoji.Generic
+  public val ghost: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC7B")
 
-  val skull: DiscordEmoji.Generic
+  public val skull: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC80")
 
-  val skeleton: DiscordEmoji.Generic
+  public val skeleton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC80")
 
-  val skullCrossbones: DiscordEmoji.Generic
+  public val skullCrossbones: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2620\uFE0F")
 
-  val skullAndCrossbones: DiscordEmoji.Generic
+  public val skullAndCrossbones: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2620\uFE0F")
 
-  val alien: DiscordEmoji.Generic
+  public val alien: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC7D")
 
-  val spaceInvader: DiscordEmoji.Generic
+  public val spaceInvader: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC7E")
 
-  val robot: DiscordEmoji.Generic
+  public val robot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD16")
 
-  val robotFace: DiscordEmoji.Generic
+  public val robotFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD16")
 
-  val jackOLantern: DiscordEmoji.Generic
+  public val jackOLantern: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF83")
 
-  val smileyCat: DiscordEmoji.Generic
+  public val smileyCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3A")
 
-  val smileCat: DiscordEmoji.Generic
+  public val smileCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE38")
 
-  val joyCat: DiscordEmoji.Generic
+  public val joyCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE39")
 
-  val heartEyesCat: DiscordEmoji.Generic
+  public val heartEyesCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3B")
 
-  val smirkCat: DiscordEmoji.Generic
+  public val smirkCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3C")
 
-  val kissingCat: DiscordEmoji.Generic
+  public val kissingCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3D")
 
-  val screamCat: DiscordEmoji.Generic
+  public val screamCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE40")
 
-  val cryingCatFace: DiscordEmoji.Generic
+  public val cryingCatFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3F")
 
-  val poutingCat: DiscordEmoji.Generic
+  public val poutingCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3E")
 
-  val palmsUpTogether: DiscordEmoji.Diverse
+  public val palmsUpTogether: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD32")
 
-  val openHands: DiscordEmoji.Diverse
+  public val openHands: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC50")
 
-  val raisedHands: DiscordEmoji.Diverse
+  public val raisedHands: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4C")
 
-  val clap: DiscordEmoji.Diverse
+  public val clap: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4F")
 
-  val handshake: DiscordEmoji.Generic
+  public val handshake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD1D")
 
-  val shakingHands: DiscordEmoji.Generic
+  public val shakingHands: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD1D")
 
-  val thumbsup: DiscordEmoji.Diverse
+  public val thumbsup: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4D")
 
-  val `+1`: DiscordEmoji.Diverse
+  public val `+1`: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4D")
 
-  val thumbup: DiscordEmoji.Diverse
+  public val thumbup: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4D")
 
-  val thumbsdown: DiscordEmoji.Diverse
+  public val thumbsdown: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4E")
 
-  val `-1`: DiscordEmoji.Diverse
+  public val `-1`: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4E")
 
-  val thumbdown: DiscordEmoji.Diverse
+  public val thumbdown: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4E")
 
-  val punch: DiscordEmoji.Diverse
+  public val punch: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4A")
 
-  val fist: DiscordEmoji.Diverse
+  public val fist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u270A")
 
-  val leftFacingFist: DiscordEmoji.Diverse
+  public val leftFacingFist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1B")
 
-  val leftFist: DiscordEmoji.Diverse
+  public val leftFist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1B")
 
-  val rightFacingFist: DiscordEmoji.Diverse
+  public val rightFacingFist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1C")
 
-  val rightFist: DiscordEmoji.Diverse
+  public val rightFist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1C")
 
-  val fingersCrossed: DiscordEmoji.Diverse
+  public val fingersCrossed: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1E")
 
-  val handWithIndexAndMiddleFingerCrossed: DiscordEmoji.Diverse
+  public val handWithIndexAndMiddleFingerCrossed: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1E")
 
-  val v: DiscordEmoji.Diverse
+  public val v: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u270C\uFE0F")
 
-  val loveYouGesture: DiscordEmoji.Diverse
+  public val loveYouGesture: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1F")
 
-  val metal: DiscordEmoji.Diverse
+  public val metal: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD18")
 
-  val signOfTheHorns: DiscordEmoji.Diverse
+  public val signOfTheHorns: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD18")
 
-  val okHand: DiscordEmoji.Diverse
+  public val okHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4C")
 
-  val pinchingHand: DiscordEmoji.Diverse
+  public val pinchingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD0F")
 
-  val pointLeft: DiscordEmoji.Diverse
+  public val pointLeft: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC48")
 
-  val pointRight: DiscordEmoji.Diverse
+  public val pointRight: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC49")
 
-  val pointUp2: DiscordEmoji.Diverse
+  public val pointUp2: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC46")
 
-  val pointDown: DiscordEmoji.Diverse
+  public val pointDown: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC47")
 
-  val pointUp: DiscordEmoji.Diverse
+  public val pointUp: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u261D\uFE0F")
 
-  val raisedHand: DiscordEmoji.Diverse
+  public val raisedHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u270B")
 
-  val raisedBackOfHand: DiscordEmoji.Diverse
+  public val raisedBackOfHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1A")
 
-  val backOfHand: DiscordEmoji.Diverse
+  public val backOfHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1A")
 
-  val handSplayed: DiscordEmoji.Diverse
+  public val handSplayed: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD90\uFE0F")
 
-  val raisedHandWithFingersSplayed: DiscordEmoji.Diverse
+  public val raisedHandWithFingersSplayed: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD90\uFE0F")
 
-  val vulcan: DiscordEmoji.Diverse
+  public val vulcan: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD96")
 
-  val raisedHandWithPartBetweenMiddleAndRingFingers: DiscordEmoji.Diverse
+  public val raisedHandWithPartBetweenMiddleAndRingFingers: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD96")
 
-  val wave: DiscordEmoji.Diverse
+  public val wave: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4B")
 
-  val callMe: DiscordEmoji.Diverse
+  public val callMe: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD19")
 
-  val callMeHand: DiscordEmoji.Diverse
+  public val callMeHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD19")
 
-  val muscle: DiscordEmoji.Diverse
+  public val muscle: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDCAA")
 
-  val mechanicalArm: DiscordEmoji.Generic
+  public val mechanicalArm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDBE")
 
-  val middleFinger: DiscordEmoji.Diverse
+  public val middleFinger: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD95")
 
-  val reversedHandWithMiddleFingerExtended: DiscordEmoji.Diverse
+  public val reversedHandWithMiddleFingerExtended: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD95")
 
-  val writingHand: DiscordEmoji.Diverse
+  public val writingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u270D\uFE0F")
 
-  val pray: DiscordEmoji.Diverse
+  public val pray: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4F")
 
-  val foot: DiscordEmoji.Diverse
+  public val foot: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB6")
 
-  val leg: DiscordEmoji.Diverse
+  public val leg: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB5")
 
-  val mechanicalLeg: DiscordEmoji.Generic
+  public val mechanicalLeg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDBF")
 
-  val lipstick: DiscordEmoji.Generic
+  public val lipstick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC84")
 
-  val kiss: DiscordEmoji.Generic
+  public val kiss: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8B")
 
-  val lips: DiscordEmoji.Generic
+  public val lips: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC44")
 
-  val tooth: DiscordEmoji.Generic
+  public val tooth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDB7")
 
-  val bone: DiscordEmoji.Generic
+  public val bone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDB4")
 
-  val tongue: DiscordEmoji.Generic
+  public val tongue: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC45")
 
-  val ear: DiscordEmoji.Diverse
+  public val ear: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC42")
 
-  val earWithHearingAid: DiscordEmoji.Diverse
+  public val earWithHearingAid: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDBB")
 
-  val nose: DiscordEmoji.Diverse
+  public val nose: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC43")
 
-  val footprints: DiscordEmoji.Generic
+  public val footprints: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC63")
 
-  val eye: DiscordEmoji.Generic
+  public val eye: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC41\uFE0F")
 
-  val eyes: DiscordEmoji.Generic
+  public val eyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC40")
 
-  val brain: DiscordEmoji.Generic
+  public val brain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE0")
 
-  val speakingHead: DiscordEmoji.Generic
+  public val speakingHead: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDE3\uFE0F")
 
-  val speakingHeadInSilhouette: DiscordEmoji.Generic
+  public val speakingHeadInSilhouette: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDE3\uFE0F")
 
-  val bustInSilhouette: DiscordEmoji.Generic
+  public val bustInSilhouette: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC64")
 
-  val bustsInSilhouette: DiscordEmoji.Generic
+  public val bustsInSilhouette: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC65")
 
-  val baby: DiscordEmoji.Diverse
+  public val baby: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC76")
 
-  val girl: DiscordEmoji.Diverse
+  public val girl: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC67")
 
-  val child: DiscordEmoji.Diverse
+  public val child: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD2")
 
-  val boy: DiscordEmoji.Diverse
+  public val boy: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC66")
 
-  val woman: DiscordEmoji.Diverse
+  public val woman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69")
 
-  val adult: DiscordEmoji.Diverse
+  public val adult: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD1")
 
-  val man: DiscordEmoji.Diverse
+  public val man: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68")
 
-  val womanCurlyHaired: DiscordEmoji.Diverse
+  public val womanCurlyHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB1")
 
-  val manCurlyHaired: DiscordEmoji.Diverse
+  public val manCurlyHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB1")
 
-  val womanRedHaired: DiscordEmoji.Diverse
+  public val womanRedHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB0")
 
-  val manRedHaired: DiscordEmoji.Diverse
+  public val manRedHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB0")
 
-  val blondHairedWoman: DiscordEmoji.Diverse
+  public val blondHairedWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC71\u200D\u2640\uFE0F")
 
-  val blondHairedPerson: DiscordEmoji.Diverse
+  public val blondHairedPerson: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC71")
 
-  val personWithBlondHair: DiscordEmoji.Diverse
+  public val personWithBlondHair: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC71")
 
-  val blondHairedMan: DiscordEmoji.Diverse
+  public val blondHairedMan: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC71\u200D\u2642\uFE0F")
 
-  val womanWhiteHaired: DiscordEmoji.Diverse
+  public val womanWhiteHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB3")
 
-  val manWhiteHaired: DiscordEmoji.Diverse
+  public val manWhiteHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB3")
 
-  val womanBald: DiscordEmoji.Diverse
+  public val womanBald: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB2")
 
-  val manBald: DiscordEmoji.Diverse
+  public val manBald: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB2")
 
-  val beardedPerson: DiscordEmoji.Diverse
+  public val beardedPerson: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD4")
 
-  val olderWoman: DiscordEmoji.Diverse
+  public val olderWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC75")
 
-  val grandma: DiscordEmoji.Diverse
+  public val grandma: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC75")
 
-  val olderAdult: DiscordEmoji.Diverse
+  public val olderAdult: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD3")
 
-  val olderMan: DiscordEmoji.Diverse
+  public val olderMan: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC74")
 
-  val manWithChineseCap: DiscordEmoji.Diverse
+  public val manWithChineseCap: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC72")
 
-  val manWithGuaPiMao: DiscordEmoji.Diverse
+  public val manWithGuaPiMao: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC72")
 
-  val personWearingTurban: DiscordEmoji.Diverse
+  public val personWearingTurban: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC73")
 
-  val manWithTurban: DiscordEmoji.Diverse
+  public val manWithTurban: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC73")
 
-  val womanWearingTurban: DiscordEmoji.Diverse
+  public val womanWearingTurban: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC73\u200D\u2640\uFE0F")
 
-  val manWearingTurban: DiscordEmoji.Diverse
+  public val manWearingTurban: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC73\u200D\u2642\uFE0F")
 
-  val womanWithHeadscarf: DiscordEmoji.Diverse
+  public val womanWithHeadscarf: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD5")
 
-  val policeOfficer: DiscordEmoji.Diverse
+  public val policeOfficer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC6E")
 
-  val cop: DiscordEmoji.Diverse
+  public val cop: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC6E")
 
-  val womanPoliceOfficer: DiscordEmoji.Diverse
+  public val womanPoliceOfficer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC6E\u200D\u2640\uFE0F")
 
-  val manPoliceOfficer: DiscordEmoji.Diverse
+  public val manPoliceOfficer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC6E\u200D\u2642\uFE0F")
 
-  val constructionWorker: DiscordEmoji.Diverse
+  public val constructionWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC77")
 
-  val womanConstructionWorker: DiscordEmoji.Diverse
+  public val womanConstructionWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC77\u200D\u2640\uFE0F")
 
-  val manConstructionWorker: DiscordEmoji.Diverse
+  public val manConstructionWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC77\u200D\u2642\uFE0F")
 
-  val guard: DiscordEmoji.Diverse
+  public val guard: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC82")
 
-  val guardsman: DiscordEmoji.Diverse
+  public val guardsman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC82")
 
-  val womanGuard: DiscordEmoji.Diverse
+  public val womanGuard: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC82\u200D\u2640\uFE0F")
 
-  val manGuard: DiscordEmoji.Diverse
+  public val manGuard: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC82\u200D\u2642\uFE0F")
 
-  val detective: DiscordEmoji.Diverse
+  public val detective: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD75\uFE0F")
 
-  val spy: DiscordEmoji.Diverse
+  public val spy: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD75\uFE0F")
 
-  val sleuthOrSpy: DiscordEmoji.Diverse
+  public val sleuthOrSpy: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD75\uFE0F")
 
-  val womanDetective: DiscordEmoji.Diverse
+  public val womanDetective: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD75\uFE0F\u200D\u2640\uFE0F")
 
-  val manDetective: DiscordEmoji.Diverse
+  public val manDetective: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD75\uFE0F\u200D\u2642\uFE0F")
 
-  val womanHealthWorker: DiscordEmoji.Diverse
+  public val womanHealthWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\u2695\uFE0F")
 
-  val manHealthWorker: DiscordEmoji.Diverse
+  public val manHealthWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\u2695\uFE0F")
 
-  val womanFarmer: DiscordEmoji.Diverse
+  public val womanFarmer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDF3E")
 
-  val manFarmer: DiscordEmoji.Diverse
+  public val manFarmer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDF3E")
 
-  val womanCook: DiscordEmoji.Diverse
+  public val womanCook: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDF73")
 
-  val manCook: DiscordEmoji.Diverse
+  public val manCook: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDF73")
 
-  val womanStudent: DiscordEmoji.Diverse
+  public val womanStudent: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDF93")
 
-  val manStudent: DiscordEmoji.Diverse
+  public val manStudent: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDF93")
 
-  val womanSinger: DiscordEmoji.Diverse
+  public val womanSinger: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFA4")
 
-  val manSinger: DiscordEmoji.Diverse
+  public val manSinger: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFA4")
 
-  val womanTeacher: DiscordEmoji.Diverse
+  public val womanTeacher: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFEB")
 
-  val manTeacher: DiscordEmoji.Diverse
+  public val manTeacher: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFEB")
 
-  val womanFactoryWorker: DiscordEmoji.Diverse
+  public val womanFactoryWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFED")
 
-  val manFactoryWorker: DiscordEmoji.Diverse
+  public val manFactoryWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFED")
 
-  val womanTechnologist: DiscordEmoji.Diverse
+  public val womanTechnologist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDCBB")
 
-  val manTechnologist: DiscordEmoji.Diverse
+  public val manTechnologist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDCBB")
 
-  val womanOfficeWorker: DiscordEmoji.Diverse
+  public val womanOfficeWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDCBC")
 
-  val manOfficeWorker: DiscordEmoji.Diverse
+  public val manOfficeWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDCBC")
 
-  val womanMechanic: DiscordEmoji.Diverse
+  public val womanMechanic: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDD27")
 
-  val manMechanic: DiscordEmoji.Diverse
+  public val manMechanic: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDD27")
 
-  val womanScientist: DiscordEmoji.Diverse
+  public val womanScientist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDD2C")
 
-  val manScientist: DiscordEmoji.Diverse
+  public val manScientist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDD2C")
 
-  val womanArtist: DiscordEmoji.Diverse
+  public val womanArtist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFA8")
 
-  val manArtist: DiscordEmoji.Diverse
+  public val manArtist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFA8")
 
-  val womanFirefighter: DiscordEmoji.Diverse
+  public val womanFirefighter: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDE92")
 
-  val manFirefighter: DiscordEmoji.Diverse
+  public val manFirefighter: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDE92")
 
-  val womanPilot: DiscordEmoji.Diverse
+  public val womanPilot: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\u2708\uFE0F")
 
-  val manPilot: DiscordEmoji.Diverse
+  public val manPilot: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\u2708\uFE0F")
 
-  val womanAstronaut: DiscordEmoji.Diverse
+  public val womanAstronaut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDE80")
 
-  val manAstronaut: DiscordEmoji.Diverse
+  public val manAstronaut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDE80")
 
-  val womanJudge: DiscordEmoji.Diverse
+  public val womanJudge: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\u2696\uFE0F")
 
-  val manJudge: DiscordEmoji.Diverse
+  public val manJudge: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\u2696\uFE0F")
 
-  val brideWithVeil: DiscordEmoji.Diverse
+  public val brideWithVeil: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC70")
 
-  val manInTuxedo: DiscordEmoji.Diverse
+  public val manInTuxedo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD35")
 
-  val princess: DiscordEmoji.Diverse
+  public val princess: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC78")
 
-  val prince: DiscordEmoji.Diverse
+  public val prince: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD34")
 
-  val superhero: DiscordEmoji.Diverse
+  public val superhero: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB8")
 
-  val womanSuperhero: DiscordEmoji.Diverse
+  public val womanSuperhero: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB8\u200D\u2640\uFE0F")
 
-  val manSuperhero: DiscordEmoji.Diverse
+  public val manSuperhero: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB8\u200D\u2642\uFE0F")
 
-  val supervillain: DiscordEmoji.Diverse
+  public val supervillain: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB9")
 
-  val womanSupervillain: DiscordEmoji.Diverse
+  public val womanSupervillain: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB9\u200D\u2640\uFE0F")
 
-  val manSupervillain: DiscordEmoji.Diverse
+  public val manSupervillain: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB9\u200D\u2642\uFE0F")
 
-  val mrsClaus: DiscordEmoji.Diverse
+  public val mrsClaus: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD36")
 
-  val motherChristmas: DiscordEmoji.Diverse
+  public val motherChristmas: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD36")
 
-  val santa: DiscordEmoji.Diverse
+  public val santa: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDF85")
 
-  val mage: DiscordEmoji.Diverse
+  public val mage: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD9")
 
-  val womanMage: DiscordEmoji.Diverse
+  public val womanMage: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD9\u200D\u2640\uFE0F")
 
-  val manMage: DiscordEmoji.Diverse
+  public val manMage: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD9\u200D\u2642\uFE0F")
 
-  val elf: DiscordEmoji.Diverse
+  public val elf: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDD")
 
-  val womanElf: DiscordEmoji.Diverse
+  public val womanElf: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDD\u200D\u2640\uFE0F")
 
-  val manElf: DiscordEmoji.Diverse
+  public val manElf: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDD\u200D\u2642\uFE0F")
 
-  val vampire: DiscordEmoji.Diverse
+  public val vampire: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDB")
 
-  val womanVampire: DiscordEmoji.Diverse
+  public val womanVampire: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDB\u200D\u2640\uFE0F")
 
-  val manVampire: DiscordEmoji.Diverse
+  public val manVampire: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDB\u200D\u2642\uFE0F")
 
-  val zombie: DiscordEmoji.Generic
+  public val zombie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDDF")
 
-  val womanZombie: DiscordEmoji.Generic
+  public val womanZombie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDDF\u200D\u2640\uFE0F")
 
-  val manZombie: DiscordEmoji.Generic
+  public val manZombie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDDF\u200D\u2642\uFE0F")
 
-  val genie: DiscordEmoji.Generic
+  public val genie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDDE")
 
-  val womanGenie: DiscordEmoji.Generic
+  public val womanGenie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDDE\u200D\u2640\uFE0F")
 
-  val manGenie: DiscordEmoji.Generic
+  public val manGenie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDDE\u200D\u2642\uFE0F")
 
-  val merperson: DiscordEmoji.Diverse
+  public val merperson: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDC")
 
-  val mermaid: DiscordEmoji.Diverse
+  public val mermaid: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDC\u200D\u2640\uFE0F")
 
-  val merman: DiscordEmoji.Diverse
+  public val merman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDC\u200D\u2642\uFE0F")
 
-  val fairy: DiscordEmoji.Diverse
+  public val fairy: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDA")
 
-  val womanFairy: DiscordEmoji.Diverse
+  public val womanFairy: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDA\u200D\u2640\uFE0F")
 
-  val manFairy: DiscordEmoji.Diverse
+  public val manFairy: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDA\u200D\u2642\uFE0F")
 
-  val angel: DiscordEmoji.Diverse
+  public val angel: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC7C")
 
-  val pregnantWoman: DiscordEmoji.Diverse
+  public val pregnantWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD30")
 
-  val expectingWoman: DiscordEmoji.Diverse
+  public val expectingWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD30")
 
-  val breastFeeding: DiscordEmoji.Diverse
+  public val breastFeeding: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD31")
 
-  val personBowing: DiscordEmoji.Diverse
+  public val personBowing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE47")
 
-  val bow: DiscordEmoji.Diverse
+  public val bow: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE47")
 
-  val womanBowing: DiscordEmoji.Diverse
+  public val womanBowing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE47\u200D\u2640\uFE0F")
 
-  val manBowing: DiscordEmoji.Diverse
+  public val manBowing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE47\u200D\u2642\uFE0F")
 
-  val personTippingHand: DiscordEmoji.Diverse
+  public val personTippingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC81")
 
-  val informationDeskPerson: DiscordEmoji.Diverse
+  public val informationDeskPerson: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC81")
 
-  val womanTippingHand: DiscordEmoji.Diverse
+  public val womanTippingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC81\u200D\u2640\uFE0F")
 
-  val manTippingHand: DiscordEmoji.Diverse
+  public val manTippingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC81\u200D\u2642\uFE0F")
 
-  val personGesturingNo: DiscordEmoji.Diverse
+  public val personGesturingNo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE45")
 
-  val noGood: DiscordEmoji.Diverse
+  public val noGood: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE45")
 
-  val womanGesturingNo: DiscordEmoji.Diverse
+  public val womanGesturingNo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE45\u200D\u2640\uFE0F")
 
-  val manGesturingNo: DiscordEmoji.Diverse
+  public val manGesturingNo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE45\u200D\u2642\uFE0F")
 
-  val personGesturingOk: DiscordEmoji.Diverse
+  public val personGesturingOk: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE46")
 
-  val okWoman: DiscordEmoji.Diverse
+  public val okWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE46")
 
-  val womanGesturingOk: DiscordEmoji.Diverse
+  public val womanGesturingOk: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE46\u200D\u2640\uFE0F")
 
-  val manGesturingOk: DiscordEmoji.Diverse
+  public val manGesturingOk: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE46\u200D\u2642\uFE0F")
 
-  val personRaisingHand: DiscordEmoji.Diverse
+  public val personRaisingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4B")
 
-  val raisingHand: DiscordEmoji.Diverse
+  public val raisingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4B")
 
-  val womanRaisingHand: DiscordEmoji.Diverse
+  public val womanRaisingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4B\u200D\u2640\uFE0F")
 
-  val manRaisingHand: DiscordEmoji.Diverse
+  public val manRaisingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4B\u200D\u2642\uFE0F")
 
-  val deafPerson: DiscordEmoji.Diverse
+  public val deafPerson: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCF")
 
-  val deafWoman: DiscordEmoji.Diverse
+  public val deafWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCF\u200D\u2640\uFE0F")
 
-  val deafMan: DiscordEmoji.Diverse
+  public val deafMan: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCF\u200D\u2642\uFE0F")
 
-  val personFacepalming: DiscordEmoji.Diverse
+  public val personFacepalming: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD26")
 
-  val facePalm: DiscordEmoji.Diverse
+  public val facePalm: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD26")
 
-  val facepalm: DiscordEmoji.Diverse
+  public val facepalm: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD26")
 
-  val womanFacepalming: DiscordEmoji.Diverse
+  public val womanFacepalming: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD26\u200D\u2640\uFE0F")
 
-  val manFacepalming: DiscordEmoji.Diverse
+  public val manFacepalming: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD26\u200D\u2642\uFE0F")
 
-  val personShrugging: DiscordEmoji.Diverse
+  public val personShrugging: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD37")
 
-  val shrug: DiscordEmoji.Diverse
+  public val shrug: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD37")
 
-  val womanShrugging: DiscordEmoji.Diverse
+  public val womanShrugging: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD37\u200D\u2640\uFE0F")
 
-  val manShrugging: DiscordEmoji.Diverse
+  public val manShrugging: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD37\u200D\u2642\uFE0F")
 
-  val personPouting: DiscordEmoji.Diverse
+  public val personPouting: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4E")
 
-  val personWithPoutingFace: DiscordEmoji.Diverse
+  public val personWithPoutingFace: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4E")
 
-  val womanPouting: DiscordEmoji.Diverse
+  public val womanPouting: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4E\u200D\u2640\uFE0F")
 
-  val manPouting: DiscordEmoji.Diverse
+  public val manPouting: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4E\u200D\u2642\uFE0F")
 
-  val personFrowning: DiscordEmoji.Diverse
+  public val personFrowning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4D")
 
-  val womanFrowning: DiscordEmoji.Diverse
+  public val womanFrowning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4D\u200D\u2640\uFE0F")
 
-  val manFrowning: DiscordEmoji.Diverse
+  public val manFrowning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4D\u200D\u2642\uFE0F")
 
-  val personGettingHaircut: DiscordEmoji.Diverse
+  public val personGettingHaircut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC87")
 
-  val haircut: DiscordEmoji.Diverse
+  public val haircut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC87")
 
-  val womanGettingHaircut: DiscordEmoji.Diverse
+  public val womanGettingHaircut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC87\u200D\u2640\uFE0F")
 
-  val manGettingHaircut: DiscordEmoji.Diverse
+  public val manGettingHaircut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC87\u200D\u2642\uFE0F")
 
-  val personGettingMassage: DiscordEmoji.Diverse
+  public val personGettingMassage: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC86")
 
-  val massage: DiscordEmoji.Diverse
+  public val massage: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC86")
 
-  val womanGettingFaceMassage: DiscordEmoji.Diverse
+  public val womanGettingFaceMassage: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC86\u200D\u2640\uFE0F")
 
-  val manGettingFaceMassage: DiscordEmoji.Diverse
+  public val manGettingFaceMassage: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC86\u200D\u2642\uFE0F")
 
-  val personInSteamyRoom: DiscordEmoji.Diverse
+  public val personInSteamyRoom: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD6")
 
-  val womanInSteamyRoom: DiscordEmoji.Diverse
+  public val womanInSteamyRoom: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD6\u200D\u2640\uFE0F")
 
-  val manInSteamyRoom: DiscordEmoji.Diverse
+  public val manInSteamyRoom: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD6\u200D\u2642\uFE0F")
 
-  val nailCare: DiscordEmoji.Diverse
+  public val nailCare: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC85")
 
-  val selfie: DiscordEmoji.Diverse
+  public val selfie: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD33")
 
-  val dancer: DiscordEmoji.Diverse
+  public val dancer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC83")
 
-  val manDancing: DiscordEmoji.Diverse
+  public val manDancing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD7A")
 
-  val maleDancer: DiscordEmoji.Diverse
+  public val maleDancer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD7A")
 
-  val peopleWithBunnyEarsPartying: DiscordEmoji.Generic
+  public val peopleWithBunnyEarsPartying: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6F")
 
-  val dancers: DiscordEmoji.Generic
+  public val dancers: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6F")
 
-  val womenWithBunnyEarsPartying: DiscordEmoji.Generic
+  public val womenWithBunnyEarsPartying: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6F\u200D\u2640\uFE0F")
 
-  val menWithBunnyEarsPartying: DiscordEmoji.Generic
+  public val menWithBunnyEarsPartying: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6F\u200D\u2642\uFE0F")
 
-  val levitate: DiscordEmoji.Diverse
+  public val levitate: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD74\uFE0F")
 
-  val manInBusinessSuitLevitating: DiscordEmoji.Diverse
+  public val manInBusinessSuitLevitating: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD74\uFE0F")
 
-  val personWalking: DiscordEmoji.Diverse
+  public val personWalking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB6")
 
-  val walking: DiscordEmoji.Diverse
+  public val walking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB6")
 
-  val womanWalking: DiscordEmoji.Diverse
+  public val womanWalking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB6\u200D\u2640\uFE0F")
 
-  val manWalking: DiscordEmoji.Diverse
+  public val manWalking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB6\u200D\u2642\uFE0F")
 
-  val personRunning: DiscordEmoji.Diverse
+  public val personRunning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC3")
 
-  val runner: DiscordEmoji.Diverse
+  public val runner: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC3")
 
-  val womanRunning: DiscordEmoji.Diverse
+  public val womanRunning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC3\u200D\u2640\uFE0F")
 
-  val manRunning: DiscordEmoji.Diverse
+  public val manRunning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC3\u200D\u2642\uFE0F")
 
-  val personStanding: DiscordEmoji.Diverse
+  public val personStanding: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCD")
 
-  val womanStanding: DiscordEmoji.Diverse
+  public val womanStanding: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCD\u200D\u2640\uFE0F")
 
-  val manStanding: DiscordEmoji.Diverse
+  public val manStanding: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCD\u200D\u2642\uFE0F")
 
-  val personKneeling: DiscordEmoji.Diverse
+  public val personKneeling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCE")
 
-  val womanKneeling: DiscordEmoji.Diverse
+  public val womanKneeling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2640\uFE0F")
 
-  val manKneeling: DiscordEmoji.Diverse
+  public val manKneeling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2642\uFE0F")
 
-  val womanWithProbingCane: DiscordEmoji.Diverse
+  public val womanWithProbingCane: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDAF")
 
-  val manWithProbingCane: DiscordEmoji.Diverse
+  public val manWithProbingCane: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDAF")
 
-  val womanInMotorizedWheelchair: DiscordEmoji.Diverse
+  public val womanInMotorizedWheelchair: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBC")
 
-  val manInMotorizedWheelchair: DiscordEmoji.Diverse
+  public val manInMotorizedWheelchair: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBC")
 
-  val womanInManualWheelchair: DiscordEmoji.Diverse
+  public val womanInManualWheelchair: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBD")
 
-  val manInManualWheelchair: DiscordEmoji.Diverse
+  public val manInManualWheelchair: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBD")
 
-  val peopleHoldingHands: DiscordEmoji.Generic
+  public val peopleHoldingHands: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDD1\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1")
 
-  val couple: DiscordEmoji.Generic
+  public val couple: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6B")
 
-  val twoWomenHoldingHands: DiscordEmoji.Generic
+  public val twoWomenHoldingHands: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6D")
 
-  val twoMenHoldingHands: DiscordEmoji.Generic
+  public val twoMenHoldingHands: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6C")
 
-  val coupleWithHeart: DiscordEmoji.Generic
+  public val coupleWithHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC91")
 
-  val coupleWithHeartWomanMan: DiscordEmoji.Generic
+  public val coupleWithHeartWomanMan: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC68")
 
-  val coupleWw: DiscordEmoji.Generic
+  public val coupleWw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC69")
 
-  val coupleWithHeartWw: DiscordEmoji.Generic
+  public val coupleWithHeartWw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC69")
 
-  val coupleMm: DiscordEmoji.Generic
+  public val coupleMm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC68")
 
-  val coupleWithHeartMm: DiscordEmoji.Generic
+  public val coupleWithHeartMm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC68")
 
-  val couplekiss: DiscordEmoji.Generic
+  public val couplekiss: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8F")
 
-  val kissWomanMan: DiscordEmoji.Generic
+  public val kissWomanMan: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
 
-  val kissWw: DiscordEmoji.Generic
+  public val kissWw: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69")
 
-  val couplekissWw: DiscordEmoji.Generic
+  public val couplekissWw: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69")
 
-  val kissMm: DiscordEmoji.Generic
+  public val kissMm: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
 
-  val couplekissMm: DiscordEmoji.Generic
+  public val couplekissMm: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
 
-  val family: DiscordEmoji.Generic
+  public val family: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6A")
 
-  val familyManWomanBoy: DiscordEmoji.Generic
+  public val familyManWomanBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66")
 
-  val familyMwg: DiscordEmoji.Generic
+  public val familyMwg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67")
 
-  val familyMwgb: DiscordEmoji.Generic
+  public val familyMwgb: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
-  val familyMwbb: DiscordEmoji.Generic
+  public val familyMwbb: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
-  val familyMwgg: DiscordEmoji.Generic
+  public val familyMwgg: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
-  val familyWwb: DiscordEmoji.Generic
+  public val familyWwb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66")
 
-  val familyWwg: DiscordEmoji.Generic
+  public val familyWwg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67")
 
-  val familyWwgb: DiscordEmoji.Generic
+  public val familyWwgb: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
-  val familyWwbb: DiscordEmoji.Generic
+  public val familyWwbb: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
-  val familyWwgg: DiscordEmoji.Generic
+  public val familyWwgg: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
-  val familyMmb: DiscordEmoji.Generic
+  public val familyMmb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66")
 
-  val familyMmg: DiscordEmoji.Generic
+  public val familyMmg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67")
 
-  val familyMmgb: DiscordEmoji.Generic
+  public val familyMmgb: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
-  val familyMmbb: DiscordEmoji.Generic
+  public val familyMmbb: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
-  val familyMmgg: DiscordEmoji.Generic
+  public val familyMmgg: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
-  val familyWomanBoy: DiscordEmoji.Generic
+  public val familyWomanBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC66")
 
-  val familyWomanGirl: DiscordEmoji.Generic
+  public val familyWomanGirl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC67")
 
-  val familyWomanGirlBoy: DiscordEmoji.Generic
+  public val familyWomanGirlBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
-  val familyWomanBoyBoy: DiscordEmoji.Generic
+  public val familyWomanBoyBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
-  val familyWomanGirlGirl: DiscordEmoji.Generic
+  public val familyWomanGirlGirl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
-  val familyManBoy: DiscordEmoji.Generic
+  public val familyManBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC66")
 
-  val familyManGirl: DiscordEmoji.Generic
+  public val familyManGirl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC67")
 
-  val familyManGirlBoy: DiscordEmoji.Generic
+  public val familyManGirlBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
-  val familyManBoyBoy: DiscordEmoji.Generic
+  public val familyManBoyBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
-  val familyManGirlGirl: DiscordEmoji.Generic
+  public val familyManGirlGirl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
-  val yarn: DiscordEmoji.Generic
+  public val yarn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF6")
 
-  val thread: DiscordEmoji.Generic
+  public val thread: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF5")
 
-  val coat: DiscordEmoji.Generic
+  public val coat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE5")
 
-  val labCoat: DiscordEmoji.Generic
+  public val labCoat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7C")
 
-  val safetyVest: DiscordEmoji.Generic
+  public val safetyVest: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDBA")
 
-  val womansClothes: DiscordEmoji.Generic
+  public val womansClothes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5A")
 
-  val shirt: DiscordEmoji.Generic
+  public val shirt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC55")
 
-  val jeans: DiscordEmoji.Generic
+  public val jeans: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC56")
 
-  val shorts: DiscordEmoji.Generic
+  public val shorts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE73")
 
-  val necktie: DiscordEmoji.Generic
+  public val necktie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC54")
 
-  val dress: DiscordEmoji.Generic
+  public val dress: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC57")
 
-  val bikini: DiscordEmoji.Generic
+  public val bikini: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC59")
 
-  val onePieceSwimsuit: DiscordEmoji.Generic
+  public val onePieceSwimsuit: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE71")
 
-  val kimono: DiscordEmoji.Generic
+  public val kimono: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC58")
 
-  val sari: DiscordEmoji.Generic
+  public val sari: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7B")
 
-  val womansFlatShoe: DiscordEmoji.Generic
+  public val womansFlatShoe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7F")
 
-  val highHeel: DiscordEmoji.Generic
+  public val highHeel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC60")
 
-  val sandal: DiscordEmoji.Generic
+  public val sandal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC61")
 
-  val boot: DiscordEmoji.Generic
+  public val boot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC62")
 
-  val balletShoes: DiscordEmoji.Generic
+  public val balletShoes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE70")
 
-  val mansShoe: DiscordEmoji.Generic
+  public val mansShoe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5E")
 
-  val athleticShoe: DiscordEmoji.Generic
+  public val athleticShoe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5F")
 
-  val hikingBoot: DiscordEmoji.Generic
+  public val hikingBoot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7E")
 
-  val briefs: DiscordEmoji.Generic
+  public val briefs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE72")
 
-  val socks: DiscordEmoji.Generic
+  public val socks: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE6")
 
-  val gloves: DiscordEmoji.Generic
+  public val gloves: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE4")
 
-  val scarf: DiscordEmoji.Generic
+  public val scarf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE3")
 
-  val tophat: DiscordEmoji.Generic
+  public val tophat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA9")
 
-  val billedCap: DiscordEmoji.Generic
+  public val billedCap: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE2")
 
-  val womansHat: DiscordEmoji.Generic
+  public val womansHat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC52")
 
-  val mortarBoard: DiscordEmoji.Generic
+  public val mortarBoard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF93")
 
-  val helmetWithCross: DiscordEmoji.Generic
+  public val helmetWithCross: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26D1\uFE0F")
 
-  val helmetWithWhiteCross: DiscordEmoji.Generic
+  public val helmetWithWhiteCross: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26D1\uFE0F")
 
-  val crown: DiscordEmoji.Generic
+  public val crown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC51")
 
-  val ring: DiscordEmoji.Generic
+  public val ring: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8D")
 
-  val pouch: DiscordEmoji.Generic
+  public val pouch: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5D")
 
-  val purse: DiscordEmoji.Generic
+  public val purse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5B")
 
-  val handbag: DiscordEmoji.Generic
+  public val handbag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5C")
 
-  val briefcase: DiscordEmoji.Generic
+  public val briefcase: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBC")
 
-  val schoolSatchel: DiscordEmoji.Generic
+  public val schoolSatchel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF92")
 
-  val luggage: DiscordEmoji.Generic
+  public val luggage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF3")
 
-  val eyeglasses: DiscordEmoji.Generic
+  public val eyeglasses: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC53")
 
-  val darkSunglasses: DiscordEmoji.Generic
+  public val darkSunglasses: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD76\uFE0F")
 
-  val goggles: DiscordEmoji.Generic
+  public val goggles: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7D")
 
-  val divingMask: DiscordEmoji.Generic
+  public val divingMask: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3F")
 
-  val closedUmbrella: DiscordEmoji.Generic
+  public val closedUmbrella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF02")
 
-  val dog: DiscordEmoji.Generic
+  public val dog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC36")
 
-  val cat: DiscordEmoji.Generic
+  public val cat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC31")
 
-  val mouse: DiscordEmoji.Generic
+  public val mouse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2D")
 
-  val hamster: DiscordEmoji.Generic
+  public val hamster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC39")
 
-  val rabbit: DiscordEmoji.Generic
+  public val rabbit: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC30")
 
-  val fox: DiscordEmoji.Generic
+  public val fox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8A")
 
-  val foxFace: DiscordEmoji.Generic
+  public val foxFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8A")
 
-  val bear: DiscordEmoji.Generic
+  public val bear: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3B")
 
-  val pandaFace: DiscordEmoji.Generic
+  public val pandaFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3C")
 
-  val koala: DiscordEmoji.Generic
+  public val koala: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC28")
 
-  val tiger: DiscordEmoji.Generic
+  public val tiger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2F")
 
-  val lionFace: DiscordEmoji.Generic
+  public val lionFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD81")
 
-  val lion: DiscordEmoji.Generic
+  public val lion: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD81")
 
-  val cow: DiscordEmoji.Generic
+  public val cow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2E")
 
-  val pig: DiscordEmoji.Generic
+  public val pig: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC37")
 
-  val pigNose: DiscordEmoji.Generic
+  public val pigNose: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3D")
 
-  val frog: DiscordEmoji.Generic
+  public val frog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC38")
 
-  val monkeyFace: DiscordEmoji.Generic
+  public val monkeyFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC35")
 
-  val seeNoEvil: DiscordEmoji.Generic
+  public val seeNoEvil: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE48")
 
-  val hearNoEvil: DiscordEmoji.Generic
+  public val hearNoEvil: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE49")
 
-  val speakNoEvil: DiscordEmoji.Generic
+  public val speakNoEvil: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE4A")
 
-  val monkey: DiscordEmoji.Generic
+  public val monkey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC12")
 
-  val chicken: DiscordEmoji.Generic
+  public val chicken: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC14")
 
-  val penguin: DiscordEmoji.Generic
+  public val penguin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC27")
 
-  val bird: DiscordEmoji.Generic
+  public val bird: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC26")
 
-  val babyChick: DiscordEmoji.Generic
+  public val babyChick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC24")
 
-  val hatchingChick: DiscordEmoji.Generic
+  public val hatchingChick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC23")
 
-  val hatchedChick: DiscordEmoji.Generic
+  public val hatchedChick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC25")
 
-  val duck: DiscordEmoji.Generic
+  public val duck: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD86")
 
-  val eagle: DiscordEmoji.Generic
+  public val eagle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD85")
 
-  val owl: DiscordEmoji.Generic
+  public val owl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD89")
 
-  val bat: DiscordEmoji.Generic
+  public val bat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD87")
 
-  val wolf: DiscordEmoji.Generic
+  public val wolf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3A")
 
-  val boar: DiscordEmoji.Generic
+  public val boar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC17")
 
-  val horse: DiscordEmoji.Generic
+  public val horse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC34")
 
-  val unicorn: DiscordEmoji.Generic
+  public val unicorn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD84")
 
-  val unicornFace: DiscordEmoji.Generic
+  public val unicornFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD84")
 
-  val bee: DiscordEmoji.Generic
+  public val bee: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1D")
 
-  val bug: DiscordEmoji.Generic
+  public val bug: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1B")
 
-  val butterfly: DiscordEmoji.Generic
+  public val butterfly: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8B")
 
-  val snail: DiscordEmoji.Generic
+  public val snail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0C")
 
-  val shell: DiscordEmoji.Generic
+  public val shell: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1A")
 
-  val beetle: DiscordEmoji.Generic
+  public val beetle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1E")
 
-  val ant: DiscordEmoji.Generic
+  public val ant: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1C")
 
-  val mosquito: DiscordEmoji.Generic
+  public val mosquito: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9F")
 
-  val cricket: DiscordEmoji.Generic
+  public val cricket: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD97")
 
-  val spider: DiscordEmoji.Generic
+  public val spider: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD77\uFE0F")
 
-  val spiderWeb: DiscordEmoji.Generic
+  public val spiderWeb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD78\uFE0F")
 
-  val scorpion: DiscordEmoji.Generic
+  public val scorpion: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD82")
 
-  val turtle: DiscordEmoji.Generic
+  public val turtle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC22")
 
-  val snake: DiscordEmoji.Generic
+  public val snake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0D")
 
-  val lizard: DiscordEmoji.Generic
+  public val lizard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8E")
 
-  val tRex: DiscordEmoji.Generic
+  public val tRex: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD96")
 
-  val sauropod: DiscordEmoji.Generic
+  public val sauropod: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD95")
 
-  val octopus: DiscordEmoji.Generic
+  public val octopus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC19")
 
-  val squid: DiscordEmoji.Generic
+  public val squid: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD91")
 
-  val shrimp: DiscordEmoji.Generic
+  public val shrimp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD90")
 
-  val lobster: DiscordEmoji.Generic
+  public val lobster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9E")
 
-  val oyster: DiscordEmoji.Generic
+  public val oyster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDAA")
 
-  val crab: DiscordEmoji.Generic
+  public val crab: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD80")
 
-  val blowfish: DiscordEmoji.Generic
+  public val blowfish: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC21")
 
-  val tropicalFish: DiscordEmoji.Generic
+  public val tropicalFish: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC20")
 
-  val fish: DiscordEmoji.Generic
+  public val fish: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1F")
 
-  val dolphin: DiscordEmoji.Generic
+  public val dolphin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2C")
 
-  val whale: DiscordEmoji.Generic
+  public val whale: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC33")
 
-  val whale2: DiscordEmoji.Generic
+  public val whale2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0B")
 
-  val shark: DiscordEmoji.Generic
+  public val shark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD88")
 
-  val crocodile: DiscordEmoji.Generic
+  public val crocodile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0A")
 
-  val tiger2: DiscordEmoji.Generic
+  public val tiger2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC05")
 
-  val leopard: DiscordEmoji.Generic
+  public val leopard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC06")
 
-  val zebra: DiscordEmoji.Generic
+  public val zebra: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD93")
 
-  val gorilla: DiscordEmoji.Generic
+  public val gorilla: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8D")
 
-  val orangutan: DiscordEmoji.Generic
+  public val orangutan: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA7")
 
-  val elephant: DiscordEmoji.Generic
+  public val elephant: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC18")
 
-  val hippopotamus: DiscordEmoji.Generic
+  public val hippopotamus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9B")
 
-  val rhino: DiscordEmoji.Generic
+  public val rhino: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8F")
 
-  val rhinoceros: DiscordEmoji.Generic
+  public val rhinoceros: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8F")
 
-  val dromedaryCamel: DiscordEmoji.Generic
+  public val dromedaryCamel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2A")
 
-  val camel: DiscordEmoji.Generic
+  public val camel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2B")
 
-  val giraffe: DiscordEmoji.Generic
+  public val giraffe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD92")
 
-  val kangaroo: DiscordEmoji.Generic
+  public val kangaroo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD98")
 
-  val waterBuffalo: DiscordEmoji.Generic
+  public val waterBuffalo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC03")
 
-  val ox: DiscordEmoji.Generic
+  public val ox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC02")
 
-  val cow2: DiscordEmoji.Generic
+  public val cow2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC04")
 
-  val racehorse: DiscordEmoji.Generic
+  public val racehorse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0E")
 
-  val pig2: DiscordEmoji.Generic
+  public val pig2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC16")
 
-  val ram: DiscordEmoji.Generic
+  public val ram: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0F")
 
-  val llama: DiscordEmoji.Generic
+  public val llama: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD99")
 
-  val sheep: DiscordEmoji.Generic
+  public val sheep: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC11")
 
-  val goat: DiscordEmoji.Generic
+  public val goat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC10")
 
-  val deer: DiscordEmoji.Generic
+  public val deer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD8C")
 
-  val dog2: DiscordEmoji.Generic
+  public val dog2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC15")
 
-  val guideDog: DiscordEmoji.Generic
+  public val guideDog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDAE")
 
-  val serviceDog: DiscordEmoji.Generic
+  public val serviceDog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC15\u200D\uD83E\uDDBA")
 
-  val poodle: DiscordEmoji.Generic
+  public val poodle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC29")
 
-  val cat2: DiscordEmoji.Generic
+  public val cat2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC08")
 
-  val rooster: DiscordEmoji.Generic
+  public val rooster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC13")
 
-  val turkey: DiscordEmoji.Generic
+  public val turkey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD83")
 
-  val peacock: DiscordEmoji.Generic
+  public val peacock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9A")
 
-  val parrot: DiscordEmoji.Generic
+  public val parrot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9C")
 
-  val swan: DiscordEmoji.Generic
+  public val swan: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA2")
 
-  val flamingo: DiscordEmoji.Generic
+  public val flamingo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA9")
 
-  val dove: DiscordEmoji.Generic
+  public val dove: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4A\uFE0F")
 
-  val doveOfPeace: DiscordEmoji.Generic
+  public val doveOfPeace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4A\uFE0F")
 
-  val rabbit2: DiscordEmoji.Generic
+  public val rabbit2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC07")
 
-  val sloth: DiscordEmoji.Generic
+  public val sloth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA5")
 
-  val otter: DiscordEmoji.Generic
+  public val otter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA6")
 
-  val skunk: DiscordEmoji.Generic
+  public val skunk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA8")
 
-  val raccoon: DiscordEmoji.Generic
+  public val raccoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9D")
 
-  val badger: DiscordEmoji.Generic
+  public val badger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA1")
 
-  val mouse2: DiscordEmoji.Generic
+  public val mouse2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC01")
 
-  val rat: DiscordEmoji.Generic
+  public val rat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC00")
 
-  val chipmunk: DiscordEmoji.Generic
+  public val chipmunk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3F\uFE0F")
 
-  val hedgehog: DiscordEmoji.Generic
+  public val hedgehog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD94")
 
-  val feet: DiscordEmoji.Generic
+  public val feet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3E")
 
-  val pawPrints: DiscordEmoji.Generic
+  public val pawPrints: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3E")
 
-  val dragon: DiscordEmoji.Generic
+  public val dragon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC09")
 
-  val dragonFace: DiscordEmoji.Generic
+  public val dragonFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC32")
 
-  val cactus: DiscordEmoji.Generic
+  public val cactus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF35")
 
-  val christmasTree: DiscordEmoji.Generic
+  public val christmasTree: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF84")
 
-  val evergreenTree: DiscordEmoji.Generic
+  public val evergreenTree: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF32")
 
-  val deciduousTree: DiscordEmoji.Generic
+  public val deciduousTree: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF33")
 
-  val palmTree: DiscordEmoji.Generic
+  public val palmTree: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF34")
 
-  val seedling: DiscordEmoji.Generic
+  public val seedling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF31")
 
-  val herb: DiscordEmoji.Generic
+  public val herb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3F")
 
-  val shamrock: DiscordEmoji.Generic
+  public val shamrock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2618\uFE0F")
 
-  val fourLeafClover: DiscordEmoji.Generic
+  public val fourLeafClover: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF40")
 
-  val bamboo: DiscordEmoji.Generic
+  public val bamboo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8D")
 
-  val tanabataTree: DiscordEmoji.Generic
+  public val tanabataTree: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8B")
 
-  val leaves: DiscordEmoji.Generic
+  public val leaves: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF43")
 
-  val fallenLeaf: DiscordEmoji.Generic
+  public val fallenLeaf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF42")
 
-  val mapleLeaf: DiscordEmoji.Generic
+  public val mapleLeaf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF41")
 
-  val mushroom: DiscordEmoji.Generic
+  public val mushroom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF44")
 
-  val earOfRice: DiscordEmoji.Generic
+  public val earOfRice: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3E")
 
-  val bouquet: DiscordEmoji.Generic
+  public val bouquet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC90")
 
-  val tulip: DiscordEmoji.Generic
+  public val tulip: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF37")
 
-  val rose: DiscordEmoji.Generic
+  public val rose: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF39")
 
-  val wiltedRose: DiscordEmoji.Generic
+  public val wiltedRose: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD40")
 
-  val wiltedFlower: DiscordEmoji.Generic
+  public val wiltedFlower: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD40")
 
-  val hibiscus: DiscordEmoji.Generic
+  public val hibiscus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3A")
 
-  val cherryBlossom: DiscordEmoji.Generic
+  public val cherryBlossom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF38")
 
-  val blossom: DiscordEmoji.Generic
+  public val blossom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3C")
 
-  val sunflower: DiscordEmoji.Generic
+  public val sunflower: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3B")
 
-  val sunWithFace: DiscordEmoji.Generic
+  public val sunWithFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1E")
 
-  val fullMoonWithFace: DiscordEmoji.Generic
+  public val fullMoonWithFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1D")
 
-  val firstQuarterMoonWithFace: DiscordEmoji.Generic
+  public val firstQuarterMoonWithFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1B")
 
-  val lastQuarterMoonWithFace: DiscordEmoji.Generic
+  public val lastQuarterMoonWithFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1C")
 
-  val newMoonWithFace: DiscordEmoji.Generic
+  public val newMoonWithFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1A")
 
-  val fullMoon: DiscordEmoji.Generic
+  public val fullMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF15")
 
-  val waningGibbousMoon: DiscordEmoji.Generic
+  public val waningGibbousMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF16")
 
-  val lastQuarterMoon: DiscordEmoji.Generic
+  public val lastQuarterMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF17")
 
-  val waningCrescentMoon: DiscordEmoji.Generic
+  public val waningCrescentMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF18")
 
-  val newMoon: DiscordEmoji.Generic
+  public val newMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF11")
 
-  val waxingCrescentMoon: DiscordEmoji.Generic
+  public val waxingCrescentMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF12")
 
-  val firstQuarterMoon: DiscordEmoji.Generic
+  public val firstQuarterMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF13")
 
-  val waxingGibbousMoon: DiscordEmoji.Generic
+  public val waxingGibbousMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF14")
 
-  val crescentMoon: DiscordEmoji.Generic
+  public val crescentMoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF19")
 
-  val earthAmericas: DiscordEmoji.Generic
+  public val earthAmericas: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF0E")
 
-  val earthAfrica: DiscordEmoji.Generic
+  public val earthAfrica: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF0D")
 
-  val earthAsia: DiscordEmoji.Generic
+  public val earthAsia: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF0F")
 
-  val ringedPlanet: DiscordEmoji.Generic
+  public val ringedPlanet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE90")
 
-  val dizzy: DiscordEmoji.Generic
+  public val dizzy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCAB")
 
-  val star: DiscordEmoji.Generic
+  public val star: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B50")
 
-  val star2: DiscordEmoji.Generic
+  public val star2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1F")
 
-  val sparkles: DiscordEmoji.Generic
+  public val sparkles: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2728")
 
-  val zap: DiscordEmoji.Generic
+  public val zap: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26A1")
 
-  val comet: DiscordEmoji.Generic
+  public val comet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2604\uFE0F")
 
-  val boom: DiscordEmoji.Generic
+  public val boom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA5")
 
-  val fire: DiscordEmoji.Generic
+  public val fire: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD25")
 
-  val flame: DiscordEmoji.Generic
+  public val flame: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD25")
 
-  val cloudTornado: DiscordEmoji.Generic
+  public val cloudTornado: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2A\uFE0F")
 
-  val cloudWithTornado: DiscordEmoji.Generic
+  public val cloudWithTornado: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2A\uFE0F")
 
-  val rainbow: DiscordEmoji.Generic
+  public val rainbow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF08")
 
-  val sunny: DiscordEmoji.Generic
+  public val sunny: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2600\uFE0F")
 
-  val whiteSunSmallCloud: DiscordEmoji.Generic
+  public val whiteSunSmallCloud: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF24\uFE0F")
 
-  val whiteSunWithSmallCloud: DiscordEmoji.Generic
+  public val whiteSunWithSmallCloud: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF24\uFE0F")
 
-  val partlySunny: DiscordEmoji.Generic
+  public val partlySunny: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26C5")
 
-  val whiteSunCloud: DiscordEmoji.Generic
+  public val whiteSunCloud: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF25\uFE0F")
 
-  val whiteSunBehindCloud: DiscordEmoji.Generic
+  public val whiteSunBehindCloud: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF25\uFE0F")
 
-  val cloud: DiscordEmoji.Generic
+  public val cloud: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2601\uFE0F")
 
-  val whiteSunRainCloud: DiscordEmoji.Generic
+  public val whiteSunRainCloud: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF26\uFE0F")
 
-  val whiteSunBehindCloudWithRain: DiscordEmoji.Generic
+  public val whiteSunBehindCloudWithRain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF26\uFE0F")
 
-  val cloudRain: DiscordEmoji.Generic
+  public val cloudRain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF27\uFE0F")
 
-  val cloudWithRain: DiscordEmoji.Generic
+  public val cloudWithRain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF27\uFE0F")
 
-  val thunderCloudRain: DiscordEmoji.Generic
+  public val thunderCloudRain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26C8\uFE0F")
 
-  val thunderCloudAndRain: DiscordEmoji.Generic
+  public val thunderCloudAndRain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26C8\uFE0F")
 
-  val cloudLightning: DiscordEmoji.Generic
+  public val cloudLightning: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF29\uFE0F")
 
-  val cloudWithLightning: DiscordEmoji.Generic
+  public val cloudWithLightning: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF29\uFE0F")
 
-  val cloudSnow: DiscordEmoji.Generic
+  public val cloudSnow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF28\uFE0F")
 
-  val cloudWithSnow: DiscordEmoji.Generic
+  public val cloudWithSnow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF28\uFE0F")
 
-  val snowflake: DiscordEmoji.Generic
+  public val snowflake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2744\uFE0F")
 
-  val snowman2: DiscordEmoji.Generic
+  public val snowman2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2603\uFE0F")
 
-  val snowman: DiscordEmoji.Generic
+  public val snowman: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26C4")
 
-  val windBlowingFace: DiscordEmoji.Generic
+  public val windBlowingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2C\uFE0F")
 
-  val dash: DiscordEmoji.Generic
+  public val dash: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA8")
 
-  val droplet: DiscordEmoji.Generic
+  public val droplet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA7")
 
-  val sweatDrops: DiscordEmoji.Generic
+  public val sweatDrops: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA6")
 
-  val umbrella: DiscordEmoji.Generic
+  public val umbrella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2614")
 
-  val umbrella2: DiscordEmoji.Generic
+  public val umbrella2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2602\uFE0F")
 
-  val ocean: DiscordEmoji.Generic
+  public val ocean: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF0A")
 
-  val fog: DiscordEmoji.Generic
+  public val fog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2B\uFE0F")
 
-  val greenApple: DiscordEmoji.Generic
+  public val greenApple: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4F")
 
-  val apple: DiscordEmoji.Generic
+  public val apple: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4E")
 
-  val pear: DiscordEmoji.Generic
+  public val pear: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF50")
 
-  val tangerine: DiscordEmoji.Generic
+  public val tangerine: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4A")
 
-  val lemon: DiscordEmoji.Generic
+  public val lemon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4B")
 
-  val banana: DiscordEmoji.Generic
+  public val banana: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4C")
 
-  val watermelon: DiscordEmoji.Generic
+  public val watermelon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF49")
 
-  val grapes: DiscordEmoji.Generic
+  public val grapes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF47")
 
-  val strawberry: DiscordEmoji.Generic
+  public val strawberry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF53")
 
-  val melon: DiscordEmoji.Generic
+  public val melon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF48")
 
-  val cherries: DiscordEmoji.Generic
+  public val cherries: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF52")
 
-  val peach: DiscordEmoji.Generic
+  public val peach: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF51")
 
-  val mango: DiscordEmoji.Generic
+  public val mango: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6D")
 
-  val pineapple: DiscordEmoji.Generic
+  public val pineapple: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4D")
 
-  val coconut: DiscordEmoji.Generic
+  public val coconut: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD65")
 
-  val kiwi: DiscordEmoji.Generic
+  public val kiwi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5D")
 
-  val kiwifruit: DiscordEmoji.Generic
+  public val kiwifruit: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5D")
 
-  val tomato: DiscordEmoji.Generic
+  public val tomato: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF45")
 
-  val eggplant: DiscordEmoji.Generic
+  public val eggplant: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF46")
 
-  val avocado: DiscordEmoji.Generic
+  public val avocado: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD51")
 
-  val broccoli: DiscordEmoji.Generic
+  public val broccoli: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD66")
 
-  val leafyGreen: DiscordEmoji.Generic
+  public val leafyGreen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6C")
 
-  val cucumber: DiscordEmoji.Generic
+  public val cucumber: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD52")
 
-  val hotPepper: DiscordEmoji.Generic
+  public val hotPepper: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF36\uFE0F")
 
-  val corn: DiscordEmoji.Generic
+  public val corn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3D")
 
-  val carrot: DiscordEmoji.Generic
+  public val carrot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD55")
 
-  val onion: DiscordEmoji.Generic
+  public val onion: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC5")
 
-  val garlic: DiscordEmoji.Generic
+  public val garlic: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC4")
 
-  val potato: DiscordEmoji.Generic
+  public val potato: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD54")
 
-  val sweetPotato: DiscordEmoji.Generic
+  public val sweetPotato: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF60")
 
-  val croissant: DiscordEmoji.Generic
+  public val croissant: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD50")
 
-  val bagel: DiscordEmoji.Generic
+  public val bagel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6F")
 
-  val bread: DiscordEmoji.Generic
+  public val bread: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5E")
 
-  val frenchBread: DiscordEmoji.Generic
+  public val frenchBread: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD56")
 
-  val baguetteBread: DiscordEmoji.Generic
+  public val baguetteBread: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD56")
 
-  val pretzel: DiscordEmoji.Generic
+  public val pretzel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD68")
 
-  val cheese: DiscordEmoji.Generic
+  public val cheese: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC0")
 
-  val cheeseWedge: DiscordEmoji.Generic
+  public val cheeseWedge: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC0")
 
-  val egg: DiscordEmoji.Generic
+  public val egg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5A")
 
-  val cooking: DiscordEmoji.Generic
+  public val cooking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF73")
 
-  val pancakes: DiscordEmoji.Generic
+  public val pancakes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5E")
 
-  val waffle: DiscordEmoji.Generic
+  public val waffle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC7")
 
-  val bacon: DiscordEmoji.Generic
+  public val bacon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD53")
 
-  val cutOfMeat: DiscordEmoji.Generic
+  public val cutOfMeat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD69")
 
-  val poultryLeg: DiscordEmoji.Generic
+  public val poultryLeg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF57")
 
-  val meatOnBone: DiscordEmoji.Generic
+  public val meatOnBone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF56")
 
-  val hotdog: DiscordEmoji.Generic
+  public val hotdog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2D")
 
-  val hotDog: DiscordEmoji.Generic
+  public val hotDog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2D")
 
-  val hamburger: DiscordEmoji.Generic
+  public val hamburger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF54")
 
-  val fries: DiscordEmoji.Generic
+  public val fries: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5F")
 
-  val pizza: DiscordEmoji.Generic
+  public val pizza: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF55")
 
-  val sandwich: DiscordEmoji.Generic
+  public val sandwich: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6A")
 
-  val falafel: DiscordEmoji.Generic
+  public val falafel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC6")
 
-  val stuffedFlatbread: DiscordEmoji.Generic
+  public val stuffedFlatbread: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD59")
 
-  val stuffedPita: DiscordEmoji.Generic
+  public val stuffedPita: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD59")
 
-  val taco: DiscordEmoji.Generic
+  public val taco: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2E")
 
-  val burrito: DiscordEmoji.Generic
+  public val burrito: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2F")
 
-  val salad: DiscordEmoji.Generic
+  public val salad: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD57")
 
-  val greenSalad: DiscordEmoji.Generic
+  public val greenSalad: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD57")
 
-  val shallowPanOfFood: DiscordEmoji.Generic
+  public val shallowPanOfFood: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD58")
 
-  val paella: DiscordEmoji.Generic
+  public val paella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD58")
 
-  val cannedFood: DiscordEmoji.Generic
+  public val cannedFood: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6B")
 
-  val spaghetti: DiscordEmoji.Generic
+  public val spaghetti: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5D")
 
-  val ramen: DiscordEmoji.Generic
+  public val ramen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5C")
 
-  val stew: DiscordEmoji.Generic
+  public val stew: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF72")
 
-  val curry: DiscordEmoji.Generic
+  public val curry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5B")
 
-  val sushi: DiscordEmoji.Generic
+  public val sushi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF63")
 
-  val bento: DiscordEmoji.Generic
+  public val bento: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF71")
 
-  val dumpling: DiscordEmoji.Generic
+  public val dumpling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5F")
 
-  val friedShrimp: DiscordEmoji.Generic
+  public val friedShrimp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF64")
 
-  val riceBall: DiscordEmoji.Generic
+  public val riceBall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF59")
 
-  val rice: DiscordEmoji.Generic
+  public val rice: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5A")
 
-  val riceCracker: DiscordEmoji.Generic
+  public val riceCracker: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF58")
 
-  val fishCake: DiscordEmoji.Generic
+  public val fishCake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF65")
 
-  val fortuneCookie: DiscordEmoji.Generic
+  public val fortuneCookie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD60")
 
-  val moonCake: DiscordEmoji.Generic
+  public val moonCake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6E")
 
-  val oden: DiscordEmoji.Generic
+  public val oden: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF62")
 
-  val dango: DiscordEmoji.Generic
+  public val dango: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF61")
 
-  val shavedIce: DiscordEmoji.Generic
+  public val shavedIce: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF67")
 
-  val iceCream: DiscordEmoji.Generic
+  public val iceCream: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF68")
 
-  val icecream: DiscordEmoji.Generic
+  public val icecream: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF66")
 
-  val pie: DiscordEmoji.Generic
+  public val pie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD67")
 
-  val cupcake: DiscordEmoji.Generic
+  public val cupcake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC1")
 
-  val cake: DiscordEmoji.Generic
+  public val cake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF70")
 
-  val birthday: DiscordEmoji.Generic
+  public val birthday: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF82")
 
-  val custard: DiscordEmoji.Generic
+  public val custard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6E")
 
-  val pudding: DiscordEmoji.Generic
+  public val pudding: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6E")
 
-  val flan: DiscordEmoji.Generic
+  public val flan: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6E")
 
-  val lollipop: DiscordEmoji.Generic
+  public val lollipop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6D")
 
-  val candy: DiscordEmoji.Generic
+  public val candy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6C")
 
-  val chocolateBar: DiscordEmoji.Generic
+  public val chocolateBar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6B")
 
-  val popcorn: DiscordEmoji.Generic
+  public val popcorn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7F")
 
-  val doughnut: DiscordEmoji.Generic
+  public val doughnut: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF69")
 
-  val cookie: DiscordEmoji.Generic
+  public val cookie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6A")
 
-  val chestnut: DiscordEmoji.Generic
+  public val chestnut: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF30")
 
-  val peanuts: DiscordEmoji.Generic
+  public val peanuts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5C")
 
-  val shelledPeanut: DiscordEmoji.Generic
+  public val shelledPeanut: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5C")
 
-  val honeyPot: DiscordEmoji.Generic
+  public val honeyPot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6F")
 
-  val butter: DiscordEmoji.Generic
+  public val butter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC8")
 
-  val milk: DiscordEmoji.Generic
+  public val milk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5B")
 
-  val glassOfMilk: DiscordEmoji.Generic
+  public val glassOfMilk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5B")
 
-  val babyBottle: DiscordEmoji.Generic
+  public val babyBottle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7C")
 
-  val coffee: DiscordEmoji.Generic
+  public val coffee: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2615")
 
-  val tea: DiscordEmoji.Generic
+  public val tea: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF75")
 
-  val mate: DiscordEmoji.Generic
+  public val mate: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC9")
 
-  val cupWithStraw: DiscordEmoji.Generic
+  public val cupWithStraw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD64")
 
-  val beverageBox: DiscordEmoji.Generic
+  public val beverageBox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC3")
 
-  val iceCube: DiscordEmoji.Generic
+  public val iceCube: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDCA")
 
-  val sake: DiscordEmoji.Generic
+  public val sake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF76")
 
-  val beer: DiscordEmoji.Generic
+  public val beer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7A")
 
-  val beers: DiscordEmoji.Generic
+  public val beers: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7B")
 
-  val champagneGlass: DiscordEmoji.Generic
+  public val champagneGlass: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD42")
 
-  val clinkingGlass: DiscordEmoji.Generic
+  public val clinkingGlass: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD42")
 
-  val wineGlass: DiscordEmoji.Generic
+  public val wineGlass: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF77")
 
-  val tumblerGlass: DiscordEmoji.Generic
+  public val tumblerGlass: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD43")
 
-  val whisky: DiscordEmoji.Generic
+  public val whisky: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD43")
 
-  val cocktail: DiscordEmoji.Generic
+  public val cocktail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF78")
 
-  val tropicalDrink: DiscordEmoji.Generic
+  public val tropicalDrink: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF79")
 
-  val champagne: DiscordEmoji.Generic
+  public val champagne: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7E")
 
-  val bottleWithPoppingCork: DiscordEmoji.Generic
+  public val bottleWithPoppingCork: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7E")
 
-  val spoon: DiscordEmoji.Generic
+  public val spoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD44")
 
-  val forkAndKnife: DiscordEmoji.Generic
+  public val forkAndKnife: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF74")
 
-  val forkKnifePlate: DiscordEmoji.Generic
+  public val forkKnifePlate: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7D\uFE0F")
 
-  val forkAndKnifeWithPlate: DiscordEmoji.Generic
+  public val forkAndKnifeWithPlate: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7D\uFE0F")
 
-  val bowlWithSpoon: DiscordEmoji.Generic
+  public val bowlWithSpoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD63")
 
-  val takeoutBox: DiscordEmoji.Generic
+  public val takeoutBox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD61")
 
-  val chopsticks: DiscordEmoji.Generic
+  public val chopsticks: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD62")
 
-  val salt: DiscordEmoji.Generic
+  public val salt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC2")
 
-  val soccer: DiscordEmoji.Generic
+  public val soccer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26BD")
 
-  val basketball: DiscordEmoji.Generic
+  public val basketball: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC0")
 
-  val football: DiscordEmoji.Generic
+  public val football: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC8")
 
-  val baseball: DiscordEmoji.Generic
+  public val baseball: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26BE")
 
-  val softball: DiscordEmoji.Generic
+  public val softball: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4E")
 
-  val tennis: DiscordEmoji.Generic
+  public val tennis: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBE")
 
-  val volleyball: DiscordEmoji.Generic
+  public val volleyball: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD0")
 
-  val rugbyFootball: DiscordEmoji.Generic
+  public val rugbyFootball: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC9")
 
-  val flyingDisc: DiscordEmoji.Generic
+  public val flyingDisc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4F")
 
-  val `8ball`: DiscordEmoji.Generic
+  public val `8ball`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB1")
 
-  val pingPong: DiscordEmoji.Generic
+  public val pingPong: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD3")
 
-  val tableTennis: DiscordEmoji.Generic
+  public val tableTennis: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD3")
 
-  val badminton: DiscordEmoji.Generic
+  public val badminton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF8")
 
-  val hockey: DiscordEmoji.Generic
+  public val hockey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD2")
 
-  val fieldHockey: DiscordEmoji.Generic
+  public val fieldHockey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD1")
 
-  val lacrosse: DiscordEmoji.Generic
+  public val lacrosse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4D")
 
-  val cricketGame: DiscordEmoji.Generic
+  public val cricketGame: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCF")
 
-  val cricketBatBall: DiscordEmoji.Generic
+  public val cricketBatBall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCF")
 
-  val goal: DiscordEmoji.Generic
+  public val goal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD45")
 
-  val goalNet: DiscordEmoji.Generic
+  public val goalNet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD45")
 
-  val golf: DiscordEmoji.Generic
+  public val golf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F3")
 
-  val bowAndArrow: DiscordEmoji.Generic
+  public val bowAndArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF9")
 
-  val archery: DiscordEmoji.Generic
+  public val archery: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF9")
 
-  val fishingPoleAndFish: DiscordEmoji.Generic
+  public val fishingPoleAndFish: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA3")
 
-  val boxingGlove: DiscordEmoji.Generic
+  public val boxingGlove: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4A")
 
-  val boxingGloves: DiscordEmoji.Generic
+  public val boxingGloves: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4A")
 
-  val martialArtsUniform: DiscordEmoji.Generic
+  public val martialArtsUniform: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4B")
 
-  val karateUniform: DiscordEmoji.Generic
+  public val karateUniform: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4B")
 
-  val runningShirtWithSash: DiscordEmoji.Generic
+  public val runningShirtWithSash: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBD")
 
-  val skateboard: DiscordEmoji.Generic
+  public val skateboard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF9")
 
-  val sled: DiscordEmoji.Generic
+  public val sled: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF7")
 
-  val parachute: DiscordEmoji.Generic
+  public val parachute: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE82")
 
-  val iceSkate: DiscordEmoji.Generic
+  public val iceSkate: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F8\uFE0F")
 
-  val curlingStone: DiscordEmoji.Generic
+  public val curlingStone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4C")
 
-  val ski: DiscordEmoji.Generic
+  public val ski: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBF")
 
-  val skier: DiscordEmoji.Generic
+  public val skier: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F7\uFE0F")
 
-  val snowboarder: DiscordEmoji.Diverse
+  public val snowboarder: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC2")
 
-  val personLiftingWeights: DiscordEmoji.Diverse
+  public val personLiftingWeights: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCB\uFE0F")
 
-  val lifter: DiscordEmoji.Diverse
+  public val lifter: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCB\uFE0F")
 
-  val weightLifter: DiscordEmoji.Diverse
+  public val weightLifter: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCB\uFE0F")
 
-  val womanLiftingWeights: DiscordEmoji.Diverse
+  public val womanLiftingWeights: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCB\uFE0F\u200D\u2640\uFE0F")
 
-  val manLiftingWeights: DiscordEmoji.Diverse
+  public val manLiftingWeights: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCB\uFE0F\u200D\u2642\uFE0F")
 
-  val peopleWrestling: DiscordEmoji.Generic
+  public val peopleWrestling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3C")
 
-  val wrestlers: DiscordEmoji.Generic
+  public val wrestlers: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3C")
 
-  val wrestling: DiscordEmoji.Generic
+  public val wrestling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3C")
 
-  val womenWrestling: DiscordEmoji.Generic
+  public val womenWrestling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3C\u200D\u2640\uFE0F")
 
-  val menWrestling: DiscordEmoji.Generic
+  public val menWrestling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3C\u200D\u2642\uFE0F")
 
-  val personDoingCartwheel: DiscordEmoji.Diverse
+  public val personDoingCartwheel: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD38")
 
-  val cartwheel: DiscordEmoji.Diverse
+  public val cartwheel: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD38")
 
-  val womanCartwheeling: DiscordEmoji.Diverse
+  public val womanCartwheeling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD38\u200D\u2640\uFE0F")
 
-  val manCartwheeling: DiscordEmoji.Diverse
+  public val manCartwheeling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD38\u200D\u2642\uFE0F")
 
-  val personBouncingBall: DiscordEmoji.Diverse
+  public val personBouncingBall: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u26F9\uFE0F")
 
-  val basketballPlayer: DiscordEmoji.Diverse
+  public val basketballPlayer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u26F9\uFE0F")
 
-  val personWithBall: DiscordEmoji.Diverse
+  public val personWithBall: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u26F9\uFE0F")
 
-  val womanBouncingBall: DiscordEmoji.Diverse
+  public val womanBouncingBall: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u26F9\uFE0F\u200D\u2640\uFE0F")
 
-  val manBouncingBall: DiscordEmoji.Diverse
+  public val manBouncingBall: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u26F9\uFE0F\u200D\u2642\uFE0F")
 
-  val personFencing: DiscordEmoji.Generic
+  public val personFencing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3A")
 
-  val fencer: DiscordEmoji.Generic
+  public val fencer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3A")
 
-  val fencing: DiscordEmoji.Generic
+  public val fencing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD3A")
 
-  val personPlayingHandball: DiscordEmoji.Diverse
+  public val personPlayingHandball: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3E")
 
-  val handball: DiscordEmoji.Diverse
+  public val handball: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3E")
 
-  val womanPlayingHandball: DiscordEmoji.Diverse
+  public val womanPlayingHandball: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3E\u200D\u2640\uFE0F")
 
-  val manPlayingHandball: DiscordEmoji.Diverse
+  public val manPlayingHandball: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3E\u200D\u2642\uFE0F")
 
-  val personGolfing: DiscordEmoji.Diverse
+  public val personGolfing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCC\uFE0F")
 
-  val golfer: DiscordEmoji.Diverse
+  public val golfer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCC\uFE0F")
 
-  val womanGolfing: DiscordEmoji.Diverse
+  public val womanGolfing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCC\uFE0F\u200D\u2640\uFE0F")
 
-  val manGolfing: DiscordEmoji.Diverse
+  public val manGolfing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCC\uFE0F\u200D\u2642\uFE0F")
 
-  val horseRacing: DiscordEmoji.Diverse
+  public val horseRacing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC7")
 
-  val personInLotusPosition: DiscordEmoji.Diverse
+  public val personInLotusPosition: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD8")
 
-  val womanInLotusPosition: DiscordEmoji.Diverse
+  public val womanInLotusPosition: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD8\u200D\u2640\uFE0F")
 
-  val manInLotusPosition: DiscordEmoji.Diverse
+  public val manInLotusPosition: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD8\u200D\u2642\uFE0F")
 
-  val personSurfing: DiscordEmoji.Diverse
+  public val personSurfing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC4")
 
-  val surfer: DiscordEmoji.Diverse
+  public val surfer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC4")
 
-  val womanSurfing: DiscordEmoji.Diverse
+  public val womanSurfing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC4\u200D\u2640\uFE0F")
 
-  val manSurfing: DiscordEmoji.Diverse
+  public val manSurfing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC4\u200D\u2642\uFE0F")
 
-  val personSwimming: DiscordEmoji.Diverse
+  public val personSwimming: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCA")
 
-  val swimmer: DiscordEmoji.Diverse
+  public val swimmer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCA")
 
-  val womanSwimming: DiscordEmoji.Diverse
+  public val womanSwimming: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCA\u200D\u2640\uFE0F")
 
-  val manSwimming: DiscordEmoji.Diverse
+  public val manSwimming: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCA\u200D\u2642\uFE0F")
 
-  val personPlayingWaterPolo: DiscordEmoji.Diverse
+  public val personPlayingWaterPolo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3D")
 
-  val waterPolo: DiscordEmoji.Diverse
+  public val waterPolo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3D")
 
-  val womanPlayingWaterPolo: DiscordEmoji.Diverse
+  public val womanPlayingWaterPolo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3D\u200D\u2640\uFE0F")
 
-  val manPlayingWaterPolo: DiscordEmoji.Diverse
+  public val manPlayingWaterPolo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD3D\u200D\u2642\uFE0F")
 
-  val personRowingBoat: DiscordEmoji.Diverse
+  public val personRowingBoat: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEA3")
 
-  val rowboat: DiscordEmoji.Diverse
+  public val rowboat: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEA3")
 
-  val womanRowingBoat: DiscordEmoji.Diverse
+  public val womanRowingBoat: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEA3\u200D\u2640\uFE0F")
 
-  val manRowingBoat: DiscordEmoji.Diverse
+  public val manRowingBoat: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEA3\u200D\u2642\uFE0F")
 
-  val personClimbing: DiscordEmoji.Diverse
+  public val personClimbing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD7")
 
-  val womanClimbing: DiscordEmoji.Diverse
+  public val womanClimbing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD7\u200D\u2640\uFE0F")
 
-  val manClimbing: DiscordEmoji.Diverse
+  public val manClimbing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD7\u200D\u2642\uFE0F")
 
-  val personMountainBiking: DiscordEmoji.Diverse
+  public val personMountainBiking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB5")
 
-  val mountainBicyclist: DiscordEmoji.Diverse
+  public val mountainBicyclist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB5")
 
-  val womanMountainBiking: DiscordEmoji.Diverse
+  public val womanMountainBiking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB5\u200D\u2640\uFE0F")
 
-  val manMountainBiking: DiscordEmoji.Diverse
+  public val manMountainBiking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB5\u200D\u2642\uFE0F")
 
-  val personBiking: DiscordEmoji.Diverse
+  public val personBiking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB4")
 
-  val bicyclist: DiscordEmoji.Diverse
+  public val bicyclist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB4")
 
-  val womanBiking: DiscordEmoji.Diverse
+  public val womanBiking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB4\u200D\u2640\uFE0F")
 
-  val manBiking: DiscordEmoji.Diverse
+  public val manBiking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB4\u200D\u2642\uFE0F")
 
-  val trophy: DiscordEmoji.Generic
+  public val trophy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC6")
 
-  val firstPlace: DiscordEmoji.Generic
+  public val firstPlace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD47")
 
-  val firstPlaceMedal: DiscordEmoji.Generic
+  public val firstPlaceMedal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD47")
 
-  val secondPlace: DiscordEmoji.Generic
+  public val secondPlace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD48")
 
-  val secondPlaceMedal: DiscordEmoji.Generic
+  public val secondPlaceMedal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD48")
 
-  val thirdPlace: DiscordEmoji.Generic
+  public val thirdPlace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD49")
 
-  val thirdPlaceMedal: DiscordEmoji.Generic
+  public val thirdPlaceMedal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD49")
 
-  val medal: DiscordEmoji.Generic
+  public val medal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC5")
 
-  val sportsMedal: DiscordEmoji.Generic
+  public val sportsMedal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC5")
 
-  val militaryMedal: DiscordEmoji.Generic
+  public val militaryMedal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF96\uFE0F")
 
-  val rosette: DiscordEmoji.Generic
+  public val rosette: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF5\uFE0F")
 
-  val reminderRibbon: DiscordEmoji.Generic
+  public val reminderRibbon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF97\uFE0F")
 
-  val ticket: DiscordEmoji.Generic
+  public val ticket: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAB")
 
-  val tickets: DiscordEmoji.Generic
+  public val tickets: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF9F\uFE0F")
 
-  val admissionTickets: DiscordEmoji.Generic
+  public val admissionTickets: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF9F\uFE0F")
 
-  val circusTent: DiscordEmoji.Generic
+  public val circusTent: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAA")
 
-  val personJuggling: DiscordEmoji.Diverse
+  public val personJuggling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD39")
 
-  val juggling: DiscordEmoji.Diverse
+  public val juggling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD39")
 
-  val juggler: DiscordEmoji.Diverse
+  public val juggler: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD39")
 
-  val womanJuggling: DiscordEmoji.Diverse
+  public val womanJuggling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD39\u200D\u2640\uFE0F")
 
-  val manJuggling: DiscordEmoji.Diverse
+  public val manJuggling: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD39\u200D\u2642\uFE0F")
 
-  val performingArts: DiscordEmoji.Generic
+  public val performingArts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAD")
 
-  val art: DiscordEmoji.Generic
+  public val art: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA8")
 
-  val clapper: DiscordEmoji.Generic
+  public val clapper: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAC")
 
-  val microphone: DiscordEmoji.Generic
+  public val microphone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA4")
 
-  val headphones: DiscordEmoji.Generic
+  public val headphones: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA7")
 
-  val musicalScore: DiscordEmoji.Generic
+  public val musicalScore: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBC")
 
-  val musicalKeyboard: DiscordEmoji.Generic
+  public val musicalKeyboard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB9")
 
-  val drum: DiscordEmoji.Generic
+  public val drum: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD41")
 
-  val drumWithDrumsticks: DiscordEmoji.Generic
+  public val drumWithDrumsticks: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD41")
 
-  val saxophone: DiscordEmoji.Generic
+  public val saxophone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB7")
 
-  val trumpet: DiscordEmoji.Generic
+  public val trumpet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBA")
 
-  val banjo: DiscordEmoji.Generic
+  public val banjo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE95")
 
-  val guitar: DiscordEmoji.Generic
+  public val guitar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB8")
 
-  val violin: DiscordEmoji.Generic
+  public val violin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBB")
 
-  val gameDie: DiscordEmoji.Generic
+  public val gameDie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB2")
 
-  val chessPawn: DiscordEmoji.Generic
+  public val chessPawn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u265F\uFE0F")
 
-  val dart: DiscordEmoji.Generic
+  public val dart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAF")
 
-  val kite: DiscordEmoji.Generic
+  public val kite: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE81")
 
-  val yoYo: DiscordEmoji.Generic
+  public val yoYo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE80")
 
-  val bowling: DiscordEmoji.Generic
+  public val bowling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB3")
 
-  val videoGame: DiscordEmoji.Generic
+  public val videoGame: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAE")
 
-  val slotMachine: DiscordEmoji.Generic
+  public val slotMachine: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB0")
 
-  val jigsaw: DiscordEmoji.Generic
+  public val jigsaw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE9")
 
-  val redCar: DiscordEmoji.Generic
+  public val redCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE97")
 
-  val taxi: DiscordEmoji.Generic
+  public val taxi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE95")
 
-  val blueCar: DiscordEmoji.Generic
+  public val blueCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE99")
 
-  val bus: DiscordEmoji.Generic
+  public val bus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8C")
 
-  val trolleybus: DiscordEmoji.Generic
+  public val trolleybus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8E")
 
-  val raceCar: DiscordEmoji.Generic
+  public val raceCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCE\uFE0F")
 
-  val racingCar: DiscordEmoji.Generic
+  public val racingCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCE\uFE0F")
 
-  val policeCar: DiscordEmoji.Generic
+  public val policeCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE93")
 
-  val ambulance: DiscordEmoji.Generic
+  public val ambulance: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE91")
 
-  val fireEngine: DiscordEmoji.Generic
+  public val fireEngine: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE92")
 
-  val minibus: DiscordEmoji.Generic
+  public val minibus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE90")
 
-  val truck: DiscordEmoji.Generic
+  public val truck: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9A")
 
-  val articulatedLorry: DiscordEmoji.Generic
+  public val articulatedLorry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9B")
 
-  val tractor: DiscordEmoji.Generic
+  public val tractor: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9C")
 
-  val autoRickshaw: DiscordEmoji.Generic
+  public val autoRickshaw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEFA")
 
-  val motorScooter: DiscordEmoji.Generic
+  public val motorScooter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF5")
 
-  val motorbike: DiscordEmoji.Generic
+  public val motorbike: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF5")
 
-  val motorcycle: DiscordEmoji.Generic
+  public val motorcycle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCD\uFE0F")
 
-  val racingMotorcycle: DiscordEmoji.Generic
+  public val racingMotorcycle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCD\uFE0F")
 
-  val scooter: DiscordEmoji.Generic
+  public val scooter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF4")
 
-  val bike: DiscordEmoji.Generic
+  public val bike: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB2")
 
-  val motorizedWheelchair: DiscordEmoji.Generic
+  public val motorizedWheelchair: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDBC")
 
-  val manualWheelchair: DiscordEmoji.Generic
+  public val manualWheelchair: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDBD")
 
-  val rotatingLight: DiscordEmoji.Generic
+  public val rotatingLight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA8")
 
-  val oncomingPoliceCar: DiscordEmoji.Generic
+  public val oncomingPoliceCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE94")
 
-  val oncomingBus: DiscordEmoji.Generic
+  public val oncomingBus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8D")
 
-  val oncomingAutomobile: DiscordEmoji.Generic
+  public val oncomingAutomobile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE98")
 
-  val oncomingTaxi: DiscordEmoji.Generic
+  public val oncomingTaxi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE96")
 
-  val aerialTramway: DiscordEmoji.Generic
+  public val aerialTramway: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA1")
 
-  val mountainCableway: DiscordEmoji.Generic
+  public val mountainCableway: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA0")
 
-  val suspensionRailway: DiscordEmoji.Generic
+  public val suspensionRailway: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9F")
 
-  val railwayCar: DiscordEmoji.Generic
+  public val railwayCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE83")
 
-  val train: DiscordEmoji.Generic
+  public val train: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8B")
 
-  val mountainRailway: DiscordEmoji.Generic
+  public val mountainRailway: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9E")
 
-  val monorail: DiscordEmoji.Generic
+  public val monorail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9D")
 
-  val bullettrainSide: DiscordEmoji.Generic
+  public val bullettrainSide: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE84")
 
-  val bullettrainFront: DiscordEmoji.Generic
+  public val bullettrainFront: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE85")
 
-  val lightRail: DiscordEmoji.Generic
+  public val lightRail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE88")
 
-  val steamLocomotive: DiscordEmoji.Generic
+  public val steamLocomotive: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE82")
 
-  val train2: DiscordEmoji.Generic
+  public val train2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE86")
 
-  val metro: DiscordEmoji.Generic
+  public val metro: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE87")
 
-  val tram: DiscordEmoji.Generic
+  public val tram: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8A")
 
-  val station: DiscordEmoji.Generic
+  public val station: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE89")
 
-  val airplane: DiscordEmoji.Generic
+  public val airplane: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2708\uFE0F")
 
-  val airplaneDeparture: DiscordEmoji.Generic
+  public val airplaneDeparture: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEEB")
 
-  val airplaneArriving: DiscordEmoji.Generic
+  public val airplaneArriving: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEEC")
 
-  val airplaneSmall: DiscordEmoji.Generic
+  public val airplaneSmall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE9\uFE0F")
 
-  val smallAirplane: DiscordEmoji.Generic
+  public val smallAirplane: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE9\uFE0F")
 
-  val seat: DiscordEmoji.Generic
+  public val seat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBA")
 
-  val satelliteOrbital: DiscordEmoji.Generic
+  public val satelliteOrbital: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF0\uFE0F")
 
-  val rocket: DiscordEmoji.Generic
+  public val rocket: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE80")
 
-  val flyingSaucer: DiscordEmoji.Generic
+  public val flyingSaucer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF8")
 
-  val helicopter: DiscordEmoji.Generic
+  public val helicopter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE81")
 
-  val canoe: DiscordEmoji.Generic
+  public val canoe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF6")
 
-  val kayak: DiscordEmoji.Generic
+  public val kayak: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF6")
 
-  val sailboat: DiscordEmoji.Generic
+  public val sailboat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F5")
 
-  val speedboat: DiscordEmoji.Generic
+  public val speedboat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA4")
 
-  val motorboat: DiscordEmoji.Generic
+  public val motorboat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE5\uFE0F")
 
-  val cruiseShip: DiscordEmoji.Generic
+  public val cruiseShip: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF3\uFE0F")
 
-  val passengerShip: DiscordEmoji.Generic
+  public val passengerShip: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF3\uFE0F")
 
-  val ferry: DiscordEmoji.Generic
+  public val ferry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F4\uFE0F")
 
-  val ship: DiscordEmoji.Generic
+  public val ship: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA2")
 
-  val anchor: DiscordEmoji.Generic
+  public val anchor: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2693")
 
-  val fuelpump: DiscordEmoji.Generic
+  public val fuelpump: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26FD")
 
-  val construction: DiscordEmoji.Generic
+  public val construction: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA7")
 
-  val verticalTrafficLight: DiscordEmoji.Generic
+  public val verticalTrafficLight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA6")
 
-  val trafficLight: DiscordEmoji.Generic
+  public val trafficLight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA5")
 
-  val busstop: DiscordEmoji.Generic
+  public val busstop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8F")
 
-  val map: DiscordEmoji.Generic
+  public val map: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFA\uFE0F")
 
-  val worldMap: DiscordEmoji.Generic
+  public val worldMap: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFA\uFE0F")
 
-  val moyai: DiscordEmoji.Generic
+  public val moyai: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFF")
 
-  val statueOfLiberty: DiscordEmoji.Generic
+  public val statueOfLiberty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFD")
 
-  val tokyoTower: DiscordEmoji.Generic
+  public val tokyoTower: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFC")
 
-  val europeanCastle: DiscordEmoji.Generic
+  public val europeanCastle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF0")
 
-  val japaneseCastle: DiscordEmoji.Generic
+  public val japaneseCastle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFEF")
 
-  val stadium: DiscordEmoji.Generic
+  public val stadium: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDF\uFE0F")
 
-  val ferrisWheel: DiscordEmoji.Generic
+  public val ferrisWheel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA1")
 
-  val rollerCoaster: DiscordEmoji.Generic
+  public val rollerCoaster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA2")
 
-  val carouselHorse: DiscordEmoji.Generic
+  public val carouselHorse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA0")
 
-  val fountain: DiscordEmoji.Generic
+  public val fountain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F2")
 
-  val beachUmbrella: DiscordEmoji.Generic
+  public val beachUmbrella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F1\uFE0F")
 
-  val umbrellaOnGround: DiscordEmoji.Generic
+  public val umbrellaOnGround: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F1\uFE0F")
 
-  val beach: DiscordEmoji.Generic
+  public val beach: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD6\uFE0F")
 
-  val beachWithUmbrella: DiscordEmoji.Generic
+  public val beachWithUmbrella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD6\uFE0F")
 
-  val island: DiscordEmoji.Generic
+  public val island: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDD\uFE0F")
 
-  val desertIsland: DiscordEmoji.Generic
+  public val desertIsland: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDD\uFE0F")
 
-  val desert: DiscordEmoji.Generic
+  public val desert: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDC\uFE0F")
 
-  val volcano: DiscordEmoji.Generic
+  public val volcano: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF0B")
 
-  val mountain: DiscordEmoji.Generic
+  public val mountain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F0\uFE0F")
 
-  val mountainSnow: DiscordEmoji.Generic
+  public val mountainSnow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD4\uFE0F")
 
-  val snowCappedMountain: DiscordEmoji.Generic
+  public val snowCappedMountain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD4\uFE0F")
 
-  val mountFuji: DiscordEmoji.Generic
+  public val mountFuji: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFB")
 
-  val camping: DiscordEmoji.Generic
+  public val camping: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD5\uFE0F")
 
-  val tent: DiscordEmoji.Generic
+  public val tent: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26FA")
 
-  val house: DiscordEmoji.Generic
+  public val house: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE0")
 
-  val houseWithGarden: DiscordEmoji.Generic
+  public val houseWithGarden: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE1")
 
-  val homes: DiscordEmoji.Generic
+  public val homes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD8\uFE0F")
 
-  val houseBuildings: DiscordEmoji.Generic
+  public val houseBuildings: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD8\uFE0F")
 
-  val houseAbandoned: DiscordEmoji.Generic
+  public val houseAbandoned: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDA\uFE0F")
 
-  val derelictHouseBuilding: DiscordEmoji.Generic
+  public val derelictHouseBuilding: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDA\uFE0F")
 
-  val constructionSite: DiscordEmoji.Generic
+  public val constructionSite: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD7\uFE0F")
 
-  val buildingConstruction: DiscordEmoji.Generic
+  public val buildingConstruction: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD7\uFE0F")
 
-  val factory: DiscordEmoji.Generic
+  public val factory: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFED")
 
-  val office: DiscordEmoji.Generic
+  public val office: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE2")
 
-  val departmentStore: DiscordEmoji.Generic
+  public val departmentStore: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFEC")
 
-  val postOffice: DiscordEmoji.Generic
+  public val postOffice: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE3")
 
-  val europeanPostOffice: DiscordEmoji.Generic
+  public val europeanPostOffice: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE4")
 
-  val hospital: DiscordEmoji.Generic
+  public val hospital: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE5")
 
-  val bank: DiscordEmoji.Generic
+  public val bank: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE6")
 
-  val hotel: DiscordEmoji.Generic
+  public val hotel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE8")
 
-  val convenienceStore: DiscordEmoji.Generic
+  public val convenienceStore: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFEA")
 
-  val school: DiscordEmoji.Generic
+  public val school: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFEB")
 
-  val loveHotel: DiscordEmoji.Generic
+  public val loveHotel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE9")
 
-  val wedding: DiscordEmoji.Generic
+  public val wedding: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC92")
 
-  val classicalBuilding: DiscordEmoji.Generic
+  public val classicalBuilding: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDB\uFE0F")
 
-  val church: DiscordEmoji.Generic
+  public val church: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26EA")
 
-  val mosque: DiscordEmoji.Generic
+  public val mosque: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4C")
 
-  val hinduTemple: DiscordEmoji.Generic
+  public val hinduTemple: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDED5")
 
-  val synagogue: DiscordEmoji.Generic
+  public val synagogue: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4D")
 
-  val kaaba: DiscordEmoji.Generic
+  public val kaaba: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4B")
 
-  val shintoShrine: DiscordEmoji.Generic
+  public val shintoShrine: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26E9\uFE0F")
 
-  val railwayTrack: DiscordEmoji.Generic
+  public val railwayTrack: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE4\uFE0F")
 
-  val railroadTrack: DiscordEmoji.Generic
+  public val railroadTrack: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE4\uFE0F")
 
-  val motorway: DiscordEmoji.Generic
+  public val motorway: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE3\uFE0F")
 
-  val japan: DiscordEmoji.Generic
+  public val japan: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFE")
 
-  val riceScene: DiscordEmoji.Generic
+  public val riceScene: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF91")
 
-  val park: DiscordEmoji.Generic
+  public val park: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDE\uFE0F")
 
-  val nationalPark: DiscordEmoji.Generic
+  public val nationalPark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDE\uFE0F")
 
-  val sunrise: DiscordEmoji.Generic
+  public val sunrise: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF05")
 
-  val sunriseOverMountains: DiscordEmoji.Generic
+  public val sunriseOverMountains: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF04")
 
-  val stars: DiscordEmoji.Generic
+  public val stars: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF20")
 
-  val sparkler: DiscordEmoji.Generic
+  public val sparkler: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF87")
 
-  val fireworks: DiscordEmoji.Generic
+  public val fireworks: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF86")
 
-  val citySunset: DiscordEmoji.Generic
+  public val citySunset: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF07")
 
-  val citySunrise: DiscordEmoji.Generic
+  public val citySunrise: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF07")
 
-  val cityDusk: DiscordEmoji.Generic
+  public val cityDusk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF06")
 
-  val cityscape: DiscordEmoji.Generic
+  public val cityscape: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD9\uFE0F")
 
-  val nightWithStars: DiscordEmoji.Generic
+  public val nightWithStars: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF03")
 
-  val milkyWay: DiscordEmoji.Generic
+  public val milkyWay: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF0C")
 
-  val bridgeAtNight: DiscordEmoji.Generic
+  public val bridgeAtNight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF09")
 
-  val foggy: DiscordEmoji.Generic
+  public val foggy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF01")
 
-  val watch: DiscordEmoji.Generic
+  public val watch: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u231A")
 
-  val iphone: DiscordEmoji.Generic
+  public val iphone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF1")
 
-  val calling: DiscordEmoji.Generic
+  public val calling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF2")
 
-  val computer: DiscordEmoji.Generic
+  public val computer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBB")
 
-  val keyboard: DiscordEmoji.Generic
+  public val keyboard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2328\uFE0F")
 
-  val desktop: DiscordEmoji.Generic
+  public val desktop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDA5\uFE0F")
 
-  val desktopComputer: DiscordEmoji.Generic
+  public val desktopComputer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDA5\uFE0F")
 
-  val printer: DiscordEmoji.Generic
+  public val printer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDA8\uFE0F")
 
-  val mouseThreeButton: DiscordEmoji.Generic
+  public val mouseThreeButton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDB1\uFE0F")
 
-  val threeButtonMouse: DiscordEmoji.Generic
+  public val threeButtonMouse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDB1\uFE0F")
 
-  val trackball: DiscordEmoji.Generic
+  public val trackball: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDB2\uFE0F")
 
-  val joystick: DiscordEmoji.Generic
+  public val joystick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD79\uFE0F")
 
-  val compression: DiscordEmoji.Generic
+  public val compression: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDDC\uFE0F")
 
-  val minidisc: DiscordEmoji.Generic
+  public val minidisc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBD")
 
-  val floppyDisk: DiscordEmoji.Generic
+  public val floppyDisk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBE")
 
-  val cd: DiscordEmoji.Generic
+  public val cd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBF")
 
-  val dvd: DiscordEmoji.Generic
+  public val dvd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC0")
 
-  val vhs: DiscordEmoji.Generic
+  public val vhs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFC")
 
-  val camera: DiscordEmoji.Generic
+  public val camera: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF7")
 
-  val cameraWithFlash: DiscordEmoji.Generic
+  public val cameraWithFlash: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF8")
 
-  val videoCamera: DiscordEmoji.Generic
+  public val videoCamera: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF9")
 
-  val movieCamera: DiscordEmoji.Generic
+  public val movieCamera: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA5")
 
-  val projector: DiscordEmoji.Generic
+  public val projector: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFD\uFE0F")
 
-  val filmProjector: DiscordEmoji.Generic
+  public val filmProjector: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFD\uFE0F")
 
-  val filmFrames: DiscordEmoji.Generic
+  public val filmFrames: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF9E\uFE0F")
 
-  val telephoneReceiver: DiscordEmoji.Generic
+  public val telephoneReceiver: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCDE")
 
-  val telephone: DiscordEmoji.Generic
+  public val telephone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u260E\uFE0F")
 
-  val pager: DiscordEmoji.Generic
+  public val pager: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCDF")
 
-  val fax: DiscordEmoji.Generic
+  public val fax: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE0")
 
-  val tv: DiscordEmoji.Generic
+  public val tv: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFA")
 
-  val radio: DiscordEmoji.Generic
+  public val radio: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFB")
 
-  val microphone2: DiscordEmoji.Generic
+  public val microphone2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF99\uFE0F")
 
-  val studioMicrophone: DiscordEmoji.Generic
+  public val studioMicrophone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF99\uFE0F")
 
-  val levelSlider: DiscordEmoji.Generic
+  public val levelSlider: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF9A\uFE0F")
 
-  val controlKnobs: DiscordEmoji.Generic
+  public val controlKnobs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF9B\uFE0F")
 
-  val compass: DiscordEmoji.Generic
+  public val compass: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDED")
 
-  val stopwatch: DiscordEmoji.Generic
+  public val stopwatch: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F1\uFE0F")
 
-  val timer: DiscordEmoji.Generic
+  public val timer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F2\uFE0F")
 
-  val timerClock: DiscordEmoji.Generic
+  public val timerClock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F2\uFE0F")
 
-  val alarmClock: DiscordEmoji.Generic
+  public val alarmClock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F0")
 
-  val clock: DiscordEmoji.Generic
+  public val clock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD70\uFE0F")
 
-  val mantlepieceClock: DiscordEmoji.Generic
+  public val mantlepieceClock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD70\uFE0F")
 
-  val hourglass: DiscordEmoji.Generic
+  public val hourglass: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u231B")
 
-  val hourglassFlowingSand: DiscordEmoji.Generic
+  public val hourglassFlowingSand: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F3")
 
-  val satellite: DiscordEmoji.Generic
+  public val satellite: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE1")
 
-  val battery: DiscordEmoji.Generic
+  public val battery: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0B")
 
-  val electricPlug: DiscordEmoji.Generic
+  public val electricPlug: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0C")
 
-  val bulb: DiscordEmoji.Generic
+  public val bulb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA1")
 
-  val flashlight: DiscordEmoji.Generic
+  public val flashlight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD26")
 
-  val candle: DiscordEmoji.Generic
+  public val candle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD6F\uFE0F")
 
-  val fireExtinguisher: DiscordEmoji.Generic
+  public val fireExtinguisher: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDEF")
 
-  val oil: DiscordEmoji.Generic
+  public val oil: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE2\uFE0F")
 
-  val oilDrum: DiscordEmoji.Generic
+  public val oilDrum: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE2\uFE0F")
 
-  val moneyWithWings: DiscordEmoji.Generic
+  public val moneyWithWings: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB8")
 
-  val dollar: DiscordEmoji.Generic
+  public val dollar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB5")
 
-  val yen: DiscordEmoji.Generic
+  public val yen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB4")
 
-  val euro: DiscordEmoji.Generic
+  public val euro: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB6")
 
-  val pound: DiscordEmoji.Generic
+  public val pound: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB7")
 
-  val moneybag: DiscordEmoji.Generic
+  public val moneybag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB0")
 
-  val creditCard: DiscordEmoji.Generic
+  public val creditCard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB3")
 
-  val gem: DiscordEmoji.Generic
+  public val gem: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8E")
 
-  val scales: DiscordEmoji.Generic
+  public val scales: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2696\uFE0F")
 
-  val toolbox: DiscordEmoji.Generic
+  public val toolbox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF0")
 
-  val wrench: DiscordEmoji.Generic
+  public val wrench: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD27")
 
-  val hammer: DiscordEmoji.Generic
+  public val hammer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD28")
 
-  val hammerPick: DiscordEmoji.Generic
+  public val hammerPick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2692\uFE0F")
 
-  val hammerAndPick: DiscordEmoji.Generic
+  public val hammerAndPick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2692\uFE0F")
 
-  val tools: DiscordEmoji.Generic
+  public val tools: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE0\uFE0F")
 
-  val hammerAndWrench: DiscordEmoji.Generic
+  public val hammerAndWrench: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE0\uFE0F")
 
-  val pick: DiscordEmoji.Generic
+  public val pick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26CF\uFE0F")
 
-  val nutAndBolt: DiscordEmoji.Generic
+  public val nutAndBolt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD29")
 
-  val gear: DiscordEmoji.Generic
+  public val gear: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2699\uFE0F")
 
-  val bricks: DiscordEmoji.Generic
+  public val bricks: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF1")
 
-  val chains: DiscordEmoji.Generic
+  public val chains: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26D3\uFE0F")
 
-  val magnet: DiscordEmoji.Generic
+  public val magnet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF2")
 
-  val gun: DiscordEmoji.Generic
+  public val gun: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2B")
 
-  val bomb: DiscordEmoji.Generic
+  public val bomb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA3")
 
-  val firecracker: DiscordEmoji.Generic
+  public val firecracker: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE8")
 
-  val axe: DiscordEmoji.Generic
+  public val axe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE93")
 
-  val razor: DiscordEmoji.Generic
+  public val razor: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE92")
 
-  val knife: DiscordEmoji.Generic
+  public val knife: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2A")
 
-  val dagger: DiscordEmoji.Generic
+  public val dagger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDE1\uFE0F")
 
-  val daggerKnife: DiscordEmoji.Generic
+  public val daggerKnife: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDE1\uFE0F")
 
-  val crossedSwords: DiscordEmoji.Generic
+  public val crossedSwords: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2694\uFE0F")
 
-  val shield: DiscordEmoji.Generic
+  public val shield: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE1\uFE0F")
 
-  val smoking: DiscordEmoji.Generic
+  public val smoking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAC")
 
-  val coffin: DiscordEmoji.Generic
+  public val coffin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26B0\uFE0F")
 
-  val urn: DiscordEmoji.Generic
+  public val urn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26B1\uFE0F")
 
-  val funeralUrn: DiscordEmoji.Generic
+  public val funeralUrn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26B1\uFE0F")
 
-  val amphora: DiscordEmoji.Generic
+  public val amphora: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFFA")
 
-  val diyaLamp: DiscordEmoji.Generic
+  public val diyaLamp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE94")
 
-  val crystalBall: DiscordEmoji.Generic
+  public val crystalBall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2E")
 
-  val prayerBeads: DiscordEmoji.Generic
+  public val prayerBeads: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFF")
 
-  val nazarAmulet: DiscordEmoji.Generic
+  public val nazarAmulet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFF")
 
-  val barber: DiscordEmoji.Generic
+  public val barber: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC88")
 
-  val alembic: DiscordEmoji.Generic
+  public val alembic: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2697\uFE0F")
 
-  val telescope: DiscordEmoji.Generic
+  public val telescope: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2D")
 
-  val microscope: DiscordEmoji.Generic
+  public val microscope: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2C")
 
-  val hole: DiscordEmoji.Generic
+  public val hole: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD73\uFE0F")
 
-  val probingCane: DiscordEmoji.Generic
+  public val probingCane: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDAF")
 
-  val stethoscope: DiscordEmoji.Generic
+  public val stethoscope: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE7A")
 
-  val adhesiveBandage: DiscordEmoji.Generic
+  public val adhesiveBandage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE79")
 
-  val pill: DiscordEmoji.Generic
+  public val pill: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8A")
 
-  val syringe: DiscordEmoji.Generic
+  public val syringe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC89")
 
-  val dropOfBlood: DiscordEmoji.Generic
+  public val dropOfBlood: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE78")
 
-  val dna: DiscordEmoji.Generic
+  public val dna: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDEC")
 
-  val microbe: DiscordEmoji.Generic
+  public val microbe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA0")
 
-  val petriDish: DiscordEmoji.Generic
+  public val petriDish: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDEB")
 
-  val testTube: DiscordEmoji.Generic
+  public val testTube: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDEA")
 
-  val thermometer: DiscordEmoji.Generic
+  public val thermometer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF21\uFE0F")
 
-  val chair: DiscordEmoji.Generic
+  public val chair: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE91")
 
-  val broom: DiscordEmoji.Generic
+  public val broom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF9")
 
-  val basket: DiscordEmoji.Generic
+  public val basket: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFA")
 
-  val rollOfPaper: DiscordEmoji.Generic
+  public val rollOfPaper: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFB")
 
-  val toilet: DiscordEmoji.Generic
+  public val toilet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBD")
 
-  val potableWater: DiscordEmoji.Generic
+  public val potableWater: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB0")
 
-  val shower: DiscordEmoji.Generic
+  public val shower: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBF")
 
-  val bathtub: DiscordEmoji.Generic
+  public val bathtub: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEC1")
 
-  val bath: DiscordEmoji.Diverse
+  public val bath: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEC0")
 
-  val soap: DiscordEmoji.Generic
+  public val soap: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFC")
 
-  val sponge: DiscordEmoji.Generic
+  public val sponge: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFD")
 
-  val squeezeBottle: DiscordEmoji.Generic
+  public val squeezeBottle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF4")
 
-  val bellhop: DiscordEmoji.Generic
+  public val bellhop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECE\uFE0F")
 
-  val bellhopBell: DiscordEmoji.Generic
+  public val bellhopBell: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECE\uFE0F")
 
-  val key: DiscordEmoji.Generic
+  public val key: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD11")
 
-  val key2: DiscordEmoji.Generic
+  public val key2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDDD\uFE0F")
 
-  val oldKey: DiscordEmoji.Generic
+  public val oldKey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDDD\uFE0F")
 
-  val door: DiscordEmoji.Generic
+  public val door: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAA")
 
-  val couch: DiscordEmoji.Generic
+  public val couch: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECB\uFE0F")
 
-  val couchAndLamp: DiscordEmoji.Generic
+  public val couchAndLamp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECB\uFE0F")
 
-  val bed: DiscordEmoji.Generic
+  public val bed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECF\uFE0F")
 
-  val sleepingAccommodation: DiscordEmoji.Diverse
+  public val sleepingAccommodation: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDECC")
 
-  val teddyBear: DiscordEmoji.Generic
+  public val teddyBear: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF8")
 
-  val framePhoto: DiscordEmoji.Generic
+  public val framePhoto: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDBC\uFE0F")
 
-  val frameWithPicture: DiscordEmoji.Generic
+  public val frameWithPicture: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDBC\uFE0F")
 
-  val shoppingBags: DiscordEmoji.Generic
+  public val shoppingBags: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECD\uFE0F")
 
-  val shoppingCart: DiscordEmoji.Generic
+  public val shoppingCart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDED2")
 
-  val shoppingTrolley: DiscordEmoji.Generic
+  public val shoppingTrolley: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDED2")
 
-  val gift: DiscordEmoji.Generic
+  public val gift: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF81")
 
-  val balloon: DiscordEmoji.Generic
+  public val balloon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF88")
 
-  val flags: DiscordEmoji.Generic
+  public val flags: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8F")
 
-  val ribbon: DiscordEmoji.Generic
+  public val ribbon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF80")
 
-  val confettiBall: DiscordEmoji.Generic
+  public val confettiBall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8A")
 
-  val tada: DiscordEmoji.Generic
+  public val tada: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF89")
 
-  val dolls: DiscordEmoji.Generic
+  public val dolls: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8E")
 
-  val izakayaLantern: DiscordEmoji.Generic
+  public val izakayaLantern: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFEE")
 
-  val windChime: DiscordEmoji.Generic
+  public val windChime: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF90")
 
-  val redEnvelope: DiscordEmoji.Generic
+  public val redEnvelope: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE7")
 
-  val envelope: DiscordEmoji.Generic
+  public val envelope: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2709\uFE0F")
 
-  val envelopeWithArrow: DiscordEmoji.Generic
+  public val envelopeWithArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE9")
 
-  val incomingEnvelope: DiscordEmoji.Generic
+  public val incomingEnvelope: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE8")
 
-  val eMail: DiscordEmoji.Generic
+  public val eMail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE7")
 
-  val email: DiscordEmoji.Generic
+  public val email: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE7")
 
-  val loveLetter: DiscordEmoji.Generic
+  public val loveLetter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8C")
 
-  val inboxTray: DiscordEmoji.Generic
+  public val inboxTray: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE5")
 
-  val outboxTray: DiscordEmoji.Generic
+  public val outboxTray: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE4")
 
-  val `package`: DiscordEmoji.Generic
+  public val `package`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE6")
 
-  val label: DiscordEmoji.Generic
+  public val label: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF7\uFE0F")
 
-  val mailboxClosed: DiscordEmoji.Generic
+  public val mailboxClosed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCEA")
 
-  val mailbox: DiscordEmoji.Generic
+  public val mailbox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCEB")
 
-  val mailboxWithMail: DiscordEmoji.Generic
+  public val mailboxWithMail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCEC")
 
-  val mailboxWithNoMail: DiscordEmoji.Generic
+  public val mailboxWithNoMail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCED")
 
-  val postbox: DiscordEmoji.Generic
+  public val postbox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCEE")
 
-  val postalHorn: DiscordEmoji.Generic
+  public val postalHorn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCEF")
 
-  val scroll: DiscordEmoji.Generic
+  public val scroll: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCDC")
 
-  val pageWithCurl: DiscordEmoji.Generic
+  public val pageWithCurl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC3")
 
-  val pageFacingUp: DiscordEmoji.Generic
+  public val pageFacingUp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC4")
 
-  val bookmarkTabs: DiscordEmoji.Generic
+  public val bookmarkTabs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD1")
 
-  val receipt: DiscordEmoji.Generic
+  public val receipt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFE")
 
-  val barChart: DiscordEmoji.Generic
+  public val barChart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCCA")
 
-  val chartWithUpwardsTrend: DiscordEmoji.Generic
+  public val chartWithUpwardsTrend: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC8")
 
-  val chartWithDownwardsTrend: DiscordEmoji.Generic
+  public val chartWithDownwardsTrend: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC9")
 
-  val notepadSpiral: DiscordEmoji.Generic
+  public val notepadSpiral: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDD2\uFE0F")
 
-  val spiralNotePad: DiscordEmoji.Generic
+  public val spiralNotePad: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDD2\uFE0F")
 
-  val calendarSpiral: DiscordEmoji.Generic
+  public val calendarSpiral: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDD3\uFE0F")
 
-  val spiralCalendarPad: DiscordEmoji.Generic
+  public val spiralCalendarPad: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDD3\uFE0F")
 
-  val calendar: DiscordEmoji.Generic
+  public val calendar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC6")
 
-  val date: DiscordEmoji.Generic
+  public val date: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC5")
 
-  val wastebasket: DiscordEmoji.Generic
+  public val wastebasket: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDD1\uFE0F")
 
-  val cardIndex: DiscordEmoji.Generic
+  public val cardIndex: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC7")
 
-  val cardBox: DiscordEmoji.Generic
+  public val cardBox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDC3\uFE0F")
 
-  val cardFileBox: DiscordEmoji.Generic
+  public val cardFileBox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDC3\uFE0F")
 
-  val ballotBox: DiscordEmoji.Generic
+  public val ballotBox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDF3\uFE0F")
 
-  val ballotBoxWithBallot: DiscordEmoji.Generic
+  public val ballotBoxWithBallot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDF3\uFE0F")
 
-  val fileCabinet: DiscordEmoji.Generic
+  public val fileCabinet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDC4\uFE0F")
 
-  val clipboard: DiscordEmoji.Generic
+  public val clipboard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCCB")
 
-  val fileFolder: DiscordEmoji.Generic
+  public val fileFolder: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC1")
 
-  val openFileFolder: DiscordEmoji.Generic
+  public val openFileFolder: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC2")
 
-  val dividers: DiscordEmoji.Generic
+  public val dividers: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDC2\uFE0F")
 
-  val cardIndexDividers: DiscordEmoji.Generic
+  public val cardIndexDividers: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDC2\uFE0F")
 
-  val newspaper2: DiscordEmoji.Generic
+  public val newspaper2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDDE\uFE0F")
 
-  val rolledUpNewspaper: DiscordEmoji.Generic
+  public val rolledUpNewspaper: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDDE\uFE0F")
 
-  val newspaper: DiscordEmoji.Generic
+  public val newspaper: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF0")
 
-  val notebook: DiscordEmoji.Generic
+  public val notebook: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD3")
 
-  val notebookWithDecorativeCover: DiscordEmoji.Generic
+  public val notebookWithDecorativeCover: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD4")
 
-  val ledger: DiscordEmoji.Generic
+  public val ledger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD2")
 
-  val closedBook: DiscordEmoji.Generic
+  public val closedBook: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD5")
 
-  val greenBook: DiscordEmoji.Generic
+  public val greenBook: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD7")
 
-  val blueBook: DiscordEmoji.Generic
+  public val blueBook: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD8")
 
-  val orangeBook: DiscordEmoji.Generic
+  public val orangeBook: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD9")
 
-  val books: DiscordEmoji.Generic
+  public val books: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCDA")
 
-  val book: DiscordEmoji.Generic
+  public val book: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD6")
 
-  val bookmark: DiscordEmoji.Generic
+  public val bookmark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD16")
 
-  val safetyPin: DiscordEmoji.Generic
+  public val safetyPin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF7")
 
-  val link: DiscordEmoji.Generic
+  public val link: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD17")
 
-  val paperclip: DiscordEmoji.Generic
+  public val paperclip: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCCE")
 
-  val paperclips: DiscordEmoji.Generic
+  public val paperclips: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD87\uFE0F")
 
-  val linkedPaperclips: DiscordEmoji.Generic
+  public val linkedPaperclips: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD87\uFE0F")
 
-  val triangularRuler: DiscordEmoji.Generic
+  public val triangularRuler: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD0")
 
-  val straightRuler: DiscordEmoji.Generic
+  public val straightRuler: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCCF")
 
-  val abacus: DiscordEmoji.Generic
+  public val abacus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDEE")
 
-  val pushpin: DiscordEmoji.Generic
+  public val pushpin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCCC")
 
-  val roundPushpin: DiscordEmoji.Generic
+  public val roundPushpin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCCD")
 
-  val scissors: DiscordEmoji.Generic
+  public val scissors: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2702\uFE0F")
 
-  val penBallpoint: DiscordEmoji.Generic
+  public val penBallpoint: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8A\uFE0F")
 
-  val lowerLeftBallpointPen: DiscordEmoji.Generic
+  public val lowerLeftBallpointPen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8A\uFE0F")
 
-  val penFountain: DiscordEmoji.Generic
+  public val penFountain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8B\uFE0F")
 
-  val lowerLeftFountainPen: DiscordEmoji.Generic
+  public val lowerLeftFountainPen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8B\uFE0F")
 
-  val blackNib: DiscordEmoji.Generic
+  public val blackNib: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2712\uFE0F")
 
-  val paintbrush: DiscordEmoji.Generic
+  public val paintbrush: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8C\uFE0F")
 
-  val lowerLeftPaintbrush: DiscordEmoji.Generic
+  public val lowerLeftPaintbrush: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8C\uFE0F")
 
-  val crayon: DiscordEmoji.Generic
+  public val crayon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8D\uFE0F")
 
-  val lowerLeftCrayon: DiscordEmoji.Generic
+  public val lowerLeftCrayon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8D\uFE0F")
 
-  val pencil: DiscordEmoji.Generic
+  public val pencil: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCDD")
 
-  val memo: DiscordEmoji.Generic
+  public val memo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCDD")
 
-  val pencil2: DiscordEmoji.Generic
+  public val pencil2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u270F\uFE0F")
 
-  val mag: DiscordEmoji.Generic
+  public val mag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0D")
 
-  val magRight: DiscordEmoji.Generic
+  public val magRight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0E")
 
-  val lockWithInkPen: DiscordEmoji.Generic
+  public val lockWithInkPen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0F")
 
-  val closedLockWithKey: DiscordEmoji.Generic
+  public val closedLockWithKey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD10")
 
-  val lock: DiscordEmoji.Generic
+  public val lock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD12")
 
-  val unlock: DiscordEmoji.Generic
+  public val unlock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD13")
 
-  val heart: DiscordEmoji.Generic
+  public val heart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2764\uFE0F")
 
-  val orangeHeart: DiscordEmoji.Generic
+  public val orangeHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE1")
 
-  val yellowHeart: DiscordEmoji.Generic
+  public val yellowHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9B")
 
-  val greenHeart: DiscordEmoji.Generic
+  public val greenHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9A")
 
-  val blueHeart: DiscordEmoji.Generic
+  public val blueHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC99")
 
-  val purpleHeart: DiscordEmoji.Generic
+  public val purpleHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9C")
 
-  val blackHeart: DiscordEmoji.Generic
+  public val blackHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDA4")
 
-  val brownHeart: DiscordEmoji.Generic
+  public val brownHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD0E")
 
-  val whiteHeart: DiscordEmoji.Generic
+  public val whiteHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD0D")
 
-  val brokenHeart: DiscordEmoji.Generic
+  public val brokenHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC94")
 
-  val heartExclamation: DiscordEmoji.Generic
+  public val heartExclamation: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2763\uFE0F")
 
-  val heavyHeartExclamationMarkOrnament: DiscordEmoji.Generic
+  public val heavyHeartExclamationMarkOrnament: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2763\uFE0F")
 
-  val twoHearts: DiscordEmoji.Generic
+  public val twoHearts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC95")
 
-  val revolvingHearts: DiscordEmoji.Generic
+  public val revolvingHearts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9E")
 
-  val heartbeat: DiscordEmoji.Generic
+  public val heartbeat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC93")
 
-  val heartpulse: DiscordEmoji.Generic
+  public val heartpulse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC97")
 
-  val sparklingHeart: DiscordEmoji.Generic
+  public val sparklingHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC96")
 
-  val cupid: DiscordEmoji.Generic
+  public val cupid: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC98")
 
-  val giftHeart: DiscordEmoji.Generic
+  public val giftHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9D")
 
-  val heartDecoration: DiscordEmoji.Generic
+  public val heartDecoration: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9F")
 
-  val peace: DiscordEmoji.Generic
+  public val peace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u262E\uFE0F")
 
-  val peaceSymbol: DiscordEmoji.Generic
+  public val peaceSymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u262E\uFE0F")
 
-  val cross: DiscordEmoji.Generic
+  public val cross: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u271D\uFE0F")
 
-  val latinCross: DiscordEmoji.Generic
+  public val latinCross: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u271D\uFE0F")
 
-  val starAndCrescent: DiscordEmoji.Generic
+  public val starAndCrescent: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u262A\uFE0F")
 
-  val omSymbol: DiscordEmoji.Generic
+  public val omSymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD49\uFE0F")
 
-  val wheelOfDharma: DiscordEmoji.Generic
+  public val wheelOfDharma: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2638\uFE0F")
 
-  val starOfDavid: DiscordEmoji.Generic
+  public val starOfDavid: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2721\uFE0F")
 
-  val sixPointedStar: DiscordEmoji.Generic
+  public val sixPointedStar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2F")
 
-  val menorah: DiscordEmoji.Generic
+  public val menorah: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4E")
 
-  val yinYang: DiscordEmoji.Generic
+  public val yinYang: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u262F\uFE0F")
 
-  val orthodoxCross: DiscordEmoji.Generic
+  public val orthodoxCross: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2626\uFE0F")
 
-  val placeOfWorship: DiscordEmoji.Generic
+  public val placeOfWorship: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDED0")
 
-  val worshipSymbol: DiscordEmoji.Generic
+  public val worshipSymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDED0")
 
-  val ophiuchus: DiscordEmoji.Generic
+  public val ophiuchus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26CE")
 
-  val aries: DiscordEmoji.Generic
+  public val aries: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2648")
 
-  val taurus: DiscordEmoji.Generic
+  public val taurus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2649")
 
-  val gemini: DiscordEmoji.Generic
+  public val gemini: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u264A")
 
-  val cancer: DiscordEmoji.Generic
+  public val cancer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u264B")
 
-  val leo: DiscordEmoji.Generic
+  public val leo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u264C")
 
-  val virgo: DiscordEmoji.Generic
+  public val virgo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u264D")
 
-  val libra: DiscordEmoji.Generic
+  public val libra: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u264E")
 
-  val scorpius: DiscordEmoji.Generic
+  public val scorpius: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u264F")
 
-  val sagittarius: DiscordEmoji.Generic
+  public val sagittarius: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2650")
 
-  val capricorn: DiscordEmoji.Generic
+  public val capricorn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2651")
 
-  val aquarius: DiscordEmoji.Generic
+  public val aquarius: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2652")
 
-  val pisces: DiscordEmoji.Generic
+  public val pisces: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2653")
 
-  val id: DiscordEmoji.Generic
+  public val id: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD94")
 
-  val atom: DiscordEmoji.Generic
+  public val atom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u269B\uFE0F")
 
-  val atomSymbol: DiscordEmoji.Generic
+  public val atomSymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u269B\uFE0F")
 
-  val accept: DiscordEmoji.Generic
+  public val accept: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE51")
 
-  val radioactive: DiscordEmoji.Generic
+  public val radioactive: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2622\uFE0F")
 
-  val radioactiveSign: DiscordEmoji.Generic
+  public val radioactiveSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2622\uFE0F")
 
-  val biohazard: DiscordEmoji.Generic
+  public val biohazard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2623\uFE0F")
 
-  val biohazardSign: DiscordEmoji.Generic
+  public val biohazardSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2623\uFE0F")
 
-  val mobilePhoneOff: DiscordEmoji.Generic
+  public val mobilePhoneOff: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF4")
 
-  val vibrationMode: DiscordEmoji.Generic
+  public val vibrationMode: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF3")
 
-  val u6709: DiscordEmoji.Generic
+  public val u6709: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE36")
 
-  val u7121: DiscordEmoji.Generic
+  public val u7121: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE1A")
 
-  val u7533: DiscordEmoji.Generic
+  public val u7533: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE38")
 
-  val u55b6: DiscordEmoji.Generic
+  public val u55b6: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE3A")
 
-  val u6708: DiscordEmoji.Generic
+  public val u6708: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE37\uFE0F")
 
-  val eightPointedBlackStar: DiscordEmoji.Generic
+  public val eightPointedBlackStar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2734\uFE0F")
 
-  val vs: DiscordEmoji.Generic
+  public val vs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD9A")
 
-  val whiteFlower: DiscordEmoji.Generic
+  public val whiteFlower: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCAE")
 
-  val ideographAdvantage: DiscordEmoji.Generic
+  public val ideographAdvantage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE50")
 
-  val secret: DiscordEmoji.Generic
+  public val secret: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u3299\uFE0F")
 
-  val congratulations: DiscordEmoji.Generic
+  public val congratulations: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u3297\uFE0F")
 
-  val u5408: DiscordEmoji.Generic
+  public val u5408: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE34")
 
-  val u6e80: DiscordEmoji.Generic
+  public val u6e80: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE35")
 
-  val u5272: DiscordEmoji.Generic
+  public val u5272: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE39")
 
-  val u7981: DiscordEmoji.Generic
+  public val u7981: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE32")
 
-  val a: DiscordEmoji.Generic
+  public val a: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD70\uFE0F")
 
-  val b: DiscordEmoji.Generic
+  public val b: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD71\uFE0F")
 
-  val ab: DiscordEmoji.Generic
+  public val ab: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD8E")
 
-  val cl: DiscordEmoji.Generic
+  public val cl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD91")
 
-  val o2: DiscordEmoji.Generic
+  public val o2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD7E\uFE0F")
 
-  val sos: DiscordEmoji.Generic
+  public val sos: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD98")
 
-  val x: DiscordEmoji.Generic
+  public val x: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u274C")
 
-  val o: DiscordEmoji.Generic
+  public val o: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B55")
 
-  val octagonalSign: DiscordEmoji.Generic
+  public val octagonalSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDED1")
 
-  val stopSign: DiscordEmoji.Generic
+  public val stopSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDED1")
 
-  val noEntry: DiscordEmoji.Generic
+  public val noEntry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26D4")
 
-  val nameBadge: DiscordEmoji.Generic
+  public val nameBadge: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCDB")
 
-  val noEntrySign: DiscordEmoji.Generic
+  public val noEntrySign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAB")
 
-  val `100`: DiscordEmoji.Generic
+  public val `100`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCAF")
 
-  val anger: DiscordEmoji.Generic
+  public val anger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA2")
 
-  val hotsprings: DiscordEmoji.Generic
+  public val hotsprings: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2668\uFE0F")
 
-  val noPedestrians: DiscordEmoji.Generic
+  public val noPedestrians: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB7")
 
-  val doNotLitter: DiscordEmoji.Generic
+  public val doNotLitter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAF")
 
-  val noBicycles: DiscordEmoji.Generic
+  public val noBicycles: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB3")
 
-  val nonPotableWater: DiscordEmoji.Generic
+  public val nonPotableWater: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB1")
 
-  val underage: DiscordEmoji.Generic
+  public val underage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1E")
 
-  val noMobilePhones: DiscordEmoji.Generic
+  public val noMobilePhones: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF5")
 
-  val noSmoking: DiscordEmoji.Generic
+  public val noSmoking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAD")
 
-  val exclamation: DiscordEmoji.Generic
+  public val exclamation: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2757")
 
-  val greyExclamation: DiscordEmoji.Generic
+  public val greyExclamation: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2755")
 
-  val question: DiscordEmoji.Generic
+  public val question: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2753")
 
-  val greyQuestion: DiscordEmoji.Generic
+  public val greyQuestion: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2754")
 
-  val bangbang: DiscordEmoji.Generic
+  public val bangbang: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u203C\uFE0F")
 
-  val interrobang: DiscordEmoji.Generic
+  public val interrobang: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2049\uFE0F")
 
-  val lowBrightness: DiscordEmoji.Generic
+  public val lowBrightness: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD05")
 
-  val highBrightness: DiscordEmoji.Generic
+  public val highBrightness: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD06")
 
-  val partAlternationMark: DiscordEmoji.Generic
+  public val partAlternationMark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u303D\uFE0F")
 
-  val warning: DiscordEmoji.Generic
+  public val warning: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26A0\uFE0F")
 
-  val childrenCrossing: DiscordEmoji.Generic
+  public val childrenCrossing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB8")
 
-  val trident: DiscordEmoji.Generic
+  public val trident: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD31")
 
-  val fleurDeLis: DiscordEmoji.Generic
+  public val fleurDeLis: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u269C\uFE0F")
 
-  val beginner: DiscordEmoji.Generic
+  public val beginner: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD30")
 
-  val recycle: DiscordEmoji.Generic
+  public val recycle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u267B\uFE0F")
 
-  val whiteCheckMark: DiscordEmoji.Generic
+  public val whiteCheckMark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2705")
 
-  val u6307: DiscordEmoji.Generic
+  public val u6307: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE2F")
 
-  val chart: DiscordEmoji.Generic
+  public val chart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB9")
 
-  val sparkle: DiscordEmoji.Generic
+  public val sparkle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2747\uFE0F")
 
-  val eightSpokedAsterisk: DiscordEmoji.Generic
+  public val eightSpokedAsterisk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2733\uFE0F")
 
-  val negativeSquaredCrossMark: DiscordEmoji.Generic
+  public val negativeSquaredCrossMark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u274E")
 
-  val globeWithMeridians: DiscordEmoji.Generic
+  public val globeWithMeridians: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF10")
 
-  val diamondShapeWithADotInside: DiscordEmoji.Generic
+  public val diamondShapeWithADotInside: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA0")
 
-  val m: DiscordEmoji.Generic
+  public val m: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u24C2\uFE0F")
 
-  val cyclone: DiscordEmoji.Generic
+  public val cyclone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF00")
 
-  val zzz: DiscordEmoji.Generic
+  public val zzz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA4")
 
-  val atm: DiscordEmoji.Generic
+  public val atm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFE7")
 
-  val wc: DiscordEmoji.Generic
+  public val wc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBE")
 
-  val wheelchair: DiscordEmoji.Generic
+  public val wheelchair: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u267F")
 
-  val parking: DiscordEmoji.Generic
+  public val parking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD7F\uFE0F")
 
-  val u7a7a: DiscordEmoji.Generic
+  public val u7a7a: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE33")
 
-  val sa: DiscordEmoji.Generic
+  public val sa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE02\uFE0F")
 
-  val passportControl: DiscordEmoji.Generic
+  public val passportControl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEC2")
 
-  val customs: DiscordEmoji.Generic
+  public val customs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEC3")
 
-  val baggageClaim: DiscordEmoji.Generic
+  public val baggageClaim: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEC4")
 
-  val leftLuggage: DiscordEmoji.Generic
+  public val leftLuggage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEC5")
 
-  val mens: DiscordEmoji.Generic
+  public val mens: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB9")
 
-  val womens: DiscordEmoji.Generic
+  public val womens: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBA")
 
-  val babySymbol: DiscordEmoji.Generic
+  public val babySymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBC")
 
-  val restroom: DiscordEmoji.Generic
+  public val restroom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBB")
 
-  val putLitterInItsPlace: DiscordEmoji.Generic
+  public val putLitterInItsPlace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAE")
 
-  val cinema: DiscordEmoji.Generic
+  public val cinema: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA6")
 
-  val signalStrength: DiscordEmoji.Generic
+  public val signalStrength: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF6")
 
-  val koko: DiscordEmoji.Generic
+  public val koko: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE01")
 
-  val symbols: DiscordEmoji.Generic
+  public val symbols: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD23")
 
-  val informationSource: DiscordEmoji.Generic
+  public val informationSource: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2139\uFE0F")
 
-  val abc: DiscordEmoji.Generic
+  public val abc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD24")
 
-  val abcd: DiscordEmoji.Generic
+  public val abcd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD21")
 
-  val capitalAbcd: DiscordEmoji.Generic
+  public val capitalAbcd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD20")
 
-  val ng: DiscordEmoji.Generic
+  public val ng: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD96")
 
-  val ok: DiscordEmoji.Generic
+  public val ok: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD97")
 
-  val up: DiscordEmoji.Generic
+  public val up: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD99")
 
-  val cool: DiscordEmoji.Generic
+  public val cool: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD92")
 
-  val new: DiscordEmoji.Generic
+  public val new: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD95")
 
-  val free: DiscordEmoji.Generic
+  public val free: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD93")
 
-  val zero: DiscordEmoji.Generic
+  public val zero: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("0\uFE0F\u20E3")
 
-  val one: DiscordEmoji.Generic
+  public val one: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("1\uFE0F\u20E3")
 
-  val two: DiscordEmoji.Generic
+  public val two: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("2\uFE0F\u20E3")
 
-  val three: DiscordEmoji.Generic
+  public val three: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("3\uFE0F\u20E3")
 
-  val four: DiscordEmoji.Generic
+  public val four: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("4\uFE0F\u20E3")
 
-  val five: DiscordEmoji.Generic
+  public val five: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("5\uFE0F\u20E3")
 
-  val six: DiscordEmoji.Generic
+  public val six: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("6\uFE0F\u20E3")
 
-  val seven: DiscordEmoji.Generic
+  public val seven: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("7\uFE0F\u20E3")
 
-  val eight: DiscordEmoji.Generic
+  public val eight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("8\uFE0F\u20E3")
 
-  val nine: DiscordEmoji.Generic
+  public val nine: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("9\uFE0F\u20E3")
 
-  val keycapTen: DiscordEmoji.Generic
+  public val keycapTen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1F")
 
-  val `1234`: DiscordEmoji.Generic
+  public val `1234`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD22")
 
-  val hash: DiscordEmoji.Generic
+  public val hash: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("#\uFE0F\u20E3")
 
-  val asterisk: DiscordEmoji.Generic
+  public val asterisk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("*\uFE0F\u20E3")
 
-  val keycapAsterisk: DiscordEmoji.Generic
+  public val keycapAsterisk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("*\uFE0F\u20E3")
 
-  val eject: DiscordEmoji.Generic
+  public val eject: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23CF\uFE0F")
 
-  val ejectSymbol: DiscordEmoji.Generic
+  public val ejectSymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23CF\uFE0F")
 
-  val arrowForward: DiscordEmoji.Generic
+  public val arrowForward: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25B6\uFE0F")
 
-  val pauseButton: DiscordEmoji.Generic
+  public val pauseButton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F8\uFE0F")
 
-  val doubleVerticalBar: DiscordEmoji.Generic
+  public val doubleVerticalBar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F8\uFE0F")
 
-  val playPause: DiscordEmoji.Generic
+  public val playPause: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23EF\uFE0F")
 
-  val stopButton: DiscordEmoji.Generic
+  public val stopButton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23F9\uFE0F")
 
-  val recordButton: DiscordEmoji.Generic
+  public val recordButton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23FA\uFE0F")
 
-  val trackNext: DiscordEmoji.Generic
+  public val trackNext: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23ED\uFE0F")
 
-  val nextTrack: DiscordEmoji.Generic
+  public val nextTrack: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23ED\uFE0F")
 
-  val trackPrevious: DiscordEmoji.Generic
+  public val trackPrevious: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23EE\uFE0F")
 
-  val previousTrack: DiscordEmoji.Generic
+  public val previousTrack: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23EE\uFE0F")
 
-  val fastForward: DiscordEmoji.Generic
+  public val fastForward: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23E9")
 
-  val rewind: DiscordEmoji.Generic
+  public val rewind: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23EA")
 
-  val arrowDoubleUp: DiscordEmoji.Generic
+  public val arrowDoubleUp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23EB")
 
-  val arrowDoubleDown: DiscordEmoji.Generic
+  public val arrowDoubleDown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u23EC")
 
-  val arrowBackward: DiscordEmoji.Generic
+  public val arrowBackward: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25C0\uFE0F")
 
-  val arrowUpSmall: DiscordEmoji.Generic
+  public val arrowUpSmall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD3C")
 
-  val arrowDownSmall: DiscordEmoji.Generic
+  public val arrowDownSmall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD3D")
 
-  val arrowRight: DiscordEmoji.Generic
+  public val arrowRight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u27A1\uFE0F")
 
-  val arrowLeft: DiscordEmoji.Generic
+  public val arrowLeft: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B05\uFE0F")
 
-  val arrowUp: DiscordEmoji.Generic
+  public val arrowUp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B06\uFE0F")
 
-  val arrowDown: DiscordEmoji.Generic
+  public val arrowDown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B07\uFE0F")
 
-  val arrowUpperRight: DiscordEmoji.Generic
+  public val arrowUpperRight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2197\uFE0F")
 
-  val arrowLowerRight: DiscordEmoji.Generic
+  public val arrowLowerRight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2198\uFE0F")
 
-  val arrowLowerLeft: DiscordEmoji.Generic
+  public val arrowLowerLeft: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2199\uFE0F")
 
-  val arrowUpperLeft: DiscordEmoji.Generic
+  public val arrowUpperLeft: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2196\uFE0F")
 
-  val arrowUpDown: DiscordEmoji.Generic
+  public val arrowUpDown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2195\uFE0F")
 
-  val leftRightArrow: DiscordEmoji.Generic
+  public val leftRightArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2194\uFE0F")
 
-  val arrowRightHook: DiscordEmoji.Generic
+  public val arrowRightHook: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u21AA\uFE0F")
 
-  val leftwardsArrowWithHook: DiscordEmoji.Generic
+  public val leftwardsArrowWithHook: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u21A9\uFE0F")
 
-  val arrowHeadingUp: DiscordEmoji.Generic
+  public val arrowHeadingUp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2934\uFE0F")
 
-  val arrowHeadingDown: DiscordEmoji.Generic
+  public val arrowHeadingDown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2935\uFE0F")
 
-  val twistedRightwardsArrows: DiscordEmoji.Generic
+  public val twistedRightwardsArrows: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD00")
 
-  val repeat: DiscordEmoji.Generic
+  public val repeat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD01")
 
-  val repeatOne: DiscordEmoji.Generic
+  public val repeatOne: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD02")
 
-  val arrowsCounterclockwise: DiscordEmoji.Generic
+  public val arrowsCounterclockwise: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD04")
 
-  val arrowsClockwise: DiscordEmoji.Generic
+  public val arrowsClockwise: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD03")
 
-  val musicalNote: DiscordEmoji.Generic
+  public val musicalNote: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB5")
 
-  val notes: DiscordEmoji.Generic
+  public val notes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB6")
 
-  val heavyPlusSign: DiscordEmoji.Generic
+  public val heavyPlusSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2795")
 
-  val heavyMinusSign: DiscordEmoji.Generic
+  public val heavyMinusSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2796")
 
-  val heavyDivisionSign: DiscordEmoji.Generic
+  public val heavyDivisionSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2797")
 
-  val heavyMultiplicationX: DiscordEmoji.Generic
+  public val heavyMultiplicationX: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2716\uFE0F")
 
-  val infinity: DiscordEmoji.Generic
+  public val infinity: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u267E\uFE0F")
 
-  val heavyDollarSign: DiscordEmoji.Generic
+  public val heavyDollarSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB2")
 
-  val currencyExchange: DiscordEmoji.Generic
+  public val currencyExchange: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB1")
 
-  val tm: DiscordEmoji.Generic
+  public val tm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2122\uFE0F")
 
-  val copyright: DiscordEmoji.Generic
+  public val copyright: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u00A9\uFE0F")
 
-  val registered: DiscordEmoji.Generic
+  public val registered: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u00AE\uFE0F")
 
-  val wavyDash: DiscordEmoji.Generic
+  public val wavyDash: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u3030\uFE0F")
 
-  val curlyLoop: DiscordEmoji.Generic
+  public val curlyLoop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u27B0")
 
-  val loop: DiscordEmoji.Generic
+  public val loop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u27BF")
 
-  val end: DiscordEmoji.Generic
+  public val end: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1A")
 
-  val back: DiscordEmoji.Generic
+  public val back: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD19")
 
-  val on: DiscordEmoji.Generic
+  public val on: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1B")
 
-  val top: DiscordEmoji.Generic
+  public val top: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1D")
 
-  val soon: DiscordEmoji.Generic
+  public val soon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1C")
 
-  val heavyCheckMark: DiscordEmoji.Generic
+  public val heavyCheckMark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2714\uFE0F")
 
-  val ballotBoxWithCheck: DiscordEmoji.Generic
+  public val ballotBoxWithCheck: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2611\uFE0F")
 
-  val radioButton: DiscordEmoji.Generic
+  public val radioButton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD18")
 
-  val whiteCircle: DiscordEmoji.Generic
+  public val whiteCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26AA")
 
-  val blackCircle: DiscordEmoji.Generic
+  public val blackCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26AB")
 
-  val redCircle: DiscordEmoji.Generic
+  public val redCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD34")
 
-  val blueCircle: DiscordEmoji.Generic
+  public val blueCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD35")
 
-  val brownCircle: DiscordEmoji.Generic
+  public val brownCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE4")
 
-  val purpleCircle: DiscordEmoji.Generic
+  public val purpleCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE3")
 
-  val greenCircle: DiscordEmoji.Generic
+  public val greenCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE2")
 
-  val yellowCircle: DiscordEmoji.Generic
+  public val yellowCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE1")
 
-  val orangeCircle: DiscordEmoji.Generic
+  public val orangeCircle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE0")
 
-  val smallRedTriangle: DiscordEmoji.Generic
+  public val smallRedTriangle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD3A")
 
-  val smallRedTriangleDown: DiscordEmoji.Generic
+  public val smallRedTriangleDown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD3B")
 
-  val smallOrangeDiamond: DiscordEmoji.Generic
+  public val smallOrangeDiamond: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD38")
 
-  val smallBlueDiamond: DiscordEmoji.Generic
+  public val smallBlueDiamond: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD39")
 
-  val largeOrangeDiamond: DiscordEmoji.Generic
+  public val largeOrangeDiamond: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD36")
 
-  val largeBlueDiamond: DiscordEmoji.Generic
+  public val largeBlueDiamond: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD37")
 
-  val whiteSquareButton: DiscordEmoji.Generic
+  public val whiteSquareButton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD33")
 
-  val blackSquareButton: DiscordEmoji.Generic
+  public val blackSquareButton: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD32")
 
-  val blackSmallSquare: DiscordEmoji.Generic
+  public val blackSmallSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25AA\uFE0F")
 
-  val whiteSmallSquare: DiscordEmoji.Generic
+  public val whiteSmallSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25AB\uFE0F")
 
-  val blackMediumSmallSquare: DiscordEmoji.Generic
+  public val blackMediumSmallSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25FE")
 
-  val whiteMediumSmallSquare: DiscordEmoji.Generic
+  public val whiteMediumSmallSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25FD")
 
-  val blackMediumSquare: DiscordEmoji.Generic
+  public val blackMediumSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25FC\uFE0F")
 
-  val whiteMediumSquare: DiscordEmoji.Generic
+  public val whiteMediumSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u25FB\uFE0F")
 
-  val blackLargeSquare: DiscordEmoji.Generic
+  public val blackLargeSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B1B")
 
-  val whiteLargeSquare: DiscordEmoji.Generic
+  public val whiteLargeSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B1C")
 
-  val orangeSquare: DiscordEmoji.Generic
+  public val orangeSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE7")
 
-  val blueSquare: DiscordEmoji.Generic
+  public val blueSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE6")
 
-  val redSquare: DiscordEmoji.Generic
+  public val redSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE5")
 
-  val brownSquare: DiscordEmoji.Generic
+  public val brownSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFEB")
 
-  val purpleSquare: DiscordEmoji.Generic
+  public val purpleSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFEA")
 
-  val greenSquare: DiscordEmoji.Generic
+  public val greenSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE9")
 
-  val yellowSquare: DiscordEmoji.Generic
+  public val yellowSquare: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDFE8")
 
-  val speaker: DiscordEmoji.Generic
+  public val speaker: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD08")
 
-  val mute: DiscordEmoji.Generic
+  public val mute: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD07")
 
-  val sound: DiscordEmoji.Generic
+  public val sound: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD09")
 
-  val loudSound: DiscordEmoji.Generic
+  public val loudSound: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0A")
 
-  val bell: DiscordEmoji.Generic
+  public val bell: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD14")
 
-  val noBell: DiscordEmoji.Generic
+  public val noBell: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD15")
 
-  val mega: DiscordEmoji.Generic
+  public val mega: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE3")
 
-  val loudspeaker: DiscordEmoji.Generic
+  public val loudspeaker: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE2")
 
-  val speechLeft: DiscordEmoji.Generic
+  public val speechLeft: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDE8\uFE0F")
 
-  val leftSpeechBubble: DiscordEmoji.Generic
+  public val leftSpeechBubble: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDE8\uFE0F")
 
-  val eyeInSpeechBubble: DiscordEmoji.Generic
+  public val eyeInSpeechBubble: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC41\u200D\uD83D\uDDE8")
 
-  val speechBalloon: DiscordEmoji.Generic
+  public val speechBalloon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCAC")
 
-  val thoughtBalloon: DiscordEmoji.Generic
+  public val thoughtBalloon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCAD")
 
-  val angerRight: DiscordEmoji.Generic
+  public val angerRight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDEF\uFE0F")
 
-  val rightAngerBubble: DiscordEmoji.Generic
+  public val rightAngerBubble: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDEF\uFE0F")
 
-  val spades: DiscordEmoji.Generic
+  public val spades: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2660\uFE0F")
 
-  val clubs: DiscordEmoji.Generic
+  public val clubs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2663\uFE0F")
 
-  val hearts: DiscordEmoji.Generic
+  public val hearts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2665\uFE0F")
 
-  val diamonds: DiscordEmoji.Generic
+  public val diamonds: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2666\uFE0F")
 
-  val blackJoker: DiscordEmoji.Generic
+  public val blackJoker: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDCCF")
 
-  val flowerPlayingCards: DiscordEmoji.Generic
+  public val flowerPlayingCards: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB4")
 
-  val mahjong: DiscordEmoji.Generic
+  public val mahjong: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDC04")
 
-  val clock1: DiscordEmoji.Generic
+  public val clock1: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD50")
 
-  val clock2: DiscordEmoji.Generic
+  public val clock2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD51")
 
-  val clock3: DiscordEmoji.Generic
+  public val clock3: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD52")
 
-  val clock4: DiscordEmoji.Generic
+  public val clock4: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD53")
 
-  val clock5: DiscordEmoji.Generic
+  public val clock5: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD54")
 
-  val clock6: DiscordEmoji.Generic
+  public val clock6: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD55")
 
-  val clock7: DiscordEmoji.Generic
+  public val clock7: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD56")
 
-  val clock8: DiscordEmoji.Generic
+  public val clock8: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD57")
 
-  val clock9: DiscordEmoji.Generic
+  public val clock9: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD58")
 
-  val clock10: DiscordEmoji.Generic
+  public val clock10: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD59")
 
-  val clock11: DiscordEmoji.Generic
+  public val clock11: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5A")
 
-  val clock12: DiscordEmoji.Generic
+  public val clock12: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5B")
 
-  val clock130: DiscordEmoji.Generic
+  public val clock130: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5C")
 
-  val clock230: DiscordEmoji.Generic
+  public val clock230: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5D")
 
-  val clock330: DiscordEmoji.Generic
+  public val clock330: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5E")
 
-  val clock430: DiscordEmoji.Generic
+  public val clock430: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5F")
 
-  val clock530: DiscordEmoji.Generic
+  public val clock530: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD60")
 
-  val clock630: DiscordEmoji.Generic
+  public val clock630: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD61")
 
-  val clock730: DiscordEmoji.Generic
+  public val clock730: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD62")
 
-  val clock830: DiscordEmoji.Generic
+  public val clock830: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD63")
 
-  val clock930: DiscordEmoji.Generic
+  public val clock930: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD64")
 
-  val clock1030: DiscordEmoji.Generic
+  public val clock1030: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD65")
 
-  val clock1130: DiscordEmoji.Generic
+  public val clock1130: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD66")
 
-  val clock1230: DiscordEmoji.Generic
+  public val clock1230: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD67")
 
-  val femaleSign: DiscordEmoji.Generic
+  public val femaleSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2640\uFE0F")
 
-  val maleSign: DiscordEmoji.Generic
+  public val maleSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2642\uFE0F")
 
-  val medicalSymbol: DiscordEmoji.Generic
+  public val medicalSymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2695\uFE0F")
 
-  val regionalIndicatorZ: DiscordEmoji.Generic
+  public val regionalIndicatorZ: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFF")
 
-  val regionalIndicatorY: DiscordEmoji.Generic
+  public val regionalIndicatorY: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFE")
 
-  val regionalIndicatorX: DiscordEmoji.Generic
+  public val regionalIndicatorX: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFD")
 
-  val regionalIndicatorW: DiscordEmoji.Generic
+  public val regionalIndicatorW: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFC")
 
-  val regionalIndicatorV: DiscordEmoji.Generic
+  public val regionalIndicatorV: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB")
 
-  val regionalIndicatorU: DiscordEmoji.Generic
+  public val regionalIndicatorU: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA")
 
-  val regionalIndicatorT: DiscordEmoji.Generic
+  public val regionalIndicatorT: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9")
 
-  val regionalIndicatorS: DiscordEmoji.Generic
+  public val regionalIndicatorS: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8")
 
-  val regionalIndicatorR: DiscordEmoji.Generic
+  public val regionalIndicatorR: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF7")
 
-  val regionalIndicatorQ: DiscordEmoji.Generic
+  public val regionalIndicatorQ: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF6")
 
-  val regionalIndicatorP: DiscordEmoji.Generic
+  public val regionalIndicatorP: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5")
 
-  val regionalIndicatorO: DiscordEmoji.Generic
+  public val regionalIndicatorO: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF4")
 
-  val regionalIndicatorN: DiscordEmoji.Generic
+  public val regionalIndicatorN: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3")
 
-  val regionalIndicatorM: DiscordEmoji.Generic
+  public val regionalIndicatorM: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2")
 
-  val regionalIndicatorL: DiscordEmoji.Generic
+  public val regionalIndicatorL: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1")
 
-  val regionalIndicatorK: DiscordEmoji.Generic
+  public val regionalIndicatorK: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0")
 
-  val regionalIndicatorJ: DiscordEmoji.Generic
+  public val regionalIndicatorJ: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEF")
 
-  val regionalIndicatorI: DiscordEmoji.Generic
+  public val regionalIndicatorI: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE")
 
-  val regionalIndicatorH: DiscordEmoji.Generic
+  public val regionalIndicatorH: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDED")
 
-  val regionalIndicatorG: DiscordEmoji.Generic
+  public val regionalIndicatorG: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC")
 
-  val regionalIndicatorF: DiscordEmoji.Generic
+  public val regionalIndicatorF: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEB")
 
-  val regionalIndicatorE: DiscordEmoji.Generic
+  public val regionalIndicatorE: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA")
 
-  val regionalIndicatorD: DiscordEmoji.Generic
+  public val regionalIndicatorD: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9")
 
-  val regionalIndicatorC: DiscordEmoji.Generic
+  public val regionalIndicatorC: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8")
 
-  val regionalIndicatorB: DiscordEmoji.Generic
+  public val regionalIndicatorB: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7")
 
-  val regionalIndicatorA: DiscordEmoji.Generic
+  public val regionalIndicatorA: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6")
 
-  val flagWhite: DiscordEmoji.Generic
+  public val flagWhite: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF3\uFE0F")
 
-  val flagBlack: DiscordEmoji.Generic
+  public val flagBlack: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF4")
 
-  val checkeredFlag: DiscordEmoji.Generic
+  public val checkeredFlag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC1")
 
-  val triangularFlagOnPost: DiscordEmoji.Generic
+  public val triangularFlagOnPost: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA9")
 
-  val rainbowFlag: DiscordEmoji.Generic
+  public val rainbowFlag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08")
 
-  val gayPrideFlag: DiscordEmoji.Generic
+  public val gayPrideFlag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08")
 
-  val pirateFlag: DiscordEmoji.Generic
+  public val pirateFlag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF4\u200D\u2620\uFE0F")
 
-  val flagAf: DiscordEmoji.Generic
+  public val flagAf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDEB")
 
-  val flagAx: DiscordEmoji.Generic
+  public val flagAx: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDFD")
 
-  val flagAl: DiscordEmoji.Generic
+  public val flagAl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDF1")
 
-  val flagDz: DiscordEmoji.Generic
+  public val flagDz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9\uD83C\uDDFF")
 
-  val flagAs: DiscordEmoji.Generic
+  public val flagAs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDF8")
 
-  val flagAd: DiscordEmoji.Generic
+  public val flagAd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDE9")
 
-  val flagAo: DiscordEmoji.Generic
+  public val flagAo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDF4")
 
-  val flagAi: DiscordEmoji.Generic
+  public val flagAi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDEE")
 
-  val flagAq: DiscordEmoji.Generic
+  public val flagAq: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDF6")
 
-  val flagAg: DiscordEmoji.Generic
+  public val flagAg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDEC")
 
-  val flagAr: DiscordEmoji.Generic
+  public val flagAr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDF7")
 
-  val flagAm: DiscordEmoji.Generic
+  public val flagAm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDF2")
 
-  val flagAw: DiscordEmoji.Generic
+  public val flagAw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDFC")
 
-  val flagAu: DiscordEmoji.Generic
+  public val flagAu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDFA")
 
-  val flagAt: DiscordEmoji.Generic
+  public val flagAt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDF9")
 
-  val flagAz: DiscordEmoji.Generic
+  public val flagAz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDFF")
 
-  val flagBs: DiscordEmoji.Generic
+  public val flagBs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF8")
 
-  val flagBh: DiscordEmoji.Generic
+  public val flagBh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDED")
 
-  val flagBd: DiscordEmoji.Generic
+  public val flagBd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDE9")
 
-  val flagBb: DiscordEmoji.Generic
+  public val flagBb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDE7")
 
-  val flagBy: DiscordEmoji.Generic
+  public val flagBy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDFE")
 
-  val flagBe: DiscordEmoji.Generic
+  public val flagBe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDEA")
 
-  val flagBz: DiscordEmoji.Generic
+  public val flagBz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDFF")
 
-  val flagBj: DiscordEmoji.Generic
+  public val flagBj: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDEF")
 
-  val flagBm: DiscordEmoji.Generic
+  public val flagBm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF2")
 
-  val flagBt: DiscordEmoji.Generic
+  public val flagBt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF9")
 
-  val flagBo: DiscordEmoji.Generic
+  public val flagBo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF4")
 
-  val flagBa: DiscordEmoji.Generic
+  public val flagBa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDE6")
 
-  val flagBw: DiscordEmoji.Generic
+  public val flagBw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDFC")
 
-  val flagBr: DiscordEmoji.Generic
+  public val flagBr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF7")
 
-  val flagIo: DiscordEmoji.Generic
+  public val flagIo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF4")
 
-  val flagVg: DiscordEmoji.Generic
+  public val flagVg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB\uD83C\uDDEC")
 
-  val flagBn: DiscordEmoji.Generic
+  public val flagBn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF3")
 
-  val flagBg: DiscordEmoji.Generic
+  public val flagBg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDEC")
 
-  val flagBf: DiscordEmoji.Generic
+  public val flagBf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDEB")
 
-  val flagBi: DiscordEmoji.Generic
+  public val flagBi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDEE")
 
-  val flagKh: DiscordEmoji.Generic
+  public val flagKh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDED")
 
-  val flagCm: DiscordEmoji.Generic
+  public val flagCm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDF2")
 
-  val flagCa: DiscordEmoji.Generic
+  public val flagCa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDE6")
 
-  val flagIc: DiscordEmoji.Generic
+  public val flagIc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDE8")
 
-  val flagCv: DiscordEmoji.Generic
+  public val flagCv: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDFB")
 
-  val flagBq: DiscordEmoji.Generic
+  public val flagBq: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF6")
 
-  val flagKy: DiscordEmoji.Generic
+  public val flagKy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDFE")
 
-  val flagCf: DiscordEmoji.Generic
+  public val flagCf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDEB")
 
-  val flagTd: DiscordEmoji.Generic
+  public val flagTd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDE9")
 
-  val flagCl: DiscordEmoji.Generic
+  public val flagCl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDF1")
 
-  val flagCn: DiscordEmoji.Generic
+  public val flagCn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDF3")
 
-  val flagCx: DiscordEmoji.Generic
+  public val flagCx: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDFD")
 
-  val flagCc: DiscordEmoji.Generic
+  public val flagCc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDE8")
 
-  val flagCo: DiscordEmoji.Generic
+  public val flagCo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDF4")
 
-  val flagKm: DiscordEmoji.Generic
+  public val flagKm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDF2")
 
-  val flagCg: DiscordEmoji.Generic
+  public val flagCg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDEC")
 
-  val flagCd: DiscordEmoji.Generic
+  public val flagCd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDE9")
 
-  val flagCk: DiscordEmoji.Generic
+  public val flagCk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDF0")
 
-  val flagCr: DiscordEmoji.Generic
+  public val flagCr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDF7")
 
-  val flagCi: DiscordEmoji.Generic
+  public val flagCi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDEE")
 
-  val flagHr: DiscordEmoji.Generic
+  public val flagHr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDED\uD83C\uDDF7")
 
-  val flagCu: DiscordEmoji.Generic
+  public val flagCu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDFA")
 
-  val flagCw: DiscordEmoji.Generic
+  public val flagCw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDFC")
 
-  val flagCy: DiscordEmoji.Generic
+  public val flagCy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDFE")
 
-  val flagCz: DiscordEmoji.Generic
+  public val flagCz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDFF")
 
-  val flagDk: DiscordEmoji.Generic
+  public val flagDk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9\uD83C\uDDF0")
 
-  val flagDj: DiscordEmoji.Generic
+  public val flagDj: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9\uD83C\uDDEF")
 
-  val flagDm: DiscordEmoji.Generic
+  public val flagDm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9\uD83C\uDDF2")
 
-  val flagDo: DiscordEmoji.Generic
+  public val flagDo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9\uD83C\uDDF4")
 
-  val flagEc: DiscordEmoji.Generic
+  public val flagEc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDE8")
 
-  val flagEg: DiscordEmoji.Generic
+  public val flagEg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDEC")
 
-  val flagSv: DiscordEmoji.Generic
+  public val flagSv: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDFB")
 
-  val flagGq: DiscordEmoji.Generic
+  public val flagGq: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF6")
 
-  val flagEr: DiscordEmoji.Generic
+  public val flagEr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDF7")
 
-  val flagEe: DiscordEmoji.Generic
+  public val flagEe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDEA")
 
-  val flagEt: DiscordEmoji.Generic
+  public val flagEt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDF9")
 
-  val flagEu: DiscordEmoji.Generic
+  public val flagEu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDFA")
 
-  val flagFk: DiscordEmoji.Generic
+  public val flagFk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEB\uD83C\uDDF0")
 
-  val flagFo: DiscordEmoji.Generic
+  public val flagFo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEB\uD83C\uDDF4")
 
-  val flagFj: DiscordEmoji.Generic
+  public val flagFj: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEB\uD83C\uDDEF")
 
-  val flagFi: DiscordEmoji.Generic
+  public val flagFi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEB\uD83C\uDDEE")
 
-  val flagFr: DiscordEmoji.Generic
+  public val flagFr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEB\uD83C\uDDF7")
 
-  val flagGf: DiscordEmoji.Generic
+  public val flagGf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDEB")
 
-  val flagPf: DiscordEmoji.Generic
+  public val flagPf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDEB")
 
-  val flagTf: DiscordEmoji.Generic
+  public val flagTf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDEB")
 
-  val flagGa: DiscordEmoji.Generic
+  public val flagGa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDE6")
 
-  val flagGm: DiscordEmoji.Generic
+  public val flagGm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF2")
 
-  val flagGe: DiscordEmoji.Generic
+  public val flagGe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDEA")
 
-  val flagDe: DiscordEmoji.Generic
+  public val flagDe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9\uD83C\uDDEA")
 
-  val flagGh: DiscordEmoji.Generic
+  public val flagGh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDED")
 
-  val flagGi: DiscordEmoji.Generic
+  public val flagGi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDEE")
 
-  val flagGr: DiscordEmoji.Generic
+  public val flagGr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF7")
 
-  val flagGl: DiscordEmoji.Generic
+  public val flagGl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF1")
 
-  val flagGd: DiscordEmoji.Generic
+  public val flagGd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDE9")
 
-  val flagGp: DiscordEmoji.Generic
+  public val flagGp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF5")
 
-  val flagGu: DiscordEmoji.Generic
+  public val flagGu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDFA")
 
-  val flagGt: DiscordEmoji.Generic
+  public val flagGt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF9")
 
-  val flagGg: DiscordEmoji.Generic
+  public val flagGg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDEC")
 
-  val flagGn: DiscordEmoji.Generic
+  public val flagGn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF3")
 
-  val flagGw: DiscordEmoji.Generic
+  public val flagGw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDFC")
 
-  val flagGy: DiscordEmoji.Generic
+  public val flagGy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDFE")
 
-  val flagHt: DiscordEmoji.Generic
+  public val flagHt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDED\uD83C\uDDF9")
 
-  val flagHn: DiscordEmoji.Generic
+  public val flagHn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDED\uD83C\uDDF3")
 
-  val flagHk: DiscordEmoji.Generic
+  public val flagHk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDED\uD83C\uDDF0")
 
-  val flagHu: DiscordEmoji.Generic
+  public val flagHu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDED\uD83C\uDDFA")
 
-  val flagIs: DiscordEmoji.Generic
+  public val flagIs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF8")
 
-  val flagIn: DiscordEmoji.Generic
+  public val flagIn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF3")
 
-  val flagId: DiscordEmoji.Generic
+  public val flagId: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDE9")
 
-  val flagIr: DiscordEmoji.Generic
+  public val flagIr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF7")
 
-  val flagIq: DiscordEmoji.Generic
+  public val flagIq: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF6")
 
-  val flagIe: DiscordEmoji.Generic
+  public val flagIe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDEA")
 
-  val flagIm: DiscordEmoji.Generic
+  public val flagIm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF2")
 
-  val flagIl: DiscordEmoji.Generic
+  public val flagIl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF1")
 
-  val flagIt: DiscordEmoji.Generic
+  public val flagIt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEE\uD83C\uDDF9")
 
-  val flagJm: DiscordEmoji.Generic
+  public val flagJm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEF\uD83C\uDDF2")
 
-  val flagJp: DiscordEmoji.Generic
+  public val flagJp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEF\uD83C\uDDF5")
 
-  val crossedFlags: DiscordEmoji.Generic
+  public val crossedFlags: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8C")
 
-  val flagJe: DiscordEmoji.Generic
+  public val flagJe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEF\uD83C\uDDEA")
 
-  val flagJo: DiscordEmoji.Generic
+  public val flagJo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEF\uD83C\uDDF4")
 
-  val flagKz: DiscordEmoji.Generic
+  public val flagKz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDFF")
 
-  val flagKe: DiscordEmoji.Generic
+  public val flagKe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDEA")
 
-  val flagKi: DiscordEmoji.Generic
+  public val flagKi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDEE")
 
-  val flagXk: DiscordEmoji.Generic
+  public val flagXk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFD\uD83C\uDDF0")
 
-  val flagKw: DiscordEmoji.Generic
+  public val flagKw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDFC")
 
-  val flagKg: DiscordEmoji.Generic
+  public val flagKg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDEC")
 
-  val flagLa: DiscordEmoji.Generic
+  public val flagLa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDE6")
 
-  val flagLv: DiscordEmoji.Generic
+  public val flagLv: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDFB")
 
-  val flagLb: DiscordEmoji.Generic
+  public val flagLb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDE7")
 
-  val flagLs: DiscordEmoji.Generic
+  public val flagLs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDF8")
 
-  val flagLr: DiscordEmoji.Generic
+  public val flagLr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDF7")
 
-  val flagLy: DiscordEmoji.Generic
+  public val flagLy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDFE")
 
-  val flagLi: DiscordEmoji.Generic
+  public val flagLi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDEE")
 
-  val flagLt: DiscordEmoji.Generic
+  public val flagLt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDF9")
 
-  val flagLu: DiscordEmoji.Generic
+  public val flagLu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDFA")
 
-  val flagMo: DiscordEmoji.Generic
+  public val flagMo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF4")
 
-  val flagMk: DiscordEmoji.Generic
+  public val flagMk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF0")
 
-  val flagMg: DiscordEmoji.Generic
+  public val flagMg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDEC")
 
-  val flagMw: DiscordEmoji.Generic
+  public val flagMw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDFC")
 
-  val flagMy: DiscordEmoji.Generic
+  public val flagMy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDFE")
 
-  val flagMv: DiscordEmoji.Generic
+  public val flagMv: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDFB")
 
-  val flagMl: DiscordEmoji.Generic
+  public val flagMl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF1")
 
-  val flagMt: DiscordEmoji.Generic
+  public val flagMt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF9")
 
-  val flagMh: DiscordEmoji.Generic
+  public val flagMh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDED")
 
-  val flagMq: DiscordEmoji.Generic
+  public val flagMq: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF6")
 
-  val flagMr: DiscordEmoji.Generic
+  public val flagMr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF7")
 
-  val flagMu: DiscordEmoji.Generic
+  public val flagMu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDFA")
 
-  val flagYt: DiscordEmoji.Generic
+  public val flagYt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFE\uD83C\uDDF9")
 
-  val flagMx: DiscordEmoji.Generic
+  public val flagMx: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDFD")
 
-  val flagFm: DiscordEmoji.Generic
+  public val flagFm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEB\uD83C\uDDF2")
 
-  val flagMd: DiscordEmoji.Generic
+  public val flagMd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDE9")
 
-  val flagMc: DiscordEmoji.Generic
+  public val flagMc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDE8")
 
-  val flagMn: DiscordEmoji.Generic
+  public val flagMn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF3")
 
-  val flagMe: DiscordEmoji.Generic
+  public val flagMe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDEA")
 
-  val flagMs: DiscordEmoji.Generic
+  public val flagMs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF8")
 
-  val flagMa: DiscordEmoji.Generic
+  public val flagMa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDE6")
 
-  val flagMz: DiscordEmoji.Generic
+  public val flagMz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDFF")
 
-  val flagMm: DiscordEmoji.Generic
+  public val flagMm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF2")
 
-  val flagNa: DiscordEmoji.Generic
+  public val flagNa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDE6")
 
-  val flagNr: DiscordEmoji.Generic
+  public val flagNr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDF7")
 
-  val flagNp: DiscordEmoji.Generic
+  public val flagNp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDF5")
 
-  val flagNl: DiscordEmoji.Generic
+  public val flagNl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDF1")
 
-  val flagNc: DiscordEmoji.Generic
+  public val flagNc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDE8")
 
-  val flagNz: DiscordEmoji.Generic
+  public val flagNz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDFF")
 
-  val flagNi: DiscordEmoji.Generic
+  public val flagNi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDEE")
 
-  val flagNe: DiscordEmoji.Generic
+  public val flagNe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDEA")
 
-  val flagNg: DiscordEmoji.Generic
+  public val flagNg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDEC")
 
-  val flagNu: DiscordEmoji.Generic
+  public val flagNu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDFA")
 
-  val flagNf: DiscordEmoji.Generic
+  public val flagNf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDEB")
 
-  val flagKp: DiscordEmoji.Generic
+  public val flagKp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDF5")
 
-  val flagMp: DiscordEmoji.Generic
+  public val flagMp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDF5")
 
-  val flagNo: DiscordEmoji.Generic
+  public val flagNo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF3\uD83C\uDDF4")
 
-  val flagOm: DiscordEmoji.Generic
+  public val flagOm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF4\uD83C\uDDF2")
 
-  val flagPk: DiscordEmoji.Generic
+  public val flagPk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDF0")
 
-  val flagPw: DiscordEmoji.Generic
+  public val flagPw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDFC")
 
-  val flagPs: DiscordEmoji.Generic
+  public val flagPs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDF8")
 
-  val flagPa: DiscordEmoji.Generic
+  public val flagPa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDE6")
 
-  val flagPg: DiscordEmoji.Generic
+  public val flagPg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDEC")
 
-  val flagPy: DiscordEmoji.Generic
+  public val flagPy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDFE")
 
-  val flagPe: DiscordEmoji.Generic
+  public val flagPe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDEA")
 
-  val flagPh: DiscordEmoji.Generic
+  public val flagPh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDED")
 
-  val flagPn: DiscordEmoji.Generic
+  public val flagPn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDF3")
 
-  val flagPl: DiscordEmoji.Generic
+  public val flagPl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDF1")
 
-  val flagPt: DiscordEmoji.Generic
+  public val flagPt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDF9")
 
-  val flagPr: DiscordEmoji.Generic
+  public val flagPr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDF7")
 
-  val flagQa: DiscordEmoji.Generic
+  public val flagQa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF6\uD83C\uDDE6")
 
-  val flagRe: DiscordEmoji.Generic
+  public val flagRe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF7\uD83C\uDDEA")
 
-  val flagRo: DiscordEmoji.Generic
+  public val flagRo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF7\uD83C\uDDF4")
 
-  val flagRu: DiscordEmoji.Generic
+  public val flagRu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF7\uD83C\uDDFA")
 
-  val flagRw: DiscordEmoji.Generic
+  public val flagRw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF7\uD83C\uDDFC")
 
-  val flagWs: DiscordEmoji.Generic
+  public val flagWs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFC\uD83C\uDDF8")
 
-  val flagSm: DiscordEmoji.Generic
+  public val flagSm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF2")
 
-  val flagSt: DiscordEmoji.Generic
+  public val flagSt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF9")
 
-  val flagSa: DiscordEmoji.Generic
+  public val flagSa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDE6")
 
-  val flagSn: DiscordEmoji.Generic
+  public val flagSn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF3")
 
-  val flagRs: DiscordEmoji.Generic
+  public val flagRs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF7\uD83C\uDDF8")
 
-  val flagSc: DiscordEmoji.Generic
+  public val flagSc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDE8")
 
-  val flagSl: DiscordEmoji.Generic
+  public val flagSl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF1")
 
-  val flagSg: DiscordEmoji.Generic
+  public val flagSg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDEC")
 
-  val flagSx: DiscordEmoji.Generic
+  public val flagSx: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDFD")
 
-  val flagSk: DiscordEmoji.Generic
+  public val flagSk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF0")
 
-  val flagSi: DiscordEmoji.Generic
+  public val flagSi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDEE")
 
-  val flagGs: DiscordEmoji.Generic
+  public val flagGs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDF8")
 
-  val flagSb: DiscordEmoji.Generic
+  public val flagSb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDE7")
 
-  val flagSo: DiscordEmoji.Generic
+  public val flagSo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF4")
 
-  val flagZa: DiscordEmoji.Generic
+  public val flagZa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFF\uD83C\uDDE6")
 
-  val flagKr: DiscordEmoji.Generic
+  public val flagKr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDF7")
 
-  val flagSs: DiscordEmoji.Generic
+  public val flagSs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF8")
 
-  val flagEs: DiscordEmoji.Generic
+  public val flagEs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDF8")
 
-  val flagLk: DiscordEmoji.Generic
+  public val flagLk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDF0")
 
-  val flagBl: DiscordEmoji.Generic
+  public val flagBl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDF1")
 
-  val flagSh: DiscordEmoji.Generic
+  public val flagSh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDED")
 
-  val flagKn: DiscordEmoji.Generic
+  public val flagKn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF0\uD83C\uDDF3")
 
-  val flagLc: DiscordEmoji.Generic
+  public val flagLc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF1\uD83C\uDDE8")
 
-  val flagPm: DiscordEmoji.Generic
+  public val flagPm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF5\uD83C\uDDF2")
 
-  val flagVc: DiscordEmoji.Generic
+  public val flagVc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB\uD83C\uDDE8")
 
-  val flagSd: DiscordEmoji.Generic
+  public val flagSd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDE9")
 
-  val flagSr: DiscordEmoji.Generic
+  public val flagSr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDF7")
 
-  val flagSz: DiscordEmoji.Generic
+  public val flagSz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDFF")
 
-  val flagSe: DiscordEmoji.Generic
+  public val flagSe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDEA")
 
-  val flagCh: DiscordEmoji.Generic
+  public val flagCh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDED")
 
-  val flagSy: DiscordEmoji.Generic
+  public val flagSy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDFE")
 
-  val flagTw: DiscordEmoji.Generic
+  public val flagTw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDFC")
 
-  val flagTj: DiscordEmoji.Generic
+  public val flagTj: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDEF")
 
-  val flagTz: DiscordEmoji.Generic
+  public val flagTz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDFF")
 
-  val flagTh: DiscordEmoji.Generic
+  public val flagTh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDED")
 
-  val flagTl: DiscordEmoji.Generic
+  public val flagTl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDF1")
 
-  val flagTg: DiscordEmoji.Generic
+  public val flagTg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDEC")
 
-  val flagTk: DiscordEmoji.Generic
+  public val flagTk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDF0")
 
-  val flagTo: DiscordEmoji.Generic
+  public val flagTo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDF4")
 
-  val flagTt: DiscordEmoji.Generic
+  public val flagTt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDF9")
 
-  val flagTn: DiscordEmoji.Generic
+  public val flagTn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDF3")
 
-  val flagTr: DiscordEmoji.Generic
+  public val flagTr: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDF7")
 
-  val flagTm: DiscordEmoji.Generic
+  public val flagTm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDF2")
 
-  val flagTc: DiscordEmoji.Generic
+  public val flagTc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDE8")
 
-  val flagVi: DiscordEmoji.Generic
+  public val flagVi: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB\uD83C\uDDEE")
 
-  val flagTv: DiscordEmoji.Generic
+  public val flagTv: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDFB")
 
-  val flagUg: DiscordEmoji.Generic
+  public val flagUg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDEC")
 
-  val flagUa: DiscordEmoji.Generic
+  public val flagUa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDE6")
 
-  val flagAe: DiscordEmoji.Generic
+  public val flagAe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDEA")
 
-  val flagGb: DiscordEmoji.Generic
+  public val flagGb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDE7")
 
-  val england: DiscordEmoji.Generic
+  public val england: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F")
 
-  val scotland: DiscordEmoji.Generic
+  public val scotland: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F")
 
-  val wales: DiscordEmoji.Generic
+  public val wales: DiscordEmoji.Generic
     get() =
         DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F")
 
-  val flagUs: DiscordEmoji.Generic
+  public val flagUs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDF8")
 
-  val flagUy: DiscordEmoji.Generic
+  public val flagUy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDFE")
 
-  val flagUz: DiscordEmoji.Generic
+  public val flagUz: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDFF")
 
-  val flagVu: DiscordEmoji.Generic
+  public val flagVu: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB\uD83C\uDDFA")
 
-  val flagVa: DiscordEmoji.Generic
+  public val flagVa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB\uD83C\uDDE6")
 
-  val flagVe: DiscordEmoji.Generic
+  public val flagVe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB\uD83C\uDDEA")
 
-  val flagVn: DiscordEmoji.Generic
+  public val flagVn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFB\uD83C\uDDF3")
 
-  val flagWf: DiscordEmoji.Generic
+  public val flagWf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFC\uD83C\uDDEB")
 
-  val flagEh: DiscordEmoji.Generic
+  public val flagEh: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDED")
 
-  val flagYe: DiscordEmoji.Generic
+  public val flagYe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFE\uD83C\uDDEA")
 
-  val flagZm: DiscordEmoji.Generic
+  public val flagZm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFF\uD83C\uDDF2")
 
-  val flagZw: DiscordEmoji.Generic
+  public val flagZw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFF\uD83C\uDDFC")
 
-  val flagAc: DiscordEmoji.Generic
+  public val flagAc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDE8")
 
-  val flagBv: DiscordEmoji.Generic
+  public val flagBv: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE7\uD83C\uDDFB")
 
-  val flagCp: DiscordEmoji.Generic
+  public val flagCp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE8\uD83C\uDDF5")
 
-  val flagEa: DiscordEmoji.Generic
+  public val flagEa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDEA\uD83C\uDDE6")
 
-  val flagDg: DiscordEmoji.Generic
+  public val flagDg: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE9\uD83C\uDDEC")
 
-  val flagHm: DiscordEmoji.Generic
+  public val flagHm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDED\uD83C\uDDF2")
 
-  val flagMf: DiscordEmoji.Generic
+  public val flagMf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF2\uD83C\uDDEB")
 
-  val flagSj: DiscordEmoji.Generic
+  public val flagSj: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF8\uD83C\uDDEF")
 
-  val flagTa: DiscordEmoji.Generic
+  public val flagTa: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDF9\uD83C\uDDE6")
 
-  val flagUm: DiscordEmoji.Generic
+  public val flagUm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDF2")
 
-  val unitedNations: DiscordEmoji.Generic
+  public val unitedNations: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDF3")
 
   /**
    * Gets a discord emoji with the given [unicode].
    */
-  operator fun get(unicode: String): DiscordEmoji? {
+  public operator fun `get`(unicode: String): DiscordEmoji? {
     val tone = unicode.toSkinTone()
     val withoutTone = unicode.removeTone()
     val emoji = Emojis.all[withoutTone]

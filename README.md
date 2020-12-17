@@ -16,32 +16,23 @@ suspend fun MessageCreateEvent.handle() {
 ```
 
 ## Installation
+Replace `{version}` with the desired version number.
 
-Replace `{version}` with the latest version number on bintray. [![Download](https://img.shields.io/bintray/v/kordlib/Kord/kordx.emoji?color=&style=for-the-badge) ](https://bintray.com/kordlib/Kord/kordx.emoji/_latestVersion)
-
-### Gradle
-
-```kotlin
-repositories {
-    maven(url = "https://dl.bintray.com/kordlib/Kord")
+### Gradle (groovy)
+```groovy
+dependencies {
+    implementation 'dev.kord:kordx.emoji:{version}'
 }
 ```
 
+### Gradle (kotlin)
 ```kotlin
-dependencies {
+dependencies { 
     implementation("dev.kord:kordx.emoji:{version}")
 }
 ```
 
 ### Maven
-
-```xml
-<repository>
-    <id>bintray</id>
-    <url>https://dl.bintray.com/kordlib/Kord</url>
-</repository>
-```
-
 ```xml
 <dependency>
     <groupId>dev.kord</groupId>

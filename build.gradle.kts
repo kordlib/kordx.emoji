@@ -1,7 +1,7 @@
 import dev.kord.kordx.emoji.EmojiPlugin
 import com.jfrog.bintray.gradle.*
 
-version = Project.version
+version = Versions.project
 group = Project.group
 
 buildscript {
@@ -55,7 +55,7 @@ configure<PublishingExtension> {
             from(components["kotlin"])
             groupId = Project.group
             artifactId = Project.name
-            version = Project.version
+            version = Versions.project
 
             artifact(sourcesJar.get())
         }
@@ -78,9 +78,9 @@ configure<BintrayExtension> {
         issueTrackerUrl = "https://gitlab.com/kordlib/kordx.emoji/issues"
 
         version = VersionConfig().apply {
-            name = Project.version
+            name = Versions.project
             desc = Project.description
-            vcsTag = Project.version
+            vcsTag = Versions.project
         }
     }
 }

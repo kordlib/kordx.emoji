@@ -1,7 +1,6 @@
 # kordx.emoji
 
 [![Discord](https://img.shields.io/discord/556525343595298817.svg?color=&label=Kord&logo=discord&style=for-the-badge)](https://discord.gg/6jcx5ev)
-[![Download](https://img.shields.io/bintray/v/kordlib/Kord/kordx.emoji?color=&style=for-the-badge)](https://bintray.com/kordlib/Kord/kordx.emoji/_latestVersion)
 
 An extension library that adds a list of supported emojis to Kord.
 

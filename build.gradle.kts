@@ -1,23 +1,12 @@
 import dev.kord.kordx.emoji.EmojiPlugin
-import com.jfrog.bintray.gradle.*
 
 version = Versions.project
 group = Project.group
 
-buildscript {
-    repositories {
-        mavenCentral()
-        maven(url = "https://plugins.gradle.org/m2/")
-    }
-    dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}")
-        classpath("com.jfrog.bintray.gradle:gradle-bintray-plugin:${Versions.bintray}")
-        classpath("com.github.jengelman.gradle.plugins:shadow:6.1.0")
-    }
-}
-
 plugins {
     kotlin("jvm") version Versions.kotlin
+    id("com.jfrog.bintray") version "1.8.5"
+    id("com.github.johnrengelman.shadow") version "6.1.0"
     `maven-publish`
 }
 
@@ -42,7 +31,6 @@ tasks.compileKotlin {
 }
 
 apply<EmojiPlugin>()
-apply<BintrayPlugin>()
 
 val sourcesJar by tasks.registering(Jar::class) {
     archiveClassifier.set("sources")
@@ -62,7 +50,7 @@ configure<PublishingExtension> {
     }
 }
 
-configure<BintrayExtension> {
+bintray {
     user = System.getenv("BINTRAY_USER")
     key = System.getenv("BINTRAY_KEY")
     setPublications("kordxemoji")

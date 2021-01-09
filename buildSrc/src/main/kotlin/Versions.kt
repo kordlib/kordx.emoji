@@ -9,4 +9,5 @@ object Project {
     const val name = "kordx.emoji"
     const val group = "dev.kord"
     const val description = "Discord Emoji constants for Kord"
+    const val url = "https://github.com/kordlib/kordx.emoji"
 }

@@ -37,15 +37,56 @@ val sourcesJar by tasks.registering(Jar::class) {
     from(sourceSets.main.get().allSource)
 }
 
-configure<PublishingExtension> {
+val javadocJar by tasks.registering(Jar::class) {
+    group = JavaBasePlugin.DOCUMENTATION_GROUP
+    archiveClassifier.set("javadoc")
+}
+
+publishing {
     publications {
-        register("kordxemoji", MavenPublication::class) {
+        create<MavenPublication>(Project.name) {
             from(components["kotlin"])
             groupId = Project.group
             artifactId = Project.name
             version = Versions.project
 
             artifact(sourcesJar.get())
+            artifact(javadocJar.get())
+
+            pom {
+                name.set(Project.name)
+                description.set(Project.description)
+                url.set(Project.description)
+
+                organization {
+                    name.set("Kord")
+                    url.set(Project.url)
+                }
+
+                developers {
+                    developer {
+                        name.set("The Kord Team")
+                    }
+                }
+
+                issueManagement {
+                    system.set("GitHub")
+                    url.set("${Project.url}/issues")
+                }
+
+                licenses {
+                    license {
+                        name.set("MIT")
+                        url.set("https://opensource.org/licenses/MIT")
+                    }
+                }
+
+                scm {
+                    connection.set("scm:git:ssh://github.com/kordlib/kordx.emoji.git")
+                    developerConnection.set("scm:git:ssh://git@github.com:kordlib/kordx.emoji.git")
+                    url.set(Project.url)
+                }
+            }
         }
     }
 }

@@ -10,9 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation(gradleApi())
-    implementation(localGroovy())
-    implementation(kotlin("gradle-plugin-api"))
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1")
     implementation("com.squareup:kotlinpoet:1.7.2")
     implementation("org.apache.commons:commons-text:1.8")

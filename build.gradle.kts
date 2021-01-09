@@ -1,4 +1,5 @@
 import dev.kord.kordx.emoji.EmojiPlugin
+import org.apache.commons.codec.binary.Base64
 
 version = Versions.project
 group = Project.group
@@ -7,7 +8,10 @@ plugins {
     kotlin("jvm") version Versions.kotlin
     id("com.jfrog.bintray") version "1.8.5"
     id("com.github.johnrengelman.shadow") version "6.1.0"
+
+    signing
     `maven-publish`
+    id("io.codearte.nexus-staging") version "0.22.0"
 }
 
 repositories {
@@ -113,3 +117,16 @@ bintray {
         }
     }
 }
+
+if (Versions.isRelease) {
+    signing {
+        val signingKey = findProperty("signingKey")?.toString()
+        val signingPassword = findProperty("signingPassword")?.toString()
+        if (signingKey != null && signingPassword != null) {
+            useInMemoryPgpKeys(String(Base64().decode(signingKey.toByteArray())), signingPassword)
+        }
+        sign(publishing.publications[Project.name])
+    }
+}
+
+nexusStaging { }

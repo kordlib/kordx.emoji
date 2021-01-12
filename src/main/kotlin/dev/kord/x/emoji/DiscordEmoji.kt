@@ -1,4 +1,4 @@
-package dev.kord.kordx.emoji
+package dev.kord.x.emoji
 
 import dev.kord.core.entity.Message
 import dev.kord.core.entity.ReactionEmoji

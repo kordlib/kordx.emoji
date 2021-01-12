@@ -1,5 +1,5 @@
-import dev.kord.kordx.emoji.Emojis
-import dev.kord.kordx.emoji.SkinTone
+import dev.kord.x.emoji.Emojis
+import dev.kord.x.emoji.SkinTone
 import org.junit.Test
 import kotlin.test.assertEquals
 

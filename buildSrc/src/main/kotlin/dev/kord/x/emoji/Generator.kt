@@ -1,4 +1,4 @@
-package dev.kord.kordx.emoji
+package dev.kord.x.emoji
 
 import com.squareup.kotlinpoet.*
 import kotlinx.serialization.Serializable
@@ -19,17 +19,17 @@ sealed class EmojiType {
 
     object Base : EmojiType() {
         override val name: ClassName
-            get() = ClassName("dev.kord.kordx.emoji", "DiscordEmoji")
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji")
     }
 
     object Generic : EmojiType() {
         override val name: ClassName
-            get() = ClassName("dev.kord.kordx.emoji", "DiscordEmoji.Generic")
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.Generic")
     }
 
     object Diverse : EmojiType() {
         override val name: ClassName
-            get() = ClassName("dev.kord.kordx.emoji", "DiscordEmoji.Diverse")
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.Diverse")
     }
 }
 
@@ -58,7 +58,7 @@ class EmojiPlugin : Plugin<Project> {
 
     private fun generate(project: Project) {
         val emojis: Map<String, List<EmojiItem>> = parseEmojis()
-        val file = with(FileSpec.builder("dev.kord.kordx.emoji", "EmojiList")) {
+        val file = with(FileSpec.builder("dev.kord.x.emoji", "EmojiList")) {
             val emojisObject = buildObject("Emojis") {
                 addKdoc("""
                 List of all supported discord emojis.
@@ -108,7 +108,7 @@ class EmojiPlugin : Plugin<Project> {
 
     fun TypeSpec.Builder.generateMap(emojis: Map<String, List<EmojiItem>>) {
         val type = with(ParameterizedTypeName) {
-            Map::class.asTypeName().parameterizedBy(typeNameOf<String>(), ClassName("dev.kord.kordx.emoji", "DiscordEmoji"))
+            Map::class.asTypeName().parameterizedBy(typeNameOf<String>(), ClassName("dev.kord.x.emoji", "DiscordEmoji"))
         }
 
         val property = buildProperty("all", type) {

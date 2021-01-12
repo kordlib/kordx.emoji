@@ -1,4 +1,4 @@
-package dev.kord.kordx.emoji
+package dev.kord.x.emoji
 
 import kotlin.String
 import kotlin.collections.Map

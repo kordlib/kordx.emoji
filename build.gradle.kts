@@ -1,4 +1,4 @@
-import dev.kord.kordx.emoji.EmojiPlugin
+import dev.kord.x.emoji.EmojiPlugin
 import org.apache.commons.codec.binary.Base64
 
 version = Versions.project
@@ -106,9 +106,9 @@ bintray {
         name = "kordx.emoji"
         userOrg = "kordlib"
         setLicenses("MIT")
-        vcsUrl = "https://gitlab.com/kordlib/kordx.emoji.git"
-        websiteUrl = "https://gitlab.com/kordlib/kordx.emoji"
-        issueTrackerUrl = "https://gitlab.com/kordlib/kordx.emoji/issues"
+        vcsUrl = "${Project.url}.git"
+        websiteUrl = Project.url
+        issueTrackerUrl = "${Project.url}/issues"
 
         version = VersionConfig().apply {
             name = Versions.project

@@ -1,7 +1,7 @@
-package com.gitlab.kordlib.kordx.emoji
+package dev.kord.x.emoji
 
-import com.gitlab.kordlib.core.entity.Message
-import com.gitlab.kordlib.core.entity.ReactionEmoji
+import dev.kord.core.entity.Message
+import dev.kord.core.entity.ReactionEmoji
 
 sealed class SkinTone(val unicode: String) {
     object Dark : SkinTone("\uD83C\uDFFF")

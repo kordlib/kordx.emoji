@@ -1,4 +1,4 @@
-package com.gitlab.kordlib.kordx.emoji
+package dev.kord.x.emoji
 
 import com.squareup.kotlinpoet.*
 import kotlinx.serialization.Serializable
@@ -19,31 +19,31 @@ sealed class EmojiType {
 
     object Base : EmojiType() {
         override val name: ClassName
-            get() = ClassName("com.gitlab.kordlib.kordx.emoji", "DiscordEmoji")
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji")
     }
 
     object Generic : EmojiType() {
         override val name: ClassName
-            get() = ClassName("com.gitlab.kordlib.kordx.emoji", "DiscordEmoji.Generic")
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.Generic")
     }
 
     object Diverse : EmojiType() {
         override val name: ClassName
-            get() = ClassName("com.gitlab.kordlib.kordx.emoji", "DiscordEmoji.Diverse")
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.Diverse")
     }
 }
 
 @Serializable
 data class EmojiItem(
-        val names: List<String>,
-        val surrogates: String,
-        val unicodeVersion: Double,
-        val hasDiversity: Boolean = false,
-        val hasMultiDiversity: Boolean = false,
-        val diversityChildren: List<EmojiItem> = emptyList(),
-        val diversity: List<String> = emptyList(),
-        val hasDiversityParent: Boolean = false,
-        val hasMultiDiversityParent: Boolean = false
+    val names: List<String>,
+    val surrogates: String,
+    val unicodeVersion: Double,
+    val hasDiversity: Boolean = false,
+    val hasMultiDiversity: Boolean = false,
+    val diversityChildren: List<EmojiItem> = emptyList(),
+    val diversity: List<String> = emptyList(),
+    val hasDiversityParent: Boolean = false,
+    val hasMultiDiversityParent: Boolean = false
 )
 
 val EmojiItem.unicode: String get() = StringEscapeUtils.escapeJava(surrogates)
@@ -58,7 +58,7 @@ class EmojiPlugin : Plugin<Project> {
 
     private fun generate(project: Project) {
         val emojis: Map<String, List<EmojiItem>> = parseEmojis()
-        val file = with(FileSpec.builder("com.gitlab.kordlib.kordx.emoji", "EmojiList")) {
+        val file = with(FileSpec.builder("dev.kord.x.emoji", "EmojiList")) {
             val emojisObject = buildObject("Emojis") {
                 addKdoc("""
                 List of all supported discord emojis.
@@ -108,7 +108,7 @@ class EmojiPlugin : Plugin<Project> {
 
     fun TypeSpec.Builder.generateMap(emojis: Map<String, List<EmojiItem>>) {
         val type = with(ParameterizedTypeName) {
-            Map::class.asTypeName().parameterizedBy(typeNameOf<String>(), ClassName("com.gitlab.kordlib.kordx.emoji", "DiscordEmoji"))
+            Map::class.asTypeName().parameterizedBy(typeNameOf<String>(), ClassName("dev.kord.x.emoji", "DiscordEmoji"))
         }
 
         val property = buildProperty("all", type) {
@@ -171,5 +171,4 @@ class EmojiPlugin : Plugin<Project> {
         val serializer = MapSerializer(pair.first, pair.second)
         return Json.decodeFromString(serializer, content)
     }
-
 }

@@ -1,24 +1,21 @@
 plugins {
     groovy
     `kotlin-dsl`
-    kotlin("jvm") version "1.4.0"
-    kotlin("plugin.serialization") version "1.4.0"
+    kotlin("jvm") version "1.4.21"
+    kotlin("plugin.serialization") version "1.4.21"
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
-    implementation(gradleApi())
-    implementation(localGroovy())
-    implementation(kotlin("gradle-plugin-api", version = "1.4.0"))
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-core:1.0.0-RC")
-    implementation("com.squareup:kotlinpoet:1.5.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1")
+    implementation("com.squareup:kotlinpoet:1.7.2")
     implementation("org.apache.commons:commons-text:1.8")
 }
 
-tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
+tasks.compileKotlin {
     kotlinOptions {
         jvmTarget = "1.8"
         freeCompilerArgs = listOf("-Xuse-experimental=kotlin.ExperimentalStdlibApi")

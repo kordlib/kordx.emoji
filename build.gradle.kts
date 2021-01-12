@@ -1,38 +1,26 @@
-import com.gitlab.kordlib.kordx.emoji.EmojiPlugin
-import com.jfrog.bintray.gradle.BintrayExtension
-import com.jfrog.bintray.gradle.BintrayPlugin
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import java.util.Date
-import org.gradle.api.tasks.bundling.Jar
+import dev.kord.x.emoji.EmojiPlugin
+import org.apache.commons.codec.binary.Base64
 
-version = Project.version
+version = Versions.project
 group = Project.group
 
-buildscript {
-    repositories {
-        jcenter()
-        maven(url = "https://plugins.gradle.org/m2/")
-    }
-    dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}")
-        classpath("com.jfrog.bintray.gradle:gradle-bintray-plugin:${Versions.bintray}")
-        classpath("com.github.jengelman.gradle.plugins:shadow:5.1.0")
-    }
-}
-
 plugins {
-    id("org.jetbrains.kotlin.jvm") version Versions.kotlin
+    kotlin("jvm") version Versions.kotlin
+    id("com.jfrog.bintray") version "1.8.5"
+    id("com.github.johnrengelman.shadow") version "6.1.0"
+
+    signing
     `maven-publish`
+    id("io.codearte.nexus-staging") version "0.22.0"
 }
 
 repositories {
-    jcenter()
-    maven(url = "https://jitpack.io")
+    mavenCentral()
     maven(url = "https://dl.bintray.com/kordlib/Kord")
 }
 
 dependencies {
-    implementation("com.gitlab.kordlib.kord:kord-core:${Versions.kordRange}") {
+    implementation("dev.kord:kord-core:${Versions.kordRange}") {
         version {
             prefer("latest.release")
         }
@@ -42,34 +30,72 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
 
-tasks {
-    withType<KotlinCompile> {
-        kotlinOptions.jvmTarget = "1.8"
-    }
+tasks.compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
 }
 
 apply<EmojiPlugin>()
-apply<BintrayPlugin>()
 
 val sourcesJar by tasks.registering(Jar::class) {
     archiveClassifier.set("sources")
     from(sourceSets.main.get().allSource)
 }
 
-configure<PublishingExtension> {
+val javadocJar by tasks.registering(Jar::class) {
+    group = JavaBasePlugin.DOCUMENTATION_GROUP
+    archiveClassifier.set("javadoc")
+}
+
+publishing {
     publications {
-        register("kordxemoji", MavenPublication::class) {
+        create<MavenPublication>(Project.name) {
             from(components["kotlin"])
             groupId = Project.group
             artifactId = Project.name
-            version = Project.version
+            version = Versions.project
 
             artifact(sourcesJar.get())
+            artifact(javadocJar.get())
+
+            pom {
+                name.set(Project.name)
+                description.set(Project.description)
+                url.set(Project.description)
+
+                organization {
+                    name.set("Kord")
+                    url.set(Project.url)
+                }
+
+                developers {
+                    developer {
+                        name.set("The Kord Team")
+                    }
+                }
+
+                issueManagement {
+                    system.set("GitHub")
+                    url.set("${Project.url}/issues")
+                }
+
+                licenses {
+                    license {
+                        name.set("MIT")
+                        url.set("https://opensource.org/licenses/MIT")
+                    }
+                }
+
+                scm {
+                    connection.set("scm:git:ssh://github.com/kordlib/kordx.emoji.git")
+                    developerConnection.set("scm:git:ssh://git@github.com:kordlib/kordx.emoji.git")
+                    url.set(Project.url)
+                }
+            }
         }
     }
 }
 
-configure<BintrayExtension> {
+bintray {
     user = System.getenv("BINTRAY_USER")
     key = System.getenv("BINTRAY_KEY")
     setPublications("kordxemoji")
@@ -80,15 +106,27 @@ configure<BintrayExtension> {
         name = "kordx.emoji"
         userOrg = "kordlib"
         setLicenses("MIT")
-        vcsUrl = "https://gitlab.com/kordlib/kordx.emoji.git"
-        websiteUrl = "https://gitlab.com/kordlib/kordx.emoji"
-        issueTrackerUrl = "https://gitlab.com/kordlib/kordx.emoji/issues"
+        vcsUrl = "${Project.url}.git"
+        websiteUrl = Project.url
+        issueTrackerUrl = "${Project.url}/issues"
 
         version = VersionConfig().apply {
-            name = Project.version
+            name = Versions.project
             desc = Project.description
-            vcsTag = Project.version
+            vcsTag = Versions.project
         }
     }
-
 }
+
+if (Versions.isRelease) {
+    signing {
+        val signingKey = findProperty("signingKey")?.toString()
+        val signingPassword = findProperty("signingPassword")?.toString()
+        if (signingKey != null && signingPassword != null) {
+            useInMemoryPgpKeys(String(Base64().decode(signingKey.toByteArray())), signingPassword)
+        }
+        sign(publishing.publications[Project.name])
+    }
+}
+
+nexusStaging { }

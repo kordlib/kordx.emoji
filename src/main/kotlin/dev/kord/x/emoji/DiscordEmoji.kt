@@ -10,6 +10,19 @@ sealed class SkinTone(val unicode: String) {
     object MediumLight : SkinTone("\uD83C\uDFFC")
     object Light : SkinTone("\uD83C\uDFFB")
     object Default : SkinTone("")
+
+
+    companion object {
+        val tones
+            get() = listOf(  // compiler bug, don't remove the getter.
+                Dark,
+                MediumDark,
+                Medium,
+                MediumLight,
+                Light,
+                Default
+            )
+    }
 }
 
 /**
@@ -65,27 +78,10 @@ fun DiscordEmoji.toReaction() = ReactionEmoji.Unicode(unicode)
 fun ReactionEmoji.Companion.from(emoji: DiscordEmoji) = emoji.toReaction()
 
 internal fun String.toSkinTone(): SkinTone? {
-    val tones = listOf(
-            SkinTone.Dark,
-            SkinTone.MediumDark,
-            SkinTone.Medium,
-            SkinTone.MediumLight,
-            SkinTone.Light,
-            SkinTone.Default
-    )
 
-    return tones.firstOrNull {  this.endsWith(it.unicode) }
+    return SkinTone.tones.firstOrNull { this.endsWith(it.unicode) }
 }
 
-internal fun String.removeTone() : String {
-    val tones = listOf(
-            SkinTone.Dark,
-            SkinTone.MediumDark,
-            SkinTone.Medium,
-            SkinTone.MediumLight,
-            SkinTone.Light,
-            SkinTone.Default
-    )
-
-    return tones.fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
+internal fun String.removeTone(): String {
+    return SkinTone.tones.fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
 }

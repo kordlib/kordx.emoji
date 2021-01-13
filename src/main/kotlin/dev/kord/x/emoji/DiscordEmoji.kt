@@ -77,11 +77,7 @@ fun DiscordEmoji.toReaction() = ReactionEmoji.Unicode(unicode)
 
 fun ReactionEmoji.Companion.from(emoji: DiscordEmoji) = emoji.toReaction()
 
-internal fun String.toSkinTone(): SkinTone? {
+internal fun String.toSkinTone(): SkinTone? = SkinTone.tones.firstOrNull { this.endsWith(it.unicode) }
 
-    return SkinTone.tones.firstOrNull { this.endsWith(it.unicode) }
-}
+internal fun String.removeTone(): String = SkinTone.tones.fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
 
-internal fun String.removeTone(): String {
-    return SkinTone.tones.fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
-}

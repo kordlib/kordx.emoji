@@ -166,9 +166,10 @@ class EmojiPlugin : Plugin<Project> {
     }
 
     private fun parseEmojis(): Map<String, List<EmojiItem>> {
-        val content = String(Generator::class.java.classLoader.getResourceAsStream("emojis.json")!!.readAllBytes(), Charset.forName("UTF-8"))
+        val content = String(Generator::class.java.classLoader.getResourceAsStream("emojis.json")!!.readBytes(), Charset.forName("UTF-8"))
         val pair = Pair(String.serializer(), ListSerializer(EmojiItem.serializer()))
         val serializer = MapSerializer(pair.first, pair.second)
         return Json.decodeFromString(serializer, content)
     }
+
 }

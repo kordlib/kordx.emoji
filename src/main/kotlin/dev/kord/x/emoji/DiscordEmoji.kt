@@ -3,29 +3,15 @@ package dev.kord.x.emoji
 import dev.kord.core.entity.Message
 import dev.kord.core.entity.ReactionEmoji
 
-sealed class SkinTone(val unicode: String) {
-    object Dark : SkinTone("\uD83C\uDFFF")
-    object MediumDark : SkinTone("\uD83C\uDFFE")
-    object Medium : SkinTone("\uD83C\uDFFD")
-    object MediumLight : SkinTone("\uD83C\uDFFC")
-    object Light : SkinTone("\uD83C\uDFFB")
-    object Default : SkinTone("")
+enum class SkinTone(val unicode: String) {
+    Dark("\uD83C\uDFFF"),
+    MediumDark("\uD83C\uDFFE"),
+    Medium("\uD83C\uDFFD"),
+    MediumLight("\uD83C\uDFFC"),
+    Light("\uD83C\uDFFB"),
+    Default("");
 
-
-    companion object {
-        /**
-         * A list of possible [SkinTone]s that can be used with [Diverse emojis][DiscordEmoji.Diverse].
-         */
-        val tones
-            get() = listOf(  // compiler bug, don't remove the getter.
-                Dark,
-                MediumDark,
-                Medium,
-                MediumLight,
-                Light,
-                Default
-            )
-    }
+    companion object
 }
 
 /**
@@ -84,7 +70,7 @@ fun DiscordEmoji.toReaction() = ReactionEmoji.Unicode(unicode)
  */
 fun ReactionEmoji.Companion.from(emoji: DiscordEmoji) = emoji.toReaction()
 
-internal fun String.toSkinTone(): SkinTone? = SkinTone.tones.firstOrNull { this.endsWith(it.unicode) }
+internal fun String.toSkinTone(): SkinTone? = SkinTone.values().firstOrNull { this.endsWith(it.unicode) }
 
-internal fun String.removeTone(): String = SkinTone.tones.fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
+internal fun String.removeTone(): String = SkinTone.values().fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
 

@@ -13,6 +13,9 @@ sealed class SkinTone(val unicode: String) {
 
 
     companion object {
+        /**
+         * A list of possible [SkinTone]s that can be used with [Diverse emojis][DiscordEmoji.Diverse].
+         */
         val tones
             get() = listOf(  // compiler bug, don't remove the getter.
                 Dark,
@@ -74,7 +77,11 @@ suspend fun Message.deleteOwnReaction(emoji: DiscordEmoji) = deleteOwnReaction(e
  * Transforms the emoji into a [ReactionEmoji.Unicode] emoji.
  */
 fun DiscordEmoji.toReaction() = ReactionEmoji.Unicode(unicode)
-
+/**
+ * transforms a [DiscordEmoji] into a reaction.
+ *
+ * @param emoji the emoji to transform into a reaction.
+ */
 fun ReactionEmoji.Companion.from(emoji: DiscordEmoji) = emoji.toReaction()
 
 internal fun String.toSkinTone(): SkinTone? = SkinTone.tones.firstOrNull { this.endsWith(it.unicode) }

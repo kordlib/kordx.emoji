@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - '**.gradle'
+      - '**.gradle.kts'
       - '**.properties'
       - '**/src/**'
     branches:
@@ -17,6 +18,7 @@ on:
     pull_request:
       paths:
         - '**.gradle'
+        - '**.gradle.kts'
         - '**.properties'
         - '**/src/**'
       types: [ opened, synchronize, reopened ]

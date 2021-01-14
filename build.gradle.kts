@@ -1,7 +1,7 @@
 import dev.kord.x.emoji.EmojiPlugin
 import org.apache.commons.codec.binary.Base64
 
-version = Versions.project
+version = Library.version
 group = Library.group
 
 plugins {

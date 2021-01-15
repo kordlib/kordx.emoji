@@ -20,7 +20,7 @@ repositories {
 dependencies {
     implementation("dev.kord:kord-core:${Versions.kordRange}") {
         version {
-            prefer("latest.release")
+            prefer("latest.integration")
         }
     }
 

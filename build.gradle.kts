@@ -49,7 +49,7 @@ publishing {
         create<MavenPublication>(Library.name) {
             from(components["kotlin"])
             groupId = Library.group
-            artifactId = "kord-${project.name}"
+            artifactId = Library.name
             version = Library.version
 
             artifact(sourcesJar.get())

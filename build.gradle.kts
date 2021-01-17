@@ -14,14 +14,17 @@ plugins {
 
 repositories {
     mavenCentral()
-    maven(url = "https://dl.bintray.com/kordlib/Kord")
+    maven("https://oss.sonatype.org/content/repositories/snapshots")
+
 }
 
 dependencies {
     implementation("dev.kord:kord-core:${Versions.kordRange}") {
+        /*
         version {
             prefer("latest.integration")
         }
+         */
     }
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")

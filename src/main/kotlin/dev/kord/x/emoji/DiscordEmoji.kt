@@ -48,20 +48,8 @@ sealed class DiscordEmoji {
     /**
      * An generic emoji that does not support [SkinTones][SkinTone].
      */
-    class Generic(override val unicode: String) : DiscordEmoji() {
+    data class Generic(override val unicode: String) : DiscordEmoji() {
         override fun toString(): String = unicode
-        override fun equals(other: Any?): Boolean {
-            if (this === other) return true
-            if (other !is Generic) return false
-
-            if (unicode != other.unicode) return false
-
-            return true
-        }
-
-        override fun hashCode(): Int {
-            return unicode.hashCode()
-        }
     }
 }
 

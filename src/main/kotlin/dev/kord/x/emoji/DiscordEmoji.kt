@@ -36,11 +36,7 @@ sealed class DiscordEmoji {
         /**
          * Checks [other] to be the same emote but ignores [tone].
          */
-        fun isSimilar(other: Any?): Boolean {
-            if (this === other) return true
-            if (other !is Diverse) return false
-            return code == other.code
-        }
+        fun isSimilar(other: Diverse?): Boolean = code == other?.code
 
         override fun toString(): String = unicode
     }

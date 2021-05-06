@@ -41,6 +41,14 @@ sealed class DiscordEmoji {
      */
     class Generic(override val unicode: String) : DiscordEmoji() {
         override fun toString(): String = unicode
+
+        override fun hashCode(): Int = unicode.hashCode()
+
+        override fun equals(other: Any?): Boolean {
+            if (other !is Generic) return false
+
+            return unicode == other.unicode
+        }
     }
 }
 

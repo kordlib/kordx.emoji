@@ -5,6 +5,10 @@
 * kord: 0.6.x -> 0.7.x
 * kotlin: 1.4.10 -> 1.4.21
 
+## Fixes
+
+* Fixed equality checks between generic emojis.
+
 # 0.4.0
 
 ## Additions

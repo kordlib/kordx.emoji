@@ -34,3 +34,4 @@ class EmojiTest {
         assert(emote.isSimilar(emote3))
     }
 }
+

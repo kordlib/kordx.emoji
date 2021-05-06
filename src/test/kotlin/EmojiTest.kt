@@ -1,7 +1,7 @@
 import dev.kord.x.emoji.DiscordEmoji
 import dev.kord.x.emoji.Emojis
 import dev.kord.x.emoji.SkinTone
-import org.junit.Test
+import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class EmojiTest {
@@ -14,10 +14,24 @@ class EmojiTest {
     }
 
     @Test
-    fun `Generic emoji equality works on equal emojis`() {
-        val emoji1 = DiscordEmoji.Generic("example")
-        val emoji2 = DiscordEmoji.Generic("example")
+    fun `equals on generic emote`() {
+        val emote = Emojis.`100`
+        val emote2 = Emojis[emote.unicode]
 
-        assertEquals(emoji1, emoji2)
+        assertEquals(emote, emote2)
+        assertEquals(emote2, emote)
+    }
+
+    @Test
+    fun `equals on diverse emote`() {
+        val emote = Emojis.`+1`
+        val emote2 = Emojis[emote.unicode]
+        require(emote2 is DiscordEmoji.Diverse)
+
+        assertEquals(emote, emote2)
+        assertEquals(emote2, emote)
+        val emote3 = emote.withTone(SkinTone.Dark)
+        assert(emote.isSimilar(emote3))
     }
 }
+

@@ -1,6 +1,6 @@
 package dev.kord.x.emoji
 
-import dev.kord.core.entity.Message
+import dev.kord.core.behavior.MessageBehavior
 import dev.kord.core.entity.ReactionEmoji
 
 enum class SkinTone(val unicode: String) {
@@ -33,13 +33,18 @@ sealed class DiscordEmoji {
         override val unicode: String
             get() = "$code${tone.unicode}"
 
+        /**
+         * Checks [other] to be the same emote but ignores [tone].
+         */
+        fun isSimilar(other: Diverse?): Boolean = code == other?.code
+
         override fun toString(): String = unicode
     }
 
     /**
      * An generic emoji that does not support [SkinTones][SkinTone].
      */
-    class Generic(override val unicode: String) : DiscordEmoji() {
+    data class Generic(override val unicode: String) : DiscordEmoji() {
         override fun toString(): String = unicode
 
         override fun hashCode(): Int = unicode.hashCode()
@@ -55,17 +60,17 @@ sealed class DiscordEmoji {
 /**
  * Requests to add the [emoji] to the messages.
  */
-suspend fun Message.addReaction(emoji: DiscordEmoji) = addReaction(emoji.toReaction())
+suspend fun MessageBehavior.addReaction(emoji: DiscordEmoji) = addReaction(emoji.toReaction())
 
 /**
  * Requests to delete all [emoji] reactions from this message.
  */
-suspend fun Message.deleteReaction(emoji: DiscordEmoji) = deleteReaction(emoji.toReaction())
+suspend fun MessageBehavior.deleteReaction(emoji: DiscordEmoji) = deleteReaction(emoji.toReaction())
 
 /**
  * Requests to delete an emoji from this message made by this bot.
  */
-suspend fun Message.deleteOwnReaction(emoji: DiscordEmoji) = deleteOwnReaction(emoji.toReaction())
+suspend fun MessageBehavior.deleteOwnReaction(emoji: DiscordEmoji) = deleteOwnReaction(emoji.toReaction())
 
 /**
  * Transforms the emoji into a [ReactionEmoji.Unicode] emoji.

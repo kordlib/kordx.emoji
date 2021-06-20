@@ -1,7 +1,7 @@
 object Versions {
     const val bintray = "1.8.1"
-    const val kotlin = "1.4.21"
-    const val kordRange = "0.7.x-SNAPSHOT"
+    const val kotlin = "1.5.10"
+    const val kordRange = "0.7.+"
 }
 
 /**
@@ -10,19 +10,30 @@ object Versions {
 val isJitPack get() = "true" == System.getenv("JITPACK")
 
 object Library {
-    private const val releaseVersion = "0.5.0-SNAPSHOT"
-    val isSnapshot: Boolean get() = releaseVersion.endsWith("-SNAPSHOT")
-    val isRelease: Boolean get() = !isSnapshot
     const val name = "emoji"
     const val group = "dev.kord.x"
-    val version: String = if (isJitPack) System.getenv("RELEASE_TAG")
-    else releaseVersion
-    const val url = "https://github.com/kordlib/kordx.emoji"
+    val version: String
+        get() = if (isJitPack) System.getenv("RELEASE_TAG")
+        else {
+            val tag = System.getenv("GITHUB_TAG_NAME")
+            val branch = System.getenv("GITHUB_BRANCH_NAME")
+            when {
+                !tag.isNullOrBlank() -> tag
+                !branch.isNullOrBlank() && branch.startsWith("refs/heads/") ->
+                    branch.substringAfter("refs/heads/").replace("/", "-") + "-SNAPSHOT"
+                else -> "undefined"
+            }
 
+        }
+    val isSnapshot: Boolean get() = version.endsWith("-SNAPSHOT")
     const val description = "Discord Emoji constants for Kord"
     const val projectUrl = "https://github.com/kordlib/kordx.emoji"
+    /**
+     * Whether the current API is considered stable, and should be compared to the 'golden' API dump.
+     */
+    val isRelease: Boolean get() = !isSnapshot && !isUndefined
 
-    val isStableApi: Boolean get() = !isSnapshot
+    val isUndefined get() = version == "undefined"
 }
 
 object Repo {

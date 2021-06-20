@@ -2,8 +2,8 @@
 
 ## Dependencies
 
-* kord: 0.6.x -> 0.7.x
-* kotlin: 1.4.10 -> 1.4.21
+* kord: 0.6.x -> 0.7.0
+* kotlin: 1.4.10 -> 1.5.10
 
 ## Fixes
 

@@ -4,25 +4,13 @@ name: Kotlin CI
 
 on:
   push:
-    paths:
-      - '**.gradle'
-      - '**.gradle.kts'
-      - '**.properties'
-      - '**/src/**'
     branches:
-      - 'master'
-      - '0.5.x'
-      - '0.6.x'
+      - '**' # We want to run this on all branch pushes
     tags-ignore:
-      - '*.*'
-    pull_request:
-      paths:
-        - '**.gradle'
-        - '**.gradle.kts'
-        - '**.properties'
-        - '**/src/**'
-      types: [ opened, synchronize, reopened ]
-
+      - '**' # We don't want this to run on tags pushes
+  pull_request:
+  release:
+    types: [ published ]
 jobs:
   build:
     name: Build Kord
@@ -53,12 +41,14 @@ jobs:
     if: github.event_name != 'pull_request'
     needs: build
     env:
-      BINTRAY_KEY: ${{ secrets.BINTRAY_KEY }}
-      BINTRAY_USER: ${{ secrets.BINTRAY_USER }}
       NEXUS_USER: ${{ secrets.NEXUS_USER }}
       NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
       ORG_GRADLE_PROJECT_signingKey: ${{ secrets.signingKey }}
       ORG_GRADLE_PROJECT_signingPassword: ${{ secrets.signingPassword }}
+      GITHUB_EVENT_NAME: ${{ github.event_name }}
+      GITHUB_TAG_NAME: ${{ github.event.release.tag_name }}
+      GITHUB_TARGET_COMMITISH: ${{ github.event.release.target_commitish }}
+      GITHUB_BRANCH_NAME: ${{ github.ref }}
       ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
     steps:

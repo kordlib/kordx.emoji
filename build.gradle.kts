@@ -47,6 +47,10 @@ val javadocJar by tasks.registering(Jar::class) {
     archiveClassifier.set("javadoc")
 }
 
+tasks.withType<PublishToMavenRepository>().configureEach {
+    doFirst { require(!Library.isUndefined) { "No release/snapshot version found." } }
+}
+
 publishing {
     publications {
         create<MavenPublication>(Library.name) {
@@ -64,7 +68,7 @@ publishing {
 
                 organization {
                     name.set("Kord")
-                    url.set(Library.url)
+                    url.set(Library.projectUrl)
                 }
 
                 developers {
@@ -75,7 +79,7 @@ publishing {
 
                 issueManagement {
                     system.set("GitHub")
-                    url.set("${Library.url}/issues")
+                    url.set("${Library.projectUrl}/issues")
                 }
 
                 licenses {
@@ -87,7 +91,7 @@ publishing {
                 scm {
                     connection.set("scm:git:ssh://github.com/kordlib/kordx.emoji.git")
                     developerConnection.set("scm:git:ssh://git@github.com:kordlib/kordx.emoji.git")
-                    url.set(Library.url)
+                    url.set(Library.projectUrl)
                 }
             }
 
@@ -120,6 +124,5 @@ if (!isJitPack && Library.isRelease) {
         sign(publishing.publications[Library.name])
     }
 }
-
 
 nexusStaging { }

@@ -19,13 +19,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.kord:kord-core:${Versions.kordRange}") {
-        /*
-        version {
-            prefer("latest.integration")
-        }
-         */
-    }
+    implementation("dev.kord:kord-core:${Versions.kordRange}")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")

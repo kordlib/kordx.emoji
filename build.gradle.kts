@@ -4,9 +4,12 @@ import org.apache.commons.codec.binary.Base64
 version = Library.version
 group = Library.group
 
+subprojects {
+    apply(plugin = "org.jetbrains.dokka")
+}
 plugins {
     kotlin("jvm") version Versions.kotlin
-
+    id("org.jetbrains.dokka") version "1.4.30"
     signing
     `maven-publish`
     id("io.codearte.nexus-staging") version "0.22.0"
@@ -14,6 +17,7 @@ plugins {
 
 repositories {
     mavenCentral()
+    jcenter()
     maven("https://oss.sonatype.org/content/repositories/snapshots")
 
 }
@@ -29,6 +33,25 @@ tasks.compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+tasks.dokkaHtml.configure {
+    this.outputDirectory.set(file("${project.projectDir}/dokka/kord/"))
+
+    dokkaSourceSets {
+        configureEach {
+            platform.set(org.jetbrains.dokka.Platform.jvm)
+
+            sourceLink {
+                localDirectory.set(file("src/main/kotlin"))
+                remoteUrl.set(uri("https://github.com/kordlib/kordx.emoji/tree/master/${project.name}/src/main/kotlin/").toURL())
+
+                remoteLineSuffix.set("#L")
+            }
+
+            jdkVersion.set(8)
+        }
+    }
+}
+
 apply<EmojiPlugin>()
 
 val sourcesJar by tasks.registering(Jar::class) {
@@ -36,9 +59,12 @@ val sourcesJar by tasks.registering(Jar::class) {
     from(sourceSets.main.get().allSource)
 }
 
-val javadocJar by tasks.registering(Jar::class) {
+val dokkaJar by tasks.registering(Jar::class) {
     group = JavaBasePlugin.DOCUMENTATION_GROUP
+    description = "Assembles Kotlin docs with Dokka"
     archiveClassifier.set("javadoc")
+    from(tasks.dokkaHtml)
+    dependsOn(tasks.dokkaHtml)
 }
 
 tasks.withType<PublishToMavenRepository>().configureEach {
@@ -54,6 +80,7 @@ publishing {
             version = Library.version
 
             artifact(sourcesJar.get())
+            artifact(dokkaJar.get())
 
             pom {
                 name.set(Library.name)
@@ -116,6 +143,14 @@ if (!isJitPack && Library.isRelease) {
             useInMemoryPgpKeys(String(Base64().decode(signingKey.toByteArray())), signingPassword)
         }
         sign(publishing.publications[Library.name])
+    }
+}
+tasks {
+    val dokkaOutputDir = "${rootProject.projectDir}/dokka"
+
+    val clean = getByName("clean", Delete::class) {
+        delete(rootProject.buildDir)
+        delete(dokkaOutputDir)
     }
 }
 

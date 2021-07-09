@@ -20,22 +20,22 @@ Replace `{version}` with the desired version number.
 ### Gradle (groovy)
 ```groovy
 dependencies {
-    implementation 'dev.kord:kordx.emoji:{version}'
+    implementation 'dev.kord.x:emoji:{version}'
 }
 ```
 
 ### Gradle (kotlin)
 ```kotlin
 dependencies { 
-    implementation("dev.kord:kordx.emoji:{version}")
+    implementation("dev.kord.x:emoji:{version}")
 }
 ```
 
 ### Maven
 ```xml
 <dependency>
-    <groupId>dev.kord</groupId>
-    <artifactId>kordx.emoji</artifactId>
+    <groupId>dev.kord.x</groupId>
+    <artifactId>emoji</artifactId>
     <version>{version}</version>
 </dependency>
 ```

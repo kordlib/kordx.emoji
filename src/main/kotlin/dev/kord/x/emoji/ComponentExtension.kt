@@ -5,12 +5,12 @@ import dev.kord.common.entity.DiscordPartialEmoji
 import dev.kord.rest.builder.component.ButtonBuilder
 
 /**
- * Allows you to set [ButtonBuilder.emoji] to a [DiscordEmoji].
+ * Allows setting [ButtonBuilder.emoji] to a [DiscordEmoji].
  *
  * Example:
  * ```kotlin
  * interactionButton(ButtonStyle.Primary, "id") {
- *  discordEmoji = Emojis.checkMark
+ *     discordEmoji = Emojis.checkMark
  * }
  * ```
  *

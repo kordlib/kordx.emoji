@@ -1,5 +1,5 @@
 import dev.kord.x.emoji.EmojiPlugin
-import org.apache.commons.codec.binary.Base64
+import de.undercouch.gradle.tasks.download.org.apache.commons.codec.binary.Base64
 
 version = Library.version
 group = Library.group
@@ -9,7 +9,7 @@ plugins {
 
     signing
     `maven-publish`
-    id("io.codearte.nexus-staging") version "0.22.0"
+    id("io.codearte.nexus-staging") version "0.30.0"
 }
 
 repositories {

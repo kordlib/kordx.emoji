@@ -18,6 +18,6 @@ dependencies {
 tasks.compileKotlin {
     kotlinOptions {
         jvmTarget = "1.8"
-        freeCompilerArgs = listOf("-Xuse-experimental=kotlin.ExperimentalStdlibApi")
+        freeCompilerArgs = listOf("-opt-in=kotlin.ExperimentalStdlibApi")
     }
 }

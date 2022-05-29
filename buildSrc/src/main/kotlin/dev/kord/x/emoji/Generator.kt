@@ -63,6 +63,14 @@ class EmojiPlugin : Plugin<Project> {
                 addKdoc("""
                 List of all supported discord emojis.
                 """.trimIndent())
+                addAnnotation(
+                    AnnotationSpec.builder(Suppress::class)
+                        .addMember("\"RemoveRedundantBackticks\"")
+                        .addMember("\"RedundantVisibilityModifier\"")
+                        .addMember("\"MemberVisibilityCanBePrivate\"")
+                        .addMember("\"unused\"")
+                        .build()
+                )
 
                 //disabled for now
                 generateMapGetter()

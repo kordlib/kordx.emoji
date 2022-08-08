@@ -42,7 +42,7 @@ sealed class DiscordEmoji {
     }
 
     /**
-     * An generic emoji that does not support [SkinTones][SkinTone].
+     * A generic emoji that does not support [SkinTones][SkinTone].
      */
     data class Generic(override val unicode: String) : DiscordEmoji() {
         override fun toString(): String = unicode
@@ -76,6 +76,7 @@ suspend fun MessageBehavior.deleteOwnReaction(emoji: DiscordEmoji) = deleteOwnRe
  * Transforms the emoji into a [ReactionEmoji.Unicode] emoji.
  */
 fun DiscordEmoji.toReaction() = ReactionEmoji.Unicode(unicode)
+
 /**
  * transforms a [DiscordEmoji] into a reaction.
  *

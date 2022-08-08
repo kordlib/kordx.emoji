@@ -1,3 +1,21 @@
+# 0.6.0
+
+## Dependencies
+
+* kord: 0.7.x -> 0.8.x
+* kotlin (and plugin.serialization): 1.5.10 -> 1.6.21
+* nexus-staging: 0.22.0 -> 0.30.0
+* kotlinx-serialization: 1.0.1 -> 1.3.3
+* kotlinpoet: 1.7.2 -> 1.11.0
+* commons-text: 1.8 -> 1.9
+* bintray: 1.8.2 -> 1.8.5
+* gradle: 6.8 -> 7.4.2
+
+## Changes
+
+* Cleanup un-needed visibility modifiers
+* Suppress incorrect warnings
+
 # 0.5.0
 
 ## Dependencies

@@ -1,11 +1,18 @@
 package dev.kord.x.emoji
 
 import kotlin.String
+import kotlin.Suppress
 import kotlin.collections.Map
 
 /**
  * List of all supported discord emojis.
  */
+@Suppress(
+  "RemoveRedundantBackticks",
+  "RedundantVisibilityModifier",
+  "MemberVisibilityCanBePrivate",
+  "unused",
+)
 public object Emojis {
   private val all: Map<String, DiscordEmoji> = mapOf(
               "\uD83D\uDE00" to `grinning`,

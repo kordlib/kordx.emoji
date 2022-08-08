@@ -1,6 +1,6 @@
 object Versions {
     const val bintray = "1.8.5"
-    const val kotlin = "1.6.21"
+    const val kotlin = "1.7.10"
     const val kordRange = "0.8.+"
 }
 

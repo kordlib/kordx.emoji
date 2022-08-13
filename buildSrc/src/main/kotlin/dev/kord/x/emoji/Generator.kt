@@ -127,7 +127,6 @@ class EmojiPlugin : Plugin<Project> {
             }
             }    
                     |)""".trimMargin())
-            addModifiers(KModifier.PRIVATE)
         }
 
         addProperty(property)

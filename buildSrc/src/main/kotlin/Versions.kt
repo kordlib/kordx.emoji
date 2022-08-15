@@ -1,11 +1,10 @@
 object Versions {
-    const val bintray = "1.8.5"
     const val kotlin = "1.7.10"
-    const val kordRange = "0.8.+"
+    const val kordRange = "[0.8,)"
 }
 
 /**
- * whether the process has been invoked by JitPack
+ * Whether the process has been invoked by JitPack
  */
 val isJitPack get() = "true" == System.getenv("JITPACK")
 

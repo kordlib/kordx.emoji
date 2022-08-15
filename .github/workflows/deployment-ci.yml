@@ -30,7 +30,7 @@ jobs:
       - name: Build with gradle
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: build --stacktrace --info
+          arguments: build javadocJar --stacktrace --info
   release:
     name: Publish artifacts
     runs-on: ubuntu-latest
@@ -59,7 +59,7 @@ jobs:
       - name: Build with gradle
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: -x test publish
+          arguments: -x test publish javadocJar
 # Disabled for now
 #
 #      - name: Close and Release Repository

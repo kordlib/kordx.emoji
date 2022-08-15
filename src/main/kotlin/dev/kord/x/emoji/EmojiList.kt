@@ -14,7 +14,7 @@ import kotlin.collections.Map
   "unused",
 )
 public object Emojis {
-  private val all: Map<String, DiscordEmoji> = mapOf(
+  public val all: Map<String, DiscordEmoji> = mapOf(
               "\uD83D\uDE00" to `grinning`,
               "\uD83D\uDE03" to `smiley`,
               "\uD83D\uDE04" to `smile`,

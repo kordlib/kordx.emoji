@@ -59,7 +59,12 @@ jobs:
       - name: Build with gradle
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: -x test javadocJar publish
+          arguments: --stacktrace --info build
+
+      - name: Publish with Gradle
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: -x test publish
 # Disabled for now
 #
 #      - name: Close and Release Repository

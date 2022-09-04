@@ -30,7 +30,12 @@ jobs:
       - name: Build with gradle
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: build javadocJar --stacktrace --info
+          arguments: --stacktrace --info build
+
+      - name: Publish with Gradle
+        uses: gradle/gradle-build-action@v2
+        with:
+          arguments: -x test publish
   release:
     name: Publish artifacts
     runs-on: ubuntu-latest

@@ -1,6 +1,5 @@
 package dev.kord.x.emoji
 
-import dev.kord.common.annotation.KordPreview
 import dev.kord.common.entity.DiscordPartialEmoji
 import dev.kord.rest.builder.component.ButtonBuilder
 
@@ -16,8 +15,7 @@ import dev.kord.rest.builder.component.ButtonBuilder
  *
  * @see ButtonBuilder.emoji
  */
-@KordPreview
-var ButtonBuilder.discordEmoji: DiscordEmoji?
+public var ButtonBuilder.discordEmoji: DiscordEmoji?
     get() = emoji?.name?.let { unicode ->
         Emojis[unicode]
     }

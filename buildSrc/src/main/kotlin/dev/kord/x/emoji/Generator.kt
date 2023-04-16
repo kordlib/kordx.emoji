@@ -6,11 +6,14 @@ import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
-import org.apache.commons.text.StringEscapeUtils
+import org.gradle.api.DefaultTask
 import org.gradle.api.Plugin
 import org.gradle.api.Project
+import org.gradle.api.tasks.TaskAction
 import java.nio.charset.Charset
-import java.nio.file.Paths
+import java.util.*
+import kotlin.io.path.Path
+import kotlin.io.path.div
 
 private object Generator
 
@@ -46,30 +49,49 @@ data class EmojiItem(
     val hasMultiDiversityParent: Boolean = false
 )
 
-val EmojiItem.unicode: String get() = StringEscapeUtils.escapeJava(surrogates)
-
 @Suppress("MemberVisibilityCanBePrivate")
 class EmojiPlugin : Plugin<Project> {
-    private val snakeCase = Regex("""_\w""")
 
     override fun apply(project: Project) {
-        generate(project)
+        project.tasks.register("generateEmojisFile", GenerateEmojisTask::class.java)
+    }
+}
+
+private abstract class GenerateEmojisTask : DefaultTask() {
+    private val snakeCase = """_\w""".toRegex()
+    private val jsValidName = "[a-zA-Z]+".toRegex()
+    private val targetFile = Path(project.rootProject.rootDir.absolutePath, "src/commonMain/kotlin")
+    private val fileName = "EmojisList"
+
+    init {
+        outputs.file(targetFile / "$fileName.kt")
+        inputs.file(project.file("buildSrc/src/main/resources/emojis.json"))
     }
 
-    private fun generate(project: Project) {
+    private fun String.escape() = flatMap { it.code.toString(36).toList() }
+        .map { if (it in '0'..'9') it + 17 else it }
+        .joinToString("")
+
+    @OptIn(DelicateKotlinPoetApi::class)
+    @TaskAction
+    private fun generate() {
         val emojis: Map<String, List<EmojiItem>> = parseEmojis()
         val file = with(FileSpec.builder("dev.kord.x.emoji", "EmojiList")) {
+            addKotlinDefaultImports(includeJvm = false, includeJs = false)
             val emojisObject = buildObject("Emojis") {
-                addKdoc("""
+                addKdoc(
+                    """
                 List of all supported discord emojis.
-                """.trimIndent())
+                """.trimIndent()
+                )
                 addAnnotation(
-                    AnnotationSpec.builder(Suppress::class)
-                        .addMember("\"RemoveRedundantBackticks\"")
-                        .addMember("\"RedundantVisibilityModifier\"")
-                        .addMember("\"MemberVisibilityCanBePrivate\"")
-                        .addMember("\"unused\"")
-                        .build()
+                    AnnotationSpec.get(
+                        Suppress(
+                            "ObjectPropertyName",
+                            "MemberVisibilityCanBePrivate",
+                            "unused"
+                        )
+                    )
                 )
 
                 //disabled for now
@@ -82,7 +104,7 @@ class EmojiPlugin : Plugin<Project> {
             build()
         }
 
-        val directory = Paths.get(project.rootProject.rootDir.absolutePath, "src/main/kotlin")
+        val directory = Path(project.rootProject.rootDir.absolutePath, "src/commonMain/kotlin")
         file.writeTo(directory)
     }
 
@@ -100,16 +122,16 @@ class EmojiPlugin : Plugin<Project> {
     fun TypeSpec.Builder.generateMapGetter() {
 
         val getter = FunSpec.builder("get")
-                .addKdoc("Gets a discord emoji with the given [unicode].")
-                .addModifiers(KModifier.OPERATOR)
-                .addParameter("unicode", typeNameOf<String>())
-                .returns(EmojiType.Base.name.copy(nullable = true))
-                .addStatement("val tone = unicode.toSkinTone()")
-                .addStatement("val withoutTone = unicode.removeTone()")
-                .addStatement("val emoji = Emojis.all[withoutTone]")
-                .addStatement("")
-                .addStatement("return if (emoji is %T) emoji.copy(tone = tone!!) else emoji", EmojiType.Diverse.name)
-                .build()
+            .addKdoc("Gets a discord emoji with the given [unicode].")
+            .addModifiers(KModifier.OPERATOR)
+            .addParameter("unicode", typeNameOf<String>())
+            .returns(EmojiType.Base.name.copy(nullable = true))
+            .addStatement("val tone = unicode.toSkinTone()")
+            .addStatement("val withoutTone = unicode.removeTone()")
+            .addStatement("val emoji = all[withoutTone]")
+            .addStatement("")
+            .addStatement("return if (emoji is %T) emoji.copy(tone = tone!!) else emoji", EmojiType.Diverse.name)
+            .build()
 
         addFunction(getter)
     }
@@ -120,13 +142,14 @@ class EmojiPlugin : Plugin<Project> {
         }
 
         val property = buildProperty("all", type) {
-            initializer("""mapOf(
-                    |${
-            emojis.values.asSequence().flatten().joinToString(",\n") {
-                "        \"${it.unicode}\" to `${it.names.first().toCamelCase()}`"
-            }
-            }    
-                    |)""".trimMargin())
+            val initializer = emojis.values.flatten()
+                .map {
+                    val name = MemberName("", it.names.first().toCamelCase())
+                    CodeBlock.of("%S to %M", it.surrogates, name)
+                }
+                .joinToCode(prefix = "mapOf(", separator = ",\n", suffix = ")")
+
+            initializer(initializer)
         }
 
         addProperty(property)
@@ -137,26 +160,39 @@ class EmojiPlugin : Plugin<Project> {
         else -> applyGeneric(item)
     }
 
+    private fun PropertySpec.Builder.applyJsNameIfNeeded(name: String) {
+        if (jsValidName.matchEntire(name) == null) {
+            val jsName = AnnotationSpec
+                .builder(ClassName("kotlin.js", "JsName"))
+                .addMember("%S", name.escape())
+                .build()
+            addAnnotation(jsName)
+        }
+    }
+
     fun TypeSpec.Builder.applyDiverse(item: EmojiItem) {
         item.names.forEach { name ->
-            val property = buildProperty(name.toCamelCase(), EmojiType.Diverse.name) {
-                getter(FunSpec.getterBuilder().addStatement("return %T(\"%L\")", EmojiType.Diverse.name, item.unicode).build())
+            val camelCaseName = name.toCamelCase()
+            val property = buildProperty(camelCaseName, EmojiType.Diverse.name) {
+                applyJsNameIfNeeded(camelCaseName)
+                getter(
+                    FunSpec.getterBuilder().addStatement("return %T(\"%L\")", EmojiType.Diverse.name, item.surrogates)
+                        .build()
+                )
             }
             addProperty(property)
         }
     }
 
-    fun String.toCamelCase() = snakeCase.replace(decapitalize()) { result -> result.value.drop(1).toUpperCase() }
-
-    inline fun buildProperty(name: String, type: TypeName, builder: PropertySpec.Builder.() -> Unit) = with(PropertySpec.builder(name, type)) {
-        builder()
-        build()
+    fun String.toCamelCase() = snakeCase.replace(replaceFirstChar { it.lowercase(Locale.getDefault()) }) { result ->
+        result.value.drop(1).uppercase()
     }
 
-    inline fun<reified T> buildProperty(name: String, builder: PropertySpec.Builder.() -> Unit) = with(PropertySpec.builder(name, typeNameOf<T>())) {
-        builder()
-        build()
-    }
+    inline fun buildProperty(name: String, type: TypeName, builder: PropertySpec.Builder.() -> Unit) =
+        with(PropertySpec.builder(name, type)) {
+            builder()
+            build()
+        }
 
     inline fun buildObject(name: String, builder: TypeSpec.Builder.() -> Unit) = with(TypeSpec.objectBuilder(name)) {
         builder()
@@ -165,18 +201,25 @@ class EmojiPlugin : Plugin<Project> {
 
     fun TypeSpec.Builder.applyGeneric(item: EmojiItem) {
         item.names.forEach { name ->
-            val property = buildProperty(name.toCamelCase(), EmojiType.Generic.name) {
-                getter(FunSpec.getterBuilder().addStatement("return %T(\"%L\")", EmojiType.Generic.name, item.unicode).build())
+            val camelCaseName = name.toCamelCase()
+            val property = buildProperty(camelCaseName, EmojiType.Generic.name) {
+                applyJsNameIfNeeded(camelCaseName)
+                getter(
+                    FunSpec.getterBuilder().addStatement("return %T(\"%L\")", EmojiType.Generic.name, item.surrogates)
+                        .build()
+                )
             }
             addProperty(property)
         }
     }
 
     private fun parseEmojis(): Map<String, List<EmojiItem>> {
-        val content = String(Generator::class.java.classLoader.getResourceAsStream("emojis.json")!!.readBytes(), Charset.forName("UTF-8"))
+        val content = String(
+            Generator::class.java.classLoader.getResourceAsStream("emojis.json")!!.readBytes(),
+            Charset.forName("UTF-8")
+        )
         val pair = Pair(String.serializer(), ListSerializer(EmojiItem.serializer()))
         val serializer = MapSerializer(pair.first, pair.second)
         return Json.decodeFromString(serializer, content)
     }
-
 }

@@ -2,8 +2,9 @@ package dev.kord.x.emoji
 
 import dev.kord.core.behavior.MessageBehavior
 import dev.kord.core.entity.ReactionEmoji
+import kotlin.jvm.JvmInline
 
-enum class SkinTone(val unicode: String) {
+public enum class SkinTone(public val unicode: String) {
     Dark("\uD83C\uDFFF"),
     MediumDark("\uD83C\uDFFE"),
     Medium("\uD83C\uDFFD"),
@@ -11,24 +12,24 @@ enum class SkinTone(val unicode: String) {
     Light("\uD83C\uDFFB"),
     Default("");
 
-    companion object
+    public companion object
 }
 
 /**
  * A Unicode emoji supported by Discord's client.
  */
-sealed class DiscordEmoji {
+public sealed class DiscordEmoji {
 
     /**
      * The hex value of this emoji.
      */
-    abstract val unicode: String
+    public abstract val unicode: String
 
     /**
      * An emoji that supports [SkinTones][SkinTone].
      */
-    data class Diverse(val code: String, val tone: SkinTone = SkinTone.Default) : DiscordEmoji() {
-        fun withTone(tone: SkinTone): Diverse = copy(code = code, tone = tone)
+    public data class Diverse(val code: String, val tone: SkinTone = SkinTone.Default) : DiscordEmoji() {
+        public fun withTone(tone: SkinTone): Diverse = copy(code = code, tone = tone)
 
         override val unicode: String
             get() = "$code${tone.unicode}"
@@ -36,7 +37,7 @@ sealed class DiscordEmoji {
         /**
          * Checks [other] to be the same emote but ignores [tone].
          */
-        fun isSimilar(other: Diverse?): Boolean = code == other?.code
+        public fun isSimilar(other: Diverse?): Boolean = code == other?.code
 
         override fun toString(): String = unicode
     }
@@ -44,7 +45,7 @@ sealed class DiscordEmoji {
     /**
      * A generic emoji that does not support [SkinTones][SkinTone].
      */
-    data class Generic(override val unicode: String) : DiscordEmoji() {
+    public data class Generic(override val unicode: String) : DiscordEmoji() {
         override fun toString(): String = unicode
 
         override fun hashCode(): Int = unicode.hashCode()
@@ -60,29 +61,29 @@ sealed class DiscordEmoji {
 /**
  * Requests to add the [emoji] to the messages.
  */
-suspend fun MessageBehavior.addReaction(emoji: DiscordEmoji) = addReaction(emoji.toReaction())
+public suspend fun MessageBehavior.addReaction(emoji: DiscordEmoji): Unit = addReaction(emoji.toReaction())
 
 /**
  * Requests to delete all [emoji] reactions from this message.
  */
-suspend fun MessageBehavior.deleteReaction(emoji: DiscordEmoji) = deleteReaction(emoji.toReaction())
+public suspend fun MessageBehavior.deleteReaction(emoji: DiscordEmoji): Unit = deleteReaction(emoji.toReaction())
 
 /**
  * Requests to delete an emoji from this message made by this bot.
  */
-suspend fun MessageBehavior.deleteOwnReaction(emoji: DiscordEmoji) = deleteOwnReaction(emoji.toReaction())
+public suspend fun MessageBehavior.deleteOwnReaction(emoji: DiscordEmoji): Unit = deleteOwnReaction(emoji.toReaction())
 
 /**
  * Transforms the emoji into a [ReactionEmoji.Unicode] emoji.
  */
-fun DiscordEmoji.toReaction() = ReactionEmoji.Unicode(unicode)
+public fun DiscordEmoji.toReaction(): ReactionEmoji.Unicode = ReactionEmoji.Unicode(unicode)
 
 /**
  * transforms a [DiscordEmoji] into a reaction.
  *
  * @param emoji the emoji to transform into a reaction.
  */
-fun ReactionEmoji.Companion.from(emoji: DiscordEmoji) = emoji.toReaction()
+public fun ReactionEmoji.Companion.from(emoji: DiscordEmoji): ReactionEmoji.Unicode = emoji.toReaction()
 
 internal fun String.toSkinTone(): SkinTone? = SkinTone.values().firstOrNull { this.endsWith(it.unicode) }
 

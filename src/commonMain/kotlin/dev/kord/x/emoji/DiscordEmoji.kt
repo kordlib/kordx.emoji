@@ -2,7 +2,6 @@ package dev.kord.x.emoji
 
 import dev.kord.core.behavior.MessageBehavior
 import dev.kord.core.entity.ReactionEmoji
-import kotlin.jvm.JvmInline
 
 public enum class SkinTone(public val unicode: String) {
     Dark("\uD83C\uDFFF"),
@@ -85,7 +84,9 @@ public fun DiscordEmoji.toReaction(): ReactionEmoji.Unicode = ReactionEmoji.Unic
  */
 public fun ReactionEmoji.Companion.from(emoji: DiscordEmoji): ReactionEmoji.Unicode = emoji.toReaction()
 
-internal fun String.toSkinTone(): SkinTone? = SkinTone.values().firstOrNull { this.endsWith(it.unicode) }
+internal fun String.toSkinTone(): SkinTone? = enumValues<SkinTone>().firstOrNull { this.endsWith(it.unicode) }
 
-internal fun String.removeTone(): String = SkinTone.values().fold(this) { acc, skinTone -> acc.removeSuffix(skinTone.unicode) }
+internal fun String.removeTone(): String = enumValues<SkinTone>().fold(this) { acc, skinTone ->
+    acc.removeSuffix(skinTone.unicode)
+}
 

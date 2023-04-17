@@ -5,9 +5,11 @@ import kotlin.js.JsName
 /**
  * List of all supported discord emojis.
  */
-@Suppress(names = arrayOf("ObjectPropertyName", "MemberVisibilityCanBePrivate", "unused"))
+@Suppress(names = arrayOf("ObjectPropertyName", "MemberVisibilityCanBePrivate",
+        "SpellCheckingInspection", "unused"))
 public object Emojis {
-  public val all: Map<String, DiscordEmoji> = mapOf("😀" to grinning,
+  public val all: Map<String, DiscordEmoji> = mapOf(
+      "😀" to grinning,
       "😃" to smiley,
       "😄" to smile,
       "😁" to grin,
@@ -1809,7 +1811,6 @@ public object Emojis {
   public val heartEyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("😍")
 
-  @JsName("DHDBCxDACxDCCvByCpCrCtCfCxDICwBfCACtCpDGDIDH")
   public val smilingFaceWith3Hearts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🥰")
 
@@ -1885,7 +1886,6 @@ public object Emojis {
   public val slightlyFrowningFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🙁")
 
-  @JsName("CuDGDDDbDCCxDCCvBe")
   public val frowning2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("☹️")
 
@@ -2251,7 +2251,6 @@ public object Emojis {
   public val pointRight: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("👉")
 
-  @JsName("DEDDCxDCDICdDEBe")
   public val pointUp2: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("👆")
 
@@ -3422,7 +3421,6 @@ public object Emojis {
   public val whale: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐳")
 
-  @JsName("DbCwCpDACtBe")
   public val whale2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐋")
 
@@ -3432,7 +3430,6 @@ public object Emojis {
   public val crocodile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐊")
 
-  @JsName("DICxCvCtDGBe")
   public val tiger2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐅")
 
@@ -3478,14 +3475,12 @@ public object Emojis {
   public val ox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐂")
 
-  @JsName("CrDDDbBe")
   public val cow2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐄")
 
   public val racehorse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐎")
 
-  @JsName("DECxCvBe")
   public val pig2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐖")
 
@@ -3504,7 +3499,6 @@ public object Emojis {
   public val deer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🦌")
 
-  @JsName("CsDDCvBe")
   public val dog2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐕")
 
@@ -3517,7 +3511,6 @@ public object Emojis {
   public val poodle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐩")
 
-  @JsName("CrCpDIBe")
   public val cat2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐈")
 
@@ -3545,7 +3538,6 @@ public object Emojis {
   public val doveOfPeace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕊️")
 
-  @JsName("DGCpCqCqCxDIBe")
   public val rabbit2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐇")
 
@@ -3564,7 +3556,6 @@ public object Emojis {
   public val badger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🦡")
 
-  @JsName("DBDDDJDHCtBe")
   public val mouse2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🐁")
 
@@ -3724,7 +3715,6 @@ public object Emojis {
   public val star: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("⭐")
 
-  @JsName("DHDICpDGBe")
   public val star2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🌟")
 
@@ -3809,7 +3799,6 @@ public object Emojis {
   public val snowflake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("❄️")
 
-  @JsName("DHDCDDDbDBCpDCBe")
   public val snowman2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("☃️")
 
@@ -3831,7 +3820,6 @@ public object Emojis {
   public val umbrella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("☔")
 
-  @JsName("DJDBCqDGCtDADACpBe")
   public val umbrella2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("☂️")
 
@@ -4252,7 +4240,7 @@ public object Emojis {
   public val flyingDisc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🥏")
 
-  @JsName("BkCqCpDADA")
+  @JsName("_8ball")
   public val `8ball`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🎱")
 
@@ -4769,7 +4757,6 @@ public object Emojis {
   public val steamLocomotive: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🚂")
 
-  @JsName("DIDGCpCxDCBe")
   public val train2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🚆")
 
@@ -5169,7 +5156,6 @@ public object Emojis {
   public val radio: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("📻")
 
-  @JsName("DBCxCrDGDDDECwDDDCCtBe")
   public val microphone2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🎙️")
 
@@ -5452,7 +5438,6 @@ public object Emojis {
   public val key: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🔑")
 
-  @JsName("CzCtDdBe")
   public val key2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🗝️")
 
@@ -5648,7 +5633,6 @@ public object Emojis {
   public val cardIndexDividers: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🗂️")
 
-  @JsName("DCCtDbDHDECpDECtDGBe")
   public val newspaper2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🗞️")
 
@@ -5754,7 +5738,6 @@ public object Emojis {
   public val memo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("📝")
 
-  @JsName("DECtDCCrCxDABe")
   public val pencil2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("✏️")
 
@@ -5947,23 +5930,18 @@ public object Emojis {
   public val vibrationMode: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("📳")
 
-  @JsName("DJBiBjBcBl")
   public val u6709: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈶")
 
-  @JsName("DJBjBdBeBd")
   public val u7121: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈚")
 
-  @JsName("DJBjBhBfBf")
   public val u7533: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈸")
 
-  @JsName("DJBhBhCqBi")
   public val u55b6: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈺")
 
-  @JsName("DJBiBjBcBk")
   public val u6708: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈷️")
 
@@ -5985,19 +5963,15 @@ public object Emojis {
   public val congratulations: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("㊗️")
 
-  @JsName("DJBhBgBcBk")
   public val u5408: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈴")
 
-  @JsName("DJBiCtBkBc")
   public val u6e80: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈵")
 
-  @JsName("DJBhBeBjBe")
   public val u5272: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈹")
 
-  @JsName("DJBjBlBkBd")
   public val u7981: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈲")
 
@@ -6013,7 +5987,6 @@ public object Emojis {
   public val cl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🆑")
 
-  @JsName("DDBe")
   public val o2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🅾️")
 
@@ -6041,7 +6014,7 @@ public object Emojis {
   public val noEntrySign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🚫")
 
-  @JsName("BdBcBc")
+  @JsName("_100")
   public val `100`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("💯")
 
@@ -6120,7 +6093,6 @@ public object Emojis {
   public val whiteCheckMark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("✅")
 
-  @JsName("DJBiBfBcBj")
   public val u6307: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈯")
 
@@ -6163,7 +6135,6 @@ public object Emojis {
   public val parking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🅿️")
 
-  @JsName("DJBjCpBjCp")
   public val u7a7a: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🈳")
 
@@ -6272,7 +6243,7 @@ public object Emojis {
   public val keycapTen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🔟")
 
-  @JsName("BdBeBfBg")
+  @JsName("_1234")
   public val `1234`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🔢")
 
@@ -6630,99 +6601,75 @@ public object Emojis {
   public val mahjong: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🀄")
 
-  @JsName("CrDADDCrCzBd")
   public val clock1: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕐")
 
-  @JsName("CrDADDCrCzBe")
   public val clock2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕑")
 
-  @JsName("CrDADDCrCzBf")
   public val clock3: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕒")
 
-  @JsName("CrDADDCrCzBg")
   public val clock4: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕓")
 
-  @JsName("CrDADDCrCzBh")
   public val clock5: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕔")
 
-  @JsName("CrDADDCrCzBi")
   public val clock6: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕕")
 
-  @JsName("CrDADDCrCzBj")
   public val clock7: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕖")
 
-  @JsName("CrDADDCrCzBk")
   public val clock8: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕗")
 
-  @JsName("CrDADDCrCzBl")
   public val clock9: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕘")
 
-  @JsName("CrDADDCrCzBdBc")
   public val clock10: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕙")
 
-  @JsName("CrDADDCrCzBdBd")
   public val clock11: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕚")
 
-  @JsName("CrDADDCrCzBdBe")
   public val clock12: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕛")
 
-  @JsName("CrDADDCrCzBdBfBc")
   public val clock130: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕜")
 
-  @JsName("CrDADDCrCzBeBfBc")
   public val clock230: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕝")
 
-  @JsName("CrDADDCrCzBfBfBc")
   public val clock330: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕞")
 
-  @JsName("CrDADDCrCzBgBfBc")
   public val clock430: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕟")
 
-  @JsName("CrDADDCrCzBhBfBc")
   public val clock530: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕠")
 
-  @JsName("CrDADDCrCzBiBfBc")
   public val clock630: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕡")
 
-  @JsName("CrDADDCrCzBjBfBc")
   public val clock730: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕢")
 
-  @JsName("CrDADDCrCzBkBfBc")
   public val clock830: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕣")
 
-  @JsName("CrDADDCrCzBlBfBc")
   public val clock930: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕤")
 
-  @JsName("CrDADDCrCzBdBcBfBc")
   public val clock1030: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕥")
 
-  @JsName("CrDADDCrCzBdBdBfBc")
   public val clock1130: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕦")
 
-  @JsName("CrDADDCrCzBdBeBfBc")
   public val clock1230: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("🕧")
 

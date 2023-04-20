@@ -2,7 +2,7 @@ version = Library.version
 group = Library.group
 
 plugins {
-    kotlin("multiplatform") version "1.8.20"
+    alias(libs.plugins.kotlin.multiplatform)
     signing
     `maven-publish`
     dev.kord.x.emoji
@@ -24,7 +24,7 @@ kotlin {
     sourceSets {
         commonMain {
             dependencies {
-                implementation("dev.kord:kord-core:0.9.x-SNAPSHOT")
+                implementation(libs.kord.core)
             }
         }
     }

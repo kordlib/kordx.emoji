@@ -1,8 +1,7 @@
 plugins {
-    groovy
     `kotlin-dsl`
-    kotlin("jvm") version "1.8.20"
-    kotlin("plugin.serialization") version "1.8.20"
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 repositories {
@@ -11,6 +10,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.0")
-    implementation("com.squareup:kotlinpoet:1.13.0")
+    implementation(libs.kotlinx.serialization.json)
+    implementation(libs.kotlinpoet)
 }

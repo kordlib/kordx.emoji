@@ -20,14 +20,14 @@ Replace `{version}` with the desired version number.
 ### Gradle (groovy)
 ```groovy
 dependencies {
-    implementation 'dev.kord.x:emoji:{version}'
+    implementation 'dev.kord.x:kordx.emoji:{version}'
 }
 ```
 
 ### Gradle (kotlin)
 ```kotlin
 dependencies { 
-    implementation("dev.kord.x:emoji:{version}")
+    implementation("dev.kord.x:kordx.emoji:{version}")
 }
 ```
 
@@ -35,7 +35,7 @@ dependencies {
 ```xml
 <dependency>
     <groupId>dev.kord.x</groupId>
-    <artifactId>emoji</artifactId>
+    <artifactId>kordx.emoji</artifactId>
     <version>{version}</version>
 </dependency>
 ```

@@ -1,15 +1,11 @@
 [versions]
-kotlin = "1.8.20"
-kord = "0.9.x-SNAPSHOT"
-kotlinx-serialization = "1.5.0"
-kotlinpoet = "1.13.0"
+kotlin = "1.9.0"
 
 [libraries]
-kord-core = { module = "dev.kord:kord-core", version.ref = "kord" }
-kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
-kotlinpoet = {module="com.squareup:kotlinpoet", version.ref = "kotlinpoet" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.6.0-RC" }
+kotlinpoet = { group = "com.squareup", name = "kotlinpoet", version = "1.14.2" }
+kord-core = { group = "dev.kord", name = "kord-core", version = "feature-native-SNAPSHOT" }
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

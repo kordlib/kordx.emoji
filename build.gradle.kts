@@ -23,32 +23,25 @@ kotlin {
     }
     jvmToolchain(8)
 
-    sourceSets {
-        commonMain {
-            dependencies {
-                implementation(libs.kord.core)
-            }
-        }
+    linuxX64()
 
-        commonTest {
-            dependencies {
-                implementation(kotlin("test-common"))
-                implementation(kotlin("test-annotations-common"))
-            }
-        }
+    mingwX64()
 
-        named("jvmTest") {
-            dependencies {
-                implementation(kotlin("test-junit"))
-            }
-        }
+    macosArm64()
+    macosX64()
 
-        named("jsTest") {
-            dependencies {
-                implementation(kotlin("test-js"))
-            }
-        }
-    }
+    iosArm64()
+    iosX64()
+//    iosSimulatorArm64()
+
+    watchosX64()
+    watchosArm64()
+//    watchosSimulatorArm64()
+
+    tvosX64()
+    tvosArm64()
+//    tvosSimulatorArm64()
+
 }
 
 publishing {
@@ -116,4 +109,11 @@ signing {
             sign(this)
         }
     }
+}
+
+dependencies {
+    commonMainImplementation(libs.kord.core) {
+        exclude(module = "kord-ksp-annotations")
+    }
+    commonTestImplementation(kotlin("test"))
 }

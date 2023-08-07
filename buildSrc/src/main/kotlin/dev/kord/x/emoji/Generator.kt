@@ -3,12 +3,12 @@ package dev.kord.x.emoji
 import com.squareup.kotlinpoet.*
 import com.squareup.kotlinpoet.ParameterizedTypeName.Companion.parameterizedBy
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import org.gradle.api.DefaultTask
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.api.tasks.TaskAction
+import org.gradle.kotlin.dsl.register
 import kotlin.io.path.Path
 import kotlin.io.path.div
 
@@ -48,7 +48,7 @@ data class EmojiItem(
 class EmojiPlugin : Plugin<Project> {
 
     override fun apply(project: Project) {
-        project.tasks.register("generateEmojisFile", GenerateEmojisTask::class.java)
+        project.tasks.register<GenerateEmojisTask>("generateEmojisFile")
     }
 }
 
@@ -176,7 +176,7 @@ private abstract class GenerateEmojisTask : DefaultTask() {
                 applyJsNameIfNeeded(camelCaseName)
                 getter(
                     FunSpec.getterBuilder()
-                        .addStatement("""return %T("%L")""", EmojiType.Diverse.name, item.surrogates)
+                        .addStatement("""return %T(%S)""", EmojiType.Diverse.name, item.surrogates)
                         .build()
                 )
             }
@@ -207,7 +207,7 @@ private abstract class GenerateEmojisTask : DefaultTask() {
                 applyJsNameIfNeeded(camelCaseName)
                 getter(
                     FunSpec.getterBuilder()
-                        .addStatement("""return %T("%L")""", EmojiType.Generic.name, item.surrogates)
+                        .addStatement("""return %T(%S)""", EmojiType.Generic.name, item.surrogates)
                         .build()
                 )
             }

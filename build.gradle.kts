@@ -32,16 +32,14 @@ kotlin {
 
     iosArm64()
     iosX64()
-//    iosSimulatorArm64()
+     iosSimulatorArm64()
 
-    watchosX64()
     watchosArm64()
-//    watchosSimulatorArm64()
+    watchosSimulatorArm64()
 
     tvosX64()
     tvosArm64()
-//    tvosSimulatorArm64()
-
+    tvosSimulatorArm64()
 }
 
 publishing {

@@ -17,7 +17,7 @@ import dev.kord.rest.builder.component.ButtonBuilder
  */
 public var ButtonBuilder.discordEmoji: DiscordEmoji?
     get() = emoji?.name?.let { unicode ->
-        Emojis[unicode]
+        DiscordEmoji.findByUnicodeOrNull(unicode)
     }
     set(value) {
         emoji = value?.let { DiscordPartialEmoji(name = it.unicode) }

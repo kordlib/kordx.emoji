@@ -15,6 +15,8 @@ import org.gradle.kotlin.dsl.register
 import kotlin.io.path.Path
 import kotlin.io.path.div
 
+val LIST_OF = MemberName("kotlin.collections", "listOf")
+
 sealed class EmojiType {
     abstract val name: ClassName
 
@@ -51,15 +53,15 @@ class EmojiPlugin : Plugin<Project> {
     }
 }
 
+private val jsValidName = "[a-zA-Z0-9]+".toRegex()
+private val snakeCase = """_\w""".toRegex()
+
 private abstract class GenerateEmojisTask : DefaultTask() {
-    private val snakeCase = """_\w""".toRegex()
-    private val jsValidName = "[a-zA-Z0-9]+".toRegex()
     private val targetFile = Path(project.rootProject.rootDir.absolutePath, "src/commonMain/kotlin")
     private val fileName = "EmojisList"
 
     init {
         outputs.file(targetFile / "$fileName.kt")
-        inputs.file(project.file("buildSrc/src/main/resources/emojis.json"))
     }
 
     private fun String.escape() = flatMap { it.code.toString(36).toList() }
@@ -72,7 +74,7 @@ private abstract class GenerateEmojisTask : DefaultTask() {
         val emojis = parseEmojis()
         val file = FileSpec("dev.kord.x.emoji", "EmojiList") {
             addKotlinDefaultImports(includeJvm = false, includeJs = false)
-            val emojisObject = addObject("Emojis") {
+            addObject("Emojis") {
                 addKdoc(
                     """
                 List of all supported discord emojis.
@@ -87,13 +89,10 @@ private abstract class GenerateEmojisTask : DefaultTask() {
                     )
                 )
 
-                //disabled for now
                 generateMapGetter()
-                generateMap(emojis)
+                generateList(emojis)
                 emojis.forEach { apply(it) }
             }
-
-            addType(emojisObject)
         }
 
         val directory = Path(project.rootProject.rootDir.absolutePath, "src/commonMain/kotlin")
@@ -111,43 +110,40 @@ private abstract class GenerateEmojisTask : DefaultTask() {
 //        else emoji
 //    }
 
+    @OptIn(DelicateKotlinPoetApi::class)
     fun TypeSpec.Builder.generateMapGetter() {
         addFunction("get") {
+            addAnnotation(
+                Deprecated(
+                    "Replaced by DiscordEmoji.findByUnicodeOrNull",
+                    ReplaceWith("DiscordEmoji.findByUnicodeOrNull(unicode)", "dev.kord.x.emoji.DiscordEmoji")
+                )
+            )
             addKdoc("Gets a discord emoji with the given [unicode].")
             addModifiers(KModifier.OPERATOR)
             addParameter<String>("unicode")
             returns(EmojiType.Base.name.copy(nullable = true))
-            addCode(
-                """
-                val tone = unicode.toSkinTone()
-                val withoutTone = unicode.removeTone()
-                val emoji = all[withoutTone]
-                
-                return if (emoji is %T) emoji.copy(tone = tone!!) else emoji
-            """.trimIndent(), EmojiType.Diverse.name
-            )
+            addCode("""return DiscordEmoji.findByUnicodeOrNull(unicode)""")
         }
     }
 
-    fun TypeSpec.Builder.generateMap(emojis: List<EmojiItem>) {
-        val type = MAP.parameterizedBy(STRING, EmojiType.Base.name)
-        val property = addProperty("all", type) {
+    fun TypeSpec.Builder.generateList(emojis: List<EmojiItem>) {
+        val type = LIST.parameterizedBy(EmojiType.Base.name)
+        addProperty("all", type) {
             val initializer = emojis
                 .map {
-                    val name = MemberName("", it.aliases.first().toCamelCase())
-                    CodeBlock.of("%S to %M", it.emoji, name)
+                    val name = MemberName("", it.camelCaseName)
+                    CodeBlock.of("%M", name)
                 }
-                .joinToCode(prefix = "mapOf(\n", separator = ",\n", suffix = ")")
+                .joinToCode(prefix = "listOf(\n", separator = ",\n", suffix = ")")
 
             initializer(initializer)
         }
-
-        addProperty(property)
     }
 
     fun TypeSpec.Builder.apply(item: EmojiItem): Unit = when (item.hasSkinTones) {
-        true -> applyDiverse(item)
-        else -> applyGeneric(item)
+        true -> applyEmoji(item, EmojiType.Diverse.name)
+        else -> applyEmoji(item, EmojiType.Generic.name)
     }
 
     private fun PropertySpec.Builder.applyJsNameIfNeeded(name: String) {
@@ -159,34 +155,16 @@ private abstract class GenerateEmojisTask : DefaultTask() {
         jsName(safeName)
     }
 
-    fun TypeSpec.Builder.applyDiverse(item: EmojiItem) {
-        item.aliases.forEach { name ->
-            val camelCaseName = name.toCamelCase()
-            addProperty(camelCaseName, EmojiType.Diverse.name) {
-                applyJsNameIfNeeded(camelCaseName)
-                getter {
-                    addStatement("""return %T(%S)""", EmojiType.Diverse.name, item.emoji)
-                }
+    fun TypeSpec.Builder.applyEmoji(item: EmojiItem, typeName: TypeName) {
+        addProperty(item.camelCaseName, typeName) {
+            applyJsNameIfNeeded(item.camelCaseName)
+            val names = item.aliases.map { CodeBlock.of("%S", it) }.joinToCode(", ")
+            getter {
+                addStatement("""return %T(%S, %M(%L))""", typeName, item.emoji, LIST_OF, names)
             }
         }
     }
 
-    fun String.toCamelCase() = snakeCase.replace(replaceFirstChar { it.lowercase() }) {
-        it.value.drop(1).uppercase()
-    }
-
-
-    fun TypeSpec.Builder.applyGeneric(item: EmojiItem) {
-        item.aliases.forEach { name ->
-            val camelCaseName = name.toCamelCase()
-            addProperty(camelCaseName, EmojiType.Generic.name) {
-                applyJsNameIfNeeded(camelCaseName)
-                getter {
-                    addStatement("""return %T(%S)""", EmojiType.Generic.name, item.emoji)
-                }
-            }
-        }
-    }
 
     private fun parseEmojis(): List<EmojiItem> {
         val content = javaClass.classLoader.getResource("emojis.json")!!.readText()
@@ -195,4 +173,12 @@ private abstract class GenerateEmojisTask : DefaultTask() {
         }
         return json.decodeFromString(content)
     }
+}
+
+private val EmojiItem.camelCaseName: String
+    get() =
+        (aliases.firstOrNull { jsValidName.matches(it) } ?: aliases.first()).toCamelCase()
+
+private fun String.toCamelCase() = snakeCase.replace(replaceFirstChar { it.lowercase() }) {
+    it.value.drop(1).uppercase()
 }

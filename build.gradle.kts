@@ -1,128 +1,100 @@
-import dev.kord.x.emoji.EmojiPlugin
-import de.undercouch.gradle.tasks.download.org.apache.commons.codec.binary.Base64
+import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
+import org.jetbrains.kotlin.konan.target.KonanTarget
 
-version = Library.version
 group = Library.group
 
 plugins {
-    kotlin("jvm") version Versions.kotlin
-
-    signing
-    `maven-publish`
-    id("io.codearte.nexus-staging") version "0.30.0"
+    alias(libs.plugins.kotlin.multiplatform)
+    alias(libs.plugins.kord.gradle.plugin)
+    alias(libs.plugins.maven.publish.plugin)
+    dev.kord.x.emoji
 }
 
 repositories {
     mavenCentral()
     maven("https://oss.sonatype.org/content/repositories/snapshots")
+}
 
+kotlin {
+    explicitApi()
+    jvm()
+    js(IR) {
+        nodejs()
+    }
+    jvmToolchain(8)
+
+    linuxX64()
+
+    mingwX64()
+
+    macosArm64()
+    macosX64()
+
+    iosArm64()
+    iosX64()
+    iosSimulatorArm64()
+
+    watchosArm64()
+    watchosSimulatorArm64()
+
+    tvosX64()
+    tvosArm64()
+    tvosSimulatorArm64()
+}
+
+tasks {
+    // CI does not seem to like simulators
+    withType<KotlinNativeSimulatorTest> {
+        enabled = false
+    }
+}
+
+mavenPublishing {
+    coordinates(artifactId = Library.name)
+    publishToMavenCentral()
+    signAllPublications()
+
+    pom {
+        name = Library.name
+        description = Library.description
+        url = Library.description
+
+        organization {
+            name = "Kord"
+            url = Library.projectUrl
+        }
+
+        developers {
+            developer {
+                name = "The Kord Team"
+            }
+        }
+
+        issueManagement {
+            system = "GitHub"
+            url = "${Library.projectUrl}/issues"
+        }
+
+        licenses {
+            license {
+                name = "MIT"
+                url = "https://opensource.org/licenses/MIT"
+            }
+        }
+        scm {
+            connection = "scm:git:ssh://github.com/kordlib/kordx.emoji.git"
+            developerConnection = "scm:git:ssh://git@github.com:kordlib/kord.emoji.git"
+            url = Library.projectUrl
+        }
+    }
+}
+
+kord {
+    publicationName = "mavenCentral"
+    metadataHost = KonanTarget.MACOS_X64
 }
 
 dependencies {
-    implementation("dev.kord:kord-core:${Versions.kordRange}") {
-        /*
-        version {
-            prefer("latest.integration")
-        }
-         */
-    }
-
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    commonMainImplementation(libs.kord.core)
+    commonTestImplementation(kotlin("test"))
 }
-
-tasks.compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
-}
-
-apply<EmojiPlugin>()
-
-val sourcesJar by tasks.registering(Jar::class) {
-    archiveClassifier.set("sources")
-    from(sourceSets.main.get().allSource)
-}
-
-val javadocJar by tasks.registering(Jar::class) {
-    group = JavaBasePlugin.DOCUMENTATION_GROUP
-    archiveClassifier.set("javadoc")
-}
-
-tasks.withType<PublishToMavenRepository>().configureEach {
-    doFirst { require(!Library.isUndefined) { "No release/snapshot version found." } }
-}
-
-publishing {
-    publications {
-        create<MavenPublication>(Library.name) {
-            from(components["kotlin"])
-            groupId = Library.group
-            artifactId = Library.name
-            version = Library.version
-
-            artifact(sourcesJar.get())
-
-            pom {
-                name.set(Library.name)
-                description.set(Library.description)
-                url.set(Library.description)
-
-                organization {
-                    name.set("Kord")
-                    url.set(Library.projectUrl)
-                }
-
-                developers {
-                    developer {
-                        name.set("The Kord Team")
-                    }
-                }
-
-                issueManagement {
-                    system.set("GitHub")
-                    url.set("${Library.projectUrl}/issues")
-                }
-
-                licenses {
-                    license {
-                        name.set("MIT")
-                        url.set("https://opensource.org/licenses/MIT")
-                    }
-                }
-                scm {
-                    connection.set("scm:git:ssh://github.com/kordlib/kordx.emoji.git")
-                    developerConnection.set("scm:git:ssh://git@github.com:kordlib/kordx.emoji.git")
-                    url.set(Library.projectUrl)
-                }
-            }
-
-            if (!isJitPack) {
-                repositories {
-                    maven {
-                        url = if (Library.isSnapshot) uri(Repo.snapshotsUrl)
-                        else uri(Repo.releasesUrl)
-
-                        credentials {
-                            username = System.getenv("NEXUS_USER")
-                            password = System.getenv("NEXUS_PASSWORD")
-                        }
-                    }
-                }
-            }
-
-        }
-    }
-
-}
-
-if (!isJitPack && Library.isRelease) {
-    signing {
-        val signingKey = findProperty("signingKey")?.toString()
-        val signingPassword = findProperty("signingPassword")?.toString()
-        if (signingKey != null && signingPassword != null) {
-            useInMemoryPgpKeys(String(Base64().decode(signingKey.toByteArray())), signingPassword)
-        }
-        sign(publishing.publications[Library.name])
-    }
-}
-
-nexusStaging { }

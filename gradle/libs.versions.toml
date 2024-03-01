@@ -5,6 +5,7 @@ kotlin = "1.9.22"
 kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.6.3" }
 kotlinpoet = { group = "com.squareup", name = "kotlinpoet", version = "1.14.2" }
 kord-core = { group = "dev.kord", name = "kord-core", version = "feature-native-SNAPSHOT" }
+codegen-kotlinpoet = { group = "dev.kord.codegen", name = "kotlinpoet", version = "main-SNAPSHOT" }
 
 [plugins]
 kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }

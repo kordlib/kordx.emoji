@@ -1,12 +1,9 @@
-import java.util.*
-
-version = Library.version
 group = Library.group
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
-    signing
-    `maven-publish`
+    alias(libs.plugins.kord.gradle.plugin)
+    alias(libs.plugins.maven.publish.plugin)
     dev.kord.x.emoji
 }
 
@@ -32,7 +29,7 @@ kotlin {
 
     iosArm64()
     iosX64()
-     iosSimulatorArm64()
+    iosSimulatorArm64()
 
     watchosArm64()
     watchosSimulatorArm64()
@@ -42,72 +39,46 @@ kotlin {
     tvosSimulatorArm64()
 }
 
-publishing {
-    publications {
-        withType<MavenPublication> {
-            pom {
-                name = Library.name
-                description = Library.description
-                url = Library.description
+mavenPublishing {
+    coordinates(artifactId = Library.name)
+    publishToMavenCentral()
+    signAllPublications()
 
-                organization {
-                    name = "Kord"
-                    url = Library.projectUrl
-                }
+    pom {
+        name = Library.name
+        description = Library.description
+        url = Library.description
 
-                developers {
-                    developer {
-                        name = "The Kord Team"
-                    }
-                }
+        organization {
+            name = "Kord"
+            url = Library.projectUrl
+        }
 
-                issueManagement {
-                    system = "GitHub"
-                    url = "${Library.projectUrl}/issues"
-                }
-
-                licenses {
-                    license {
-                        name = "MIT"
-                        url = "https://opensource.org/licenses/MIT"
-                    }
-                }
-                scm {
-                    connection = "scm:git:ssh://github.com/kordlib/kordx.emoji.git"
-                    developerConnection = "scm:git:ssh://git@github.com:kordlib/kord.emoji.git"
-                    url = Library.projectUrl
-                }
+        developers {
+            developer {
+                name = "The Kord Team"
             }
         }
 
-        repositories {
-            maven {
-                url = if (Library.isSnapshot) uri(Repo.snapshotsUrl)
-                else uri(Repo.releasesUrl)
+        issueManagement {
+            system = "GitHub"
+            url = "${Library.projectUrl}/issues"
+        }
 
-                credentials {
-                    username = System.getenv("NEXUS_USER")
-                    password = System.getenv("NEXUS_PASSWORD")
-                }
+        licenses {
+            license {
+                name = "MIT"
+                url = "https://opensource.org/licenses/MIT"
             }
+        }
+        scm {
+            connection = "scm:git:ssh://github.com/kordlib/kordx.emoji.git"
+            developerConnection = "scm:git:ssh://git@github.com:kordlib/kord.emoji.git"
+            url = Library.projectUrl
         }
     }
 }
 
-signing {
-    val signingKey = findProperty("signingKey")?.toString()
-    val signingPassword = findProperty("signingPassword")?.toString()
-    if (signingKey != null && signingPassword != null) {
-        useInMemoryPgpKeys(
-            Base64.getDecoder().decode(signingKey).decodeToString(),
-            signingPassword
-        )
-
-        publishing.publications.withType<MavenPublication> {
-            sign(this)
-        }
-    }
-}
 
 dependencies {
     commonMainImplementation(libs.kord.core) {

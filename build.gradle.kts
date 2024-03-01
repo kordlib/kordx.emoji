@@ -52,7 +52,7 @@ tasks {
 mavenPublishing {
     coordinates(artifactId = Library.name)
     publishToMavenCentral()
-    signAllPublications()
+//    signAllPublications()
 
     pom {
         name = Library.name
@@ -91,7 +91,7 @@ mavenPublishing {
 
 kord {
     publicationName = "mavenCentral"
-    metadataHost = KonanTarget.MACOS_ARM64
+    metadataHost = KonanTarget.MACOS_X64
 }
 
 dependencies {

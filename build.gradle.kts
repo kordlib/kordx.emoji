@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.konan.target.KonanTarget
+
 group = Library.group
 
 plugins {
@@ -79,6 +81,10 @@ mavenPublishing {
     }
 }
 
+kord {
+    publicationName = "mavenCentral"
+    metadataHost = KonanTarget.MACOS_ARM64
+}
 
 dependencies {
     commonMainImplementation(libs.kord.core)

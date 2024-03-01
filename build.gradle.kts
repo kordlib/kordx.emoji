@@ -1,3 +1,4 @@
+import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
 import org.jetbrains.kotlin.konan.target.KonanTarget
 
 group = Library.group
@@ -39,6 +40,13 @@ kotlin {
     tvosX64()
     tvosArm64()
     tvosSimulatorArm64()
+}
+
+tasks {
+    // CI does not seem to like simulators
+    withType<KotlinNativeSimulatorTest> {
+        enabled = false
+    }
 }
 
 mavenPublishing {

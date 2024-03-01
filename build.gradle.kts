@@ -52,7 +52,7 @@ tasks {
 mavenPublishing {
     coordinates(artifactId = Library.name)
     publishToMavenCentral()
-//    signAllPublications()
+    signAllPublications()
 
     pom {
         name = Library.name

@@ -81,8 +81,6 @@ mavenPublishing {
 
 
 dependencies {
-    commonMainImplementation(libs.kord.core) {
-        exclude(module = "kord-ksp-annotations")
-    }
+    commonMainImplementation(libs.kord.core)
     commonTestImplementation(kotlin("test"))
 }

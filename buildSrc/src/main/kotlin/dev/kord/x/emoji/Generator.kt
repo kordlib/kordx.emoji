@@ -32,7 +32,22 @@ sealed class EmojiType {
 
     object Diverse : EmojiType() {
         override val name: ClassName
-            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.Diverse")
+            get() = ClassName("dev.kord.x.emoji", "DiverseEmoji")
+    }
+
+    object EmojiWithSkinTone : EmojiType() {
+        override val name: ClassName
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.EmojiWithSkinTone")
+    }
+
+    object EmojiWithHairStyle : EmojiType() {
+        override val name: ClassName
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.EmojiWithHairStyle")
+    }
+
+    object EmojiWithHairStyleAndSkinTone : EmojiType() {
+        override val name: ClassName
+            get() = ClassName("dev.kord.x.emoji", "DiscordEmoji.EmojiWithHairStyleAndSkinTone")
     }
 }
 
@@ -40,9 +55,10 @@ sealed class EmojiType {
 @Serializable
 data class EmojiItem(
     val emoji: String,
+    val description: String,
     val aliases: List<String>,
     @SerialName("skin_tones")
-    val hasSkinTones: Boolean = false
+    val hasSkinTones: Boolean = false,
 )
 
 @Suppress("MemberVisibilityCanBePrivate")
@@ -55,6 +71,9 @@ class EmojiPlugin : Plugin<Project> {
 
 private val jsValidName = "[a-zA-Z0-9]+".toRegex()
 private val snakeCase = """_\w""".toRegex()
+
+private fun String.removeHairStyle() =
+    replace("_?(?:red_hair(?:ed)?|curly_hair(?:ed)?|white_hair(?:ed)?|bald)_?".toRegex(), "")
 
 private abstract class GenerateEmojisTask : DefaultTask() {
     private val targetFile = Path(project.rootProject.rootDir.absolutePath, "src/commonMain/kotlin")
@@ -90,12 +109,30 @@ private abstract class GenerateEmojisTask : DefaultTask() {
                 )
 
                 generateMapGetter()
-                generateList(emojis)
-                emojis.forEach { apply(it) }
+                // Filter for non Discord emojis
+                val availableEmojis = emojis
+                    .reversed() // Let's reverse it because the tone versions come last
+                    .asSequence()
+                    .map {
+                        val aliases = if (it.description.matches("[a-zA-Z]+".toRegex())) {
+                            listOf(it.description) + it.aliases
+                        } else {
+                            it.aliases
+                        }
+
+                        it.copy(aliases = aliases)
+                    }
+                    .groupBy { it.aliases.first().removeHairStyle() }
+                    .map { (name, values) ->
+                        (values.size > 1) to (values.firstOrNull { it.aliases.first() == name }
+                            ?: error("Could not find emoji with name $name (Got: $values)"))
+                    }
+                availableEmojis.forEach { (supportsHairStyles, item) -> apply(item, supportsHairStyles) }
+                generateList(availableEmojis.map { (_, emoji) -> emoji })
             }
         }
 
-        val directory = Path(project.rootProject.rootDir.absolutePath, "src/commonMain/kotlin")
+        val directory = project.layout.buildDirectory.dir("generated/commonMain/kotlin").get().asFile
         file.writeTo(directory)
     }
 
@@ -132,7 +169,7 @@ private abstract class GenerateEmojisTask : DefaultTask() {
         addProperty("all", type) {
             val initializer = emojis
                 .map {
-                    val name = MemberName("", it.camelCaseName)
+                    val name = MemberName("dev.kord.x.emoji", it.camelCaseName)
                     CodeBlock.of("%M", name)
                 }
                 .joinToCode(prefix = "listOf(\n", separator = ",\n", suffix = ")")
@@ -141,9 +178,15 @@ private abstract class GenerateEmojisTask : DefaultTask() {
         }
     }
 
-    fun TypeSpec.Builder.apply(item: EmojiItem): Unit = when (item.hasSkinTones) {
-        true -> applyEmoji(item, EmojiType.Diverse.name)
-        else -> applyEmoji(item, EmojiType.Generic.name)
+    fun TypeSpec.Builder.apply(item: EmojiItem, hasHairStyle: Boolean) {
+        val type = when {
+            item.hasSkinTones && hasHairStyle -> EmojiType.EmojiWithHairStyleAndSkinTone
+            item.hasSkinTones -> EmojiType.EmojiWithSkinTone
+            hasHairStyle -> EmojiType.EmojiWithHairStyle
+            else -> EmojiType.Generic
+        }
+
+        applyEmoji(item, type.name, hasHairStyle)
     }
 
     private fun PropertySpec.Builder.applyJsNameIfNeeded(name: String) {
@@ -155,12 +198,35 @@ private abstract class GenerateEmojisTask : DefaultTask() {
         jsName(safeName)
     }
 
-    fun TypeSpec.Builder.applyEmoji(item: EmojiItem, typeName: TypeName) {
+    fun TypeSpec.Builder.applyEmoji(item: EmojiItem, typeName: TypeName, hasHairStyle: Boolean) {
         addProperty(item.camelCaseName, typeName) {
             applyJsNameIfNeeded(item.camelCaseName)
             val names = item.aliases.map { CodeBlock.of("%S", it) }.joinToCode(", ")
+            val emojiType = if (item.hasSkinTones || hasHairStyle) {
+                EmojiType.Diverse
+            } else {
+                EmojiType.Generic
+            }
             getter {
-                addStatement("""return %T(%S, %M(%L))""", typeName, item.emoji, LIST_OF, names)
+                if (hasHairStyle || item.hasSkinTones) {
+                    addStatement(
+                        """return %T(%S, %M(%L), supportsSkinTones = %L, supportsHairStyle = %L)""",
+                        emojiType.name,
+                        item.emoji,
+                        LIST_OF,
+                        names,
+                        item.hasSkinTones,
+                        hasHairStyle
+                    )
+                } else {
+                    addStatement(
+                        """return %T(%S, %M(%L))""",
+                        emojiType.name,
+                        item.emoji,
+                        LIST_OF,
+                        names,
+                    )
+                }
             }
         }
     }

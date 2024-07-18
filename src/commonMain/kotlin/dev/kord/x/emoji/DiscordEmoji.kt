@@ -41,41 +41,64 @@ public sealed interface DiscordEmoji {
     public val name: String get() = names.first()
 
     /**
-     * An emoji that supports [SkinTones][SkinTone].
+     * A diverse emoji that might support [skin tones][EmojiWithSkinTone] or [hairstyles][EmojiWithHairStyle].
      */
-    public data class Diverse(
-        public val code: String,
-        override val names: List<String>,
-        val tone: SkinTone = SkinTone.Default,
-        val hairStyle: HairStyle = HairStyle.Default
-    ) : DiscordEmoji {
-        @Deprecated("Replaced by with", ReplaceWith("with(tone = tone)"))
-        public fun withTone(tone: SkinTone): Diverse = copy(tone = tone)
-
+    public sealed interface Diverse : DiscordEmoji {
         /**
-         * Creates a new instance of this [DiscordEmoji] with [tone] and [hairStyle].
+         * The base code of the emoji
          */
-        public fun with(tone: SkinTone = this.tone, hairStyle: HairStyle = this.hairStyle): Diverse =
-            copy(tone = tone, hairStyle = hairStyle)
-
-        override val unicode: String
-            get() = buildString {
-                append(code)
-                if (tone != SkinTone.Default) {
-                    append(tone.unicode)
-                }
-                if (hairStyle != HairStyle.Default) {
-                    append("\u200D")
-                    append(hairStyle.unicode)
-                }
-            }
+        public val code: String
 
         /**
-         * Checks [other] to be the same emote but ignores [tone].
+         * Checks [other] to be the same emote but ignores diverse attributes (skin tone and hairstyle).
          */
         public fun isSimilar(other: Diverse?): Boolean = code == other?.code
+    }
 
-        override fun toString(): String = unicode
+    /**
+     * A diverse emoji which supports [SkinTones][SkinTone].
+     *
+     * @property tone the [SkinTone] currently selected
+     */
+    public sealed interface EmojiWithSkinTone : Diverse {
+        public val tone: SkinTone
+
+        /**
+         * Creates a copy of this emoji with [tone].
+         *
+         * @see SkinTone
+         */
+        public fun withSkinTone(tone: SkinTone): EmojiWithSkinTone
+    }
+
+    /**
+     * A diverse emoji which supports [HairStyles][HairStyle].
+     *
+     * @property hairStyle the [HairStyle] currently selected
+     */
+    public sealed interface EmojiWithHairStyle : Diverse {
+        public val hairStyle: HairStyle
+
+        /**
+         * Creates a copy of this emoji with [hairStyle].
+         *
+         * @see HairStyle
+         */
+        public fun withHairStyle(hairStyle: HairStyle): EmojiWithHairStyle
+    }
+
+    /**
+     * A diverse emoji which supports both [HairStyles][HairStyle] and [SkinTones][SkinTone].
+     *
+     */
+    public sealed interface EmojiWithHairStyleAndSkinTone : EmojiWithHairStyle, EmojiWithSkinTone {
+        /**
+         * Creates a copy of this emoji with [hairStyle] and [tone].
+         *
+         * @see HairStyle
+         * @see SkinTone
+         */
+        public fun with(tone: SkinTone = this.tone, hairStyle: HairStyle = this.hairStyle): EmojiWithHairStyleAndSkinTone
     }
 
     /**
@@ -92,6 +115,7 @@ public sealed interface DiscordEmoji {
             return unicode == other.unicode
         }
     }
+
 
     public companion object {
         private val byName: Map<String, DiscordEmoji> = Emojis.all.flatMap { emoji ->
@@ -121,7 +145,11 @@ public sealed interface DiscordEmoji {
             val withoutDiversity = unicode.removeTone().removeHairStyle()
             val emoji = byUnicode[withoutDiversity]
 
-            return if (emoji is Diverse) emoji.copy(tone = tone, hairStyle = hairStyle) else emoji
+            val withSkinTone = if (emoji is EmojiWithSkinTone) emoji.withSkinTone(tone) else emoji
+            val withHairStyle =
+                if (withSkinTone is EmojiWithHairStyle) withSkinTone.withHairStyle(hairStyle) else emoji
+
+            return withHairStyle
         }
 
         /**
@@ -137,6 +165,35 @@ public sealed interface DiscordEmoji {
          */
         public fun findByNameOrNull(name: String): DiscordEmoji? = byName[name]
     }
+}
+
+internal data class DiverseEmoji(
+    override val code: String,
+    override val names: List<String>,
+    private val supportsSkinTones: Boolean,
+    private val supportsHairStyle: Boolean,
+    override val hairStyle: HairStyle = HairStyle.Default,
+    override val tone: SkinTone = SkinTone.Default
+) : DiscordEmoji, DiscordEmoji.EmojiWithHairStyleAndSkinTone {
+    override fun with(tone: SkinTone, hairStyle: HairStyle): DiscordEmoji.EmojiWithHairStyleAndSkinTone =
+        copy(tone = tone, hairStyle = hairStyle)
+
+    override fun withHairStyle(hairStyle: HairStyle): DiscordEmoji.EmojiWithHairStyle = copy(hairStyle = hairStyle)
+    override fun withSkinTone(tone: SkinTone): DiscordEmoji.EmojiWithSkinTone = copy(tone = tone)
+
+    override val unicode: String
+        get() = buildString {
+            append(code)
+            if (tone != SkinTone.Default) {
+                append(tone.unicode)
+            }
+            if (hairStyle != HairStyle.Default) {
+                append("\u200D")
+                append(hairStyle.unicode)
+            }
+        }
+
+    override fun toString(): String = unicode
 }
 
 /**

@@ -1,5 +1,5 @@
 import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
-import org.jetbrains.kotlin.konan.target.KonanTarget
+import org.jetbrains.kotlin.konan.target.Family
 
 group = Library.group
 
@@ -40,6 +40,12 @@ kotlin {
     tvosX64()
     tvosArm64()
     tvosSimulatorArm64()
+
+    sourceSets {
+        commonMain {
+            kotlin.srcDir(layout.buildDirectory.dir("generated/commonMain/kotlin"))
+        }
+    }
 }
 
 tasks {
@@ -91,7 +97,7 @@ mavenPublishing {
 
 kord {
     publicationName = "mavenCentral"
-    metadataHost = KonanTarget.MACOS_X64
+    metadataHost = Family.OSX
 }
 
 dependencies {

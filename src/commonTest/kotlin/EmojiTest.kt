@@ -31,11 +31,11 @@ class EmojiTest {
     fun `equals on diverse emote`() {
         val emote = Emojis.thumbsup
         val emote2 = DiscordEmoji.findByUnicodeOrNull(emote.unicode)
-        require(emote2 is DiscordEmoji.Diverse)
+        require(emote2 is DiscordEmoji.EmojiWithSkinTone)
 
         assertEquals(emote, emote2)
         assertEquals(emote2, emote)
-        val emote3 = emote.with(tone = SkinTone.Dark)
+        val emote3 = emote.withSkinTone(tone = SkinTone.Dark)
         assertTrue(emote.isSimilar(emote3))
     }
 }

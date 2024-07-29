@@ -12,3 +12,4 @@ jobs:
     uses: kordlib/.teamcity/.github/workflows/documentation.yml@main
     with:
        main-branch: refs/heads/feature/mpp
+	multi-module: false

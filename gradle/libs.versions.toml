@@ -12,3 +12,4 @@ kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref 
 kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kord-gradle-plugin = { id = "dev.kord.gradle-tools", version = "1.6.2" }
 maven-publish-plugin = { id = "com.vanniktech.maven.publish.base", version = "0.29.0" }
+dokka = { id = "org.jetbrains.dokka", version = "1.9.20" }

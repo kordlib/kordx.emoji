@@ -1,5 +1,6 @@
 import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
 import org.jetbrains.kotlin.konan.target.Family
+import org.jetbrains.dokka.gradle.AbstractDokkaLeafTask
 
 group = Library.group
 
@@ -7,6 +8,7 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform)
     alias(libs.plugins.kord.gradle.plugin)
     alias(libs.plugins.maven.publish.plugin)
+    alias(libs.plugins.dokka)
     dev.kord.x.emoji
 }
 
@@ -53,6 +55,17 @@ tasks {
     withType<KotlinNativeSimulatorTest> {
         enabled = false
     }
+
+    withType<AbstractDokkaLeafTask> {
+      dokkaSourceSets.configureEach {
+        sourceLink {
+          localDirectory = project.file("src/main/kotlin")
+          remoteUrl = project.uri("https://github.com/kordlib/kordx.emoji/tree/feature/mpp/src/$name/kotlin/").toURL()
+
+          remoteLineSuffix = "#L"
+      }
+    }
+  }
 }
 
 mavenPublishing {

@@ -1,0 +1,15 @@
+name: Documentation CI
+on:
+  push:
+  pull_request:
+
+permissions:
+  id-token: write
+  pages: write
+
+jobs:
+  docs:
+    uses: kordlib/.teamcity/.github/workflows/documentation.yml@main
+    with:
+       main-branch: refs/heads/feature/mpp
+       multi-module: false

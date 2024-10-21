@@ -1,128 +1,126 @@
-import dev.kord.x.emoji.EmojiPlugin
-import de.undercouch.gradle.tasks.download.org.apache.commons.codec.binary.Base64
+import org.gradle.kotlin.dsl.assign
+import org.gradle.kotlin.dsl.kord
+import org.jetbrains.dokka.gradle.workers.ProcessIsolation
+import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
+import org.jetbrains.kotlin.konan.target.Family
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
-version = Library.version
 group = Library.group
 
 plugins {
-    kotlin("jvm") version Versions.kotlin
-
-    signing
-    `maven-publish`
-    id("io.codearte.nexus-staging") version "0.30.0"
+    alias(libs.plugins.kotlin.multiplatform)
+    alias(libs.plugins.kord.gradle.plugin)
+    alias(libs.plugins.maven.publish.plugin)
+    alias(libs.plugins.dokka)
+    dev.kord.x.emoji
 }
 
 repositories {
     mavenCentral()
     maven("https://oss.sonatype.org/content/repositories/snapshots")
+}
 
+kord {
+    publicationName = "mavenCentral"
+    metadataHost = Family.OSX
+    jvmTarget = JvmTarget.JVM_1_8
 }
 
 dependencies {
-    implementation("dev.kord:kord-core:${Versions.kordRange}") {
-        /*
-        version {
-            prefer("latest.integration")
-        }
-         */
+    commonMainImplementation(libs.kord.core)
+    commonTestImplementation(kotlin("test"))
+}
+
+kotlin {
+    explicitApi()
+    jvm()
+    js(IR) {
+        nodejs()
     }
 
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    linuxX64()
+    linuxArm64()
+
+    mingwX64()
+
+    macosArm64()
+    macosX64()
+
+    iosArm64()
+    iosX64()
+    iosSimulatorArm64()
+
+    watchosArm64()
+    watchosSimulatorArm64()
+
+    tvosX64()
+    tvosArm64()
+    tvosSimulatorArm64()
+
+    sourceSets {
+        commonMain {
+            kotlin.srcDir(layout.buildDirectory.dir("generated/commonMain/kotlin"))
+        }
+    }
 }
 
-tasks.compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+tasks {
+    // CI does not seem to like simulators
+    withType<KotlinNativeSimulatorTest> {
+        enabled = false
+    }
 }
 
-apply<EmojiPlugin>()
+dokka {
+    // Dokka runs out of memory with the default maxHeapSize when ProcessIsolation is used
+    (dokkaGeneratorIsolation.get() as? ProcessIsolation)?.maxHeapSize = "1g"
 
-val sourcesJar by tasks.registering(Jar::class) {
-    archiveClassifier.set("sources")
-    from(sourceSets.main.get().allSource)
+    dokkaSourceSets.configureEach {
+        sourceLink {
+            localDirectory = project.file("src/main/kotlin")
+            remoteUrl = project.uri("https://github.com/kordlib/kordx.emoji/tree/feature/mpp/src/$name/kotlin/")
+
+            remoteLineSuffix = "#L"
+        }
+    }
 }
 
-val javadocJar by tasks.registering(Jar::class) {
-    group = JavaBasePlugin.DOCUMENTATION_GROUP
-    archiveClassifier.set("javadoc")
-}
+mavenPublishing {
+    coordinates(artifactId = Library.name)
+    publishToMavenCentral()
+    signAllPublications()
 
-tasks.withType<PublishToMavenRepository>().configureEach {
-    doFirst { require(!Library.isUndefined) { "No release/snapshot version found." } }
-}
+    pom {
+        name = Library.name
+        description = Library.description
+        url = Library.description
 
-publishing {
-    publications {
-        create<MavenPublication>(Library.name) {
-            from(components["kotlin"])
-            groupId = Library.group
-            artifactId = Library.name
-            version = Library.version
+        organization {
+            name = "Kord"
+            url = Library.projectUrl
+        }
 
-            artifact(sourcesJar.get())
-
-            pom {
-                name.set(Library.name)
-                description.set(Library.description)
-                url.set(Library.description)
-
-                organization {
-                    name.set("Kord")
-                    url.set(Library.projectUrl)
-                }
-
-                developers {
-                    developer {
-                        name.set("The Kord Team")
-                    }
-                }
-
-                issueManagement {
-                    system.set("GitHub")
-                    url.set("${Library.projectUrl}/issues")
-                }
-
-                licenses {
-                    license {
-                        name.set("MIT")
-                        url.set("https://opensource.org/licenses/MIT")
-                    }
-                }
-                scm {
-                    connection.set("scm:git:ssh://github.com/kordlib/kordx.emoji.git")
-                    developerConnection.set("scm:git:ssh://git@github.com:kordlib/kordx.emoji.git")
-                    url.set(Library.projectUrl)
-                }
+        developers {
+            developer {
+                name = "The Kord Team"
             }
+        }
 
-            if (!isJitPack) {
-                repositories {
-                    maven {
-                        url = if (Library.isSnapshot) uri(Repo.snapshotsUrl)
-                        else uri(Repo.releasesUrl)
+        issueManagement {
+            system = "GitHub"
+            url = "${Library.projectUrl}/issues"
+        }
 
-                        credentials {
-                            username = System.getenv("NEXUS_USER")
-                            password = System.getenv("NEXUS_PASSWORD")
-                        }
-                    }
-                }
+        licenses {
+            license {
+                name = "MIT"
+                url = "https://opensource.org/licenses/MIT"
             }
-
+        }
+        scm {
+            connection = "scm:git:ssh://github.com/kordlib/kordx.emoji.git"
+            developerConnection = "scm:git:ssh://git@github.com:kordlib/kord.emoji.git"
+            url = Library.projectUrl
         }
     }
-
 }
-
-if (!isJitPack && Library.isRelease) {
-    signing {
-        val signingKey = findProperty("signingKey")?.toString()
-        val signingPassword = findProperty("signingPassword")?.toString()
-        if (signingKey != null && signingPassword != null) {
-            useInMemoryPgpKeys(String(Base64().decode(signingKey.toByteArray())), signingPassword)
-        }
-        sign(publishing.publications[Library.name])
-    }
-}
-
-nexusStaging { }

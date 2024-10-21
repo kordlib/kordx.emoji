@@ -1,4 +1,10 @@
-.gradle
-.idea
-build
-out
+.fleet/
+.gradle/
+.idea/*
+!.idea/icon.png
+.kotlin/
+
+**/build/*
+!**/build/generated/
+# re-exclude BuildConfigGenerated.kt
+common/build/generated/sources/buildConfig/main/dev/kord/common/BuildConfigGenerated.kt

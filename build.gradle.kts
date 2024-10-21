@@ -1,6 +1,7 @@
+import org.gradle.kotlin.dsl.kord
 import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
 import org.jetbrains.kotlin.konan.target.Family
-import org.jetbrains.dokka.gradle.AbstractDokkaLeafTask
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 group = Library.group
 
@@ -17,15 +18,26 @@ repositories {
     maven("https://oss.sonatype.org/content/repositories/snapshots")
 }
 
+kord {
+    publicationName = "mavenCentral"
+    metadataHost = Family.OSX
+    jvmTarget = JvmTarget.JVM_1_8
+}
+
+dependencies {
+    commonMainImplementation(libs.kord.core)
+    commonTestImplementation(kotlin("test"))
+}
+
 kotlin {
     explicitApi()
     jvm()
     js(IR) {
         nodejs()
     }
-    jvmToolchain(8)
 
     linuxX64()
+    linuxArm64()
 
     mingwX64()
 
@@ -55,17 +67,17 @@ tasks {
     withType<KotlinNativeSimulatorTest> {
         enabled = false
     }
+}
 
-    withType<AbstractDokkaLeafTask> {
-      dokkaSourceSets.configureEach {
+dokka {
+    dokkaSourceSets.configureEach {
         sourceLink {
-          localDirectory = project.file("src/main/kotlin")
-          remoteUrl = project.uri("https://github.com/kordlib/kordx.emoji/tree/feature/mpp/src/$name/kotlin/").toURL()
+            localDirectory = project.file("src/main/kotlin")
+            remoteUrl = project.uri("https://github.com/kordlib/kordx.emoji/tree/feature/mpp/src/$name/kotlin/")
 
-          remoteLineSuffix = "#L"
-      }
+            remoteLineSuffix = "#L"
+        }
     }
-  }
 }
 
 mavenPublishing {
@@ -106,14 +118,4 @@ mavenPublishing {
             url = Library.projectUrl
         }
     }
-}
-
-kord {
-    publicationName = "mavenCentral"
-    metadataHost = Family.OSX
-}
-
-dependencies {
-    commonMainImplementation(libs.kord.core)
-    commonTestImplementation(kotlin("test"))
 }

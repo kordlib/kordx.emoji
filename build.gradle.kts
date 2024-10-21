@@ -1,4 +1,6 @@
+import org.gradle.kotlin.dsl.assign
 import org.gradle.kotlin.dsl.kord
+import org.jetbrains.dokka.gradle.workers.ProcessIsolation
 import org.jetbrains.kotlin.gradle.targets.native.tasks.KotlinNativeSimulatorTest
 import org.jetbrains.kotlin.konan.target.Family
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
@@ -70,6 +72,9 @@ tasks {
 }
 
 dokka {
+    // Dokka runs out of memory with the default maxHeapSize when ProcessIsolation is used
+    (dokkaGeneratorIsolation.get() as? ProcessIsolation)?.maxHeapSize = "1g"
+
     dokkaSourceSets.configureEach {
         sourceLink {
             localDirectory = project.file("src/main/kotlin")

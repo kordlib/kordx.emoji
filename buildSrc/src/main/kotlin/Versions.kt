@@ -1,6 +1,6 @@
 object Versions {
-    const val kotlin = "1.7.10"
-    const val kordRange = "[0.8,)"
+    const val kotlin = "2.3.0"
+    const val kordRange = "[0.17,)"
 }
 
 /**

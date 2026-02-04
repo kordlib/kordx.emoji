@@ -1,3 +1,24 @@
+# 0.7.0
+
+## Dependencies
+
+* kord: 0.8.x -> 0.17.x
+* kotlin (and plugin.serialization): 1.6.21 - 2.3.0
+* kotlinx-serialization: 1.3.3 -> 1.10.0
+* kotlinpoet: 1.11.0 -> 2.2.0
+* commons-text: 1.9 -> 1.15.0
+* gradle: 7.4.2 -> 9.3.1
+
+## Changes
+
+* Remove Nexus staging plugin in favour of vanniktek maven publish
+* Update publishing to new kord maven system
+* Update emoji list to contain new emoji
+* Update buildscript and github workflows
+* Make project an explicit api
+
+---
+
 # 0.6.0
 
 ## Dependencies
@@ -16,6 +37,8 @@
 * Cleanup un-needed visibility modifiers
 * Suppress incorrect warnings
 
+---
+
 # 0.5.0
 
 ## Dependencies
@@ -27,6 +50,8 @@
 
 * Fixed equality checks between generic emojis.
 
+---
+
 # 0.4.0
 
 ## Additions
@@ -37,12 +62,16 @@
 
 * `DiscordEmoji.Diverse#withTone` now correctly returns a `DiscordEmoji.Diverse` instead of just a `DiscordEmoji`.
 
+---
+
 # 0.3.0
 
 ## Dependencies
 
 * kord: 0.5.x -> 0.6.x
 * kotlin: 1.3.72 -> 1.4.10
+
+---
 
 # 0.2.0
 

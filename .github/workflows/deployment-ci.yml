@@ -37,10 +37,10 @@ jobs:
     if: github.event_name != 'pull_request'
     needs: build
     env:
-      NEXUS_USER: ${{ secrets.NEXUS_USER }}
-      NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
-      ORG_GRADLE_PROJECT_signingKey: ${{ secrets.signingKey }}
-      ORG_GRADLE_PROJECT_signingPassword: ${{ secrets.signingPassword }}
+      ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.NEXUS_USER }}
+      ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.NEXUS_PASSWORD }}
+      ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.SIGNING_KEY_ARMORED }}
+      ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.SIGNING_PASSWORD_RAW }}
       GITHUB_EVENT_NAME: ${{ github.event_name }}
       GITHUB_TAG_NAME: ${{ github.event.release.tag_name }}
       GITHUB_TARGET_COMMITISH: ${{ github.event.release.target_commitish }}

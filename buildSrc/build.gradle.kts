@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     groovy
     `kotlin-dsl`
@@ -16,9 +18,9 @@ dependencies {
     implementation("org.apache.commons:commons-text:1.9")
 }
 
-tasks.compileKotlin {
-    kotlinOptions {
-        jvmTarget = "1.8"
-        freeCompilerArgs = listOf("-opt-in=kotlin.ExperimentalStdlibApi")
+kotlin {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.JVM_1_8)
+        freeCompilerArgs.set(listOf("-opt-in=kotlin.ExperimentalStdlibApi"))
     }
 }

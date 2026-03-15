@@ -28,10 +28,6 @@ dependencies {
 
 kotlin {
     jvmToolchain(11)
-
-    compilerOptions {
-        freeCompilerArgs.set(listOf("-opt-in=kotlin.ExperimentalStdlibApi"))
-    }
 }
 
 apply<EmojiPlugin>()
@@ -45,7 +41,7 @@ mavenPublishing {
     pom {
         name.set(Library.name)
         description.set(Library.description)
-        url.set(Library.description)
+        url.set(Library.projectUrl)
 
         organization {
             name.set("Kord")

@@ -1,5 +1,5 @@
 import dev.kord.x.emoji.EmojiPlugin
-import de.undercouch.gradle.tasks.download.org.apache.commons.codec.binary.Base64
+//import de.undercouch.gradle.tasks.download.org.apache.commons.codec.binary.Base64
 
 version = Library.version
 group = Library.group
@@ -31,8 +31,12 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
 
-tasks.compileKotlin {
-    kotlinOptions.jvmTarget = "1.8"
+kotlin {
+    jvmToolchain(11)
+
+    compilerOptions {
+        freeCompilerArgs.set(listOf("-opt-in=kotlin.ExperimentalStdlibApi"))
+    }
 }
 
 apply<EmojiPlugin>()
@@ -119,7 +123,7 @@ if (!isJitPack && Library.isRelease) {
         val signingKey = findProperty("signingKey")?.toString()
         val signingPassword = findProperty("signingPassword")?.toString()
         if (signingKey != null && signingPassword != null) {
-            useInMemoryPgpKeys(String(Base64().decode(signingKey.toByteArray())), signingPassword)
+//            useInMemoryPgpKeys(String(Base64().decode(signingKey.toByteArray())), signingPassword)
         }
         sign(publishing.publications[Library.name])
     }

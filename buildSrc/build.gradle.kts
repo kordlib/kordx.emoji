@@ -1,10 +1,6 @@
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-
 plugins {
-    groovy
-    `kotlin-dsl`
-    kotlin("jvm") version "1.7.10"
-    kotlin("plugin.serialization") version "1.7.10"
+    kotlin("jvm") version "2.3.10"
+    kotlin("plugin.serialization") version "2.3.10"
 }
 
 repositories {
@@ -13,14 +9,15 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3")
-    implementation("com.squareup:kotlinpoet:1.12.0")
-    implementation("org.apache.commons:commons-text:1.9")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.10.0")
+    implementation("com.squareup:kotlinpoet:2.2.0")
+    implementation("org.apache.commons:commons-text:1.15.0")
 }
 
 kotlin {
+    jvmToolchain(11)
+
     compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_1_8)
         freeCompilerArgs.set(listOf("-opt-in=kotlin.ExperimentalStdlibApi"))
     }
 }

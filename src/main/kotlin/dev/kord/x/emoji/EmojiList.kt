@@ -20,9 +20,11 @@ public object Emojis {
               "\uD83D\uDE04" to `smile`,
               "\uD83D\uDE01" to `grin`,
               "\uD83D\uDE06" to `laughing`,
+              "\uD83E\uDD79" to `faceHoldingBackTears`,
               "\uD83D\uDE05" to `sweatSmile`,
               "\uD83D\uDE02" to `joy`,
               "\uD83E\uDD23" to `rofl`,
+              "\uD83E\uDD72" to `smilingFaceWithTear`,
               "\u263A\uFE0F" to `relaxed`,
               "\uD83D\uDE0A" to `blush`,
               "\uD83D\uDE07" to `innocent`,
@@ -45,6 +47,7 @@ public object Emojis {
               "\uD83E\uDDD0" to `faceWithMonocle`,
               "\uD83E\uDD13" to `nerd`,
               "\uD83D\uDE0E" to `sunglasses`,
+              "\uD83E\uDD78" to `disguisedFace`,
               "\uD83E\uDD29" to `starStruck`,
               "\uD83E\uDD73" to `partyingFace`,
               "\uD83D\uDE0F" to `smirk`,
@@ -70,6 +73,7 @@ public object Emojis {
               "\uD83D\uDE33" to `flushed`,
               "\uD83E\uDD75" to `hotFace`,
               "\uD83E\uDD76" to `coldFace`,
+              "\uD83D\uDE36\u200D\uD83C\uDF2B\uFE0F" to `faceInClouds`,
               "\uD83D\uDE31" to `scream`,
               "\uD83D\uDE28" to `fearful`,
               "\uD83D\uDE30" to `coldSweat`,
@@ -77,13 +81,21 @@ public object Emojis {
               "\uD83D\uDE13" to `sweat`,
               "\uD83E\uDD17" to `hugging`,
               "\uD83E\uDD14" to `thinking`,
+              "\uD83E\uDEE3" to `faceWithPeekingEye`,
               "\uD83E\uDD2D" to `faceWithHandOverMouth`,
-              "\uD83E\uDD71" to `yawningFace`,
+              "\uD83E\uDEE2" to `faceWithOpenEyesAndHandOverMouth`,
+              "\uD83E\uDEE1" to `salutingFace`,
               "\uD83E\uDD2B" to `shushingFace`,
+              "\uD83E\uDEE0" to `meltingFace`,
               "\uD83E\uDD25" to `lyingFace`,
               "\uD83D\uDE36" to `noMouth`,
+              "\uD83E\uDEE5" to `dottedLineFace`,
               "\uD83D\uDE10" to `neutralFace`,
+              "\uD83E\uDEE4" to `faceWithDiagonalMouth`,
               "\uD83D\uDE11" to `expressionless`,
+              "\uD83E\uDEE8" to `shakingFace`,
+              "\uD83D\uDE42\u200D\u2194\uFE0F" to `headShakingHorizontally`,
+              "\uD83D\uDE42\u200D\u2195\uFE0F" to `headShakingVertically`,
               "\uD83D\uDE2C" to `grimacing`,
               "\uD83D\uDE44" to `rollingEyes`,
               "\uD83D\uDE2F" to `hushed`,
@@ -91,10 +103,13 @@ public object Emojis {
               "\uD83D\uDE27" to `anguished`,
               "\uD83D\uDE2E" to `openMouth`,
               "\uD83D\uDE32" to `astonished`,
+              "\uD83E\uDD71" to `yawningFace`,
               "\uD83D\uDE34" to `sleeping`,
               "\uD83E\uDD24" to `droolingFace`,
               "\uD83D\uDE2A" to `sleepy`,
+              "\uD83D\uDE2E\u200D\uD83D\uDCA8" to `faceExhaling`,
               "\uD83D\uDE35" to `dizzyFace`,
+              "\uD83D\uDE35\u200D\uD83D\uDCAB" to `faceWithSpiralEyes`,
               "\uD83E\uDD10" to `zipperMouth`,
               "\uD83E\uDD74" to `woozyFace`,
               "\uD83E\uDD22" to `nauseatedFace`,
@@ -127,23 +142,30 @@ public object Emojis {
               "\uD83D\uDE40" to `screamCat`,
               "\uD83D\uDE3F" to `cryingCatFace`,
               "\uD83D\uDE3E" to `poutingCat`,
+              "\uD83E\uDD1D" to `handshake`,
+              "\uD83E\uDEF6" to `heartHands`,
               "\uD83E\uDD32" to `palmsUpTogether`,
               "\uD83D\uDC50" to `openHands`,
               "\uD83D\uDE4C" to `raisedHands`,
               "\uD83D\uDC4F" to `clap`,
-              "\uD83E\uDD1D" to `handshake`,
               "\uD83D\uDC4D" to `thumbsup`,
               "\uD83D\uDC4E" to `thumbsdown`,
               "\uD83D\uDC4A" to `punch`,
               "\u270A" to `fist`,
               "\uD83E\uDD1B" to `leftFacingFist`,
               "\uD83E\uDD1C" to `rightFacingFist`,
+              "\uD83E\uDEF7" to `leftwardsPushingHand`,
+              "\uD83E\uDEF8" to `rightwardsPushingHand`,
               "\uD83E\uDD1E" to `fingersCrossed`,
               "\u270C\uFE0F" to `v`,
+              "\uD83E\uDEF0" to `handWithIndexFingerAndThumbCrossed`,
               "\uD83E\uDD1F" to `loveYouGesture`,
               "\uD83E\uDD18" to `metal`,
               "\uD83D\uDC4C" to `okHand`,
+              "\uD83E\uDD0C" to `pinchedFingers`,
               "\uD83E\uDD0F" to `pinchingHand`,
+              "\uD83E\uDEF3" to `palmDownHand`,
+              "\uD83E\uDEF4" to `palmUpHand`,
               "\uD83D\uDC48" to `pointLeft`,
               "\uD83D\uDC49" to `pointRight`,
               "\uD83D\uDC46" to `pointUp2`,
@@ -155,19 +177,22 @@ public object Emojis {
               "\uD83D\uDD96" to `vulcan`,
               "\uD83D\uDC4B" to `wave`,
               "\uD83E\uDD19" to `callMe`,
+              "\uD83E\uDEF2" to `leftwardsHand`,
+              "\uD83E\uDEF1" to `rightwardsHand`,
               "\uD83D\uDCAA" to `muscle`,
               "\uD83E\uDDBE" to `mechanicalArm`,
               "\uD83D\uDD95" to `middleFinger`,
               "\u270D\uFE0F" to `writingHand`,
               "\uD83D\uDE4F" to `pray`,
+              "\uD83E\uDEF5" to `indexPointingAtTheViewer`,
               "\uD83E\uDDB6" to `foot`,
               "\uD83E\uDDB5" to `leg`,
               "\uD83E\uDDBF" to `mechanicalLeg`,
               "\uD83D\uDC84" to `lipstick`,
               "\uD83D\uDC8B" to `kiss`,
               "\uD83D\uDC44" to `lips`,
+              "\uD83E\uDEE6" to `bitingLip`,
               "\uD83E\uDDB7" to `tooth`,
-              "\uD83E\uDDB4" to `bone`,
               "\uD83D\uDC45" to `tongue`,
               "\uD83D\uDC42" to `ear`,
               "\uD83E\uDDBB" to `earWithHearingAid`,
@@ -175,31 +200,40 @@ public object Emojis {
               "\uD83D\uDC63" to `footprints`,
               "\uD83D\uDC41\uFE0F" to `eye`,
               "\uD83D\uDC40" to `eyes`,
+              "\uD83E\uDEC0" to `anatomicalHeart`,
+              "\uD83E\uDEC1" to `lungs`,
               "\uD83E\uDDE0" to `brain`,
               "\uD83D\uDDE3\uFE0F" to `speakingHead`,
               "\uD83D\uDC64" to `bustInSilhouette`,
               "\uD83D\uDC65" to `bustsInSilhouette`,
+              "\uD83E\uDEC2" to `peopleHugging`,
               "\uD83D\uDC76" to `baby`,
-              "\uD83D\uDC67" to `girl`,
               "\uD83E\uDDD2" to `child`,
+              "\uD83D\uDC67" to `girl`,
               "\uD83D\uDC66" to `boy`,
-              "\uD83D\uDC69" to `woman`,
               "\uD83E\uDDD1" to `adult`,
+              "\uD83D\uDC69" to `woman`,
               "\uD83D\uDC68" to `man`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDB1" to `personCurlyHair`,
               "\uD83D\uDC69\u200D\uD83E\uDDB1" to `womanCurlyHaired`,
               "\uD83D\uDC68\u200D\uD83E\uDDB1" to `manCurlyHaired`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDB0" to `personRedHair`,
               "\uD83D\uDC69\u200D\uD83E\uDDB0" to `womanRedHaired`,
               "\uD83D\uDC68\u200D\uD83E\uDDB0" to `manRedHaired`,
-              "\uD83D\uDC71\u200D\u2640\uFE0F" to `blondHairedWoman`,
               "\uD83D\uDC71" to `blondHairedPerson`,
+              "\uD83D\uDC71\u200D\u2640\uFE0F" to `blondHairedWoman`,
               "\uD83D\uDC71\u200D\u2642\uFE0F" to `blondHairedMan`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDB3" to `personWhiteHair`,
               "\uD83D\uDC69\u200D\uD83E\uDDB3" to `womanWhiteHaired`,
               "\uD83D\uDC68\u200D\uD83E\uDDB3" to `manWhiteHaired`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDB2" to `personBald`,
               "\uD83D\uDC69\u200D\uD83E\uDDB2" to `womanBald`,
               "\uD83D\uDC68\u200D\uD83E\uDDB2" to `manBald`,
               "\uD83E\uDDD4" to `beardedPerson`,
-              "\uD83D\uDC75" to `olderWoman`,
+              "\uD83E\uDDD4\u200D\u2640\uFE0F" to `womanBeard`,
+              "\uD83E\uDDD4\u200D\u2642\uFE0F" to `manBeard`,
               "\uD83E\uDDD3" to `olderAdult`,
+              "\uD83D\uDC75" to `olderWoman`,
               "\uD83D\uDC74" to `olderMan`,
               "\uD83D\uDC72" to `manWithChineseCap`,
               "\uD83D\uDC73" to `personWearingTurban`,
@@ -218,40 +252,61 @@ public object Emojis {
               "\uD83D\uDD75\uFE0F" to `detective`,
               "\uD83D\uDD75\uFE0F\u200D\u2640\uFE0F" to `womanDetective`,
               "\uD83D\uDD75\uFE0F\u200D\u2642\uFE0F" to `manDetective`,
+              "\uD83E\uDDD1\u200D\u2695\uFE0F" to `healthWorker`,
               "\uD83D\uDC69\u200D\u2695\uFE0F" to `womanHealthWorker`,
               "\uD83D\uDC68\u200D\u2695\uFE0F" to `manHealthWorker`,
+              "\uD83E\uDDD1\u200D\uD83C\uDF3E" to `farmer`,
               "\uD83D\uDC69\u200D\uD83C\uDF3E" to `womanFarmer`,
               "\uD83D\uDC68\u200D\uD83C\uDF3E" to `manFarmer`,
+              "\uD83E\uDDD1\u200D\uD83C\uDF73" to `cook`,
               "\uD83D\uDC69\u200D\uD83C\uDF73" to `womanCook`,
               "\uD83D\uDC68\u200D\uD83C\uDF73" to `manCook`,
+              "\uD83E\uDDD1\u200D\uD83C\uDF93" to `student`,
               "\uD83D\uDC69\u200D\uD83C\uDF93" to `womanStudent`,
               "\uD83D\uDC68\u200D\uD83C\uDF93" to `manStudent`,
+              "\uD83E\uDDD1\u200D\uD83C\uDFA4" to `singer`,
               "\uD83D\uDC69\u200D\uD83C\uDFA4" to `womanSinger`,
               "\uD83D\uDC68\u200D\uD83C\uDFA4" to `manSinger`,
+              "\uD83E\uDDD1\u200D\uD83C\uDFEB" to `teacher`,
               "\uD83D\uDC69\u200D\uD83C\uDFEB" to `womanTeacher`,
               "\uD83D\uDC68\u200D\uD83C\uDFEB" to `manTeacher`,
+              "\uD83E\uDDD1\u200D\uD83C\uDFED" to `factoryWorker`,
               "\uD83D\uDC69\u200D\uD83C\uDFED" to `womanFactoryWorker`,
               "\uD83D\uDC68\u200D\uD83C\uDFED" to `manFactoryWorker`,
+              "\uD83E\uDDD1\u200D\uD83D\uDCBB" to `technologist`,
               "\uD83D\uDC69\u200D\uD83D\uDCBB" to `womanTechnologist`,
               "\uD83D\uDC68\u200D\uD83D\uDCBB" to `manTechnologist`,
+              "\uD83E\uDDD1\u200D\uD83D\uDCBC" to `officeWorker`,
               "\uD83D\uDC69\u200D\uD83D\uDCBC" to `womanOfficeWorker`,
               "\uD83D\uDC68\u200D\uD83D\uDCBC" to `manOfficeWorker`,
+              "\uD83E\uDDD1\u200D\uD83D\uDD27" to `mechanic`,
               "\uD83D\uDC69\u200D\uD83D\uDD27" to `womanMechanic`,
               "\uD83D\uDC68\u200D\uD83D\uDD27" to `manMechanic`,
+              "\uD83E\uDDD1\u200D\uD83D\uDD2C" to `scientist`,
               "\uD83D\uDC69\u200D\uD83D\uDD2C" to `womanScientist`,
               "\uD83D\uDC68\u200D\uD83D\uDD2C" to `manScientist`,
+              "\uD83E\uDDD1\u200D\uD83C\uDFA8" to `artist`,
               "\uD83D\uDC69\u200D\uD83C\uDFA8" to `womanArtist`,
               "\uD83D\uDC68\u200D\uD83C\uDFA8" to `manArtist`,
+              "\uD83E\uDDD1\u200D\uD83D\uDE92" to `firefighter`,
               "\uD83D\uDC69\u200D\uD83D\uDE92" to `womanFirefighter`,
               "\uD83D\uDC68\u200D\uD83D\uDE92" to `manFirefighter`,
+              "\uD83E\uDDD1\u200D\u2708\uFE0F" to `pilot`,
               "\uD83D\uDC69\u200D\u2708\uFE0F" to `womanPilot`,
               "\uD83D\uDC68\u200D\u2708\uFE0F" to `manPilot`,
+              "\uD83E\uDDD1\u200D\uD83D\uDE80" to `astronaut`,
               "\uD83D\uDC69\u200D\uD83D\uDE80" to `womanAstronaut`,
               "\uD83D\uDC68\u200D\uD83D\uDE80" to `manAstronaut`,
+              "\uD83E\uDDD1\u200D\u2696\uFE0F" to `judge`,
               "\uD83D\uDC69\u200D\u2696\uFE0F" to `womanJudge`,
               "\uD83D\uDC68\u200D\u2696\uFE0F" to `manJudge`,
-              "\uD83D\uDC70" to `brideWithVeil`,
-              "\uD83E\uDD35" to `manInTuxedo`,
+              "\uD83D\uDC70" to `personWithVeil`,
+              "\uD83D\uDC70\u200D\u2640\uFE0F" to `womanWithVeil`,
+              "\uD83D\uDC70\u200D\u2642\uFE0F" to `manWithVeil`,
+              "\uD83E\uDD35" to `personInTuxedo`,
+              "\uD83E\uDD35\u200D\u2640\uFE0F" to `womanInTuxedo`,
+              "\uD83E\uDD35\u200D\u2642\uFE0F" to `manInTuxedo`,
+              "\uD83E\uDEC5" to `personWithCrown`,
               "\uD83D\uDC78" to `princess`,
               "\uD83E\uDD34" to `prince`,
               "\uD83E\uDDB8" to `superhero`,
@@ -260,6 +315,8 @@ public object Emojis {
               "\uD83E\uDDB9" to `supervillain`,
               "\uD83E\uDDB9\u200D\u2640\uFE0F" to `womanSupervillain`,
               "\uD83E\uDDB9\u200D\u2642\uFE0F" to `manSupervillain`,
+              "\uD83E\uDD77" to `ninja`,
+              "\uD83E\uDDD1\u200D\uD83C\uDF84" to `mxClaus`,
               "\uD83E\uDD36" to `mrsClaus`,
               "\uD83C\uDF85" to `santa`,
               "\uD83E\uDDD9" to `mage`,
@@ -268,6 +325,7 @@ public object Emojis {
               "\uD83E\uDDDD" to `elf`,
               "\uD83E\uDDDD\u200D\u2640\uFE0F" to `womanElf`,
               "\uD83E\uDDDD\u200D\u2642\uFE0F" to `manElf`,
+              "\uD83E\uDDCC" to `troll`,
               "\uD83E\uDDDB" to `vampire`,
               "\uD83E\uDDDB\u200D\u2640\uFE0F" to `womanVampire`,
               "\uD83E\uDDDB\u200D\u2642\uFE0F" to `manVampire`,
@@ -284,8 +342,13 @@ public object Emojis {
               "\uD83E\uDDDA\u200D\u2640\uFE0F" to `womanFairy`,
               "\uD83E\uDDDA\u200D\u2642\uFE0F" to `manFairy`,
               "\uD83D\uDC7C" to `angel`,
+              "\uD83E\uDEC4" to `pregnantPerson`,
               "\uD83E\uDD30" to `pregnantWoman`,
+              "\uD83E\uDEC3" to `pregnantMan`,
               "\uD83E\uDD31" to `breastFeeding`,
+              "\uD83E\uDDD1\u200D\uD83C\uDF7C" to `personFeedingBaby`,
+              "\uD83D\uDC69\u200D\uD83C\uDF7C" to `womanFeedingBaby`,
+              "\uD83D\uDC68\u200D\uD83C\uDF7C" to `manFeedingBaby`,
               "\uD83D\uDE47" to `personBowing`,
               "\uD83D\uDE47\u200D\u2640\uFE0F" to `womanBowing`,
               "\uD83D\uDE47\u200D\u2642\uFE0F" to `manBowing`,
@@ -333,24 +396,45 @@ public object Emojis {
               "\uD83D\uDC6F\u200D\u2640\uFE0F" to `womenWithBunnyEarsPartying`,
               "\uD83D\uDC6F\u200D\u2642\uFE0F" to `menWithBunnyEarsPartying`,
               "\uD83D\uDD74\uFE0F" to `levitate`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDBD" to `personInManualWheelchair`,
+              "\uD83D\uDC69\u200D\uD83E\uDDBD" to `womanInManualWheelchair`,
+              "\uD83D\uDC68\u200D\uD83E\uDDBD" to `manInManualWheelchair`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `personInManualWheelchairFacingRight`,
+              "\uD83D\uDC68\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `manInManualWheelchairFacingRight`,
+              "\uD83D\uDC69\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `womanInManualWheelchairFacingRight`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDBC" to `personInMotorizedWheelchair`,
+              "\uD83D\uDC69\u200D\uD83E\uDDBC" to `womanInMotorizedWheelchair`,
+              "\uD83D\uDC68\u200D\uD83E\uDDBC" to `manInMotorizedWheelchair`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `personInMotorizedWheelchairFacingRight`,
+              "\uD83D\uDC68\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `manInMotorizedWheelchairFacingRight`,
+              "\uD83D\uDC69\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `womanInMotorizedWheelchairFacingRight`,
               "\uD83D\uDEB6" to `personWalking`,
               "\uD83D\uDEB6\u200D\u2640\uFE0F" to `womanWalking`,
               "\uD83D\uDEB6\u200D\u2642\uFE0F" to `manWalking`,
-              "\uD83C\uDFC3" to `personRunning`,
-              "\uD83C\uDFC3\u200D\u2640\uFE0F" to `womanRunning`,
-              "\uD83C\uDFC3\u200D\u2642\uFE0F" to `manRunning`,
-              "\uD83E\uDDCD" to `personStanding`,
-              "\uD83E\uDDCD\u200D\u2640\uFE0F" to `womanStanding`,
-              "\uD83E\uDDCD\u200D\u2642\uFE0F" to `manStanding`,
+              "\uD83D\uDEB6\u200D\u27A1\uFE0F" to `personWalkingFacingRight`,
+              "\uD83D\uDEB6\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanWalkingFacingRight`,
+              "\uD83D\uDEB6\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manWalkingFacingRight`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDAF" to `personWithProbingCane`,
+              "\uD83D\uDC69\u200D\uD83E\uDDAF" to `womanWithProbingCane`,
+              "\uD83D\uDC68\u200D\uD83E\uDDAF" to `manWithProbingCane`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `personWithWhiteCaneFacingRight`,
+              "\uD83D\uDC68\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `manWithWhiteCaneFacingRight`,
+              "\uD83D\uDC69\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `womanWithWhiteCaneFacingRight`,
               "\uD83E\uDDCE" to `personKneeling`,
               "\uD83E\uDDCE\u200D\u2640\uFE0F" to `womanKneeling`,
               "\uD83E\uDDCE\u200D\u2642\uFE0F" to `manKneeling`,
-              "\uD83D\uDC69\u200D\uD83E\uDDAF" to `womanWithProbingCane`,
-              "\uD83D\uDC68\u200D\uD83E\uDDAF" to `manWithProbingCane`,
-              "\uD83D\uDC69\u200D\uD83E\uDDBC" to `womanInMotorizedWheelchair`,
-              "\uD83D\uDC68\u200D\uD83E\uDDBC" to `manInMotorizedWheelchair`,
-              "\uD83D\uDC69\u200D\uD83E\uDDBD" to `womanInManualWheelchair`,
-              "\uD83D\uDC68\u200D\uD83E\uDDBD" to `manInManualWheelchair`,
+              "\uD83E\uDDCE\u200D\u27A1\uFE0F" to `personKneelingFacingRight`,
+              "\uD83E\uDDCE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanKneelingFacingRight`,
+              "\uD83E\uDDCE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manKneelingFacingRight`,
+              "\uD83C\uDFC3" to `personRunning`,
+              "\uD83C\uDFC3\u200D\u2640\uFE0F" to `womanRunning`,
+              "\uD83C\uDFC3\u200D\u2642\uFE0F" to `manRunning`,
+              "\uD83C\uDFC3\u200D\u27A1\uFE0F" to `personRunningFacingRight`,
+              "\uD83C\uDFC3\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanRunningFacingRight`,
+              "\uD83C\uDFC3\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manRunningFacingRight`,
+              "\uD83E\uDDCD" to `personStanding`,
+              "\uD83E\uDDCD\u200D\u2640\uFE0F" to `womanStanding`,
+              "\uD83E\uDDCD\u200D\u2642\uFE0F" to `manStanding`,
               "\uD83E\uDDD1\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1" to `peopleHoldingHands`,
               "\uD83D\uDC6B" to `couple`,
               "\uD83D\uDC6D" to `twoWomenHoldingHands`,
@@ -360,10 +444,13 @@ public object Emojis {
               "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC69" to `coupleWw`,
               "\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC68" to `coupleMm`,
               "\uD83D\uDC8F" to `couplekiss`,
-              "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68" to
-          `kissWomanMan`,
+              "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68" to `kissWomanMan`,
               "\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69" to `kissWw`,
               "\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68" to `kissMm`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDD1\u200D\uD83E\uDDD2\u200D\uD83E\uDDD2" to `familyAdultAdultChildChild`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDD1\u200D\uD83E\uDDD2" to `familyAdultAdultChild`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDD2\u200D\uD83E\uDDD2" to `familyAdultChildChild`,
+              "\uD83E\uDDD1\u200D\uD83E\uDDD2" to `familyAdultChild`,
               "\uD83D\uDC6A" to `family`,
               "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66" to `familyManWomanBoy`,
               "\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67" to `familyMwg`,
@@ -390,14 +477,17 @@ public object Emojis {
               "\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66" to `familyManGirlBoy`,
               "\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66" to `familyManBoyBoy`,
               "\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67" to `familyManGirlGirl`,
+              "\uD83E\uDEA2" to `knot`,
               "\uD83E\uDDF6" to `yarn`,
               "\uD83E\uDDF5" to `thread`,
+              "\uD83E\uDEA1" to `sewingNeedle`,
               "\uD83E\uDDE5" to `coat`,
               "\uD83E\uDD7C" to `labCoat`,
               "\uD83E\uDDBA" to `safetyVest`,
               "\uD83D\uDC5A" to `womansClothes`,
               "\uD83D\uDC55" to `shirt`,
               "\uD83D\uDC56" to `jeans`,
+              "\uD83E\uDE72" to `briefs`,
               "\uD83E\uDE73" to `shorts`,
               "\uD83D\uDC54" to `necktie`,
               "\uD83D\uDC57" to `dress`,
@@ -405,15 +495,14 @@ public object Emojis {
               "\uD83E\uDE71" to `onePieceSwimsuit`,
               "\uD83D\uDC58" to `kimono`,
               "\uD83E\uDD7B" to `sari`,
+              "\uD83E\uDE74" to `thongSandal`,
               "\uD83E\uDD7F" to `womansFlatShoe`,
               "\uD83D\uDC60" to `highHeel`,
               "\uD83D\uDC61" to `sandal`,
               "\uD83D\uDC62" to `boot`,
-              "\uD83E\uDE70" to `balletShoes`,
               "\uD83D\uDC5E" to `mansShoe`,
               "\uD83D\uDC5F" to `athleticShoe`,
               "\uD83E\uDD7E" to `hikingBoot`,
-              "\uD83E\uDE72" to `briefs`,
               "\uD83E\uDDE6" to `socks`,
               "\uD83E\uDDE4" to `gloves`,
               "\uD83E\uDDE3" to `scarf`,
@@ -422,6 +511,7 @@ public object Emojis {
               "\uD83D\uDC52" to `womansHat`,
               "\uD83C\uDF93" to `mortarBoard`,
               "\u26D1\uFE0F" to `helmetWithCross`,
+              "\uD83E\uDE96" to `militaryHelmet`,
               "\uD83D\uDC51" to `crown`,
               "\uD83D\uDC8D" to `ring`,
               "\uD83D\uDC5D" to `pouch`,
@@ -433,7 +523,6 @@ public object Emojis {
               "\uD83D\uDC53" to `eyeglasses`,
               "\uD83D\uDD76\uFE0F" to `darkSunglasses`,
               "\uD83E\uDD7D" to `goggles`,
-              "\uD83E\uDD3F" to `divingMask`,
               "\uD83C\uDF02" to `closedUmbrella`,
               "\uD83D\uDC36" to `dog`,
               "\uD83D\uDC31" to `cat`,
@@ -443,6 +532,7 @@ public object Emojis {
               "\uD83E\uDD8A" to `fox`,
               "\uD83D\uDC3B" to `bear`,
               "\uD83D\uDC3C" to `pandaFace`,
+              "\uD83D\uDC3B\u200D\u2744\uFE0F" to `polarBear`,
               "\uD83D\uDC28" to `koala`,
               "\uD83D\uDC2F" to `tiger`,
               "\uD83E\uDD81" to `lionFace`,
@@ -461,7 +551,9 @@ public object Emojis {
               "\uD83D\uDC24" to `babyChick`,
               "\uD83D\uDC23" to `hatchingChick`,
               "\uD83D\uDC25" to `hatchedChick`,
+              "\uD83E\uDEBF" to `goose`,
               "\uD83E\uDD86" to `duck`,
+              "\uD83D\uDC26\u200D\u2B1B" to `blackBird`,
               "\uD83E\uDD85" to `eagle`,
               "\uD83E\uDD89" to `owl`,
               "\uD83E\uDD87" to `bat`,
@@ -469,13 +561,17 @@ public object Emojis {
               "\uD83D\uDC17" to `boar`,
               "\uD83D\uDC34" to `horse`,
               "\uD83E\uDD84" to `unicorn`,
+              "\uD83E\uDECE" to `moose`,
               "\uD83D\uDC1D" to `bee`,
+              "\uD83E\uDEB1" to `worm`,
               "\uD83D\uDC1B" to `bug`,
               "\uD83E\uDD8B" to `butterfly`,
               "\uD83D\uDC0C" to `snail`,
-              "\uD83D\uDC1A" to `shell`,
-              "\uD83D\uDC1E" to `beetle`,
+              "\uD83D\uDC1E" to `ladyBeetle`,
               "\uD83D\uDC1C" to `ant`,
+              "\uD83E\uDEB0" to `fly`,
+              "\uD83E\uDEB2" to `beetle`,
+              "\uD83E\uDEB3" to `cockroach`,
               "\uD83E\uDD9F" to `mosquito`,
               "\uD83E\uDD97" to `cricket`,
               "\uD83D\uDD77\uFE0F" to `spider`,
@@ -488,9 +584,9 @@ public object Emojis {
               "\uD83E\uDD95" to `sauropod`,
               "\uD83D\uDC19" to `octopus`,
               "\uD83E\uDD91" to `squid`,
+              "\uD83E\uDEBC" to `jellyfish`,
               "\uD83E\uDD90" to `shrimp`,
               "\uD83E\uDD9E" to `lobster`,
-              "\uD83E\uDDAA" to `oyster`,
               "\uD83E\uDD80" to `crab`,
               "\uD83D\uDC21" to `blowfish`,
               "\uD83D\uDC20" to `tropicalFish`,
@@ -499,12 +595,14 @@ public object Emojis {
               "\uD83D\uDC33" to `whale`,
               "\uD83D\uDC0B" to `whale2`,
               "\uD83E\uDD88" to `shark`,
+              "\uD83E\uDDAD" to `seal`,
               "\uD83D\uDC0A" to `crocodile`,
               "\uD83D\uDC05" to `tiger2`,
               "\uD83D\uDC06" to `leopard`,
               "\uD83E\uDD93" to `zebra`,
               "\uD83E\uDD8D" to `gorilla`,
               "\uD83E\uDDA7" to `orangutan`,
+              "\uD83E\uDDA3" to `mammoth`,
               "\uD83D\uDC18" to `elephant`,
               "\uD83E\uDD9B" to `hippopotamus`,
               "\uD83E\uDD8F" to `rhino`,
@@ -512,34 +610,41 @@ public object Emojis {
               "\uD83D\uDC2B" to `camel`,
               "\uD83E\uDD92" to `giraffe`,
               "\uD83E\uDD98" to `kangaroo`,
+              "\uD83E\uDDAC" to `bison`,
               "\uD83D\uDC03" to `waterBuffalo`,
               "\uD83D\uDC02" to `ox`,
               "\uD83D\uDC04" to `cow2`,
+              "\uD83E\uDECF" to `donkey`,
               "\uD83D\uDC0E" to `racehorse`,
               "\uD83D\uDC16" to `pig2`,
               "\uD83D\uDC0F" to `ram`,
-              "\uD83E\uDD99" to `llama`,
               "\uD83D\uDC11" to `sheep`,
+              "\uD83E\uDD99" to `llama`,
               "\uD83D\uDC10" to `goat`,
               "\uD83E\uDD8C" to `deer`,
               "\uD83D\uDC15" to `dog2`,
+              "\uD83D\uDC29" to `poodle`,
               "\uD83E\uDDAE" to `guideDog`,
               "\uD83D\uDC15\u200D\uD83E\uDDBA" to `serviceDog`,
-              "\uD83D\uDC29" to `poodle`,
               "\uD83D\uDC08" to `cat2`,
+              "\uD83D\uDC08\u200D\u2B1B" to `blackCat`,
+              "\uD83E\uDEB6" to `feather`,
+              "\uD83E\uDEBD" to `wing`,
               "\uD83D\uDC13" to `rooster`,
               "\uD83E\uDD83" to `turkey`,
+              "\uD83E\uDDA4" to `dodo`,
               "\uD83E\uDD9A" to `peacock`,
               "\uD83E\uDD9C" to `parrot`,
               "\uD83E\uDDA2" to `swan`,
               "\uD83E\uDDA9" to `flamingo`,
               "\uD83D\uDD4A\uFE0F" to `dove`,
               "\uD83D\uDC07" to `rabbit2`,
-              "\uD83E\uDDA5" to `sloth`,
-              "\uD83E\uDDA6" to `otter`,
-              "\uD83E\uDDA8" to `skunk`,
               "\uD83E\uDD9D" to `raccoon`,
+              "\uD83E\uDDA8" to `skunk`,
               "\uD83E\uDDA1" to `badger`,
+              "\uD83E\uDDAB" to `beaver`,
+              "\uD83E\uDDA6" to `otter`,
+              "\uD83E\uDDA5" to `sloth`,
               "\uD83D\uDC01" to `mouse2`,
               "\uD83D\uDC00" to `rat`,
               "\uD83D\uDC3F\uFE0F" to `chipmunk`,
@@ -547,26 +652,37 @@ public object Emojis {
               "\uD83D\uDC3E" to `feet`,
               "\uD83D\uDC09" to `dragon`,
               "\uD83D\uDC32" to `dragonFace`,
+              "\uD83D\uDC26\u200D\uD83D\uDD25" to `phoenix`,
               "\uD83C\uDF35" to `cactus`,
               "\uD83C\uDF84" to `christmasTree`,
               "\uD83C\uDF32" to `evergreenTree`,
               "\uD83C\uDF33" to `deciduousTree`,
               "\uD83C\uDF34" to `palmTree`,
+              "\uD83E\uDEB5" to `wood`,
               "\uD83C\uDF31" to `seedling`,
               "\uD83C\uDF3F" to `herb`,
               "\u2618\uFE0F" to `shamrock`,
               "\uD83C\uDF40" to `fourLeafClover`,
               "\uD83C\uDF8D" to `bamboo`,
+              "\uD83E\uDEB4" to `pottedPlant`,
               "\uD83C\uDF8B" to `tanabataTree`,
               "\uD83C\uDF43" to `leaves`,
               "\uD83C\uDF42" to `fallenLeaf`,
               "\uD83C\uDF41" to `mapleLeaf`,
+              "\uD83E\uDEBA" to `nestWithEggs`,
+              "\uD83E\uDEB9" to `emptyNest`,
               "\uD83C\uDF44" to `mushroom`,
+              "\uD83C\uDF44\u200D\uD83D\uDFEB" to `brownMushroom`,
+              "\uD83D\uDC1A" to `shell`,
+              "\uD83E\uDEB8" to `coral`,
+              "\uD83E\uDEA8" to `rock`,
               "\uD83C\uDF3E" to `earOfRice`,
               "\uD83D\uDC90" to `bouquet`,
               "\uD83C\uDF37" to `tulip`,
               "\uD83C\uDF39" to `rose`,
               "\uD83E\uDD40" to `wiltedRose`,
+              "\uD83E\uDEBB" to `hyacinth`,
+              "\uD83E\uDEB7" to `lotus`,
               "\uD83C\uDF3A" to `hibiscus`,
               "\uD83C\uDF38" to `cherryBlossom`,
               "\uD83C\uDF3C" to `blossom`,
@@ -616,6 +732,7 @@ public object Emojis {
               "\uD83D\uDCA8" to `dash`,
               "\uD83D\uDCA7" to `droplet`,
               "\uD83D\uDCA6" to `sweatDrops`,
+              "\uD83E\uDEE7" to `bubbles`,
               "\u2614" to `umbrella`,
               "\u2602\uFE0F" to `umbrella2`,
               "\uD83C\uDF0A" to `ocean`,
@@ -625,10 +742,12 @@ public object Emojis {
               "\uD83C\uDF50" to `pear`,
               "\uD83C\uDF4A" to `tangerine`,
               "\uD83C\uDF4B" to `lemon`,
+              "\uD83C\uDF4B\u200D\uD83D\uDFE9" to `lime`,
               "\uD83C\uDF4C" to `banana`,
               "\uD83C\uDF49" to `watermelon`,
               "\uD83C\uDF47" to `grapes`,
               "\uD83C\uDF53" to `strawberry`,
+              "\uD83E\uDED0" to `blueberries`,
               "\uD83C\uDF48" to `melon`,
               "\uD83C\uDF52" to `cherries`,
               "\uD83C\uDF51" to `peach`,
@@ -639,16 +758,20 @@ public object Emojis {
               "\uD83C\uDF45" to `tomato`,
               "\uD83C\uDF46" to `eggplant`,
               "\uD83E\uDD51" to `avocado`,
+              "\uD83E\uDEDB" to `peaPod`,
               "\uD83E\uDD66" to `broccoli`,
               "\uD83E\uDD6C" to `leafyGreen`,
               "\uD83E\uDD52" to `cucumber`,
               "\uD83C\uDF36\uFE0F" to `hotPepper`,
+              "\uD83E\uDED1" to `bellPepper`,
               "\uD83C\uDF3D" to `corn`,
               "\uD83E\uDD55" to `carrot`,
-              "\uD83E\uDDC5" to `onion`,
+              "\uD83E\uDED2" to `olive`,
               "\uD83E\uDDC4" to `garlic`,
+              "\uD83E\uDDC5" to `onion`,
               "\uD83E\uDD54" to `potato`,
               "\uD83C\uDF60" to `sweetPotato`,
+              "\uD83E\uDEDA" to `gingerRoot`,
               "\uD83E\uDD50" to `croissant`,
               "\uD83E\uDD6F" to `bagel`,
               "\uD83C\uDF5E" to `bread`,
@@ -657,24 +780,30 @@ public object Emojis {
               "\uD83E\uDDC0" to `cheese`,
               "\uD83E\uDD5A" to `egg`,
               "\uD83C\uDF73" to `cooking`,
+              "\uD83E\uDDC8" to `butter`,
               "\uD83E\uDD5E" to `pancakes`,
               "\uD83E\uDDC7" to `waffle`,
               "\uD83E\uDD53" to `bacon`,
               "\uD83E\uDD69" to `cutOfMeat`,
               "\uD83C\uDF57" to `poultryLeg`,
               "\uD83C\uDF56" to `meatOnBone`,
+              "\uD83E\uDDB4" to `bone`,
               "\uD83C\uDF2D" to `hotdog`,
               "\uD83C\uDF54" to `hamburger`,
               "\uD83C\uDF5F" to `fries`,
               "\uD83C\uDF55" to `pizza`,
+              "\uD83E\uDED3" to `flatbread`,
               "\uD83E\uDD6A" to `sandwich`,
-              "\uD83E\uDDC6" to `falafel`,
               "\uD83E\uDD59" to `stuffedFlatbread`,
+              "\uD83E\uDDC6" to `falafel`,
               "\uD83C\uDF2E" to `taco`,
               "\uD83C\uDF2F" to `burrito`,
+              "\uD83E\uDED4" to `tamale`,
               "\uD83E\uDD57" to `salad`,
               "\uD83E\uDD58" to `shallowPanOfFood`,
+              "\uD83E\uDED5" to `fondue`,
               "\uD83E\uDD6B" to `cannedFood`,
+              "\uD83E\uDED9" to `jar`,
               "\uD83C\uDF5D" to `spaghetti`,
               "\uD83C\uDF5C" to `ramen`,
               "\uD83C\uDF72" to `stew`,
@@ -682,6 +811,7 @@ public object Emojis {
               "\uD83C\uDF63" to `sushi`,
               "\uD83C\uDF71" to `bento`,
               "\uD83E\uDD5F" to `dumpling`,
+              "\uD83E\uDDAA" to `oyster`,
               "\uD83C\uDF64" to `friedShrimp`,
               "\uD83C\uDF59" to `riceBall`,
               "\uD83C\uDF5A" to `rice`,
@@ -707,16 +837,18 @@ public object Emojis {
               "\uD83C\uDF6A" to `cookie`,
               "\uD83C\uDF30" to `chestnut`,
               "\uD83E\uDD5C" to `peanuts`,
+              "\uD83E\uDED8" to `beans`,
               "\uD83C\uDF6F" to `honeyPot`,
-              "\uD83E\uDDC8" to `butter`,
               "\uD83E\uDD5B" to `milk`,
+              "\uD83E\uDED7" to `pouringLiquid`,
               "\uD83C\uDF7C" to `babyBottle`,
+              "\uD83E\uDED6" to `teapot`,
               "\u2615" to `coffee`,
               "\uD83C\uDF75" to `tea`,
               "\uD83E\uDDC9" to `mate`,
-              "\uD83E\uDD64" to `cupWithStraw`,
               "\uD83E\uDDC3" to `beverageBox`,
-              "\uD83E\uDDCA" to `iceCube`,
+              "\uD83E\uDD64" to `cupWithStraw`,
+              "\uD83E\uDDCB" to `bubbleTea`,
               "\uD83C\uDF76" to `sake`,
               "\uD83C\uDF7A" to `beer`,
               "\uD83C\uDF7B" to `beers`,
@@ -726,6 +858,7 @@ public object Emojis {
               "\uD83C\uDF78" to `cocktail`,
               "\uD83C\uDF79" to `tropicalDrink`,
               "\uD83C\uDF7E" to `champagne`,
+              "\uD83E\uDDCA" to `iceCube`,
               "\uD83E\uDD44" to `spoon`,
               "\uD83C\uDF74" to `forkAndKnife`,
               "\uD83C\uDF7D\uFE0F" to `forkKnifePlate`,
@@ -743,27 +876,33 @@ public object Emojis {
               "\uD83C\uDFC9" to `rugbyFootball`,
               "\uD83E\uDD4F" to `flyingDisc`,
               "\uD83C\uDFB1" to `8ball`,
+              "\uD83E\uDE80" to `yoYo`,
               "\uD83C\uDFD3" to `pingPong`,
               "\uD83C\uDFF8" to `badminton`,
               "\uD83C\uDFD2" to `hockey`,
               "\uD83C\uDFD1" to `fieldHockey`,
               "\uD83E\uDD4D" to `lacrosse`,
               "\uD83C\uDFCF" to `cricketGame`,
+              "\uD83E\uDE83" to `boomerang`,
               "\uD83E\uDD45" to `goal`,
               "\u26F3" to `golf`,
+              "\uD83E\uDE81" to `kite`,
+              "\uD83D\uDEDD" to `playgroundSlide`,
               "\uD83C\uDFF9" to `bowAndArrow`,
               "\uD83C\uDFA3" to `fishingPoleAndFish`,
+              "\uD83E\uDD3F" to `divingMask`,
               "\uD83E\uDD4A" to `boxingGlove`,
               "\uD83E\uDD4B" to `martialArtsUniform`,
               "\uD83C\uDFBD" to `runningShirtWithSash`,
               "\uD83D\uDEF9" to `skateboard`,
+              "\uD83D\uDEFC" to `rollerSkate`,
               "\uD83D\uDEF7" to `sled`,
-              "\uD83E\uDE82" to `parachute`,
               "\u26F8\uFE0F" to `iceSkate`,
               "\uD83E\uDD4C" to `curlingStone`,
               "\uD83C\uDFBF" to `ski`,
               "\u26F7\uFE0F" to `skier`,
               "\uD83C\uDFC2" to `snowboarder`,
+              "\uD83E\uDE82" to `parachute`,
               "\uD83C\uDFCB\uFE0F" to `personLiftingWeights`,
               "\uD83C\uDFCB\uFE0F\u200D\u2640\uFE0F" to `womanLiftingWeights`,
               "\uD83C\uDFCB\uFE0F\u200D\u2642\uFE0F" to `manLiftingWeights`,
@@ -823,23 +962,26 @@ public object Emojis {
               "\uD83E\uDD39\u200D\u2640\uFE0F" to `womanJuggling`,
               "\uD83E\uDD39\u200D\u2642\uFE0F" to `manJuggling`,
               "\uD83C\uDFAD" to `performingArts`,
+              "\uD83E\uDE70" to `balletShoes`,
               "\uD83C\uDFA8" to `art`,
               "\uD83C\uDFAC" to `clapper`,
               "\uD83C\uDFA4" to `microphone`,
               "\uD83C\uDFA7" to `headphones`,
               "\uD83C\uDFBC" to `musicalScore`,
               "\uD83C\uDFB9" to `musicalKeyboard`,
+              "\uD83E\uDE87" to `maracas`,
               "\uD83E\uDD41" to `drum`,
+              "\uD83E\uDE98" to `longDrum`,
               "\uD83C\uDFB7" to `saxophone`,
               "\uD83C\uDFBA" to `trumpet`,
-              "\uD83E\uDE95" to `banjo`,
+              "\uD83E\uDE97" to `accordion`,
               "\uD83C\uDFB8" to `guitar`,
+              "\uD83E\uDE95" to `banjo`,
               "\uD83C\uDFBB" to `violin`,
+              "\uD83E\uDE88" to `flute`,
               "\uD83C\uDFB2" to `gameDie`,
               "\u265F\uFE0F" to `chessPawn`,
               "\uD83C\uDFAF" to `dart`,
-              "\uD83E\uDE81" to `kite`,
-              "\uD83E\uDE80" to `yoYo`,
               "\uD83C\uDFB3" to `bowling`,
               "\uD83C\uDFAE" to `videoGame`,
               "\uD83C\uDFB0" to `slotMachine`,
@@ -847,23 +989,27 @@ public object Emojis {
               "\uD83D\uDE97" to `redCar`,
               "\uD83D\uDE95" to `taxi`,
               "\uD83D\uDE99" to `blueCar`,
+              "\uD83D\uDEFB" to `pickupTruck`,
+              "\uD83D\uDE90" to `minibus`,
               "\uD83D\uDE8C" to `bus`,
               "\uD83D\uDE8E" to `trolleybus`,
               "\uD83C\uDFCE\uFE0F" to `raceCar`,
               "\uD83D\uDE93" to `policeCar`,
               "\uD83D\uDE91" to `ambulance`,
               "\uD83D\uDE92" to `fireEngine`,
-              "\uD83D\uDE90" to `minibus`,
               "\uD83D\uDE9A" to `truck`,
               "\uD83D\uDE9B" to `articulatedLorry`,
               "\uD83D\uDE9C" to `tractor`,
-              "\uD83D\uDEFA" to `autoRickshaw`,
-              "\uD83D\uDEF5" to `motorScooter`,
-              "\uD83C\uDFCD\uFE0F" to `motorcycle`,
+              "\uD83E\uDDAF" to `probingCane`,
+              "\uD83E\uDDBD" to `manualWheelchair`,
+              "\uD83E\uDDBC" to `motorizedWheelchair`,
+              "\uD83E\uDE7C" to `crutch`,
               "\uD83D\uDEF4" to `scooter`,
               "\uD83D\uDEB2" to `bike`,
-              "\uD83E\uDDBC" to `motorizedWheelchair`,
-              "\uD83E\uDDBD" to `manualWheelchair`,
+              "\uD83D\uDEF5" to `motorScooter`,
+              "\uD83C\uDFCD\uFE0F" to `motorcycle`,
+              "\uD83D\uDEFA" to `autoRickshaw`,
+              "\uD83D\uDEDE" to `wheel`,
               "\uD83D\uDEA8" to `rotatingLight`,
               "\uD83D\uDE94" to `oncomingPoliceCar`,
               "\uD83D\uDE8D" to `oncomingBus`,
@@ -900,7 +1046,9 @@ public object Emojis {
               "\uD83D\uDEF3\uFE0F" to `cruiseShip`,
               "\u26F4\uFE0F" to `ferry`,
               "\uD83D\uDEA2" to `ship`,
+              "\uD83D\uDEDF" to `ringBuoy`,
               "\u2693" to `anchor`,
+              "\uD83E\uDE9D" to `hook`,
               "\u26FD" to `fuelpump`,
               "\uD83D\uDEA7" to `construction`,
               "\uD83D\uDEA6" to `verticalTrafficLight`,
@@ -931,6 +1079,7 @@ public object Emojis {
               "\uD83C\uDFE1" to `houseWithGarden`,
               "\uD83C\uDFD8\uFE0F" to `homes`,
               "\uD83C\uDFDA\uFE0F" to `houseAbandoned`,
+              "\uD83D\uDED6" to `hut`,
               "\uD83C\uDFD7\uFE0F" to `constructionSite`,
               "\uD83C\uDFED" to `factory`,
               "\uD83C\uDFE2" to `office`,
@@ -947,8 +1096,8 @@ public object Emojis {
               "\uD83C\uDFDB\uFE0F" to `classicalBuilding`,
               "\u26EA" to `church`,
               "\uD83D\uDD4C" to `mosque`,
-              "\uD83D\uDED5" to `hinduTemple`,
               "\uD83D\uDD4D" to `synagogue`,
+              "\uD83D\uDED5" to `hinduTemple`,
               "\uD83D\uDD4B" to `kaaba`,
               "\u26E9\uFE0F" to `shintoShrine`,
               "\uD83D\uDEE4\uFE0F" to `railwayTrack`,
@@ -969,7 +1118,7 @@ public object Emojis {
               "\uD83C\uDF09" to `bridgeAtNight`,
               "\uD83C\uDF01" to `foggy`,
               "\u231A" to `watch`,
-              "\uD83D\uDCF1" to `iphone`,
+              "\uD83D\uDCF1" to `mobilePhone`,
               "\uD83D\uDCF2" to `calling`,
               "\uD83D\uDCBB" to `computer`,
               "\u2328\uFE0F" to `keyboard`,
@@ -1008,10 +1157,12 @@ public object Emojis {
               "\u23F3" to `hourglassFlowingSand`,
               "\uD83D\uDCE1" to `satellite`,
               "\uD83D\uDD0B" to `battery`,
+              "\uD83E\uDEAB" to `lowBattery`,
               "\uD83D\uDD0C" to `electricPlug`,
               "\uD83D\uDCA1" to `bulb`,
               "\uD83D\uDD26" to `flashlight`,
               "\uD83D\uDD6F\uFE0F" to `candle`,
+              "\uD83E\uDE94" to `diyaLamp`,
               "\uD83E\uDDEF" to `fireExtinguisher`,
               "\uD83D\uDEE2\uFE0F" to `oil`,
               "\uD83D\uDCB8" to `moneyWithWings`,
@@ -1019,46 +1170,54 @@ public object Emojis {
               "\uD83D\uDCB4" to `yen`,
               "\uD83D\uDCB6" to `euro`,
               "\uD83D\uDCB7" to `pound`,
+              "\uD83E\uDE99" to `coin`,
               "\uD83D\uDCB0" to `moneybag`,
               "\uD83D\uDCB3" to `creditCard`,
+              "\uD83E\uDEAA" to `identificationCard`,
               "\uD83D\uDC8E" to `gem`,
               "\u2696\uFE0F" to `scales`,
+              "\uD83E\uDE9C" to `ladder`,
               "\uD83E\uDDF0" to `toolbox`,
+              "\uD83E\uDE9B" to `screwdriver`,
               "\uD83D\uDD27" to `wrench`,
               "\uD83D\uDD28" to `hammer`,
               "\u2692\uFE0F" to `hammerPick`,
               "\uD83D\uDEE0\uFE0F" to `tools`,
               "\u26CF\uFE0F" to `pick`,
+              "\uD83E\uDE9A" to `carpentrySaw`,
               "\uD83D\uDD29" to `nutAndBolt`,
               "\u2699\uFE0F" to `gear`,
+              "\uD83E\uDEA4" to `mouseTrap`,
               "\uD83E\uDDF1" to `bricks`,
               "\u26D3\uFE0F" to `chains`,
+              "\uD83D\uDD17" to `link`,
+              "\u26D3\uFE0F\u200D\uD83D\uDCA5" to `brokenChain`,
               "\uD83E\uDDF2" to `magnet`,
               "\uD83D\uDD2B" to `gun`,
               "\uD83D\uDCA3" to `bomb`,
               "\uD83E\uDDE8" to `firecracker`,
               "\uD83E\uDE93" to `axe`,
-              "\uD83E\uDE92" to `razor`,
               "\uD83D\uDD2A" to `knife`,
               "\uD83D\uDDE1\uFE0F" to `dagger`,
               "\u2694\uFE0F" to `crossedSwords`,
               "\uD83D\uDEE1\uFE0F" to `shield`,
               "\uD83D\uDEAC" to `smoking`,
               "\u26B0\uFE0F" to `coffin`,
+              "\uD83E\uDEA6" to `headstone`,
               "\u26B1\uFE0F" to `urn`,
               "\uD83C\uDFFA" to `amphora`,
-              "\uD83E\uDE94" to `diyaLamp`,
               "\uD83D\uDD2E" to `crystalBall`,
               "\uD83D\uDCFF" to `prayerBeads`,
               "\uD83E\uDDFF" to `nazarAmulet`,
+              "\uD83E\uDEAC" to `hamsa`,
               "\uD83D\uDC88" to `barber`,
               "\u2697\uFE0F" to `alembic`,
               "\uD83D\uDD2D" to `telescope`,
               "\uD83D\uDD2C" to `microscope`,
               "\uD83D\uDD73\uFE0F" to `hole`,
-              "\uD83E\uDDAF" to `probingCane`,
-              "\uD83E\uDE7A" to `stethoscope`,
+              "\uD83E\uDE7B" to `xRay`,
               "\uD83E\uDE79" to `adhesiveBandage`,
+              "\uD83E\uDE7A" to `stethoscope`,
               "\uD83D\uDC8A" to `pill`,
               "\uD83D\uDC89" to `syringe`,
               "\uD83E\uDE78" to `dropOfBlood`,
@@ -1067,8 +1226,8 @@ public object Emojis {
               "\uD83E\uDDEB" to `petriDish`,
               "\uD83E\uDDEA" to `testTube`,
               "\uD83C\uDF21\uFE0F" to `thermometer`,
-              "\uD83E\uDE91" to `chair`,
               "\uD83E\uDDF9" to `broom`,
+              "\uD83E\uDEA0" to `plunger`,
               "\uD83E\uDDFA" to `basket`,
               "\uD83E\uDDFB" to `rollOfPaper`,
               "\uD83D\uDEBD" to `toilet`,
@@ -1077,28 +1236,40 @@ public object Emojis {
               "\uD83D\uDEC1" to `bathtub`,
               "\uD83D\uDEC0" to `bath`,
               "\uD83E\uDDFC" to `soap`,
+              "\uD83E\uDEA5" to `toothbrush`,
+              "\uD83E\uDE92" to `razor`,
+              "\uD83E\uDEAE" to `hairPick`,
               "\uD83E\uDDFD" to `sponge`,
+              "\uD83E\uDEA3" to `bucket`,
               "\uD83E\uDDF4" to `squeezeBottle`,
               "\uD83D\uDECE\uFE0F" to `bellhop`,
               "\uD83D\uDD11" to `key`,
               "\uD83D\uDDDD\uFE0F" to `key2`,
               "\uD83D\uDEAA" to `door`,
+              "\uD83E\uDE91" to `chair`,
               "\uD83D\uDECB\uFE0F" to `couch`,
               "\uD83D\uDECF\uFE0F" to `bed`,
               "\uD83D\uDECC" to `sleepingAccommodation`,
               "\uD83E\uDDF8" to `teddyBear`,
+              "\uD83E\uDE86" to `nestingDolls`,
               "\uD83D\uDDBC\uFE0F" to `framePhoto`,
+              "\uD83E\uDE9E" to `mirror`,
+              "\uD83E\uDE9F" to `window`,
               "\uD83D\uDECD\uFE0F" to `shoppingBags`,
               "\uD83D\uDED2" to `shoppingCart`,
               "\uD83C\uDF81" to `gift`,
               "\uD83C\uDF88" to `balloon`,
               "\uD83C\uDF8F" to `flags`,
               "\uD83C\uDF80" to `ribbon`,
+              "\uD83E\uDE84" to `magicWand`,
+              "\uD83E\uDE85" to `piñata`,
               "\uD83C\uDF8A" to `confettiBall`,
               "\uD83C\uDF89" to `tada`,
               "\uD83C\uDF8E" to `dolls`,
+              "\uD83E\uDEAD" to `foldingHandFan`,
               "\uD83C\uDFEE" to `izakayaLantern`,
               "\uD83C\uDF90" to `windChime`,
+              "\uD83E\uDEA9" to `mirrorBall`,
               "\uD83E\uDDE7" to `redEnvelope`,
               "\u2709\uFE0F" to `envelope`,
               "\uD83D\uDCE9" to `envelopeWithArrow`,
@@ -1109,6 +1280,7 @@ public object Emojis {
               "\uD83D\uDCE4" to `outboxTray`,
               "\uD83D\uDCE6" to `package`,
               "\uD83C\uDFF7\uFE0F" to `label`,
+              "\uD83E\uDEA7" to `placard`,
               "\uD83D\uDCEA" to `mailboxClosed`,
               "\uD83D\uDCEB" to `mailbox`,
               "\uD83D\uDCEC" to `mailboxWithMail`,
@@ -1149,7 +1321,6 @@ public object Emojis {
               "\uD83D\uDCD6" to `book`,
               "\uD83D\uDD16" to `bookmark`,
               "\uD83E\uDDF7" to `safetyPin`,
-              "\uD83D\uDD17" to `link`,
               "\uD83D\uDCCE" to `paperclip`,
               "\uD83D\uDD87\uFE0F" to `paperclips`,
               "\uD83D\uDCD0" to `triangularRuler`,
@@ -1171,15 +1342,18 @@ public object Emojis {
               "\uD83D\uDD10" to `closedLockWithKey`,
               "\uD83D\uDD12" to `lock`,
               "\uD83D\uDD13" to `unlock`,
+              "\uD83E\uDE77" to `pinkHeart`,
               "\u2764\uFE0F" to `heart`,
               "\uD83E\uDDE1" to `orangeHeart`,
               "\uD83D\uDC9B" to `yellowHeart`,
               "\uD83D\uDC9A" to `greenHeart`,
+              "\uD83E\uDE75" to `lightBlueHeart`,
               "\uD83D\uDC99" to `blueHeart`,
               "\uD83D\uDC9C" to `purpleHeart`,
               "\uD83D\uDDA4" to `blackHeart`,
-              "\uD83E\uDD0E" to `brownHeart`,
+              "\uD83E\uDE76" to `greyHeart`,
               "\uD83E\uDD0D" to `whiteHeart`,
+              "\uD83E\uDD0E" to `brownHeart`,
               "\uD83D\uDC94" to `brokenHeart`,
               "\u2763\uFE0F" to `heartExclamation`,
               "\uD83D\uDC95" to `twoHearts`,
@@ -1189,12 +1363,15 @@ public object Emojis {
               "\uD83D\uDC96" to `sparklingHeart`,
               "\uD83D\uDC98" to `cupid`,
               "\uD83D\uDC9D" to `giftHeart`,
+              "\u2764\uFE0F\u200D\uD83E\uDE79" to `mendingHeart`,
+              "\u2764\uFE0F\u200D\uD83D\uDD25" to `heartOnFire`,
               "\uD83D\uDC9F" to `heartDecoration`,
               "\u262E\uFE0F" to `peace`,
               "\u271D\uFE0F" to `cross`,
               "\u262A\uFE0F" to `starAndCrescent`,
               "\uD83D\uDD49\uFE0F" to `omSymbol`,
               "\u2638\uFE0F" to `wheelOfDharma`,
+              "\uD83E\uDEAF" to `khanda`,
               "\u2721\uFE0F" to `starOfDavid`,
               "\uD83D\uDD2F" to `sixPointedStar`,
               "\uD83D\uDD4E" to `menorah`,
@@ -1288,12 +1465,14 @@ public object Emojis {
               "\uD83D\uDEBE" to `wc`,
               "\u267F" to `wheelchair`,
               "\uD83C\uDD7F\uFE0F" to `parking`,
+              "\uD83D\uDED7" to `elevator`,
               "\uD83C\uDE33" to `u7a7a`,
               "\uD83C\uDE02\uFE0F" to `sa`,
               "\uD83D\uDEC2" to `passportControl`,
               "\uD83D\uDEC3" to `customs`,
               "\uD83D\uDEC4" to `baggageClaim`,
               "\uD83D\uDEC5" to `leftLuggage`,
+              "\uD83D\uDEDC" to `wireless`,
               "\uD83D\uDEB9" to `mens`,
               "\uD83D\uDEBA" to `womens`,
               "\uD83D\uDEBC" to `babySymbol`,
@@ -1367,12 +1546,13 @@ public object Emojis {
               "\u2796" to `heavyMinusSign`,
               "\u2797" to `heavyDivisionSign`,
               "\u2716\uFE0F" to `heavyMultiplicationX`,
+              "\uD83D\uDFF0" to `heavyEqualsSign`,
               "\u267E\uFE0F" to `infinity`,
               "\uD83D\uDCB2" to `heavyDollarSign`,
               "\uD83D\uDCB1" to `currencyExchange`,
-              "\u2122\uFE0F" to `tm`,
-              "\u00A9\uFE0F" to `copyright`,
-              "\u00AE\uFE0F" to `registered`,
+              "\u2122" to `tm`,
+              "\u00A9" to `copyright`,
+              "\u00AE" to `registered`,
               "\u3030\uFE0F" to `wavyDash`,
               "\u27B0" to `curlyLoop`,
               "\u27BF" to `loop`,
@@ -1462,6 +1642,7 @@ public object Emojis {
               "\uD83D\uDD67" to `clock1230`,
               "\u2640\uFE0F" to `femaleSign`,
               "\u2642\uFE0F" to `maleSign`,
+              "\u26A7" to `transgenderSymbol`,
               "\u2695\uFE0F" to `medicalSymbol`,
               "\uD83C\uDDFF" to `regionalIndicatorZ`,
               "\uD83C\uDDFE" to `regionalIndicatorY`,
@@ -1491,10 +1672,12 @@ public object Emojis {
               "\uD83C\uDDE6" to `regionalIndicatorA`,
               "\uD83C\uDFF3\uFE0F" to `flagWhite`,
               "\uD83C\uDFF4" to `flagBlack`,
+              "\uD83C\uDFF4\u200D\u2620\uFE0F" to `pirateFlag`,
               "\uD83C\uDFC1" to `checkeredFlag`,
               "\uD83D\uDEA9" to `triangularFlagOnPost`,
               "\uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08" to `rainbowFlag`,
-              "\uD83C\uDFF4\u200D\u2620\uFE0F" to `pirateFlag`,
+              "\uD83C\uDFF3\uFE0F\u200D\u26A7\uFE0F" to `transgenderFlag`,
+              "\uD83C\uDDFA\uD83C\uDDF3" to `unitedNations`,
               "\uD83C\uDDE6\uD83C\uDDEB" to `flagAf`,
               "\uD83C\uDDE6\uD83C\uDDFD" to `flagAx`,
               "\uD83C\uDDE6\uD83C\uDDF1" to `flagAl`,
@@ -1731,12 +1914,9 @@ public object Emojis {
               "\uD83C\uDDFA\uD83C\uDDE6" to `flagUa`,
               "\uD83C\uDDE6\uD83C\uDDEA" to `flagAe`,
               "\uD83C\uDDEC\uD83C\uDDE7" to `flagGb`,
-              "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F"
-          to `england`,
-              "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F"
-          to `scotland`,
-              "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F"
-          to `wales`,
+              "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F" to `england`,
+              "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F" to `scotland`,
+              "\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F" to `wales`,
               "\uD83C\uDDFA\uD83C\uDDF8" to `flagUs`,
               "\uD83C\uDDFA\uD83C\uDDFE" to `flagUy`,
               "\uD83C\uDDFA\uD83C\uDDFF" to `flagUz`,
@@ -1759,10 +1939,1892 @@ public object Emojis {
               "\uD83C\uDDF8\uD83C\uDDEF" to `flagSj`,
               "\uD83C\uDDF9\uD83C\uDDE6" to `flagTa`,
               "\uD83C\uDDFA\uD83C\uDDF2" to `flagUm`,
-              "\uD83C\uDDFA\uD83C\uDDF3" to `unitedNations`    
+              "\uD83E\uDD1D\uD83C\uDFFB" to `handshakeTone1`,
+              "\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFC" to `handshakeTone1Tone2`,
+              "\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFD" to `handshakeTone1Tone3`,
+              "\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFE" to `handshakeTone1Tone4`,
+              "\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFF" to `handshakeTone1Tone5`,
+              "\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFB" to `handshakeTone2Tone1`,
+              "\uD83E\uDD1D\uD83C\uDFFC" to `handshakeTone2`,
+              "\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFD" to `handshakeTone2Tone3`,
+              "\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFE" to `handshakeTone2Tone4`,
+              "\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFF" to `handshakeTone2Tone5`,
+              "\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFB" to `handshakeTone3Tone1`,
+              "\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFC" to `handshakeTone3Tone2`,
+              "\uD83E\uDD1D\uD83C\uDFFD" to `handshakeTone3`,
+              "\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFE" to `handshakeTone3Tone4`,
+              "\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFF" to `handshakeTone3Tone5`,
+              "\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFB" to `handshakeTone4Tone1`,
+              "\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFC" to `handshakeTone4Tone2`,
+              "\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFD" to `handshakeTone4Tone3`,
+              "\uD83E\uDD1D\uD83C\uDFFE" to `handshakeTone4`,
+              "\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFF" to `handshakeTone4Tone5`,
+              "\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFB" to `handshakeTone5Tone1`,
+              "\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFC" to `handshakeTone5Tone2`,
+              "\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFD" to `handshakeTone5Tone3`,
+              "\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFE" to `handshakeTone5Tone4`,
+              "\uD83E\uDD1D\uD83C\uDFFF" to `handshakeTone5`,
+              "\uD83E\uDEF6\uD83C\uDFFB" to `heartHandsTone1`,
+              "\uD83E\uDEF6\uD83C\uDFFC" to `heartHandsTone2`,
+              "\uD83E\uDEF6\uD83C\uDFFD" to `heartHandsTone3`,
+              "\uD83E\uDEF6\uD83C\uDFFE" to `heartHandsTone4`,
+              "\uD83E\uDEF6\uD83C\uDFFF" to `heartHandsTone5`,
+              "\uD83E\uDD32\uD83C\uDFFB" to `palmsUpTogetherTone1`,
+              "\uD83E\uDD32\uD83C\uDFFC" to `palmsUpTogetherTone2`,
+              "\uD83E\uDD32\uD83C\uDFFD" to `palmsUpTogetherTone3`,
+              "\uD83E\uDD32\uD83C\uDFFE" to `palmsUpTogetherTone4`,
+              "\uD83E\uDD32\uD83C\uDFFF" to `palmsUpTogetherTone5`,
+              "\uD83D\uDC50\uD83C\uDFFB" to `openHandsTone1`,
+              "\uD83D\uDC50\uD83C\uDFFC" to `openHandsTone2`,
+              "\uD83D\uDC50\uD83C\uDFFD" to `openHandsTone3`,
+              "\uD83D\uDC50\uD83C\uDFFE" to `openHandsTone4`,
+              "\uD83D\uDC50\uD83C\uDFFF" to `openHandsTone5`,
+              "\uD83D\uDE4C\uD83C\uDFFB" to `raisedHandsTone1`,
+              "\uD83D\uDE4C\uD83C\uDFFC" to `raisedHandsTone2`,
+              "\uD83D\uDE4C\uD83C\uDFFD" to `raisedHandsTone3`,
+              "\uD83D\uDE4C\uD83C\uDFFE" to `raisedHandsTone4`,
+              "\uD83D\uDE4C\uD83C\uDFFF" to `raisedHandsTone5`,
+              "\uD83D\uDC4F\uD83C\uDFFB" to `clapTone1`,
+              "\uD83D\uDC4F\uD83C\uDFFC" to `clapTone2`,
+              "\uD83D\uDC4F\uD83C\uDFFD" to `clapTone3`,
+              "\uD83D\uDC4F\uD83C\uDFFE" to `clapTone4`,
+              "\uD83D\uDC4F\uD83C\uDFFF" to `clapTone5`,
+              "\uD83D\uDC4D\uD83C\uDFFB" to `thumbsupTone1`,
+              "\uD83D\uDC4D\uD83C\uDFFC" to `thumbsupTone2`,
+              "\uD83D\uDC4D\uD83C\uDFFD" to `thumbsupTone3`,
+              "\uD83D\uDC4D\uD83C\uDFFE" to `thumbsupTone4`,
+              "\uD83D\uDC4D\uD83C\uDFFF" to `thumbsupTone5`,
+              "\uD83D\uDC4E\uD83C\uDFFB" to `thumbsdownTone1`,
+              "\uD83D\uDC4E\uD83C\uDFFC" to `thumbsdownTone2`,
+              "\uD83D\uDC4E\uD83C\uDFFD" to `thumbsdownTone3`,
+              "\uD83D\uDC4E\uD83C\uDFFE" to `thumbsdownTone4`,
+              "\uD83D\uDC4E\uD83C\uDFFF" to `thumbsdownTone5`,
+              "\uD83D\uDC4A\uD83C\uDFFB" to `punchTone1`,
+              "\uD83D\uDC4A\uD83C\uDFFC" to `punchTone2`,
+              "\uD83D\uDC4A\uD83C\uDFFD" to `punchTone3`,
+              "\uD83D\uDC4A\uD83C\uDFFE" to `punchTone4`,
+              "\uD83D\uDC4A\uD83C\uDFFF" to `punchTone5`,
+              "\u270A\uD83C\uDFFB" to `fistTone1`,
+              "\u270A\uD83C\uDFFC" to `fistTone2`,
+              "\u270A\uD83C\uDFFD" to `fistTone3`,
+              "\u270A\uD83C\uDFFE" to `fistTone4`,
+              "\u270A\uD83C\uDFFF" to `fistTone5`,
+              "\uD83E\uDD1B\uD83C\uDFFB" to `leftFacingFistTone1`,
+              "\uD83E\uDD1B\uD83C\uDFFC" to `leftFacingFistTone2`,
+              "\uD83E\uDD1B\uD83C\uDFFD" to `leftFacingFistTone3`,
+              "\uD83E\uDD1B\uD83C\uDFFE" to `leftFacingFistTone4`,
+              "\uD83E\uDD1B\uD83C\uDFFF" to `leftFacingFistTone5`,
+              "\uD83E\uDD1C\uD83C\uDFFB" to `rightFacingFistTone1`,
+              "\uD83E\uDD1C\uD83C\uDFFC" to `rightFacingFistTone2`,
+              "\uD83E\uDD1C\uD83C\uDFFD" to `rightFacingFistTone3`,
+              "\uD83E\uDD1C\uD83C\uDFFE" to `rightFacingFistTone4`,
+              "\uD83E\uDD1C\uD83C\uDFFF" to `rightFacingFistTone5`,
+              "\uD83E\uDEF7\uD83C\uDFFB" to `leftwardsPushingHandTone1`,
+              "\uD83E\uDEF7\uD83C\uDFFC" to `leftwardsPushingHandTone2`,
+              "\uD83E\uDEF7\uD83C\uDFFD" to `leftwardsPushingHandTone3`,
+              "\uD83E\uDEF7\uD83C\uDFFE" to `leftwardsPushingHandTone4`,
+              "\uD83E\uDEF7\uD83C\uDFFF" to `leftwardsPushingHandTone5`,
+              "\uD83E\uDEF8\uD83C\uDFFB" to `rightwardsPushingHandTone1`,
+              "\uD83E\uDEF8\uD83C\uDFFC" to `rightwardsPushingHandTone2`,
+              "\uD83E\uDEF8\uD83C\uDFFD" to `rightwardsPushingHandTone3`,
+              "\uD83E\uDEF8\uD83C\uDFFE" to `rightwardsPushingHandTone4`,
+              "\uD83E\uDEF8\uD83C\uDFFF" to `rightwardsPushingHandTone5`,
+              "\uD83E\uDD1E\uD83C\uDFFB" to `fingersCrossedTone1`,
+              "\uD83E\uDD1E\uD83C\uDFFC" to `fingersCrossedTone2`,
+              "\uD83E\uDD1E\uD83C\uDFFD" to `fingersCrossedTone3`,
+              "\uD83E\uDD1E\uD83C\uDFFE" to `fingersCrossedTone4`,
+              "\uD83E\uDD1E\uD83C\uDFFF" to `fingersCrossedTone5`,
+              "\u270C\uD83C\uDFFB" to `vTone1`,
+              "\u270C\uD83C\uDFFC" to `vTone2`,
+              "\u270C\uD83C\uDFFD" to `vTone3`,
+              "\u270C\uD83C\uDFFE" to `vTone4`,
+              "\u270C\uD83C\uDFFF" to `vTone5`,
+              "\uD83E\uDEF0\uD83C\uDFFB" to `handWithIndexFingerAndThumbCrossedTone1`,
+              "\uD83E\uDEF0\uD83C\uDFFC" to `handWithIndexFingerAndThumbCrossedTone2`,
+              "\uD83E\uDEF0\uD83C\uDFFD" to `handWithIndexFingerAndThumbCrossedTone3`,
+              "\uD83E\uDEF0\uD83C\uDFFE" to `handWithIndexFingerAndThumbCrossedTone4`,
+              "\uD83E\uDEF0\uD83C\uDFFF" to `handWithIndexFingerAndThumbCrossedTone5`,
+              "\uD83E\uDD1F\uD83C\uDFFB" to `loveYouGestureTone1`,
+              "\uD83E\uDD1F\uD83C\uDFFC" to `loveYouGestureTone2`,
+              "\uD83E\uDD1F\uD83C\uDFFD" to `loveYouGestureTone3`,
+              "\uD83E\uDD1F\uD83C\uDFFE" to `loveYouGestureTone4`,
+              "\uD83E\uDD1F\uD83C\uDFFF" to `loveYouGestureTone5`,
+              "\uD83E\uDD18\uD83C\uDFFB" to `metalTone1`,
+              "\uD83E\uDD18\uD83C\uDFFC" to `metalTone2`,
+              "\uD83E\uDD18\uD83C\uDFFD" to `metalTone3`,
+              "\uD83E\uDD18\uD83C\uDFFE" to `metalTone4`,
+              "\uD83E\uDD18\uD83C\uDFFF" to `metalTone5`,
+              "\uD83D\uDC4C\uD83C\uDFFB" to `okHandTone1`,
+              "\uD83D\uDC4C\uD83C\uDFFC" to `okHandTone2`,
+              "\uD83D\uDC4C\uD83C\uDFFD" to `okHandTone3`,
+              "\uD83D\uDC4C\uD83C\uDFFE" to `okHandTone4`,
+              "\uD83D\uDC4C\uD83C\uDFFF" to `okHandTone5`,
+              "\uD83E\uDD0C\uD83C\uDFFC" to `pinchedFingersTone2`,
+              "\uD83E\uDD0C\uD83C\uDFFB" to `pinchedFingersTone1`,
+              "\uD83E\uDD0C\uD83C\uDFFD" to `pinchedFingersTone3`,
+              "\uD83E\uDD0C\uD83C\uDFFE" to `pinchedFingersTone4`,
+              "\uD83E\uDD0C\uD83C\uDFFF" to `pinchedFingersTone5`,
+              "\uD83E\uDD0F\uD83C\uDFFB" to `pinchingHandTone1`,
+              "\uD83E\uDD0F\uD83C\uDFFC" to `pinchingHandTone2`,
+              "\uD83E\uDD0F\uD83C\uDFFD" to `pinchingHandTone3`,
+              "\uD83E\uDD0F\uD83C\uDFFE" to `pinchingHandTone4`,
+              "\uD83E\uDD0F\uD83C\uDFFF" to `pinchingHandTone5`,
+              "\uD83E\uDEF3\uD83C\uDFFB" to `palmDownHandTone1`,
+              "\uD83E\uDEF3\uD83C\uDFFC" to `palmDownHandTone2`,
+              "\uD83E\uDEF3\uD83C\uDFFD" to `palmDownHandTone3`,
+              "\uD83E\uDEF3\uD83C\uDFFE" to `palmDownHandTone4`,
+              "\uD83E\uDEF3\uD83C\uDFFF" to `palmDownHandTone5`,
+              "\uD83E\uDEF4\uD83C\uDFFB" to `palmUpHandTone1`,
+              "\uD83E\uDEF4\uD83C\uDFFC" to `palmUpHandTone2`,
+              "\uD83E\uDEF4\uD83C\uDFFD" to `palmUpHandTone3`,
+              "\uD83E\uDEF4\uD83C\uDFFE" to `palmUpHandTone4`,
+              "\uD83E\uDEF4\uD83C\uDFFF" to `palmUpHandTone5`,
+              "\uD83D\uDC48\uD83C\uDFFB" to `pointLeftTone1`,
+              "\uD83D\uDC48\uD83C\uDFFC" to `pointLeftTone2`,
+              "\uD83D\uDC48\uD83C\uDFFD" to `pointLeftTone3`,
+              "\uD83D\uDC48\uD83C\uDFFE" to `pointLeftTone4`,
+              "\uD83D\uDC48\uD83C\uDFFF" to `pointLeftTone5`,
+              "\uD83D\uDC49\uD83C\uDFFB" to `pointRightTone1`,
+              "\uD83D\uDC49\uD83C\uDFFC" to `pointRightTone2`,
+              "\uD83D\uDC49\uD83C\uDFFD" to `pointRightTone3`,
+              "\uD83D\uDC49\uD83C\uDFFE" to `pointRightTone4`,
+              "\uD83D\uDC49\uD83C\uDFFF" to `pointRightTone5`,
+              "\uD83D\uDC46\uD83C\uDFFB" to `pointUp2Tone1`,
+              "\uD83D\uDC46\uD83C\uDFFC" to `pointUp2Tone2`,
+              "\uD83D\uDC46\uD83C\uDFFD" to `pointUp2Tone3`,
+              "\uD83D\uDC46\uD83C\uDFFE" to `pointUp2Tone4`,
+              "\uD83D\uDC46\uD83C\uDFFF" to `pointUp2Tone5`,
+              "\uD83D\uDC47\uD83C\uDFFB" to `pointDownTone1`,
+              "\uD83D\uDC47\uD83C\uDFFC" to `pointDownTone2`,
+              "\uD83D\uDC47\uD83C\uDFFD" to `pointDownTone3`,
+              "\uD83D\uDC47\uD83C\uDFFE" to `pointDownTone4`,
+              "\uD83D\uDC47\uD83C\uDFFF" to `pointDownTone5`,
+              "\u261D\uD83C\uDFFB" to `pointUpTone1`,
+              "\u261D\uD83C\uDFFC" to `pointUpTone2`,
+              "\u261D\uD83C\uDFFD" to `pointUpTone3`,
+              "\u261D\uD83C\uDFFE" to `pointUpTone4`,
+              "\u261D\uD83C\uDFFF" to `pointUpTone5`,
+              "\u270B\uD83C\uDFFB" to `raisedHandTone1`,
+              "\u270B\uD83C\uDFFC" to `raisedHandTone2`,
+              "\u270B\uD83C\uDFFD" to `raisedHandTone3`,
+              "\u270B\uD83C\uDFFE" to `raisedHandTone4`,
+              "\u270B\uD83C\uDFFF" to `raisedHandTone5`,
+              "\uD83E\uDD1A\uD83C\uDFFB" to `raisedBackOfHandTone1`,
+              "\uD83E\uDD1A\uD83C\uDFFC" to `raisedBackOfHandTone2`,
+              "\uD83E\uDD1A\uD83C\uDFFD" to `raisedBackOfHandTone3`,
+              "\uD83E\uDD1A\uD83C\uDFFE" to `raisedBackOfHandTone4`,
+              "\uD83E\uDD1A\uD83C\uDFFF" to `raisedBackOfHandTone5`,
+              "\uD83D\uDD90\uD83C\uDFFB" to `handSplayedTone1`,
+              "\uD83D\uDD90\uD83C\uDFFC" to `handSplayedTone2`,
+              "\uD83D\uDD90\uD83C\uDFFD" to `handSplayedTone3`,
+              "\uD83D\uDD90\uD83C\uDFFE" to `handSplayedTone4`,
+              "\uD83D\uDD90\uD83C\uDFFF" to `handSplayedTone5`,
+              "\uD83D\uDD96\uD83C\uDFFB" to `vulcanTone1`,
+              "\uD83D\uDD96\uD83C\uDFFC" to `vulcanTone2`,
+              "\uD83D\uDD96\uD83C\uDFFD" to `vulcanTone3`,
+              "\uD83D\uDD96\uD83C\uDFFE" to `vulcanTone4`,
+              "\uD83D\uDD96\uD83C\uDFFF" to `vulcanTone5`,
+              "\uD83D\uDC4B\uD83C\uDFFB" to `waveTone1`,
+              "\uD83D\uDC4B\uD83C\uDFFC" to `waveTone2`,
+              "\uD83D\uDC4B\uD83C\uDFFD" to `waveTone3`,
+              "\uD83D\uDC4B\uD83C\uDFFE" to `waveTone4`,
+              "\uD83D\uDC4B\uD83C\uDFFF" to `waveTone5`,
+              "\uD83E\uDD19\uD83C\uDFFB" to `callMeTone1`,
+              "\uD83E\uDD19\uD83C\uDFFC" to `callMeTone2`,
+              "\uD83E\uDD19\uD83C\uDFFD" to `callMeTone3`,
+              "\uD83E\uDD19\uD83C\uDFFE" to `callMeTone4`,
+              "\uD83E\uDD19\uD83C\uDFFF" to `callMeTone5`,
+              "\uD83E\uDEF2\uD83C\uDFFB" to `leftwardsHandTone1`,
+              "\uD83E\uDEF2\uD83C\uDFFC" to `leftwardsHandTone2`,
+              "\uD83E\uDEF2\uD83C\uDFFD" to `leftwardsHandTone3`,
+              "\uD83E\uDEF2\uD83C\uDFFE" to `leftwardsHandTone4`,
+              "\uD83E\uDEF2\uD83C\uDFFF" to `leftwardsHandTone5`,
+              "\uD83E\uDEF1\uD83C\uDFFB" to `rightwardsHandTone1`,
+              "\uD83E\uDEF1\uD83C\uDFFC" to `rightwardsHandTone2`,
+              "\uD83E\uDEF1\uD83C\uDFFD" to `rightwardsHandTone3`,
+              "\uD83E\uDEF1\uD83C\uDFFE" to `rightwardsHandTone4`,
+              "\uD83E\uDEF1\uD83C\uDFFF" to `rightwardsHandTone5`,
+              "\uD83D\uDCAA\uD83C\uDFFB" to `muscleTone1`,
+              "\uD83D\uDCAA\uD83C\uDFFC" to `muscleTone2`,
+              "\uD83D\uDCAA\uD83C\uDFFD" to `muscleTone3`,
+              "\uD83D\uDCAA\uD83C\uDFFE" to `muscleTone4`,
+              "\uD83D\uDCAA\uD83C\uDFFF" to `muscleTone5`,
+              "\uD83D\uDD95\uD83C\uDFFB" to `middleFingerTone1`,
+              "\uD83D\uDD95\uD83C\uDFFC" to `middleFingerTone2`,
+              "\uD83D\uDD95\uD83C\uDFFD" to `middleFingerTone3`,
+              "\uD83D\uDD95\uD83C\uDFFE" to `middleFingerTone4`,
+              "\uD83D\uDD95\uD83C\uDFFF" to `middleFingerTone5`,
+              "\u270D\uD83C\uDFFB" to `writingHandTone1`,
+              "\u270D\uD83C\uDFFC" to `writingHandTone2`,
+              "\u270D\uD83C\uDFFD" to `writingHandTone3`,
+              "\u270D\uD83C\uDFFE" to `writingHandTone4`,
+              "\u270D\uD83C\uDFFF" to `writingHandTone5`,
+              "\uD83D\uDE4F\uD83C\uDFFB" to `prayTone1`,
+              "\uD83D\uDE4F\uD83C\uDFFC" to `prayTone2`,
+              "\uD83D\uDE4F\uD83C\uDFFD" to `prayTone3`,
+              "\uD83D\uDE4F\uD83C\uDFFE" to `prayTone4`,
+              "\uD83D\uDE4F\uD83C\uDFFF" to `prayTone5`,
+              "\uD83E\uDEF5\uD83C\uDFFB" to `indexPointingAtTheViewerTone1`,
+              "\uD83E\uDEF5\uD83C\uDFFC" to `indexPointingAtTheViewerTone2`,
+              "\uD83E\uDEF5\uD83C\uDFFD" to `indexPointingAtTheViewerTone3`,
+              "\uD83E\uDEF5\uD83C\uDFFE" to `indexPointingAtTheViewerTone4`,
+              "\uD83E\uDEF5\uD83C\uDFFF" to `indexPointingAtTheViewerTone5`,
+              "\uD83E\uDDB6\uD83C\uDFFB" to `footTone1`,
+              "\uD83E\uDDB6\uD83C\uDFFC" to `footTone2`,
+              "\uD83E\uDDB6\uD83C\uDFFD" to `footTone3`,
+              "\uD83E\uDDB6\uD83C\uDFFE" to `footTone4`,
+              "\uD83E\uDDB6\uD83C\uDFFF" to `footTone5`,
+              "\uD83E\uDDB5\uD83C\uDFFB" to `legTone1`,
+              "\uD83E\uDDB5\uD83C\uDFFC" to `legTone2`,
+              "\uD83E\uDDB5\uD83C\uDFFD" to `legTone3`,
+              "\uD83E\uDDB5\uD83C\uDFFE" to `legTone4`,
+              "\uD83E\uDDB5\uD83C\uDFFF" to `legTone5`,
+              "\uD83D\uDC42\uD83C\uDFFB" to `earTone1`,
+              "\uD83D\uDC42\uD83C\uDFFC" to `earTone2`,
+              "\uD83D\uDC42\uD83C\uDFFD" to `earTone3`,
+              "\uD83D\uDC42\uD83C\uDFFE" to `earTone4`,
+              "\uD83D\uDC42\uD83C\uDFFF" to `earTone5`,
+              "\uD83E\uDDBB\uD83C\uDFFB" to `earWithHearingAidTone1`,
+              "\uD83E\uDDBB\uD83C\uDFFC" to `earWithHearingAidTone2`,
+              "\uD83E\uDDBB\uD83C\uDFFD" to `earWithHearingAidTone3`,
+              "\uD83E\uDDBB\uD83C\uDFFE" to `earWithHearingAidTone4`,
+              "\uD83E\uDDBB\uD83C\uDFFF" to `earWithHearingAidTone5`,
+              "\uD83D\uDC43\uD83C\uDFFB" to `noseTone1`,
+              "\uD83D\uDC43\uD83C\uDFFC" to `noseTone2`,
+              "\uD83D\uDC43\uD83C\uDFFD" to `noseTone3`,
+              "\uD83D\uDC43\uD83C\uDFFE" to `noseTone4`,
+              "\uD83D\uDC43\uD83C\uDFFF" to `noseTone5`,
+              "\uD83D\uDC76\uD83C\uDFFB" to `babyTone1`,
+              "\uD83D\uDC76\uD83C\uDFFC" to `babyTone2`,
+              "\uD83D\uDC76\uD83C\uDFFD" to `babyTone3`,
+              "\uD83D\uDC76\uD83C\uDFFE" to `babyTone4`,
+              "\uD83D\uDC76\uD83C\uDFFF" to `babyTone5`,
+              "\uD83E\uDDD2\uD83C\uDFFB" to `childTone1`,
+              "\uD83E\uDDD2\uD83C\uDFFC" to `childTone2`,
+              "\uD83E\uDDD2\uD83C\uDFFD" to `childTone3`,
+              "\uD83E\uDDD2\uD83C\uDFFE" to `childTone4`,
+              "\uD83E\uDDD2\uD83C\uDFFF" to `childTone5`,
+              "\uD83D\uDC67\uD83C\uDFFB" to `girlTone1`,
+              "\uD83D\uDC67\uD83C\uDFFC" to `girlTone2`,
+              "\uD83D\uDC67\uD83C\uDFFD" to `girlTone3`,
+              "\uD83D\uDC67\uD83C\uDFFE" to `girlTone4`,
+              "\uD83D\uDC67\uD83C\uDFFF" to `girlTone5`,
+              "\uD83D\uDC66\uD83C\uDFFB" to `boyTone1`,
+              "\uD83D\uDC66\uD83C\uDFFC" to `boyTone2`,
+              "\uD83D\uDC66\uD83C\uDFFD" to `boyTone3`,
+              "\uD83D\uDC66\uD83C\uDFFE" to `boyTone4`,
+              "\uD83D\uDC66\uD83C\uDFFF" to `boyTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB" to `adultTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC" to `adultTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD" to `adultTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE" to `adultTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF" to `adultTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB" to `womanTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC" to `womanTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD" to `womanTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE" to `womanTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF" to `womanTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB" to `manTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC" to `manTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD" to `manTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE" to `manTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF" to `manTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB1" to `personTone1CurlyHair`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB1" to `personTone2CurlyHair`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB1" to `personTone3CurlyHair`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB1" to `personTone4CurlyHair`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB1" to `personTone5CurlyHair`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB1" to `womanCurlyHairedTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB1" to `womanCurlyHairedTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB1" to `womanCurlyHairedTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB1" to `womanCurlyHairedTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB1" to `womanCurlyHairedTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB1" to `manCurlyHairedTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB1" to `manCurlyHairedTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB1" to `manCurlyHairedTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB1" to `manCurlyHairedTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB1" to `manCurlyHairedTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB0" to `personTone1RedHair`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB0" to `personTone2RedHair`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB0" to `personTone3RedHair`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB0" to `personTone4RedHair`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB0" to `personTone5RedHair`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB0" to `womanRedHairedTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB0" to `womanRedHairedTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB0" to `womanRedHairedTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB0" to `womanRedHairedTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB0" to `womanRedHairedTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB0" to `manRedHairedTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB0" to `manRedHairedTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB0" to `manRedHairedTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB0" to `manRedHairedTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB0" to `manRedHairedTone5`,
+              "\uD83D\uDC71\uD83C\uDFFB" to `blondHairedPersonTone1`,
+              "\uD83D\uDC71\uD83C\uDFFC" to `blondHairedPersonTone2`,
+              "\uD83D\uDC71\uD83C\uDFFD" to `blondHairedPersonTone3`,
+              "\uD83D\uDC71\uD83C\uDFFE" to `blondHairedPersonTone4`,
+              "\uD83D\uDC71\uD83C\uDFFF" to `blondHairedPersonTone5`,
+              "\uD83D\uDC71\uD83C\uDFFB\u200D\u2640\uFE0F" to `blondHairedWomanTone1`,
+              "\uD83D\uDC71\uD83C\uDFFC\u200D\u2640\uFE0F" to `blondHairedWomanTone2`,
+              "\uD83D\uDC71\uD83C\uDFFD\u200D\u2640\uFE0F" to `blondHairedWomanTone3`,
+              "\uD83D\uDC71\uD83C\uDFFE\u200D\u2640\uFE0F" to `blondHairedWomanTone4`,
+              "\uD83D\uDC71\uD83C\uDFFF\u200D\u2640\uFE0F" to `blondHairedWomanTone5`,
+              "\uD83D\uDC71\uD83C\uDFFB\u200D\u2642\uFE0F" to `blondHairedManTone1`,
+              "\uD83D\uDC71\uD83C\uDFFC\u200D\u2642\uFE0F" to `blondHairedManTone2`,
+              "\uD83D\uDC71\uD83C\uDFFD\u200D\u2642\uFE0F" to `blondHairedManTone3`,
+              "\uD83D\uDC71\uD83C\uDFFE\u200D\u2642\uFE0F" to `blondHairedManTone4`,
+              "\uD83D\uDC71\uD83C\uDFFF\u200D\u2642\uFE0F" to `blondHairedManTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB3" to `personTone1WhiteHair`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB3" to `personTone2WhiteHair`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB3" to `personTone3WhiteHair`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB3" to `personTone4WhiteHair`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB3" to `personTone5WhiteHair`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB3" to `womanWhiteHairedTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB3" to `womanWhiteHairedTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB3" to `womanWhiteHairedTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB3" to `womanWhiteHairedTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB3" to `womanWhiteHairedTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB3" to `manWhiteHairedTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB3" to `manWhiteHairedTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB3" to `manWhiteHairedTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB3" to `manWhiteHairedTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB3" to `manWhiteHairedTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB2" to `personTone1Bald`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB2" to `personTone2Bald`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB2" to `personTone3Bald`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB2" to `personTone4Bald`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB2" to `personTone5Bald`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB2" to `womanBaldTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB2" to `womanBaldTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB2" to `womanBaldTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB2" to `womanBaldTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB2" to `womanBaldTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB2" to `manBaldTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB2" to `manBaldTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB2" to `manBaldTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB2" to `manBaldTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB2" to `manBaldTone5`,
+              "\uD83E\uDDD4\uD83C\uDFFB" to `beardedPersonTone1`,
+              "\uD83E\uDDD4\uD83C\uDFFC" to `beardedPersonTone2`,
+              "\uD83E\uDDD4\uD83C\uDFFD" to `beardedPersonTone3`,
+              "\uD83E\uDDD4\uD83C\uDFFE" to `beardedPersonTone4`,
+              "\uD83E\uDDD4\uD83C\uDFFF" to `beardedPersonTone5`,
+              "\uD83E\uDDD4\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanTone1Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanTone2Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanTone3Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanTone4Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanTone5Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFB\u200D\u2642\uFE0F" to `manTone1Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFC\u200D\u2642\uFE0F" to `manTone2Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFD\u200D\u2642\uFE0F" to `manTone3Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFE\u200D\u2642\uFE0F" to `manTone4Beard`,
+              "\uD83E\uDDD4\uD83C\uDFFF\u200D\u2642\uFE0F" to `manTone5Beard`,
+              "\uD83E\uDDD3\uD83C\uDFFB" to `olderAdultTone1`,
+              "\uD83E\uDDD3\uD83C\uDFFC" to `olderAdultTone2`,
+              "\uD83E\uDDD3\uD83C\uDFFD" to `olderAdultTone3`,
+              "\uD83E\uDDD3\uD83C\uDFFE" to `olderAdultTone4`,
+              "\uD83E\uDDD3\uD83C\uDFFF" to `olderAdultTone5`,
+              "\uD83D\uDC75\uD83C\uDFFB" to `olderWomanTone1`,
+              "\uD83D\uDC75\uD83C\uDFFC" to `olderWomanTone2`,
+              "\uD83D\uDC75\uD83C\uDFFD" to `olderWomanTone3`,
+              "\uD83D\uDC75\uD83C\uDFFE" to `olderWomanTone4`,
+              "\uD83D\uDC75\uD83C\uDFFF" to `olderWomanTone5`,
+              "\uD83D\uDC74\uD83C\uDFFB" to `olderManTone1`,
+              "\uD83D\uDC74\uD83C\uDFFC" to `olderManTone2`,
+              "\uD83D\uDC74\uD83C\uDFFD" to `olderManTone3`,
+              "\uD83D\uDC74\uD83C\uDFFE" to `olderManTone4`,
+              "\uD83D\uDC74\uD83C\uDFFF" to `olderManTone5`,
+              "\uD83D\uDC72\uD83C\uDFFB" to `manWithChineseCapTone1`,
+              "\uD83D\uDC72\uD83C\uDFFC" to `manWithChineseCapTone2`,
+              "\uD83D\uDC72\uD83C\uDFFD" to `manWithChineseCapTone3`,
+              "\uD83D\uDC72\uD83C\uDFFE" to `manWithChineseCapTone4`,
+              "\uD83D\uDC72\uD83C\uDFFF" to `manWithChineseCapTone5`,
+              "\uD83D\uDC73\uD83C\uDFFB" to `personWearingTurbanTone1`,
+              "\uD83D\uDC73\uD83C\uDFFC" to `personWearingTurbanTone2`,
+              "\uD83D\uDC73\uD83C\uDFFD" to `personWearingTurbanTone3`,
+              "\uD83D\uDC73\uD83C\uDFFE" to `personWearingTurbanTone4`,
+              "\uD83D\uDC73\uD83C\uDFFF" to `personWearingTurbanTone5`,
+              "\uD83D\uDC73\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanWearingTurbanTone1`,
+              "\uD83D\uDC73\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanWearingTurbanTone2`,
+              "\uD83D\uDC73\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanWearingTurbanTone3`,
+              "\uD83D\uDC73\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanWearingTurbanTone4`,
+              "\uD83D\uDC73\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanWearingTurbanTone5`,
+              "\uD83D\uDC73\uD83C\uDFFB\u200D\u2642\uFE0F" to `manWearingTurbanTone1`,
+              "\uD83D\uDC73\uD83C\uDFFC\u200D\u2642\uFE0F" to `manWearingTurbanTone2`,
+              "\uD83D\uDC73\uD83C\uDFFD\u200D\u2642\uFE0F" to `manWearingTurbanTone3`,
+              "\uD83D\uDC73\uD83C\uDFFE\u200D\u2642\uFE0F" to `manWearingTurbanTone4`,
+              "\uD83D\uDC73\uD83C\uDFFF\u200D\u2642\uFE0F" to `manWearingTurbanTone5`,
+              "\uD83E\uDDD5\uD83C\uDFFB" to `womanWithHeadscarfTone1`,
+              "\uD83E\uDDD5\uD83C\uDFFC" to `womanWithHeadscarfTone2`,
+              "\uD83E\uDDD5\uD83C\uDFFD" to `womanWithHeadscarfTone3`,
+              "\uD83E\uDDD5\uD83C\uDFFE" to `womanWithHeadscarfTone4`,
+              "\uD83E\uDDD5\uD83C\uDFFF" to `womanWithHeadscarfTone5`,
+              "\uD83D\uDC6E\uD83C\uDFFB" to `policeOfficerTone1`,
+              "\uD83D\uDC6E\uD83C\uDFFC" to `policeOfficerTone2`,
+              "\uD83D\uDC6E\uD83C\uDFFD" to `policeOfficerTone3`,
+              "\uD83D\uDC6E\uD83C\uDFFE" to `policeOfficerTone4`,
+              "\uD83D\uDC6E\uD83C\uDFFF" to `policeOfficerTone5`,
+              "\uD83D\uDC6E\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanPoliceOfficerTone1`,
+              "\uD83D\uDC6E\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanPoliceOfficerTone2`,
+              "\uD83D\uDC6E\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanPoliceOfficerTone3`,
+              "\uD83D\uDC6E\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanPoliceOfficerTone4`,
+              "\uD83D\uDC6E\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanPoliceOfficerTone5`,
+              "\uD83D\uDC6E\uD83C\uDFFB\u200D\u2642\uFE0F" to `manPoliceOfficerTone1`,
+              "\uD83D\uDC6E\uD83C\uDFFC\u200D\u2642\uFE0F" to `manPoliceOfficerTone2`,
+              "\uD83D\uDC6E\uD83C\uDFFD\u200D\u2642\uFE0F" to `manPoliceOfficerTone3`,
+              "\uD83D\uDC6E\uD83C\uDFFE\u200D\u2642\uFE0F" to `manPoliceOfficerTone4`,
+              "\uD83D\uDC6E\uD83C\uDFFF\u200D\u2642\uFE0F" to `manPoliceOfficerTone5`,
+              "\uD83D\uDC77\uD83C\uDFFB" to `constructionWorkerTone1`,
+              "\uD83D\uDC77\uD83C\uDFFC" to `constructionWorkerTone2`,
+              "\uD83D\uDC77\uD83C\uDFFD" to `constructionWorkerTone3`,
+              "\uD83D\uDC77\uD83C\uDFFE" to `constructionWorkerTone4`,
+              "\uD83D\uDC77\uD83C\uDFFF" to `constructionWorkerTone5`,
+              "\uD83D\uDC77\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanConstructionWorkerTone1`,
+              "\uD83D\uDC77\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanConstructionWorkerTone2`,
+              "\uD83D\uDC77\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanConstructionWorkerTone3`,
+              "\uD83D\uDC77\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanConstructionWorkerTone4`,
+              "\uD83D\uDC77\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanConstructionWorkerTone5`,
+              "\uD83D\uDC77\uD83C\uDFFB\u200D\u2642\uFE0F" to `manConstructionWorkerTone1`,
+              "\uD83D\uDC77\uD83C\uDFFC\u200D\u2642\uFE0F" to `manConstructionWorkerTone2`,
+              "\uD83D\uDC77\uD83C\uDFFD\u200D\u2642\uFE0F" to `manConstructionWorkerTone3`,
+              "\uD83D\uDC77\uD83C\uDFFE\u200D\u2642\uFE0F" to `manConstructionWorkerTone4`,
+              "\uD83D\uDC77\uD83C\uDFFF\u200D\u2642\uFE0F" to `manConstructionWorkerTone5`,
+              "\uD83D\uDC82\uD83C\uDFFB" to `guardTone1`,
+              "\uD83D\uDC82\uD83C\uDFFC" to `guardTone2`,
+              "\uD83D\uDC82\uD83C\uDFFD" to `guardTone3`,
+              "\uD83D\uDC82\uD83C\uDFFE" to `guardTone4`,
+              "\uD83D\uDC82\uD83C\uDFFF" to `guardTone5`,
+              "\uD83D\uDC82\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanGuardTone1`,
+              "\uD83D\uDC82\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanGuardTone2`,
+              "\uD83D\uDC82\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanGuardTone3`,
+              "\uD83D\uDC82\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanGuardTone4`,
+              "\uD83D\uDC82\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanGuardTone5`,
+              "\uD83D\uDC82\uD83C\uDFFB\u200D\u2642\uFE0F" to `manGuardTone1`,
+              "\uD83D\uDC82\uD83C\uDFFC\u200D\u2642\uFE0F" to `manGuardTone2`,
+              "\uD83D\uDC82\uD83C\uDFFD\u200D\u2642\uFE0F" to `manGuardTone3`,
+              "\uD83D\uDC82\uD83C\uDFFE\u200D\u2642\uFE0F" to `manGuardTone4`,
+              "\uD83D\uDC82\uD83C\uDFFF\u200D\u2642\uFE0F" to `manGuardTone5`,
+              "\uD83D\uDD75\uD83C\uDFFB" to `detectiveTone1`,
+              "\uD83D\uDD75\uD83C\uDFFC" to `detectiveTone2`,
+              "\uD83D\uDD75\uD83C\uDFFD" to `detectiveTone3`,
+              "\uD83D\uDD75\uD83C\uDFFE" to `detectiveTone4`,
+              "\uD83D\uDD75\uD83C\uDFFF" to `detectiveTone5`,
+              "\uD83D\uDD75\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanDetectiveTone1`,
+              "\uD83D\uDD75\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanDetectiveTone2`,
+              "\uD83D\uDD75\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanDetectiveTone3`,
+              "\uD83D\uDD75\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanDetectiveTone4`,
+              "\uD83D\uDD75\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanDetectiveTone5`,
+              "\uD83D\uDD75\uD83C\uDFFB\u200D\u2642\uFE0F" to `manDetectiveTone1`,
+              "\uD83D\uDD75\uD83C\uDFFC\u200D\u2642\uFE0F" to `manDetectiveTone2`,
+              "\uD83D\uDD75\uD83C\uDFFD\u200D\u2642\uFE0F" to `manDetectiveTone3`,
+              "\uD83D\uDD75\uD83C\uDFFE\u200D\u2642\uFE0F" to `manDetectiveTone4`,
+              "\uD83D\uDD75\uD83C\uDFFF\u200D\u2642\uFE0F" to `manDetectiveTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2695\uFE0F" to `healthWorkerTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2695\uFE0F" to `healthWorkerTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2695\uFE0F" to `healthWorkerTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2695\uFE0F" to `healthWorkerTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2695\uFE0F" to `healthWorkerTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2695\uFE0F" to `womanHealthWorkerTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2695\uFE0F" to `womanHealthWorkerTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2695\uFE0F" to `womanHealthWorkerTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2695\uFE0F" to `womanHealthWorkerTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2695\uFE0F" to `womanHealthWorkerTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2695\uFE0F" to `manHealthWorkerTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2695\uFE0F" to `manHealthWorkerTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2695\uFE0F" to `manHealthWorkerTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2695\uFE0F" to `manHealthWorkerTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2695\uFE0F" to `manHealthWorkerTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF3E" to `farmerTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF3E" to `farmerTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF3E" to `farmerTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF3E" to `farmerTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF3E" to `farmerTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF3E" to `womanFarmerTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF3E" to `womanFarmerTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF3E" to `womanFarmerTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF3E" to `womanFarmerTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF3E" to `womanFarmerTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF3E" to `manFarmerTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF3E" to `manFarmerTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF3E" to `manFarmerTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF3E" to `manFarmerTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF3E" to `manFarmerTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF73" to `cookTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF73" to `cookTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF73" to `cookTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF73" to `cookTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF73" to `cookTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF73" to `womanCookTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF73" to `womanCookTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF73" to `womanCookTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF73" to `womanCookTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF73" to `womanCookTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF73" to `manCookTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF73" to `manCookTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF73" to `manCookTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF73" to `manCookTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF73" to `manCookTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF93" to `studentTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF93" to `studentTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF93" to `studentTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF93" to `studentTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF93" to `studentTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF93" to `womanStudentTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF93" to `womanStudentTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF93" to `womanStudentTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF93" to `womanStudentTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF93" to `womanStudentTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93" to `manStudentTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF93" to `manStudentTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF93" to `manStudentTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF93" to `manStudentTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF93" to `manStudentTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFA4" to `singerTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFA4" to `singerTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFA4" to `singerTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFA4" to `singerTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFA4" to `singerTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFA4" to `womanSingerTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA4" to `womanSingerTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFA4" to `womanSingerTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFA4" to `womanSingerTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFA4" to `womanSingerTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA4" to `manSingerTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFA4" to `manSingerTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFA4" to `manSingerTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFA4" to `manSingerTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFA4" to `manSingerTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFEB" to `teacherTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFEB" to `teacherTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFEB" to `teacherTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFEB" to `teacherTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFEB" to `teacherTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFEB" to `womanTeacherTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFEB" to `womanTeacherTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFEB" to `womanTeacherTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFEB" to `womanTeacherTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFEB" to `womanTeacherTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFEB" to `manTeacherTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFEB" to `manTeacherTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFEB" to `manTeacherTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFEB" to `manTeacherTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFEB" to `manTeacherTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFED" to `factoryWorkerTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFED" to `factoryWorkerTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFED" to `factoryWorkerTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFED" to `factoryWorkerTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFED" to `factoryWorkerTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFED" to `womanFactoryWorkerTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFED" to `womanFactoryWorkerTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFED" to `womanFactoryWorkerTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFED" to `womanFactoryWorkerTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFED" to `womanFactoryWorkerTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFED" to `manFactoryWorkerTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFED" to `manFactoryWorkerTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFED" to `manFactoryWorkerTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFED" to `manFactoryWorkerTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFED" to `manFactoryWorkerTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB" to `technologistTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDCBB" to `technologistTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDCBB" to `technologistTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDCBB" to `technologistTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDCBB" to `technologistTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBB" to `womanTechnologistTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBB" to `womanTechnologistTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDCBB" to `womanTechnologistTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDCBB" to `womanTechnologistTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDCBB" to `womanTechnologistTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB" to `manTechnologistTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDCBB" to `manTechnologistTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDCBB" to `manTechnologistTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDCBB" to `manTechnologistTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDCBB" to `manTechnologistTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBC" to `officeWorkerTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDCBC" to `officeWorkerTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDCBC" to `officeWorkerTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDCBC" to `officeWorkerTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDCBC" to `officeWorkerTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBC" to `womanOfficeWorkerTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBC" to `womanOfficeWorkerTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDCBC" to `womanOfficeWorkerTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDCBC" to `womanOfficeWorkerTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDCBC" to `womanOfficeWorkerTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBC" to `manOfficeWorkerTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDCBC" to `manOfficeWorkerTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDCBC" to `manOfficeWorkerTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDCBC" to `manOfficeWorkerTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDCBC" to `manOfficeWorkerTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDD27" to `mechanicTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDD27" to `mechanicTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDD27" to `mechanicTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDD27" to `mechanicTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDD27" to `mechanicTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDD27" to `womanMechanicTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDD27" to `womanMechanicTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDD27" to `womanMechanicTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDD27" to `womanMechanicTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDD27" to `womanMechanicTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD27" to `manMechanicTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDD27" to `manMechanicTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDD27" to `manMechanicTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDD27" to `manMechanicTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDD27" to `manMechanicTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDD2C" to `scientistTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDD2C" to `scientistTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDD2C" to `scientistTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDD2C" to `scientistTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDD2C" to `scientistTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDD2C" to `womanScientistTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDD2C" to `womanScientistTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDD2C" to `womanScientistTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDD2C" to `womanScientistTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDD2C" to `womanScientistTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD2C" to `manScientistTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDD2C" to `manScientistTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDD2C" to `manScientistTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDD2C" to `manScientistTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDD2C" to `manScientistTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFA8" to `artistTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFA8" to `artistTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFA8" to `artistTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFA8" to `artistTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFA8" to `artistTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFA8" to `womanArtistTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA8" to `womanArtistTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFA8" to `womanArtistTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFA8" to `womanArtistTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFA8" to `womanArtistTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8" to `manArtistTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFA8" to `manArtistTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFA8" to `manArtistTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFA8" to `manArtistTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFA8" to `manArtistTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDE92" to `firefighterTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDE92" to `firefighterTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDE92" to `firefighterTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDE92" to `firefighterTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDE92" to `firefighterTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDE92" to `womanFirefighterTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDE92" to `womanFirefighterTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDE92" to `womanFirefighterTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDE92" to `womanFirefighterTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDE92" to `womanFirefighterTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDE92" to `manFirefighterTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDE92" to `manFirefighterTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDE92" to `manFirefighterTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDE92" to `manFirefighterTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDE92" to `manFirefighterTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2708\uFE0F" to `pilotTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2708\uFE0F" to `pilotTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2708\uFE0F" to `pilotTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2708\uFE0F" to `pilotTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2708\uFE0F" to `pilotTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2708\uFE0F" to `womanPilotTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2708\uFE0F" to `womanPilotTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2708\uFE0F" to `womanPilotTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2708\uFE0F" to `womanPilotTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2708\uFE0F" to `womanPilotTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2708\uFE0F" to `manPilotTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2708\uFE0F" to `manPilotTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2708\uFE0F" to `manPilotTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2708\uFE0F" to `manPilotTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2708\uFE0F" to `manPilotTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDE80" to `astronautTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDE80" to `astronautTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDE80" to `astronautTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDE80" to `astronautTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDE80" to `astronautTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDE80" to `womanAstronautTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDE80" to `womanAstronautTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDE80" to `womanAstronautTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDE80" to `womanAstronautTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDE80" to `womanAstronautTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDE80" to `manAstronautTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDE80" to `manAstronautTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDE80" to `manAstronautTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDE80" to `manAstronautTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDE80" to `manAstronautTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2696\uFE0F" to `judgeTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2696\uFE0F" to `judgeTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2696\uFE0F" to `judgeTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2696\uFE0F" to `judgeTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2696\uFE0F" to `judgeTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2696\uFE0F" to `womanJudgeTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2696\uFE0F" to `womanJudgeTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2696\uFE0F" to `womanJudgeTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2696\uFE0F" to `womanJudgeTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2696\uFE0F" to `womanJudgeTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2696\uFE0F" to `manJudgeTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2696\uFE0F" to `manJudgeTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2696\uFE0F" to `manJudgeTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2696\uFE0F" to `manJudgeTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2696\uFE0F" to `manJudgeTone5`,
+              "\uD83D\uDC70\uD83C\uDFFB" to `personWithVeilTone1`,
+              "\uD83D\uDC70\uD83C\uDFFC" to `personWithVeilTone2`,
+              "\uD83D\uDC70\uD83C\uDFFD" to `personWithVeilTone3`,
+              "\uD83D\uDC70\uD83C\uDFFE" to `personWithVeilTone4`,
+              "\uD83D\uDC70\uD83C\uDFFF" to `personWithVeilTone5`,
+              "\uD83D\uDC70\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanWithVeilTone1`,
+              "\uD83D\uDC70\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanWithVeilTone2`,
+              "\uD83D\uDC70\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanWithVeilTone3`,
+              "\uD83D\uDC70\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanWithVeilTone4`,
+              "\uD83D\uDC70\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanWithVeilTone5`,
+              "\uD83D\uDC70\uD83C\uDFFB\u200D\u2642\uFE0F" to `manWithVeilTone1`,
+              "\uD83D\uDC70\uD83C\uDFFC\u200D\u2642\uFE0F" to `manWithVeilTone2`,
+              "\uD83D\uDC70\uD83C\uDFFD\u200D\u2642\uFE0F" to `manWithVeilTone3`,
+              "\uD83D\uDC70\uD83C\uDFFE\u200D\u2642\uFE0F" to `manWithVeilTone4`,
+              "\uD83D\uDC70\uD83C\uDFFF\u200D\u2642\uFE0F" to `manWithVeilTone5`,
+              "\uD83E\uDD35\uD83C\uDFFB" to `personInTuxedoTone1`,
+              "\uD83E\uDD35\uD83C\uDFFC" to `personInTuxedoTone2`,
+              "\uD83E\uDD35\uD83C\uDFFD" to `personInTuxedoTone3`,
+              "\uD83E\uDD35\uD83C\uDFFE" to `personInTuxedoTone4`,
+              "\uD83E\uDD35\uD83C\uDFFF" to `personInTuxedoTone5`,
+              "\uD83E\uDD35\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanInTuxedoTone1`,
+              "\uD83E\uDD35\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanInTuxedoTone2`,
+              "\uD83E\uDD35\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanInTuxedoTone3`,
+              "\uD83E\uDD35\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanInTuxedoTone4`,
+              "\uD83E\uDD35\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanInTuxedoTone5`,
+              "\uD83E\uDD35\uD83C\uDFFB\u200D\u2642\uFE0F" to `manInTuxedoTone1`,
+              "\uD83E\uDD35\uD83C\uDFFC\u200D\u2642\uFE0F" to `manInTuxedoTone2`,
+              "\uD83E\uDD35\uD83C\uDFFD\u200D\u2642\uFE0F" to `manInTuxedoTone3`,
+              "\uD83E\uDD35\uD83C\uDFFE\u200D\u2642\uFE0F" to `manInTuxedoTone4`,
+              "\uD83E\uDD35\uD83C\uDFFF\u200D\u2642\uFE0F" to `manInTuxedoTone5`,
+              "\uD83E\uDEC5\uD83C\uDFFB" to `personWithCrownTone1`,
+              "\uD83E\uDEC5\uD83C\uDFFC" to `personWithCrownTone2`,
+              "\uD83E\uDEC5\uD83C\uDFFD" to `personWithCrownTone3`,
+              "\uD83E\uDEC5\uD83C\uDFFE" to `personWithCrownTone4`,
+              "\uD83E\uDEC5\uD83C\uDFFF" to `personWithCrownTone5`,
+              "\uD83D\uDC78\uD83C\uDFFB" to `princessTone1`,
+              "\uD83D\uDC78\uD83C\uDFFC" to `princessTone2`,
+              "\uD83D\uDC78\uD83C\uDFFD" to `princessTone3`,
+              "\uD83D\uDC78\uD83C\uDFFE" to `princessTone4`,
+              "\uD83D\uDC78\uD83C\uDFFF" to `princessTone5`,
+              "\uD83E\uDD34\uD83C\uDFFB" to `princeTone1`,
+              "\uD83E\uDD34\uD83C\uDFFC" to `princeTone2`,
+              "\uD83E\uDD34\uD83C\uDFFD" to `princeTone3`,
+              "\uD83E\uDD34\uD83C\uDFFE" to `princeTone4`,
+              "\uD83E\uDD34\uD83C\uDFFF" to `princeTone5`,
+              "\uD83E\uDDB8\uD83C\uDFFB" to `superheroTone1`,
+              "\uD83E\uDDB8\uD83C\uDFFC" to `superheroTone2`,
+              "\uD83E\uDDB8\uD83C\uDFFD" to `superheroTone3`,
+              "\uD83E\uDDB8\uD83C\uDFFE" to `superheroTone4`,
+              "\uD83E\uDDB8\uD83C\uDFFF" to `superheroTone5`,
+              "\uD83E\uDDB8\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanSuperheroTone1`,
+              "\uD83E\uDDB8\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanSuperheroTone2`,
+              "\uD83E\uDDB8\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanSuperheroTone3`,
+              "\uD83E\uDDB8\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanSuperheroTone4`,
+              "\uD83E\uDDB8\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanSuperheroTone5`,
+              "\uD83E\uDDB8\uD83C\uDFFB\u200D\u2642\uFE0F" to `manSuperheroTone1`,
+              "\uD83E\uDDB8\uD83C\uDFFC\u200D\u2642\uFE0F" to `manSuperheroTone2`,
+              "\uD83E\uDDB8\uD83C\uDFFD\u200D\u2642\uFE0F" to `manSuperheroTone3`,
+              "\uD83E\uDDB8\uD83C\uDFFE\u200D\u2642\uFE0F" to `manSuperheroTone4`,
+              "\uD83E\uDDB8\uD83C\uDFFF\u200D\u2642\uFE0F" to `manSuperheroTone5`,
+              "\uD83E\uDDB9\uD83C\uDFFB" to `supervillainTone1`,
+              "\uD83E\uDDB9\uD83C\uDFFC" to `supervillainTone2`,
+              "\uD83E\uDDB9\uD83C\uDFFD" to `supervillainTone3`,
+              "\uD83E\uDDB9\uD83C\uDFFE" to `supervillainTone4`,
+              "\uD83E\uDDB9\uD83C\uDFFF" to `supervillainTone5`,
+              "\uD83E\uDDB9\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanSupervillainTone1`,
+              "\uD83E\uDDB9\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanSupervillainTone2`,
+              "\uD83E\uDDB9\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanSupervillainTone3`,
+              "\uD83E\uDDB9\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanSupervillainTone4`,
+              "\uD83E\uDDB9\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanSupervillainTone5`,
+              "\uD83E\uDDB9\uD83C\uDFFB\u200D\u2642\uFE0F" to `manSupervillainTone1`,
+              "\uD83E\uDDB9\uD83C\uDFFC\u200D\u2642\uFE0F" to `manSupervillainTone2`,
+              "\uD83E\uDDB9\uD83C\uDFFD\u200D\u2642\uFE0F" to `manSupervillainTone3`,
+              "\uD83E\uDDB9\uD83C\uDFFE\u200D\u2642\uFE0F" to `manSupervillainTone4`,
+              "\uD83E\uDDB9\uD83C\uDFFF\u200D\u2642\uFE0F" to `manSupervillainTone5`,
+              "\uD83E\uDD77\uD83C\uDFFB" to `ninjaTone1`,
+              "\uD83E\uDD77\uD83C\uDFFC" to `ninjaTone2`,
+              "\uD83E\uDD77\uD83C\uDFFD" to `ninjaTone3`,
+              "\uD83E\uDD77\uD83C\uDFFE" to `ninjaTone4`,
+              "\uD83E\uDD77\uD83C\uDFFF" to `ninjaTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF84" to `mxClausTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF84" to `mxClausTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF84" to `mxClausTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF84" to `mxClausTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF84" to `mxClausTone5`,
+              "\uD83E\uDD36\uD83C\uDFFB" to `mrsClausTone1`,
+              "\uD83E\uDD36\uD83C\uDFFC" to `mrsClausTone2`,
+              "\uD83E\uDD36\uD83C\uDFFD" to `mrsClausTone3`,
+              "\uD83E\uDD36\uD83C\uDFFE" to `mrsClausTone4`,
+              "\uD83E\uDD36\uD83C\uDFFF" to `mrsClausTone5`,
+              "\uD83C\uDF85\uD83C\uDFFB" to `santaTone1`,
+              "\uD83C\uDF85\uD83C\uDFFC" to `santaTone2`,
+              "\uD83C\uDF85\uD83C\uDFFD" to `santaTone3`,
+              "\uD83C\uDF85\uD83C\uDFFE" to `santaTone4`,
+              "\uD83C\uDF85\uD83C\uDFFF" to `santaTone5`,
+              "\uD83E\uDDD9\uD83C\uDFFB" to `mageTone1`,
+              "\uD83E\uDDD9\uD83C\uDFFC" to `mageTone2`,
+              "\uD83E\uDDD9\uD83C\uDFFD" to `mageTone3`,
+              "\uD83E\uDDD9\uD83C\uDFFE" to `mageTone4`,
+              "\uD83E\uDDD9\uD83C\uDFFF" to `mageTone5`,
+              "\uD83E\uDDD9\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanMageTone1`,
+              "\uD83E\uDDD9\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanMageTone2`,
+              "\uD83E\uDDD9\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanMageTone3`,
+              "\uD83E\uDDD9\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanMageTone4`,
+              "\uD83E\uDDD9\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanMageTone5`,
+              "\uD83E\uDDD9\uD83C\uDFFB\u200D\u2642\uFE0F" to `manMageTone1`,
+              "\uD83E\uDDD9\uD83C\uDFFC\u200D\u2642\uFE0F" to `manMageTone2`,
+              "\uD83E\uDDD9\uD83C\uDFFD\u200D\u2642\uFE0F" to `manMageTone3`,
+              "\uD83E\uDDD9\uD83C\uDFFE\u200D\u2642\uFE0F" to `manMageTone4`,
+              "\uD83E\uDDD9\uD83C\uDFFF\u200D\u2642\uFE0F" to `manMageTone5`,
+              "\uD83E\uDDDD\uD83C\uDFFB" to `elfTone1`,
+              "\uD83E\uDDDD\uD83C\uDFFC" to `elfTone2`,
+              "\uD83E\uDDDD\uD83C\uDFFD" to `elfTone3`,
+              "\uD83E\uDDDD\uD83C\uDFFE" to `elfTone4`,
+              "\uD83E\uDDDD\uD83C\uDFFF" to `elfTone5`,
+              "\uD83E\uDDDD\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanElfTone1`,
+              "\uD83E\uDDDD\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanElfTone2`,
+              "\uD83E\uDDDD\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanElfTone3`,
+              "\uD83E\uDDDD\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanElfTone4`,
+              "\uD83E\uDDDD\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanElfTone5`,
+              "\uD83E\uDDDD\uD83C\uDFFB\u200D\u2642\uFE0F" to `manElfTone1`,
+              "\uD83E\uDDDD\uD83C\uDFFC\u200D\u2642\uFE0F" to `manElfTone2`,
+              "\uD83E\uDDDD\uD83C\uDFFD\u200D\u2642\uFE0F" to `manElfTone3`,
+              "\uD83E\uDDDD\uD83C\uDFFE\u200D\u2642\uFE0F" to `manElfTone4`,
+              "\uD83E\uDDDD\uD83C\uDFFF\u200D\u2642\uFE0F" to `manElfTone5`,
+              "\uD83E\uDDDB\uD83C\uDFFB" to `vampireTone1`,
+              "\uD83E\uDDDB\uD83C\uDFFC" to `vampireTone2`,
+              "\uD83E\uDDDB\uD83C\uDFFD" to `vampireTone3`,
+              "\uD83E\uDDDB\uD83C\uDFFE" to `vampireTone4`,
+              "\uD83E\uDDDB\uD83C\uDFFF" to `vampireTone5`,
+              "\uD83E\uDDDB\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanVampireTone1`,
+              "\uD83E\uDDDB\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanVampireTone2`,
+              "\uD83E\uDDDB\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanVampireTone3`,
+              "\uD83E\uDDDB\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanVampireTone4`,
+              "\uD83E\uDDDB\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanVampireTone5`,
+              "\uD83E\uDDDB\uD83C\uDFFB\u200D\u2642\uFE0F" to `manVampireTone1`,
+              "\uD83E\uDDDB\uD83C\uDFFC\u200D\u2642\uFE0F" to `manVampireTone2`,
+              "\uD83E\uDDDB\uD83C\uDFFD\u200D\u2642\uFE0F" to `manVampireTone3`,
+              "\uD83E\uDDDB\uD83C\uDFFE\u200D\u2642\uFE0F" to `manVampireTone4`,
+              "\uD83E\uDDDB\uD83C\uDFFF\u200D\u2642\uFE0F" to `manVampireTone5`,
+              "\uD83E\uDDDC\uD83C\uDFFB" to `merpersonTone1`,
+              "\uD83E\uDDDC\uD83C\uDFFC" to `merpersonTone2`,
+              "\uD83E\uDDDC\uD83C\uDFFD" to `merpersonTone3`,
+              "\uD83E\uDDDC\uD83C\uDFFE" to `merpersonTone4`,
+              "\uD83E\uDDDC\uD83C\uDFFF" to `merpersonTone5`,
+              "\uD83E\uDDDC\uD83C\uDFFB\u200D\u2640\uFE0F" to `mermaidTone1`,
+              "\uD83E\uDDDC\uD83C\uDFFC\u200D\u2640\uFE0F" to `mermaidTone2`,
+              "\uD83E\uDDDC\uD83C\uDFFD\u200D\u2640\uFE0F" to `mermaidTone3`,
+              "\uD83E\uDDDC\uD83C\uDFFE\u200D\u2640\uFE0F" to `mermaidTone4`,
+              "\uD83E\uDDDC\uD83C\uDFFF\u200D\u2640\uFE0F" to `mermaidTone5`,
+              "\uD83E\uDDDC\uD83C\uDFFB\u200D\u2642\uFE0F" to `mermanTone1`,
+              "\uD83E\uDDDC\uD83C\uDFFC\u200D\u2642\uFE0F" to `mermanTone2`,
+              "\uD83E\uDDDC\uD83C\uDFFD\u200D\u2642\uFE0F" to `mermanTone3`,
+              "\uD83E\uDDDC\uD83C\uDFFE\u200D\u2642\uFE0F" to `mermanTone4`,
+              "\uD83E\uDDDC\uD83C\uDFFF\u200D\u2642\uFE0F" to `mermanTone5`,
+              "\uD83E\uDDDA\uD83C\uDFFB" to `fairyTone1`,
+              "\uD83E\uDDDA\uD83C\uDFFC" to `fairyTone2`,
+              "\uD83E\uDDDA\uD83C\uDFFD" to `fairyTone3`,
+              "\uD83E\uDDDA\uD83C\uDFFE" to `fairyTone4`,
+              "\uD83E\uDDDA\uD83C\uDFFF" to `fairyTone5`,
+              "\uD83E\uDDDA\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanFairyTone1`,
+              "\uD83E\uDDDA\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanFairyTone2`,
+              "\uD83E\uDDDA\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanFairyTone3`,
+              "\uD83E\uDDDA\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanFairyTone4`,
+              "\uD83E\uDDDA\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanFairyTone5`,
+              "\uD83E\uDDDA\uD83C\uDFFB\u200D\u2642\uFE0F" to `manFairyTone1`,
+              "\uD83E\uDDDA\uD83C\uDFFC\u200D\u2642\uFE0F" to `manFairyTone2`,
+              "\uD83E\uDDDA\uD83C\uDFFD\u200D\u2642\uFE0F" to `manFairyTone3`,
+              "\uD83E\uDDDA\uD83C\uDFFE\u200D\u2642\uFE0F" to `manFairyTone4`,
+              "\uD83E\uDDDA\uD83C\uDFFF\u200D\u2642\uFE0F" to `manFairyTone5`,
+              "\uD83D\uDC7C\uD83C\uDFFB" to `angelTone1`,
+              "\uD83D\uDC7C\uD83C\uDFFC" to `angelTone2`,
+              "\uD83D\uDC7C\uD83C\uDFFD" to `angelTone3`,
+              "\uD83D\uDC7C\uD83C\uDFFE" to `angelTone4`,
+              "\uD83D\uDC7C\uD83C\uDFFF" to `angelTone5`,
+              "\uD83E\uDEC4\uD83C\uDFFB" to `pregnantPersonTone1`,
+              "\uD83E\uDEC4\uD83C\uDFFC" to `pregnantPersonTone2`,
+              "\uD83E\uDEC4\uD83C\uDFFD" to `pregnantPersonTone3`,
+              "\uD83E\uDEC4\uD83C\uDFFE" to `pregnantPersonTone4`,
+              "\uD83E\uDEC4\uD83C\uDFFF" to `pregnantPersonTone5`,
+              "\uD83E\uDD30\uD83C\uDFFB" to `pregnantWomanTone1`,
+              "\uD83E\uDD30\uD83C\uDFFC" to `pregnantWomanTone2`,
+              "\uD83E\uDD30\uD83C\uDFFD" to `pregnantWomanTone3`,
+              "\uD83E\uDD30\uD83C\uDFFE" to `pregnantWomanTone4`,
+              "\uD83E\uDD30\uD83C\uDFFF" to `pregnantWomanTone5`,
+              "\uD83E\uDEC3\uD83C\uDFFB" to `pregnantManTone1`,
+              "\uD83E\uDEC3\uD83C\uDFFC" to `pregnantManTone2`,
+              "\uD83E\uDEC3\uD83C\uDFFD" to `pregnantManTone3`,
+              "\uD83E\uDEC3\uD83C\uDFFE" to `pregnantManTone4`,
+              "\uD83E\uDEC3\uD83C\uDFFF" to `pregnantManTone5`,
+              "\uD83E\uDD31\uD83C\uDFFB" to `breastFeedingTone1`,
+              "\uD83E\uDD31\uD83C\uDFFC" to `breastFeedingTone2`,
+              "\uD83E\uDD31\uD83C\uDFFD" to `breastFeedingTone3`,
+              "\uD83E\uDD31\uD83C\uDFFE" to `breastFeedingTone4`,
+              "\uD83E\uDD31\uD83C\uDFFF" to `breastFeedingTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF7C" to `personFeedingBabyTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF7C" to `personFeedingBabyTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF7C" to `personFeedingBabyTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF7C" to `personFeedingBabyTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF7C" to `personFeedingBabyTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF7C" to `womanFeedingBabyTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF7C" to `womanFeedingBabyTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF7C" to `womanFeedingBabyTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF7C" to `womanFeedingBabyTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF7C" to `womanFeedingBabyTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF7C" to `manFeedingBabyTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF7C" to `manFeedingBabyTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF7C" to `manFeedingBabyTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF7C" to `manFeedingBabyTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF7C" to `manFeedingBabyTone5`,
+              "\uD83D\uDE47\uD83C\uDFFB" to `personBowingTone1`,
+              "\uD83D\uDE47\uD83C\uDFFC" to `personBowingTone2`,
+              "\uD83D\uDE47\uD83C\uDFFD" to `personBowingTone3`,
+              "\uD83D\uDE47\uD83C\uDFFE" to `personBowingTone4`,
+              "\uD83D\uDE47\uD83C\uDFFF" to `personBowingTone5`,
+              "\uD83D\uDE47\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanBowingTone1`,
+              "\uD83D\uDE47\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanBowingTone2`,
+              "\uD83D\uDE47\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanBowingTone3`,
+              "\uD83D\uDE47\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanBowingTone4`,
+              "\uD83D\uDE47\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanBowingTone5`,
+              "\uD83D\uDE47\uD83C\uDFFB\u200D\u2642\uFE0F" to `manBowingTone1`,
+              "\uD83D\uDE47\uD83C\uDFFC\u200D\u2642\uFE0F" to `manBowingTone2`,
+              "\uD83D\uDE47\uD83C\uDFFD\u200D\u2642\uFE0F" to `manBowingTone3`,
+              "\uD83D\uDE47\uD83C\uDFFE\u200D\u2642\uFE0F" to `manBowingTone4`,
+              "\uD83D\uDE47\uD83C\uDFFF\u200D\u2642\uFE0F" to `manBowingTone5`,
+              "\uD83D\uDC81\uD83C\uDFFB" to `personTippingHandTone1`,
+              "\uD83D\uDC81\uD83C\uDFFC" to `personTippingHandTone2`,
+              "\uD83D\uDC81\uD83C\uDFFD" to `personTippingHandTone3`,
+              "\uD83D\uDC81\uD83C\uDFFE" to `personTippingHandTone4`,
+              "\uD83D\uDC81\uD83C\uDFFF" to `personTippingHandTone5`,
+              "\uD83D\uDC81\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanTippingHandTone1`,
+              "\uD83D\uDC81\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanTippingHandTone2`,
+              "\uD83D\uDC81\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanTippingHandTone3`,
+              "\uD83D\uDC81\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanTippingHandTone4`,
+              "\uD83D\uDC81\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanTippingHandTone5`,
+              "\uD83D\uDC81\uD83C\uDFFB\u200D\u2642\uFE0F" to `manTippingHandTone1`,
+              "\uD83D\uDC81\uD83C\uDFFC\u200D\u2642\uFE0F" to `manTippingHandTone2`,
+              "\uD83D\uDC81\uD83C\uDFFD\u200D\u2642\uFE0F" to `manTippingHandTone3`,
+              "\uD83D\uDC81\uD83C\uDFFE\u200D\u2642\uFE0F" to `manTippingHandTone4`,
+              "\uD83D\uDC81\uD83C\uDFFF\u200D\u2642\uFE0F" to `manTippingHandTone5`,
+              "\uD83D\uDE45\uD83C\uDFFB" to `personGesturingNoTone1`,
+              "\uD83D\uDE45\uD83C\uDFFC" to `personGesturingNoTone2`,
+              "\uD83D\uDE45\uD83C\uDFFD" to `personGesturingNoTone3`,
+              "\uD83D\uDE45\uD83C\uDFFE" to `personGesturingNoTone4`,
+              "\uD83D\uDE45\uD83C\uDFFF" to `personGesturingNoTone5`,
+              "\uD83D\uDE45\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanGesturingNoTone1`,
+              "\uD83D\uDE45\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanGesturingNoTone2`,
+              "\uD83D\uDE45\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanGesturingNoTone3`,
+              "\uD83D\uDE45\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanGesturingNoTone4`,
+              "\uD83D\uDE45\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanGesturingNoTone5`,
+              "\uD83D\uDE45\uD83C\uDFFB\u200D\u2642\uFE0F" to `manGesturingNoTone1`,
+              "\uD83D\uDE45\uD83C\uDFFC\u200D\u2642\uFE0F" to `manGesturingNoTone2`,
+              "\uD83D\uDE45\uD83C\uDFFD\u200D\u2642\uFE0F" to `manGesturingNoTone3`,
+              "\uD83D\uDE45\uD83C\uDFFE\u200D\u2642\uFE0F" to `manGesturingNoTone4`,
+              "\uD83D\uDE45\uD83C\uDFFF\u200D\u2642\uFE0F" to `manGesturingNoTone5`,
+              "\uD83D\uDE46\uD83C\uDFFB" to `personGesturingOkTone1`,
+              "\uD83D\uDE46\uD83C\uDFFC" to `personGesturingOkTone2`,
+              "\uD83D\uDE46\uD83C\uDFFD" to `personGesturingOkTone3`,
+              "\uD83D\uDE46\uD83C\uDFFE" to `personGesturingOkTone4`,
+              "\uD83D\uDE46\uD83C\uDFFF" to `personGesturingOkTone5`,
+              "\uD83D\uDE46\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanGesturingOkTone1`,
+              "\uD83D\uDE46\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanGesturingOkTone2`,
+              "\uD83D\uDE46\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanGesturingOkTone3`,
+              "\uD83D\uDE46\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanGesturingOkTone4`,
+              "\uD83D\uDE46\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanGesturingOkTone5`,
+              "\uD83D\uDE46\uD83C\uDFFB\u200D\u2642\uFE0F" to `manGesturingOkTone1`,
+              "\uD83D\uDE46\uD83C\uDFFC\u200D\u2642\uFE0F" to `manGesturingOkTone2`,
+              "\uD83D\uDE46\uD83C\uDFFD\u200D\u2642\uFE0F" to `manGesturingOkTone3`,
+              "\uD83D\uDE46\uD83C\uDFFE\u200D\u2642\uFE0F" to `manGesturingOkTone4`,
+              "\uD83D\uDE46\uD83C\uDFFF\u200D\u2642\uFE0F" to `manGesturingOkTone5`,
+              "\uD83D\uDE4B\uD83C\uDFFB" to `personRaisingHandTone1`,
+              "\uD83D\uDE4B\uD83C\uDFFC" to `personRaisingHandTone2`,
+              "\uD83D\uDE4B\uD83C\uDFFD" to `personRaisingHandTone3`,
+              "\uD83D\uDE4B\uD83C\uDFFE" to `personRaisingHandTone4`,
+              "\uD83D\uDE4B\uD83C\uDFFF" to `personRaisingHandTone5`,
+              "\uD83D\uDE4B\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanRaisingHandTone1`,
+              "\uD83D\uDE4B\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanRaisingHandTone2`,
+              "\uD83D\uDE4B\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanRaisingHandTone3`,
+              "\uD83D\uDE4B\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanRaisingHandTone4`,
+              "\uD83D\uDE4B\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanRaisingHandTone5`,
+              "\uD83D\uDE4B\uD83C\uDFFB\u200D\u2642\uFE0F" to `manRaisingHandTone1`,
+              "\uD83D\uDE4B\uD83C\uDFFC\u200D\u2642\uFE0F" to `manRaisingHandTone2`,
+              "\uD83D\uDE4B\uD83C\uDFFD\u200D\u2642\uFE0F" to `manRaisingHandTone3`,
+              "\uD83D\uDE4B\uD83C\uDFFE\u200D\u2642\uFE0F" to `manRaisingHandTone4`,
+              "\uD83D\uDE4B\uD83C\uDFFF\u200D\u2642\uFE0F" to `manRaisingHandTone5`,
+              "\uD83E\uDDCF\uD83C\uDFFB" to `deafPersonTone1`,
+              "\uD83E\uDDCF\uD83C\uDFFC" to `deafPersonTone2`,
+              "\uD83E\uDDCF\uD83C\uDFFD" to `deafPersonTone3`,
+              "\uD83E\uDDCF\uD83C\uDFFE" to `deafPersonTone4`,
+              "\uD83E\uDDCF\uD83C\uDFFF" to `deafPersonTone5`,
+              "\uD83E\uDDCF\uD83C\uDFFB\u200D\u2640\uFE0F" to `deafWomanTone1`,
+              "\uD83E\uDDCF\uD83C\uDFFC\u200D\u2640\uFE0F" to `deafWomanTone2`,
+              "\uD83E\uDDCF\uD83C\uDFFD\u200D\u2640\uFE0F" to `deafWomanTone3`,
+              "\uD83E\uDDCF\uD83C\uDFFE\u200D\u2640\uFE0F" to `deafWomanTone4`,
+              "\uD83E\uDDCF\uD83C\uDFFF\u200D\u2640\uFE0F" to `deafWomanTone5`,
+              "\uD83E\uDDCF\uD83C\uDFFB\u200D\u2642\uFE0F" to `deafManTone1`,
+              "\uD83E\uDDCF\uD83C\uDFFC\u200D\u2642\uFE0F" to `deafManTone2`,
+              "\uD83E\uDDCF\uD83C\uDFFD\u200D\u2642\uFE0F" to `deafManTone3`,
+              "\uD83E\uDDCF\uD83C\uDFFE\u200D\u2642\uFE0F" to `deafManTone4`,
+              "\uD83E\uDDCF\uD83C\uDFFF\u200D\u2642\uFE0F" to `deafManTone5`,
+              "\uD83E\uDD26\uD83C\uDFFB" to `personFacepalmingTone1`,
+              "\uD83E\uDD26\uD83C\uDFFC" to `personFacepalmingTone2`,
+              "\uD83E\uDD26\uD83C\uDFFD" to `personFacepalmingTone3`,
+              "\uD83E\uDD26\uD83C\uDFFE" to `personFacepalmingTone4`,
+              "\uD83E\uDD26\uD83C\uDFFF" to `personFacepalmingTone5`,
+              "\uD83E\uDD26\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanFacepalmingTone1`,
+              "\uD83E\uDD26\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanFacepalmingTone2`,
+              "\uD83E\uDD26\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanFacepalmingTone3`,
+              "\uD83E\uDD26\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanFacepalmingTone4`,
+              "\uD83E\uDD26\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanFacepalmingTone5`,
+              "\uD83E\uDD26\uD83C\uDFFB\u200D\u2642\uFE0F" to `manFacepalmingTone1`,
+              "\uD83E\uDD26\uD83C\uDFFC\u200D\u2642\uFE0F" to `manFacepalmingTone2`,
+              "\uD83E\uDD26\uD83C\uDFFD\u200D\u2642\uFE0F" to `manFacepalmingTone3`,
+              "\uD83E\uDD26\uD83C\uDFFE\u200D\u2642\uFE0F" to `manFacepalmingTone4`,
+              "\uD83E\uDD26\uD83C\uDFFF\u200D\u2642\uFE0F" to `manFacepalmingTone5`,
+              "\uD83E\uDD37\uD83C\uDFFB" to `personShruggingTone1`,
+              "\uD83E\uDD37\uD83C\uDFFC" to `personShruggingTone2`,
+              "\uD83E\uDD37\uD83C\uDFFD" to `personShruggingTone3`,
+              "\uD83E\uDD37\uD83C\uDFFE" to `personShruggingTone4`,
+              "\uD83E\uDD37\uD83C\uDFFF" to `personShruggingTone5`,
+              "\uD83E\uDD37\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanShruggingTone1`,
+              "\uD83E\uDD37\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanShruggingTone2`,
+              "\uD83E\uDD37\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanShruggingTone3`,
+              "\uD83E\uDD37\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanShruggingTone4`,
+              "\uD83E\uDD37\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanShruggingTone5`,
+              "\uD83E\uDD37\uD83C\uDFFB\u200D\u2642\uFE0F" to `manShruggingTone1`,
+              "\uD83E\uDD37\uD83C\uDFFC\u200D\u2642\uFE0F" to `manShruggingTone2`,
+              "\uD83E\uDD37\uD83C\uDFFD\u200D\u2642\uFE0F" to `manShruggingTone3`,
+              "\uD83E\uDD37\uD83C\uDFFE\u200D\u2642\uFE0F" to `manShruggingTone4`,
+              "\uD83E\uDD37\uD83C\uDFFF\u200D\u2642\uFE0F" to `manShruggingTone5`,
+              "\uD83D\uDE4E\uD83C\uDFFB" to `personPoutingTone1`,
+              "\uD83D\uDE4E\uD83C\uDFFC" to `personPoutingTone2`,
+              "\uD83D\uDE4E\uD83C\uDFFD" to `personPoutingTone3`,
+              "\uD83D\uDE4E\uD83C\uDFFE" to `personPoutingTone4`,
+              "\uD83D\uDE4E\uD83C\uDFFF" to `personPoutingTone5`,
+              "\uD83D\uDE4E\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanPoutingTone1`,
+              "\uD83D\uDE4E\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanPoutingTone2`,
+              "\uD83D\uDE4E\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanPoutingTone3`,
+              "\uD83D\uDE4E\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanPoutingTone4`,
+              "\uD83D\uDE4E\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanPoutingTone5`,
+              "\uD83D\uDE4E\uD83C\uDFFB\u200D\u2642\uFE0F" to `manPoutingTone1`,
+              "\uD83D\uDE4E\uD83C\uDFFC\u200D\u2642\uFE0F" to `manPoutingTone2`,
+              "\uD83D\uDE4E\uD83C\uDFFD\u200D\u2642\uFE0F" to `manPoutingTone3`,
+              "\uD83D\uDE4E\uD83C\uDFFE\u200D\u2642\uFE0F" to `manPoutingTone4`,
+              "\uD83D\uDE4E\uD83C\uDFFF\u200D\u2642\uFE0F" to `manPoutingTone5`,
+              "\uD83D\uDE4D\uD83C\uDFFB" to `personFrowningTone1`,
+              "\uD83D\uDE4D\uD83C\uDFFC" to `personFrowningTone2`,
+              "\uD83D\uDE4D\uD83C\uDFFD" to `personFrowningTone3`,
+              "\uD83D\uDE4D\uD83C\uDFFE" to `personFrowningTone4`,
+              "\uD83D\uDE4D\uD83C\uDFFF" to `personFrowningTone5`,
+              "\uD83D\uDE4D\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanFrowningTone1`,
+              "\uD83D\uDE4D\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanFrowningTone2`,
+              "\uD83D\uDE4D\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanFrowningTone3`,
+              "\uD83D\uDE4D\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanFrowningTone4`,
+              "\uD83D\uDE4D\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanFrowningTone5`,
+              "\uD83D\uDE4D\uD83C\uDFFB\u200D\u2642\uFE0F" to `manFrowningTone1`,
+              "\uD83D\uDE4D\uD83C\uDFFC\u200D\u2642\uFE0F" to `manFrowningTone2`,
+              "\uD83D\uDE4D\uD83C\uDFFD\u200D\u2642\uFE0F" to `manFrowningTone3`,
+              "\uD83D\uDE4D\uD83C\uDFFE\u200D\u2642\uFE0F" to `manFrowningTone4`,
+              "\uD83D\uDE4D\uD83C\uDFFF\u200D\u2642\uFE0F" to `manFrowningTone5`,
+              "\uD83D\uDC87\uD83C\uDFFB" to `personGettingHaircutTone1`,
+              "\uD83D\uDC87\uD83C\uDFFC" to `personGettingHaircutTone2`,
+              "\uD83D\uDC87\uD83C\uDFFD" to `personGettingHaircutTone3`,
+              "\uD83D\uDC87\uD83C\uDFFE" to `personGettingHaircutTone4`,
+              "\uD83D\uDC87\uD83C\uDFFF" to `personGettingHaircutTone5`,
+              "\uD83D\uDC87\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanGettingHaircutTone1`,
+              "\uD83D\uDC87\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanGettingHaircutTone2`,
+              "\uD83D\uDC87\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanGettingHaircutTone3`,
+              "\uD83D\uDC87\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanGettingHaircutTone4`,
+              "\uD83D\uDC87\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanGettingHaircutTone5`,
+              "\uD83D\uDC87\uD83C\uDFFB\u200D\u2642\uFE0F" to `manGettingHaircutTone1`,
+              "\uD83D\uDC87\uD83C\uDFFC\u200D\u2642\uFE0F" to `manGettingHaircutTone2`,
+              "\uD83D\uDC87\uD83C\uDFFD\u200D\u2642\uFE0F" to `manGettingHaircutTone3`,
+              "\uD83D\uDC87\uD83C\uDFFE\u200D\u2642\uFE0F" to `manGettingHaircutTone4`,
+              "\uD83D\uDC87\uD83C\uDFFF\u200D\u2642\uFE0F" to `manGettingHaircutTone5`,
+              "\uD83D\uDC86\uD83C\uDFFB" to `personGettingMassageTone1`,
+              "\uD83D\uDC86\uD83C\uDFFC" to `personGettingMassageTone2`,
+              "\uD83D\uDC86\uD83C\uDFFD" to `personGettingMassageTone3`,
+              "\uD83D\uDC86\uD83C\uDFFE" to `personGettingMassageTone4`,
+              "\uD83D\uDC86\uD83C\uDFFF" to `personGettingMassageTone5`,
+              "\uD83D\uDC86\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanGettingFaceMassageTone1`,
+              "\uD83D\uDC86\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanGettingFaceMassageTone2`,
+              "\uD83D\uDC86\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanGettingFaceMassageTone3`,
+              "\uD83D\uDC86\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanGettingFaceMassageTone4`,
+              "\uD83D\uDC86\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanGettingFaceMassageTone5`,
+              "\uD83D\uDC86\uD83C\uDFFB\u200D\u2642\uFE0F" to `manGettingFaceMassageTone1`,
+              "\uD83D\uDC86\uD83C\uDFFC\u200D\u2642\uFE0F" to `manGettingFaceMassageTone2`,
+              "\uD83D\uDC86\uD83C\uDFFD\u200D\u2642\uFE0F" to `manGettingFaceMassageTone3`,
+              "\uD83D\uDC86\uD83C\uDFFE\u200D\u2642\uFE0F" to `manGettingFaceMassageTone4`,
+              "\uD83D\uDC86\uD83C\uDFFF\u200D\u2642\uFE0F" to `manGettingFaceMassageTone5`,
+              "\uD83E\uDDD6\uD83C\uDFFB" to `personInSteamyRoomTone1`,
+              "\uD83E\uDDD6\uD83C\uDFFC" to `personInSteamyRoomTone2`,
+              "\uD83E\uDDD6\uD83C\uDFFD" to `personInSteamyRoomTone3`,
+              "\uD83E\uDDD6\uD83C\uDFFE" to `personInSteamyRoomTone4`,
+              "\uD83E\uDDD6\uD83C\uDFFF" to `personInSteamyRoomTone5`,
+              "\uD83E\uDDD6\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanInSteamyRoomTone1`,
+              "\uD83E\uDDD6\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanInSteamyRoomTone2`,
+              "\uD83E\uDDD6\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanInSteamyRoomTone3`,
+              "\uD83E\uDDD6\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanInSteamyRoomTone4`,
+              "\uD83E\uDDD6\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanInSteamyRoomTone5`,
+              "\uD83E\uDDD6\uD83C\uDFFB\u200D\u2642\uFE0F" to `manInSteamyRoomTone1`,
+              "\uD83E\uDDD6\uD83C\uDFFC\u200D\u2642\uFE0F" to `manInSteamyRoomTone2`,
+              "\uD83E\uDDD6\uD83C\uDFFD\u200D\u2642\uFE0F" to `manInSteamyRoomTone3`,
+              "\uD83E\uDDD6\uD83C\uDFFE\u200D\u2642\uFE0F" to `manInSteamyRoomTone4`,
+              "\uD83E\uDDD6\uD83C\uDFFF\u200D\u2642\uFE0F" to `manInSteamyRoomTone5`,
+              "\uD83D\uDC85\uD83C\uDFFB" to `nailCareTone1`,
+              "\uD83D\uDC85\uD83C\uDFFC" to `nailCareTone2`,
+              "\uD83D\uDC85\uD83C\uDFFD" to `nailCareTone3`,
+              "\uD83D\uDC85\uD83C\uDFFE" to `nailCareTone4`,
+              "\uD83D\uDC85\uD83C\uDFFF" to `nailCareTone5`,
+              "\uD83E\uDD33\uD83C\uDFFB" to `selfieTone1`,
+              "\uD83E\uDD33\uD83C\uDFFC" to `selfieTone2`,
+              "\uD83E\uDD33\uD83C\uDFFD" to `selfieTone3`,
+              "\uD83E\uDD33\uD83C\uDFFE" to `selfieTone4`,
+              "\uD83E\uDD33\uD83C\uDFFF" to `selfieTone5`,
+              "\uD83D\uDC83\uD83C\uDFFB" to `dancerTone1`,
+              "\uD83D\uDC83\uD83C\uDFFC" to `dancerTone2`,
+              "\uD83D\uDC83\uD83C\uDFFD" to `dancerTone3`,
+              "\uD83D\uDC83\uD83C\uDFFE" to `dancerTone4`,
+              "\uD83D\uDC83\uD83C\uDFFF" to `dancerTone5`,
+              "\uD83D\uDD7A\uD83C\uDFFB" to `manDancingTone1`,
+              "\uD83D\uDD7A\uD83C\uDFFC" to `manDancingTone2`,
+              "\uD83D\uDD7A\uD83C\uDFFD" to `manDancingTone3`,
+              "\uD83D\uDD7A\uD83C\uDFFF" to `manDancingTone5`,
+              "\uD83D\uDD7A\uD83C\uDFFE" to `manDancingTone4`,
+              "\uD83D\uDD74\uD83C\uDFFB" to `levitateTone1`,
+              "\uD83D\uDD74\uD83C\uDFFC" to `levitateTone2`,
+              "\uD83D\uDD74\uD83C\uDFFD" to `levitateTone3`,
+              "\uD83D\uDD74\uD83C\uDFFE" to `levitateTone4`,
+              "\uD83D\uDD74\uD83C\uDFFF" to `levitateTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBD" to `personInManualWheelchairTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBD" to `personInManualWheelchairTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBD" to `personInManualWheelchairTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBD" to `personInManualWheelchairTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBD" to `personInManualWheelchairTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBD" to `womanInManualWheelchairTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBD" to `womanInManualWheelchairTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBD" to `womanInManualWheelchairTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBD" to `womanInManualWheelchairTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBD" to `womanInManualWheelchairTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD" to `manInManualWheelchairTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBD" to `manInManualWheelchairTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBD" to `manInManualWheelchairTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBD" to `manInManualWheelchairTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBD" to `manInManualWheelchairTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `personInManualWheelchairFacingRightTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `personInManualWheelchairFacingRightTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `personInManualWheelchairFacingRightTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `personInManualWheelchairFacingRightTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `personInManualWheelchairFacingRightTone5`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `manInManualWheelchairFacingRightTone2`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `manInManualWheelchairFacingRightTone1`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `manInManualWheelchairFacingRightTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `manInManualWheelchairFacingRightTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `manInManualWheelchairFacingRightTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `womanInManualWheelchairFacingRightTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `womanInManualWheelchairFacingRightTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `womanInManualWheelchairFacingRightTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `womanInManualWheelchairFacingRightTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F" to `womanInManualWheelchairFacingRightTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBC" to `personInMotorizedWheelchairTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBC" to `personInMotorizedWheelchairTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBC" to `personInMotorizedWheelchairTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBC" to `personInMotorizedWheelchairTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBC" to `personInMotorizedWheelchairTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBC" to `womanInMotorizedWheelchairTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBC" to `womanInMotorizedWheelchairTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBC" to `womanInMotorizedWheelchairTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBC" to `womanInMotorizedWheelchairTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBC" to `womanInMotorizedWheelchairTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBC" to `manInMotorizedWheelchairTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBC" to `manInMotorizedWheelchairTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBC" to `manInMotorizedWheelchairTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBC" to `manInMotorizedWheelchairTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBC" to `manInMotorizedWheelchairTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `personInMotorizedWheelchairFacingRightTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `personInMotorizedWheelchairFacingRightTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `personInMotorizedWheelchairFacingRightTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `personInMotorizedWheelchairFacingRightTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `personInMotorizedWheelchairFacingRightTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `manInMotorizedWheelchairFacingRightTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `manInMotorizedWheelchairFacingRightTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `manInMotorizedWheelchairFacingRightTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `manInMotorizedWheelchairFacingRightTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `manInMotorizedWheelchairFacingRightTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `womanInMotorizedWheelchairFacingRightTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `womanInMotorizedWheelchairFacingRightTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `womanInMotorizedWheelchairFacingRightTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `womanInMotorizedWheelchairFacingRightTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F" to `womanInMotorizedWheelchairFacingRightTone5`,
+              "\uD83D\uDEB6\uD83C\uDFFB" to `personWalkingTone1`,
+              "\uD83D\uDEB6\uD83C\uDFFC" to `personWalkingTone2`,
+              "\uD83D\uDEB6\uD83C\uDFFD" to `personWalkingTone3`,
+              "\uD83D\uDEB6\uD83C\uDFFE" to `personWalkingTone4`,
+              "\uD83D\uDEB6\uD83C\uDFFF" to `personWalkingTone5`,
+              "\uD83D\uDEB6\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanWalkingTone1`,
+              "\uD83D\uDEB6\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanWalkingTone2`,
+              "\uD83D\uDEB6\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanWalkingTone3`,
+              "\uD83D\uDEB6\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanWalkingTone4`,
+              "\uD83D\uDEB6\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanWalkingTone5`,
+              "\uD83D\uDEB6\uD83C\uDFFB\u200D\u2642\uFE0F" to `manWalkingTone1`,
+              "\uD83D\uDEB6\uD83C\uDFFC\u200D\u2642\uFE0F" to `manWalkingTone2`,
+              "\uD83D\uDEB6\uD83C\uDFFD\u200D\u2642\uFE0F" to `manWalkingTone3`,
+              "\uD83D\uDEB6\uD83C\uDFFE\u200D\u2642\uFE0F" to `manWalkingTone4`,
+              "\uD83D\uDEB6\uD83C\uDFFF\u200D\u2642\uFE0F" to `manWalkingTone5`,
+              "\uD83D\uDEB6\uD83C\uDFFB\u200D\u27A1\uFE0F" to `personWalkingFacingRightTone1`,
+              "\uD83D\uDEB6\uD83C\uDFFC\u200D\u27A1\uFE0F" to `personWalkingFacingRightTone2`,
+              "\uD83D\uDEB6\uD83C\uDFFD\u200D\u27A1\uFE0F" to `personWalkingFacingRightTone3`,
+              "\uD83D\uDEB6\uD83C\uDFFE\u200D\u27A1\uFE0F" to `personWalkingFacingRightTone4`,
+              "\uD83D\uDEB6\uD83C\uDFFF\u200D\u27A1\uFE0F" to `personWalkingFacingRightTone5`,
+              "\uD83D\uDEB6\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanWalkingFacingRightTone1`,
+              "\uD83D\uDEB6\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanWalkingFacingRightTone2`,
+              "\uD83D\uDEB6\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanWalkingFacingRightTone3`,
+              "\uD83D\uDEB6\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanWalkingFacingRightTone4`,
+              "\uD83D\uDEB6\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanWalkingFacingRightTone5`,
+              "\uD83D\uDEB6\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manWalkingFacingRightTone1`,
+              "\uD83D\uDEB6\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manWalkingFacingRightTone2`,
+              "\uD83D\uDEB6\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manWalkingFacingRightTone3`,
+              "\uD83D\uDEB6\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manWalkingFacingRightTone4`,
+              "\uD83D\uDEB6\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manWalkingFacingRightTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDAF" to `personWithProbingCaneTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDAF" to `personWithProbingCaneTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDAF" to `personWithProbingCaneTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDAF" to `personWithProbingCaneTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDAF" to `personWithProbingCaneTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDAF" to `womanWithProbingCaneTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDAF" to `womanWithProbingCaneTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDAF" to `womanWithProbingCaneTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDAF" to `womanWithProbingCaneTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDAF" to `womanWithProbingCaneTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDAF" to `manWithProbingCaneTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDAF" to `manWithProbingCaneTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDAF" to `manWithProbingCaneTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDAF" to `manWithProbingCaneTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDAF" to `manWithProbingCaneTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `personWithWhiteCaneFacingRightTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `personWithWhiteCaneFacingRightTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `personWithWhiteCaneFacingRightTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `personWithWhiteCaneFacingRightTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `personWithWhiteCaneFacingRightTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `manWithWhiteCaneFacingRightTone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `manWithWhiteCaneFacingRightTone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `manWithWhiteCaneFacingRightTone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `manWithWhiteCaneFacingRightTone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `manWithWhiteCaneFacingRightTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `womanWithWhiteCaneFacingRightTone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `womanWithWhiteCaneFacingRightTone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `womanWithWhiteCaneFacingRightTone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `womanWithWhiteCaneFacingRightTone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F" to `womanWithWhiteCaneFacingRightTone5`,
+              "\uD83E\uDDCE\uD83C\uDFFB" to `personKneelingTone1`,
+              "\uD83E\uDDCE\uD83C\uDFFC" to `personKneelingTone2`,
+              "\uD83E\uDDCE\uD83C\uDFFD" to `personKneelingTone3`,
+              "\uD83E\uDDCE\uD83C\uDFFE" to `personKneelingTone4`,
+              "\uD83E\uDDCE\uD83C\uDFFF" to `personKneelingTone5`,
+              "\uD83E\uDDCE\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanKneelingTone1`,
+              "\uD83E\uDDCE\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanKneelingTone2`,
+              "\uD83E\uDDCE\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanKneelingTone3`,
+              "\uD83E\uDDCE\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanKneelingTone4`,
+              "\uD83E\uDDCE\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanKneelingTone5`,
+              "\uD83E\uDDCE\uD83C\uDFFB\u200D\u2642\uFE0F" to `manKneelingTone1`,
+              "\uD83E\uDDCE\uD83C\uDFFC\u200D\u2642\uFE0F" to `manKneelingTone2`,
+              "\uD83E\uDDCE\uD83C\uDFFD\u200D\u2642\uFE0F" to `manKneelingTone3`,
+              "\uD83E\uDDCE\uD83C\uDFFE\u200D\u2642\uFE0F" to `manKneelingTone4`,
+              "\uD83E\uDDCE\uD83C\uDFFF\u200D\u2642\uFE0F" to `manKneelingTone5`,
+              "\uD83E\uDDCE\uD83C\uDFFB\u200D\u27A1\uFE0F" to `personKneelingFacingRightTone1`,
+              "\uD83E\uDDCE\uD83C\uDFFC\u200D\u27A1\uFE0F" to `personKneelingFacingRightTone2`,
+              "\uD83E\uDDCE\uD83C\uDFFD\u200D\u27A1\uFE0F" to `personKneelingFacingRightTone3`,
+              "\uD83E\uDDCE\uD83C\uDFFE\u200D\u27A1\uFE0F" to `personKneelingFacingRightTone4`,
+              "\uD83E\uDDCE\uD83C\uDFFF\u200D\u27A1\uFE0F" to `personKneelingFacingRightTone5`,
+              "\uD83E\uDDCE\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanKneelingFacingRightTone1`,
+              "\uD83E\uDDCE\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanKneelingFacingRightTone2`,
+              "\uD83E\uDDCE\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanKneelingFacingRightTone3`,
+              "\uD83E\uDDCE\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanKneelingFacingRightTone4`,
+              "\uD83E\uDDCE\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanKneelingFacingRightTone5`,
+              "\uD83E\uDDCE\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manKneelingFacingRightTone1`,
+              "\uD83E\uDDCE\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manKneelingFacingRightTone2`,
+              "\uD83E\uDDCE\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manKneelingFacingRightTone3`,
+              "\uD83E\uDDCE\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manKneelingFacingRightTone4`,
+              "\uD83E\uDDCE\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manKneelingFacingRightTone5`,
+              "\uD83C\uDFC3\uD83C\uDFFB" to `personRunningTone1`,
+              "\uD83C\uDFC3\uD83C\uDFFC" to `personRunningTone2`,
+              "\uD83C\uDFC3\uD83C\uDFFD" to `personRunningTone3`,
+              "\uD83C\uDFC3\uD83C\uDFFE" to `personRunningTone4`,
+              "\uD83C\uDFC3\uD83C\uDFFF" to `personRunningTone5`,
+              "\uD83C\uDFC3\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanRunningTone1`,
+              "\uD83C\uDFC3\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanRunningTone2`,
+              "\uD83C\uDFC3\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanRunningTone3`,
+              "\uD83C\uDFC3\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanRunningTone4`,
+              "\uD83C\uDFC3\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanRunningTone5`,
+              "\uD83C\uDFC3\uD83C\uDFFB\u200D\u2642\uFE0F" to `manRunningTone1`,
+              "\uD83C\uDFC3\uD83C\uDFFC\u200D\u2642\uFE0F" to `manRunningTone2`,
+              "\uD83C\uDFC3\uD83C\uDFFD\u200D\u2642\uFE0F" to `manRunningTone3`,
+              "\uD83C\uDFC3\uD83C\uDFFE\u200D\u2642\uFE0F" to `manRunningTone4`,
+              "\uD83C\uDFC3\uD83C\uDFFF\u200D\u2642\uFE0F" to `manRunningTone5`,
+              "\uD83C\uDFC3\uD83C\uDFFB\u200D\u27A1\uFE0F" to `personRunningFacingRightTone1`,
+              "\uD83C\uDFC3\uD83C\uDFFC\u200D\u27A1\uFE0F" to `personRunningFacingRightTone2`,
+              "\uD83C\uDFC3\uD83C\uDFFD\u200D\u27A1\uFE0F" to `personRunningFacingRightTone3`,
+              "\uD83C\uDFC3\uD83C\uDFFE\u200D\u27A1\uFE0F" to `personRunningFacingRightTone4`,
+              "\uD83C\uDFC3\uD83C\uDFFF\u200D\u27A1\uFE0F" to `personRunningFacingRightTone5`,
+              "\uD83C\uDFC3\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanRunningFacingRightTone1`,
+              "\uD83C\uDFC3\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanRunningFacingRightTone2`,
+              "\uD83C\uDFC3\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanRunningFacingRightTone3`,
+              "\uD83C\uDFC3\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanRunningFacingRightTone4`,
+              "\uD83C\uDFC3\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F" to `womanRunningFacingRightTone5`,
+              "\uD83C\uDFC3\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manRunningFacingRightTone1`,
+              "\uD83C\uDFC3\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manRunningFacingRightTone2`,
+              "\uD83C\uDFC3\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manRunningFacingRightTone3`,
+              "\uD83C\uDFC3\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manRunningFacingRightTone4`,
+              "\uD83C\uDFC3\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F" to `manRunningFacingRightTone5`,
+              "\uD83E\uDDCD\uD83C\uDFFB" to `personStandingTone1`,
+              "\uD83E\uDDCD\uD83C\uDFFC" to `personStandingTone2`,
+              "\uD83E\uDDCD\uD83C\uDFFD" to `personStandingTone3`,
+              "\uD83E\uDDCD\uD83C\uDFFE" to `personStandingTone4`,
+              "\uD83E\uDDCD\uD83C\uDFFF" to `personStandingTone5`,
+              "\uD83E\uDDCD\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanStandingTone1`,
+              "\uD83E\uDDCD\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanStandingTone2`,
+              "\uD83E\uDDCD\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanStandingTone3`,
+              "\uD83E\uDDCD\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanStandingTone4`,
+              "\uD83E\uDDCD\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanStandingTone5`,
+              "\uD83E\uDDCD\uD83C\uDFFB\u200D\u2642\uFE0F" to `manStandingTone1`,
+              "\uD83E\uDDCD\uD83C\uDFFC\u200D\u2642\uFE0F" to `manStandingTone2`,
+              "\uD83E\uDDCD\uD83C\uDFFD\u200D\u2642\uFE0F" to `manStandingTone3`,
+              "\uD83E\uDDCD\uD83C\uDFFE\u200D\u2642\uFE0F" to `manStandingTone4`,
+              "\uD83E\uDDCD\uD83C\uDFFF\u200D\u2642\uFE0F" to `manStandingTone5`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB" to `peopleHoldingHandsTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC" to `peopleHoldingHandsTone1Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD" to `peopleHoldingHandsTone1Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE" to `peopleHoldingHandsTone1Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF" to `peopleHoldingHandsTone1Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB" to `peopleHoldingHandsTone2Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC" to `peopleHoldingHandsTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD" to `peopleHoldingHandsTone2Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE" to `peopleHoldingHandsTone2Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF" to `peopleHoldingHandsTone2Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB" to `peopleHoldingHandsTone3Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC" to `peopleHoldingHandsTone3Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD" to `peopleHoldingHandsTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE" to `peopleHoldingHandsTone3Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF" to `peopleHoldingHandsTone3Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB" to `peopleHoldingHandsTone4Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC" to `peopleHoldingHandsTone4Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD" to `peopleHoldingHandsTone4Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE" to `peopleHoldingHandsTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF" to `peopleHoldingHandsTone4Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB" to `peopleHoldingHandsTone5Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC" to `peopleHoldingHandsTone5Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD" to `peopleHoldingHandsTone5Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE" to `peopleHoldingHandsTone5Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF" to `peopleHoldingHandsTone5`,
+              "\uD83D\uDC6B\uD83C\uDFFB" to `womanAndManHoldingHandsTone1`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `womanAndManHoldingHandsTone1Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `womanAndManHoldingHandsTone1Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `womanAndManHoldingHandsTone1Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `womanAndManHoldingHandsTone1Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `womanAndManHoldingHandsTone2Tone1`,
+              "\uD83D\uDC6B\uD83C\uDFFC" to `womanAndManHoldingHandsTone2`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `womanAndManHoldingHandsTone2Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `womanAndManHoldingHandsTone2Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `womanAndManHoldingHandsTone2Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `womanAndManHoldingHandsTone3Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `womanAndManHoldingHandsTone3Tone2`,
+              "\uD83D\uDC6B\uD83C\uDFFD" to `womanAndManHoldingHandsTone3`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `womanAndManHoldingHandsTone3Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `womanAndManHoldingHandsTone3Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `womanAndManHoldingHandsTone4Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `womanAndManHoldingHandsTone4Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `womanAndManHoldingHandsTone4Tone3`,
+              "\uD83D\uDC6B\uD83C\uDFFE" to `womanAndManHoldingHandsTone4`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `womanAndManHoldingHandsTone4Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `womanAndManHoldingHandsTone5Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `womanAndManHoldingHandsTone5Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `womanAndManHoldingHandsTone5Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `womanAndManHoldingHandsTone5Tone4`,
+              "\uD83D\uDC6B\uD83C\uDFFF" to `womanAndManHoldingHandsTone5`,
+              "\uD83D\uDC6D\uD83C\uDFFB" to `womenHoldingHandsTone1`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC" to `womenHoldingHandsTone1Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD" to `womenHoldingHandsTone1Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE" to `womenHoldingHandsTone1Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF" to `womenHoldingHandsTone1Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB" to `womenHoldingHandsTone2Tone1`,
+              "\uD83D\uDC6D\uD83C\uDFFC" to `womenHoldingHandsTone2`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD" to `womenHoldingHandsTone2Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE" to `womenHoldingHandsTone2Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF" to `womenHoldingHandsTone2Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB" to `womenHoldingHandsTone3Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC" to `womenHoldingHandsTone3Tone2`,
+              "\uD83D\uDC6D\uD83C\uDFFD" to `womenHoldingHandsTone3`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE" to `womenHoldingHandsTone3Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF" to `womenHoldingHandsTone3Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB" to `womenHoldingHandsTone4Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC" to `womenHoldingHandsTone4Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD" to `womenHoldingHandsTone4Tone3`,
+              "\uD83D\uDC6D\uD83C\uDFFE" to `womenHoldingHandsTone4`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF" to `womenHoldingHandsTone4Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB" to `womenHoldingHandsTone5Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC" to `womenHoldingHandsTone5Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD" to `womenHoldingHandsTone5Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE" to `womenHoldingHandsTone5Tone4`,
+              "\uD83D\uDC6D\uD83C\uDFFF" to `womenHoldingHandsTone5`,
+              "\uD83D\uDC6C\uD83C\uDFFB" to `menHoldingHandsTone1`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `menHoldingHandsTone1Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `menHoldingHandsTone1Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `menHoldingHandsTone1Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `menHoldingHandsTone1Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `menHoldingHandsTone2Tone1`,
+              "\uD83D\uDC6C\uD83C\uDFFC" to `menHoldingHandsTone2`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `menHoldingHandsTone2Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `menHoldingHandsTone2Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `menHoldingHandsTone2Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `menHoldingHandsTone3Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `menHoldingHandsTone3Tone2`,
+              "\uD83D\uDC6C\uD83C\uDFFD" to `menHoldingHandsTone3`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `menHoldingHandsTone3Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `menHoldingHandsTone3Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `menHoldingHandsTone4Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `menHoldingHandsTone4Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `menHoldingHandsTone4Tone3`,
+              "\uD83D\uDC6C\uD83C\uDFFE" to `menHoldingHandsTone4`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF" to `menHoldingHandsTone4Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB" to `menHoldingHandsTone5Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC" to `menHoldingHandsTone5Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD" to `menHoldingHandsTone5Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE" to `menHoldingHandsTone5Tone4`,
+              "\uD83D\uDC6C\uD83C\uDFFF" to `menHoldingHandsTone5`,
+              "\uD83D\uDC91\uD83C\uDFFB" to `coupleWithHeartTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC" to `coupleWithHeartPersonPersonTone1Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD" to `coupleWithHeartPersonPersonTone1Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE" to `coupleWithHeartPersonPersonTone1Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF" to `coupleWithHeartPersonPersonTone1Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB" to `coupleWithHeartPersonPersonTone2Tone1`,
+              "\uD83D\uDC91\uD83C\uDFFC" to `coupleWithHeartTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD" to `coupleWithHeartPersonPersonTone2Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE" to `coupleWithHeartPersonPersonTone2Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF" to `coupleWithHeartPersonPersonTone2Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB" to `coupleWithHeartPersonPersonTone3Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC" to `coupleWithHeartPersonPersonTone3Tone2`,
+              "\uD83D\uDC91\uD83C\uDFFD" to `coupleWithHeartTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE" to `coupleWithHeartPersonPersonTone3Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF" to `coupleWithHeartPersonPersonTone3Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB" to `coupleWithHeartPersonPersonTone4Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC" to `coupleWithHeartPersonPersonTone4Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD" to `coupleWithHeartPersonPersonTone4Tone3`,
+              "\uD83D\uDC91\uD83C\uDFFE" to `coupleWithHeartTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF" to `coupleWithHeartPersonPersonTone4Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB" to `coupleWithHeartPersonPersonTone5Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC" to `coupleWithHeartPersonPersonTone5Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD" to `coupleWithHeartPersonPersonTone5Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE" to `coupleWithHeartPersonPersonTone5Tone4`,
+              "\uD83D\uDC91\uD83C\uDFFF" to `coupleWithHeartTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartWomanManTone1`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartWomanManTone1Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartWomanManTone1Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartWomanManTone1Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartWomanManTone1Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartWomanManTone2Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartWomanManTone2`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartWomanManTone2Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartWomanManTone2Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartWomanManTone2Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartWomanManTone3Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartWomanManTone3Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartWomanManTone3`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartWomanManTone3Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartWomanManTone3Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartWomanManTone4Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartWomanManTone4Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartWomanManTone4Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartWomanManTone4`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartWomanManTone4Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartWomanManTone5Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartWomanManTone5Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartWomanManTone5Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartWomanManTone5Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartWomanManTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB" to `coupleWithHeartWomanWomanTone1`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC" to `coupleWithHeartWomanWomanTone1Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD" to `coupleWithHeartWomanWomanTone1Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE" to `coupleWithHeartWomanWomanTone1Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF" to `coupleWithHeartWomanWomanTone1Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB" to `coupleWithHeartWomanWomanTone2Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC" to `coupleWithHeartWomanWomanTone2`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD" to `coupleWithHeartWomanWomanTone2Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE" to `coupleWithHeartWomanWomanTone2Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF" to `coupleWithHeartWomanWomanTone2Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB" to `coupleWithHeartWomanWomanTone3Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC" to `coupleWithHeartWomanWomanTone3Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD" to `coupleWithHeartWomanWomanTone3`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE" to `coupleWithHeartWomanWomanTone3Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF" to `coupleWithHeartWomanWomanTone3Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB" to `coupleWithHeartWomanWomanTone4Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC" to `coupleWithHeartWomanWomanTone4Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD" to `coupleWithHeartWomanWomanTone4Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE" to `coupleWithHeartWomanWomanTone4`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF" to `coupleWithHeartWomanWomanTone4Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB" to `coupleWithHeartWomanWomanTone5Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC" to `coupleWithHeartWomanWomanTone5Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD" to `coupleWithHeartWomanWomanTone5Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE" to `coupleWithHeartWomanWomanTone5Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF" to `coupleWithHeartWomanWomanTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartManManTone1`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartManManTone1Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartManManTone1Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartManManTone1Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartManManTone1Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartManManTone2Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartManManTone2`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartManManTone2Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartManManTone2Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartManManTone2Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartManManTone3Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartManManTone3Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartManManTone3`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartManManTone3Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartManManTone3Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartManManTone4Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartManManTone4Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartManManTone4Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartManManTone4`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartManManTone4Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB" to `coupleWithHeartManManTone5Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC" to `coupleWithHeartManManTone5Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD" to `coupleWithHeartManManTone5Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE" to `coupleWithHeartManManTone5Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF" to `coupleWithHeartManManTone5`,
+              "\uD83D\uDC8F\uD83C\uDFFB" to `kissTone1`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC" to `kissPersonPersonTone1Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD" to `kissPersonPersonTone1Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE" to `kissPersonPersonTone1Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF" to `kissPersonPersonTone1Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB" to `kissPersonPersonTone2Tone1`,
+              "\uD83D\uDC8F\uD83C\uDFFC" to `kissTone2`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD" to `kissPersonPersonTone2Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE" to `kissPersonPersonTone2Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF" to `kissPersonPersonTone2Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB" to `kissPersonPersonTone3Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC" to `kissPersonPersonTone3Tone2`,
+              "\uD83D\uDC8F\uD83C\uDFFD" to `kissTone3`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE" to `kissPersonPersonTone3Tone4`,
+              "\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF" to `kissPersonPersonTone3Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB" to `kissPersonPersonTone4Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC" to `kissPersonPersonTone4Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD" to `kissPersonPersonTone4Tone3`,
+              "\uD83D\uDC8F\uD83C\uDFFE" to `kissTone4`,
+              "\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF" to `kissPersonPersonTone4Tone5`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB" to `kissPersonPersonTone5Tone1`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC" to `kissPersonPersonTone5Tone2`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD" to `kissPersonPersonTone5Tone3`,
+              "\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE" to `kissPersonPersonTone5Tone4`,
+              "\uD83D\uDC8F\uD83C\uDFFF" to `kissTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissWomanManTone1`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissWomanManTone1Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissWomanManTone1Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissWomanManTone1Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissWomanManTone1Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissWomanManTone2Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissWomanManTone2`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissWomanManTone2Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissWomanManTone2Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissWomanManTone2Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissWomanManTone3Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissWomanManTone3Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissWomanManTone3`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissWomanManTone3Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissWomanManTone3Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissWomanManTone4Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissWomanManTone4Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissWomanManTone4Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissWomanManTone4`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissWomanManTone4Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissWomanManTone5Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissWomanManTone5Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissWomanManTone5Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissWomanManTone5Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissWomanManTone5`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB" to `kissWomanWomanTone1`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC" to `kissWomanWomanTone1Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD" to `kissWomanWomanTone1Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE" to `kissWomanWomanTone1Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF" to `kissWomanWomanTone1Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB" to `kissWomanWomanTone2Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC" to `kissWomanWomanTone2`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD" to `kissWomanWomanTone2Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE" to `kissWomanWomanTone2Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF" to `kissWomanWomanTone2Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB" to `kissWomanWomanTone3Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC" to `kissWomanWomanTone3Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD" to `kissWomanWomanTone3`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE" to `kissWomanWomanTone3Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF" to `kissWomanWomanTone3Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB" to `kissWomanWomanTone4Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC" to `kissWomanWomanTone4Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD" to `kissWomanWomanTone4Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE" to `kissWomanWomanTone4`,
+              "\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF" to `kissWomanWomanTone4Tone5`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB" to `kissWomanWomanTone5Tone1`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC" to `kissWomanWomanTone5Tone2`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD" to `kissWomanWomanTone5Tone3`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE" to `kissWomanWomanTone5Tone4`,
+              "\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF" to `kissWomanWomanTone5`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissManManTone1`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissManManTone1Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissManManTone1Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissManManTone1Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissManManTone1Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissManManTone2Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissManManTone2`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissManManTone2Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissManManTone2Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissManManTone2Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissManManTone3Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissManManTone3Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissManManTone3`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissManManTone3Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissManManTone3Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissManManTone4Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissManManTone4Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissManManTone4Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissManManTone4`,
+              "\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissManManTone4Tone5`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB" to `kissManManTone5Tone1`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC" to `kissManManTone5Tone2`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD" to `kissManManTone5Tone3`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE" to `kissManManTone5Tone4`,
+              "\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF" to `kissManManTone5`,
+              "\uD83C\uDFC2\uD83C\uDFFB" to `snowboarderTone1`,
+              "\uD83C\uDFC2\uD83C\uDFFC" to `snowboarderTone2`,
+              "\uD83C\uDFC2\uD83C\uDFFD" to `snowboarderTone3`,
+              "\uD83C\uDFC2\uD83C\uDFFE" to `snowboarderTone4`,
+              "\uD83C\uDFC2\uD83C\uDFFF" to `snowboarderTone5`,
+              "\uD83C\uDFCB\uD83C\uDFFB" to `personLiftingWeightsTone1`,
+              "\uD83C\uDFCB\uD83C\uDFFC" to `personLiftingWeightsTone2`,
+              "\uD83C\uDFCB\uD83C\uDFFD" to `personLiftingWeightsTone3`,
+              "\uD83C\uDFCB\uD83C\uDFFE" to `personLiftingWeightsTone4`,
+              "\uD83C\uDFCB\uD83C\uDFFF" to `personLiftingWeightsTone5`,
+              "\uD83C\uDFCB\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanLiftingWeightsTone1`,
+              "\uD83C\uDFCB\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanLiftingWeightsTone2`,
+              "\uD83C\uDFCB\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanLiftingWeightsTone3`,
+              "\uD83C\uDFCB\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanLiftingWeightsTone4`,
+              "\uD83C\uDFCB\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanLiftingWeightsTone5`,
+              "\uD83C\uDFCB\uD83C\uDFFB\u200D\u2642\uFE0F" to `manLiftingWeightsTone1`,
+              "\uD83C\uDFCB\uD83C\uDFFC\u200D\u2642\uFE0F" to `manLiftingWeightsTone2`,
+              "\uD83C\uDFCB\uD83C\uDFFD\u200D\u2642\uFE0F" to `manLiftingWeightsTone3`,
+              "\uD83C\uDFCB\uD83C\uDFFE\u200D\u2642\uFE0F" to `manLiftingWeightsTone4`,
+              "\uD83C\uDFCB\uD83C\uDFFF\u200D\u2642\uFE0F" to `manLiftingWeightsTone5`,
+              "\uD83E\uDD38\uD83C\uDFFB" to `personDoingCartwheelTone1`,
+              "\uD83E\uDD38\uD83C\uDFFC" to `personDoingCartwheelTone2`,
+              "\uD83E\uDD38\uD83C\uDFFD" to `personDoingCartwheelTone3`,
+              "\uD83E\uDD38\uD83C\uDFFE" to `personDoingCartwheelTone4`,
+              "\uD83E\uDD38\uD83C\uDFFF" to `personDoingCartwheelTone5`,
+              "\uD83E\uDD38\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanCartwheelingTone1`,
+              "\uD83E\uDD38\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanCartwheelingTone2`,
+              "\uD83E\uDD38\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanCartwheelingTone3`,
+              "\uD83E\uDD38\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanCartwheelingTone4`,
+              "\uD83E\uDD38\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanCartwheelingTone5`,
+              "\uD83E\uDD38\uD83C\uDFFB\u200D\u2642\uFE0F" to `manCartwheelingTone1`,
+              "\uD83E\uDD38\uD83C\uDFFC\u200D\u2642\uFE0F" to `manCartwheelingTone2`,
+              "\uD83E\uDD38\uD83C\uDFFD\u200D\u2642\uFE0F" to `manCartwheelingTone3`,
+              "\uD83E\uDD38\uD83C\uDFFE\u200D\u2642\uFE0F" to `manCartwheelingTone4`,
+              "\uD83E\uDD38\uD83C\uDFFF\u200D\u2642\uFE0F" to `manCartwheelingTone5`,
+              "\u26F9\uD83C\uDFFB" to `personBouncingBallTone1`,
+              "\u26F9\uD83C\uDFFC" to `personBouncingBallTone2`,
+              "\u26F9\uD83C\uDFFD" to `personBouncingBallTone3`,
+              "\u26F9\uD83C\uDFFE" to `personBouncingBallTone4`,
+              "\u26F9\uD83C\uDFFF" to `personBouncingBallTone5`,
+              "\u26F9\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanBouncingBallTone1`,
+              "\u26F9\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanBouncingBallTone2`,
+              "\u26F9\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanBouncingBallTone3`,
+              "\u26F9\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanBouncingBallTone4`,
+              "\u26F9\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanBouncingBallTone5`,
+              "\u26F9\uD83C\uDFFB\u200D\u2642\uFE0F" to `manBouncingBallTone1`,
+              "\u26F9\uD83C\uDFFC\u200D\u2642\uFE0F" to `manBouncingBallTone2`,
+              "\u26F9\uD83C\uDFFD\u200D\u2642\uFE0F" to `manBouncingBallTone3`,
+              "\u26F9\uD83C\uDFFE\u200D\u2642\uFE0F" to `manBouncingBallTone4`,
+              "\u26F9\uD83C\uDFFF\u200D\u2642\uFE0F" to `manBouncingBallTone5`,
+              "\uD83E\uDD3E\uD83C\uDFFB" to `personPlayingHandballTone1`,
+              "\uD83E\uDD3E\uD83C\uDFFC" to `personPlayingHandballTone2`,
+              "\uD83E\uDD3E\uD83C\uDFFD" to `personPlayingHandballTone3`,
+              "\uD83E\uDD3E\uD83C\uDFFE" to `personPlayingHandballTone4`,
+              "\uD83E\uDD3E\uD83C\uDFFF" to `personPlayingHandballTone5`,
+              "\uD83E\uDD3E\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanPlayingHandballTone1`,
+              "\uD83E\uDD3E\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanPlayingHandballTone2`,
+              "\uD83E\uDD3E\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanPlayingHandballTone3`,
+              "\uD83E\uDD3E\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanPlayingHandballTone4`,
+              "\uD83E\uDD3E\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanPlayingHandballTone5`,
+              "\uD83E\uDD3E\uD83C\uDFFB\u200D\u2642\uFE0F" to `manPlayingHandballTone1`,
+              "\uD83E\uDD3E\uD83C\uDFFC\u200D\u2642\uFE0F" to `manPlayingHandballTone2`,
+              "\uD83E\uDD3E\uD83C\uDFFD\u200D\u2642\uFE0F" to `manPlayingHandballTone3`,
+              "\uD83E\uDD3E\uD83C\uDFFE\u200D\u2642\uFE0F" to `manPlayingHandballTone4`,
+              "\uD83E\uDD3E\uD83C\uDFFF\u200D\u2642\uFE0F" to `manPlayingHandballTone5`,
+              "\uD83C\uDFCC\uD83C\uDFFB" to `personGolfingTone1`,
+              "\uD83C\uDFCC\uD83C\uDFFC" to `personGolfingTone2`,
+              "\uD83C\uDFCC\uD83C\uDFFD" to `personGolfingTone3`,
+              "\uD83C\uDFCC\uD83C\uDFFE" to `personGolfingTone4`,
+              "\uD83C\uDFCC\uD83C\uDFFF" to `personGolfingTone5`,
+              "\uD83C\uDFCC\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanGolfingTone1`,
+              "\uD83C\uDFCC\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanGolfingTone2`,
+              "\uD83C\uDFCC\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanGolfingTone3`,
+              "\uD83C\uDFCC\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanGolfingTone4`,
+              "\uD83C\uDFCC\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanGolfingTone5`,
+              "\uD83C\uDFCC\uD83C\uDFFB\u200D\u2642\uFE0F" to `manGolfingTone1`,
+              "\uD83C\uDFCC\uD83C\uDFFC\u200D\u2642\uFE0F" to `manGolfingTone2`,
+              "\uD83C\uDFCC\uD83C\uDFFD\u200D\u2642\uFE0F" to `manGolfingTone3`,
+              "\uD83C\uDFCC\uD83C\uDFFE\u200D\u2642\uFE0F" to `manGolfingTone4`,
+              "\uD83C\uDFCC\uD83C\uDFFF\u200D\u2642\uFE0F" to `manGolfingTone5`,
+              "\uD83C\uDFC7\uD83C\uDFFB" to `horseRacingTone1`,
+              "\uD83C\uDFC7\uD83C\uDFFC" to `horseRacingTone2`,
+              "\uD83C\uDFC7\uD83C\uDFFD" to `horseRacingTone3`,
+              "\uD83C\uDFC7\uD83C\uDFFE" to `horseRacingTone4`,
+              "\uD83C\uDFC7\uD83C\uDFFF" to `horseRacingTone5`,
+              "\uD83E\uDDD8\uD83C\uDFFB" to `personInLotusPositionTone1`,
+              "\uD83E\uDDD8\uD83C\uDFFC" to `personInLotusPositionTone2`,
+              "\uD83E\uDDD8\uD83C\uDFFD" to `personInLotusPositionTone3`,
+              "\uD83E\uDDD8\uD83C\uDFFE" to `personInLotusPositionTone4`,
+              "\uD83E\uDDD8\uD83C\uDFFF" to `personInLotusPositionTone5`,
+              "\uD83E\uDDD8\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanInLotusPositionTone1`,
+              "\uD83E\uDDD8\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanInLotusPositionTone2`,
+              "\uD83E\uDDD8\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanInLotusPositionTone3`,
+              "\uD83E\uDDD8\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanInLotusPositionTone4`,
+              "\uD83E\uDDD8\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanInLotusPositionTone5`,
+              "\uD83E\uDDD8\uD83C\uDFFB\u200D\u2642\uFE0F" to `manInLotusPositionTone1`,
+              "\uD83E\uDDD8\uD83C\uDFFC\u200D\u2642\uFE0F" to `manInLotusPositionTone2`,
+              "\uD83E\uDDD8\uD83C\uDFFD\u200D\u2642\uFE0F" to `manInLotusPositionTone3`,
+              "\uD83E\uDDD8\uD83C\uDFFE\u200D\u2642\uFE0F" to `manInLotusPositionTone4`,
+              "\uD83E\uDDD8\uD83C\uDFFF\u200D\u2642\uFE0F" to `manInLotusPositionTone5`,
+              "\uD83C\uDFC4\uD83C\uDFFB" to `personSurfingTone1`,
+              "\uD83C\uDFC4\uD83C\uDFFC" to `personSurfingTone2`,
+              "\uD83C\uDFC4\uD83C\uDFFD" to `personSurfingTone3`,
+              "\uD83C\uDFC4\uD83C\uDFFE" to `personSurfingTone4`,
+              "\uD83C\uDFC4\uD83C\uDFFF" to `personSurfingTone5`,
+              "\uD83C\uDFC4\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanSurfingTone1`,
+              "\uD83C\uDFC4\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanSurfingTone2`,
+              "\uD83C\uDFC4\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanSurfingTone3`,
+              "\uD83C\uDFC4\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanSurfingTone4`,
+              "\uD83C\uDFC4\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanSurfingTone5`,
+              "\uD83C\uDFC4\uD83C\uDFFB\u200D\u2642\uFE0F" to `manSurfingTone1`,
+              "\uD83C\uDFC4\uD83C\uDFFC\u200D\u2642\uFE0F" to `manSurfingTone2`,
+              "\uD83C\uDFC4\uD83C\uDFFD\u200D\u2642\uFE0F" to `manSurfingTone3`,
+              "\uD83C\uDFC4\uD83C\uDFFE\u200D\u2642\uFE0F" to `manSurfingTone4`,
+              "\uD83C\uDFC4\uD83C\uDFFF\u200D\u2642\uFE0F" to `manSurfingTone5`,
+              "\uD83C\uDFCA\uD83C\uDFFB" to `personSwimmingTone1`,
+              "\uD83C\uDFCA\uD83C\uDFFC" to `personSwimmingTone2`,
+              "\uD83C\uDFCA\uD83C\uDFFD" to `personSwimmingTone3`,
+              "\uD83C\uDFCA\uD83C\uDFFE" to `personSwimmingTone4`,
+              "\uD83C\uDFCA\uD83C\uDFFF" to `personSwimmingTone5`,
+              "\uD83C\uDFCA\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanSwimmingTone1`,
+              "\uD83C\uDFCA\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanSwimmingTone2`,
+              "\uD83C\uDFCA\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanSwimmingTone3`,
+              "\uD83C\uDFCA\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanSwimmingTone4`,
+              "\uD83C\uDFCA\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanSwimmingTone5`,
+              "\uD83C\uDFCA\uD83C\uDFFB\u200D\u2642\uFE0F" to `manSwimmingTone1`,
+              "\uD83C\uDFCA\uD83C\uDFFC\u200D\u2642\uFE0F" to `manSwimmingTone2`,
+              "\uD83C\uDFCA\uD83C\uDFFD\u200D\u2642\uFE0F" to `manSwimmingTone3`,
+              "\uD83C\uDFCA\uD83C\uDFFE\u200D\u2642\uFE0F" to `manSwimmingTone4`,
+              "\uD83C\uDFCA\uD83C\uDFFF\u200D\u2642\uFE0F" to `manSwimmingTone5`,
+              "\uD83E\uDD3D\uD83C\uDFFB" to `personPlayingWaterPoloTone1`,
+              "\uD83E\uDD3D\uD83C\uDFFC" to `personPlayingWaterPoloTone2`,
+              "\uD83E\uDD3D\uD83C\uDFFD" to `personPlayingWaterPoloTone3`,
+              "\uD83E\uDD3D\uD83C\uDFFE" to `personPlayingWaterPoloTone4`,
+              "\uD83E\uDD3D\uD83C\uDFFF" to `personPlayingWaterPoloTone5`,
+              "\uD83E\uDD3D\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanPlayingWaterPoloTone1`,
+              "\uD83E\uDD3D\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanPlayingWaterPoloTone2`,
+              "\uD83E\uDD3D\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanPlayingWaterPoloTone3`,
+              "\uD83E\uDD3D\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanPlayingWaterPoloTone4`,
+              "\uD83E\uDD3D\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanPlayingWaterPoloTone5`,
+              "\uD83E\uDD3D\uD83C\uDFFB\u200D\u2642\uFE0F" to `manPlayingWaterPoloTone1`,
+              "\uD83E\uDD3D\uD83C\uDFFC\u200D\u2642\uFE0F" to `manPlayingWaterPoloTone2`,
+              "\uD83E\uDD3D\uD83C\uDFFD\u200D\u2642\uFE0F" to `manPlayingWaterPoloTone3`,
+              "\uD83E\uDD3D\uD83C\uDFFE\u200D\u2642\uFE0F" to `manPlayingWaterPoloTone4`,
+              "\uD83E\uDD3D\uD83C\uDFFF\u200D\u2642\uFE0F" to `manPlayingWaterPoloTone5`,
+              "\uD83D\uDEA3\uD83C\uDFFB" to `personRowingBoatTone1`,
+              "\uD83D\uDEA3\uD83C\uDFFC" to `personRowingBoatTone2`,
+              "\uD83D\uDEA3\uD83C\uDFFD" to `personRowingBoatTone3`,
+              "\uD83D\uDEA3\uD83C\uDFFE" to `personRowingBoatTone4`,
+              "\uD83D\uDEA3\uD83C\uDFFF" to `personRowingBoatTone5`,
+              "\uD83D\uDEA3\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanRowingBoatTone1`,
+              "\uD83D\uDEA3\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanRowingBoatTone2`,
+              "\uD83D\uDEA3\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanRowingBoatTone3`,
+              "\uD83D\uDEA3\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanRowingBoatTone4`,
+              "\uD83D\uDEA3\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanRowingBoatTone5`,
+              "\uD83D\uDEA3\uD83C\uDFFB\u200D\u2642\uFE0F" to `manRowingBoatTone1`,
+              "\uD83D\uDEA3\uD83C\uDFFC\u200D\u2642\uFE0F" to `manRowingBoatTone2`,
+              "\uD83D\uDEA3\uD83C\uDFFD\u200D\u2642\uFE0F" to `manRowingBoatTone3`,
+              "\uD83D\uDEA3\uD83C\uDFFE\u200D\u2642\uFE0F" to `manRowingBoatTone4`,
+              "\uD83D\uDEA3\uD83C\uDFFF\u200D\u2642\uFE0F" to `manRowingBoatTone5`,
+              "\uD83E\uDDD7\uD83C\uDFFB" to `personClimbingTone1`,
+              "\uD83E\uDDD7\uD83C\uDFFC" to `personClimbingTone2`,
+              "\uD83E\uDDD7\uD83C\uDFFD" to `personClimbingTone3`,
+              "\uD83E\uDDD7\uD83C\uDFFE" to `personClimbingTone4`,
+              "\uD83E\uDDD7\uD83C\uDFFF" to `personClimbingTone5`,
+              "\uD83E\uDDD7\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanClimbingTone1`,
+              "\uD83E\uDDD7\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanClimbingTone2`,
+              "\uD83E\uDDD7\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanClimbingTone3`,
+              "\uD83E\uDDD7\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanClimbingTone4`,
+              "\uD83E\uDDD7\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanClimbingTone5`,
+              "\uD83E\uDDD7\uD83C\uDFFB\u200D\u2642\uFE0F" to `manClimbingTone1`,
+              "\uD83E\uDDD7\uD83C\uDFFC\u200D\u2642\uFE0F" to `manClimbingTone2`,
+              "\uD83E\uDDD7\uD83C\uDFFD\u200D\u2642\uFE0F" to `manClimbingTone3`,
+              "\uD83E\uDDD7\uD83C\uDFFE\u200D\u2642\uFE0F" to `manClimbingTone4`,
+              "\uD83E\uDDD7\uD83C\uDFFF\u200D\u2642\uFE0F" to `manClimbingTone5`,
+              "\uD83D\uDEB5\uD83C\uDFFB" to `personMountainBikingTone1`,
+              "\uD83D\uDEB5\uD83C\uDFFC" to `personMountainBikingTone2`,
+              "\uD83D\uDEB5\uD83C\uDFFD" to `personMountainBikingTone3`,
+              "\uD83D\uDEB5\uD83C\uDFFE" to `personMountainBikingTone4`,
+              "\uD83D\uDEB5\uD83C\uDFFF" to `personMountainBikingTone5`,
+              "\uD83D\uDEB5\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanMountainBikingTone1`,
+              "\uD83D\uDEB5\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanMountainBikingTone2`,
+              "\uD83D\uDEB5\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanMountainBikingTone3`,
+              "\uD83D\uDEB5\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanMountainBikingTone4`,
+              "\uD83D\uDEB5\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanMountainBikingTone5`,
+              "\uD83D\uDEB5\uD83C\uDFFB\u200D\u2642\uFE0F" to `manMountainBikingTone1`,
+              "\uD83D\uDEB5\uD83C\uDFFC\u200D\u2642\uFE0F" to `manMountainBikingTone2`,
+              "\uD83D\uDEB5\uD83C\uDFFD\u200D\u2642\uFE0F" to `manMountainBikingTone3`,
+              "\uD83D\uDEB5\uD83C\uDFFE\u200D\u2642\uFE0F" to `manMountainBikingTone4`,
+              "\uD83D\uDEB5\uD83C\uDFFF\u200D\u2642\uFE0F" to `manMountainBikingTone5`,
+              "\uD83D\uDEB4\uD83C\uDFFB" to `personBikingTone1`,
+              "\uD83D\uDEB4\uD83C\uDFFC" to `personBikingTone2`,
+              "\uD83D\uDEB4\uD83C\uDFFD" to `personBikingTone3`,
+              "\uD83D\uDEB4\uD83C\uDFFE" to `personBikingTone4`,
+              "\uD83D\uDEB4\uD83C\uDFFF" to `personBikingTone5`,
+              "\uD83D\uDEB4\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanBikingTone1`,
+              "\uD83D\uDEB4\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanBikingTone2`,
+              "\uD83D\uDEB4\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanBikingTone3`,
+              "\uD83D\uDEB4\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanBikingTone4`,
+              "\uD83D\uDEB4\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanBikingTone5`,
+              "\uD83D\uDEB4\uD83C\uDFFB\u200D\u2642\uFE0F" to `manBikingTone1`,
+              "\uD83D\uDEB4\uD83C\uDFFC\u200D\u2642\uFE0F" to `manBikingTone2`,
+              "\uD83D\uDEB4\uD83C\uDFFD\u200D\u2642\uFE0F" to `manBikingTone3`,
+              "\uD83D\uDEB4\uD83C\uDFFE\u200D\u2642\uFE0F" to `manBikingTone4`,
+              "\uD83D\uDEB4\uD83C\uDFFF\u200D\u2642\uFE0F" to `manBikingTone5`,
+              "\uD83E\uDD39\uD83C\uDFFB" to `personJugglingTone1`,
+              "\uD83E\uDD39\uD83C\uDFFC" to `personJugglingTone2`,
+              "\uD83E\uDD39\uD83C\uDFFD" to `personJugglingTone3`,
+              "\uD83E\uDD39\uD83C\uDFFE" to `personJugglingTone4`,
+              "\uD83E\uDD39\uD83C\uDFFF" to `personJugglingTone5`,
+              "\uD83E\uDD39\uD83C\uDFFB\u200D\u2640\uFE0F" to `womanJugglingTone1`,
+              "\uD83E\uDD39\uD83C\uDFFC\u200D\u2640\uFE0F" to `womanJugglingTone2`,
+              "\uD83E\uDD39\uD83C\uDFFD\u200D\u2640\uFE0F" to `womanJugglingTone3`,
+              "\uD83E\uDD39\uD83C\uDFFE\u200D\u2640\uFE0F" to `womanJugglingTone4`,
+              "\uD83E\uDD39\uD83C\uDFFF\u200D\u2640\uFE0F" to `womanJugglingTone5`,
+              "\uD83E\uDD39\uD83C\uDFFB\u200D\u2642\uFE0F" to `manJugglingTone1`,
+              "\uD83E\uDD39\uD83C\uDFFC\u200D\u2642\uFE0F" to `manJugglingTone2`,
+              "\uD83E\uDD39\uD83C\uDFFD\u200D\u2642\uFE0F" to `manJugglingTone3`,
+              "\uD83E\uDD39\uD83C\uDFFE\u200D\u2642\uFE0F" to `manJugglingTone4`,
+              "\uD83E\uDD39\uD83C\uDFFF\u200D\u2642\uFE0F" to `manJugglingTone5`,
+              "\uD83D\uDEC0\uD83C\uDFFB" to `bathTone1`,
+              "\uD83D\uDEC0\uD83C\uDFFC" to `bathTone2`,
+              "\uD83D\uDEC0\uD83C\uDFFD" to `bathTone3`,
+              "\uD83D\uDEC0\uD83C\uDFFE" to `bathTone4`,
+              "\uD83D\uDEC0\uD83C\uDFFF" to `bathTone5`,
+              "\uD83D\uDECC\uD83C\uDFFB" to `personInBedTone1`,
+              "\uD83D\uDECC\uD83C\uDFFC" to `personInBedTone2`,
+              "\uD83D\uDECC\uD83C\uDFFD" to `personInBedTone3`,
+              "\uD83D\uDECC\uD83C\uDFFE" to `personInBedTone4`,
+              "\uD83D\uDECC\uD83C\uDFFF" to `personInBedTone5`,
+              "\uD83C\uDFFB" to `skin-tone-1`,
+              "\uD83C\uDFFC" to `skin-tone-2`,
+              "\uD83C\uDFFD" to `skin-tone-3`,
+              "\uD83C\uDFFE" to `skin-tone-4`,
+              "\uD83C\uDFFF" to `skin-tone-5`    
       )
 
   public val grinning: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE00")
+
+  public val grinningFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE00")
 
   public val smiley: DiscordEmoji.Generic
@@ -1780,6 +3842,9 @@ public object Emojis {
   public val satisfied: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE06")
 
+  public val faceHoldingBackTears: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD79")
+
   public val sweatSmile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE05")
 
@@ -1792,7 +3857,13 @@ public object Emojis {
   public val rollingOnTheFloorLaughing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD23")
 
+  public val smilingFaceWithTear: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD72")
+
   public val relaxed: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u263A\uFE0F")
+
+  public val smilingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u263A\uFE0F")
 
   public val blush: DiscordEmoji.Generic
@@ -1816,7 +3887,13 @@ public object Emojis {
   public val wink: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE09")
 
+  public val winkingFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE09")
+
   public val relieved: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE0C")
+
+  public val relievedFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0C")
 
   public val heartEyes: DiscordEmoji.Generic
@@ -1829,6 +3906,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDE18")
 
   public val kissing: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE17")
+
+  public val kissingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE17")
 
   public val kissingSmilingEyes: DiscordEmoji.Generic
@@ -1867,6 +3947,9 @@ public object Emojis {
   public val sunglasses: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0E")
 
+  public val disguisedFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD78")
+
   public val starStruck: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD29")
 
@@ -1876,7 +3959,13 @@ public object Emojis {
   public val smirk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE0F")
 
+  public val smirkingFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE0F")
+
   public val unamused: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE12")
+
+  public val unamusedFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE12")
 
   public val disappointed: DiscordEmoji.Generic
@@ -1885,10 +3974,19 @@ public object Emojis {
   public val pensive: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE14")
 
+  public val pensiveFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE14")
+
   public val worried: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE1F")
 
+  public val worriedFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE1F")
+
   public val confused: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE15")
+
+  public val confusedFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE15")
 
   public val slightFrown: DiscordEmoji.Generic
@@ -1903,6 +4001,9 @@ public object Emojis {
   public val whiteFrowningFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2639\uFE0F")
 
+  public val frowningFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2639\uFE0F")
+
   public val persevere: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE23")
 
@@ -1915,10 +4016,16 @@ public object Emojis {
   public val weary: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE29")
 
+  public val wearyFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE29")
+
   public val pleadingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7A")
 
   public val cry: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE22")
+
+  public val cryingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE22")
 
   public val sob: DiscordEmoji.Generic
@@ -1930,7 +4037,13 @@ public object Emojis {
   public val angry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE20")
 
+  public val angryFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE20")
+
   public val rage: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE21")
+
+  public val poutingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE21")
 
   public val faceWithSymbolsOverMouth: DiscordEmoji.Generic
@@ -1942,16 +4055,25 @@ public object Emojis {
   public val flushed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE33")
 
+  public val flushedFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE33")
+
   public val hotFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD75")
 
   public val coldFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD76")
 
+  public val faceInClouds: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE36\u200D\uD83C\uDF2B\uFE0F")
+
   public val scream: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE31")
 
   public val fearful: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE28")
+
+  public val fearfulFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE28")
 
   public val coldSweat: DiscordEmoji.Generic
@@ -1975,14 +4097,23 @@ public object Emojis {
   public val thinkingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD14")
 
+  public val faceWithPeekingEye: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE3")
+
   public val faceWithHandOverMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2D")
 
-  public val yawningFace: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD71")
+  public val faceWithOpenEyesAndHandOverMouth: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE2")
+
+  public val salutingFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE1")
 
   public val shushingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD2B")
+
+  public val meltingFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE0")
 
   public val lyingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD25")
@@ -1993,11 +4124,26 @@ public object Emojis {
   public val noMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE36")
 
+  public val dottedLineFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE5")
+
   public val neutralFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE10")
 
+  public val faceWithDiagonalMouth: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE4")
+
   public val expressionless: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE11")
+
+  public val shakingFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE8")
+
+  public val headShakingHorizontally: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE42\u200D\u2194\uFE0F")
+
+  public val headShakingVertically: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE42\u200D\u2195\uFE0F")
 
   public val grimacing: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2C")
@@ -2009,6 +4155,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDE44")
 
   public val hushed: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE2F")
+
+  public val hushedFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2F")
 
   public val frowning: DiscordEmoji.Generic
@@ -2023,7 +4172,13 @@ public object Emojis {
   public val astonished: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE32")
 
+  public val yawningFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD71")
+
   public val sleeping: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE34")
+
+  public val sleepingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE34")
 
   public val droolingFace: DiscordEmoji.Generic
@@ -2035,8 +4190,17 @@ public object Emojis {
   public val sleepy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE2A")
 
+  public val sleepyFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE2A")
+
+  public val faceExhaling: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE2E\u200D\uD83D\uDCA8")
+
   public val dizzyFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE35")
+
+  public val faceWithSpiralEyes: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE35\u200D\uD83D\uDCAB")
 
   public val zipperMouth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD10")
@@ -2098,7 +4262,13 @@ public object Emojis {
   public val japaneseOgre: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC79")
 
+  public val ogre: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC79")
+
   public val japaneseGoblin: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC7A")
+
+  public val goblin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC7A")
 
   public val clown: DiscordEmoji.Generic
@@ -2117,6 +4287,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDCA9")
 
   public val poo: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCA9")
+
+  public val pileOfPoo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA9")
 
   public val ghost: DiscordEmoji.Generic
@@ -2140,6 +4313,9 @@ public object Emojis {
   public val spaceInvader: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC7E")
 
+  public val alienMonster: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC7E")
+
   public val robot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD16")
 
@@ -2150,6 +4326,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83C\uDF83")
 
   public val smileyCat: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE3A")
+
+  public val grinningCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3A")
 
   public val smileCat: DiscordEmoji.Generic
@@ -2170,11 +4349,26 @@ public object Emojis {
   public val screamCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE40")
 
+  public val wearyCat: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE40")
+
   public val cryingCatFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE3F")
+
+  public val cryingCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3F")
 
   public val poutingCat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE3E")
+
+  public val handshake: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D")
+
+  public val shakingHands: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D")
+
+  public val heartHands: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF6")
 
   public val palmsUpTogether: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD32")
@@ -2185,14 +4379,11 @@ public object Emojis {
   public val raisedHands: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4C")
 
+  public val raisingHands: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDE4C")
+
   public val clap: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4F")
-
-  public val handshake: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD1D")
-
-  public val shakingHands: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD1D")
 
   public val thumbsup: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4D")
@@ -2201,6 +4392,9 @@ public object Emojis {
     get() = DiscordEmoji.Diverse("\uD83D\uDC4D")
 
   public val thumbup: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC4D")
+
+  public val thumbsUp: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4D")
 
   public val thumbsdown: DiscordEmoji.Diverse
@@ -2212,10 +4406,19 @@ public object Emojis {
   public val thumbdown: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4E")
 
+  public val thumbsDown: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC4E")
+
   public val punch: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4A")
 
+  public val oncomingFist: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC4A")
+
   public val fist: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\u270A")
+
+  public val raisedFist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u270A")
 
   public val leftFacingFist: DiscordEmoji.Diverse
@@ -2230,6 +4433,12 @@ public object Emojis {
   public val rightFist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1C")
 
+  public val leftwardsPushingHand: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF7")
+
+  public val rightwardsPushingHand: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF8")
+
   public val fingersCrossed: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1E")
 
@@ -2238,6 +4447,12 @@ public object Emojis {
 
   public val v: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\u270C\uFE0F")
+
+  public val victoryHand: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\u270C\uFE0F")
+
+  public val handWithIndexFingerAndThumbCrossed: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF0")
 
   public val loveYouGesture: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD1F")
@@ -2251,8 +4466,17 @@ public object Emojis {
   public val okHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4C")
 
+  public val pinchedFingers: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDD0C")
+
   public val pinchingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD0F")
+
+  public val palmDownHand: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF3")
+
+  public val palmUpHand: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF4")
 
   public val pointLeft: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC48")
@@ -2290,7 +4514,13 @@ public object Emojis {
   public val raisedHandWithPartBetweenMiddleAndRingFingers: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD96")
 
+  public val vulcanSalute: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDD96")
+
   public val wave: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC4B")
+
+  public val wavingHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC4B")
 
   public val callMe: DiscordEmoji.Diverse
@@ -2299,7 +4529,16 @@ public object Emojis {
   public val callMeHand: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD19")
 
+  public val leftwardsHand: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF2")
+
+  public val rightwardsHand: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF1")
+
   public val muscle: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDCAA")
+
+  public val flexedBiceps: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDCAA")
 
   public val mechanicalArm: DiscordEmoji.Generic
@@ -2317,6 +4556,12 @@ public object Emojis {
   public val pray: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE4F")
 
+  public val foldedHands: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDE4F")
+
+  public val indexPointingAtTheViewer: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEF5")
+
   public val foot: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB6")
 
@@ -2332,14 +4577,20 @@ public object Emojis {
   public val kiss: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8B")
 
+  public val kissMark: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8B")
+
   public val lips: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC44")
 
+  public val mouth: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC44")
+
+  public val bitingLip: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE6")
+
   public val tooth: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDB7")
-
-  public val bone: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDB4")
 
   public val tongue: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC45")
@@ -2362,6 +4613,12 @@ public object Emojis {
   public val eyes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC40")
 
+  public val anatomicalHeart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC0")
+
+  public val lungs: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC1")
+
   public val brain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE0")
 
@@ -2377,26 +4634,35 @@ public object Emojis {
   public val bustsInSilhouette: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC65")
 
+  public val peopleHugging: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC2")
+
   public val baby: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC76")
-
-  public val girl: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC67")
 
   public val child: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD2")
 
+  public val girl: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC67")
+
   public val boy: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC66")
-
-  public val woman: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC69")
 
   public val adult: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD1")
 
+  public val person: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1")
+
+  public val woman: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69")
+
   public val man: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68")
+
+  public val personCurlyHair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDB1")
 
   public val womanCurlyHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB1")
@@ -2404,14 +4670,17 @@ public object Emojis {
   public val manCurlyHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB1")
 
+  public val personRedHair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDB0")
+
   public val womanRedHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB0")
 
   public val manRedHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB0")
 
-  public val blondHairedWoman: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC71\u200D\u2640\uFE0F")
+  public val manRedHair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB0")
 
   public val blondHairedPerson: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC71")
@@ -2419,14 +4688,23 @@ public object Emojis {
   public val personWithBlondHair: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC71")
 
+  public val blondHairedWoman: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC71\u200D\u2640\uFE0F")
+
   public val blondHairedMan: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC71\u200D\u2642\uFE0F")
+
+  public val personWhiteHair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDB3")
 
   public val womanWhiteHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB3")
 
   public val manWhiteHaired: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDB3")
+
+  public val personBald: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDB2")
 
   public val womanBald: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDB2")
@@ -2437,16 +4715,34 @@ public object Emojis {
   public val beardedPerson: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDD4")
 
+  public val personBeard: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD4")
+
+  public val womanBeard: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD4\u200D\u2640\uFE0F")
+
+  public val manBeard: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD4\u200D\u2642\uFE0F")
+
+  public val olderAdult: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD3")
+
+  public val olderPerson: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD3")
+
   public val olderWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC75")
 
   public val grandma: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC75")
 
-  public val olderAdult: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83E\uDDD3")
+  public val oldWoman: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC75")
 
   public val olderMan: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC74")
+
+  public val oldMan: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC74")
 
   public val manWithChineseCap: DiscordEmoji.Diverse
@@ -2518,11 +4814,17 @@ public object Emojis {
   public val manDetective: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD75\uFE0F\u200D\u2642\uFE0F")
 
+  public val healthWorker: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\u2695\uFE0F")
+
   public val womanHealthWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\u2695\uFE0F")
 
   public val manHealthWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\u2695\uFE0F")
+
+  public val farmer: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDF3E")
 
   public val womanFarmer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDF3E")
@@ -2530,11 +4832,17 @@ public object Emojis {
   public val manFarmer: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDF3E")
 
+  public val cook: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDF73")
+
   public val womanCook: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDF73")
 
   public val manCook: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDF73")
+
+  public val student: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDF93")
 
   public val womanStudent: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDF93")
@@ -2542,11 +4850,17 @@ public object Emojis {
   public val manStudent: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDF93")
 
+  public val singer: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDFA4")
+
   public val womanSinger: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFA4")
 
   public val manSinger: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFA4")
+
+  public val teacher: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDFEB")
 
   public val womanTeacher: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFEB")
@@ -2554,11 +4868,17 @@ public object Emojis {
   public val manTeacher: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFEB")
 
+  public val factoryWorker: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDFED")
+
   public val womanFactoryWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFED")
 
   public val manFactoryWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFED")
+
+  public val technologist: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83D\uDCBB")
 
   public val womanTechnologist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDCBB")
@@ -2566,11 +4886,17 @@ public object Emojis {
   public val manTechnologist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDCBB")
 
+  public val officeWorker: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83D\uDCBC")
+
   public val womanOfficeWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDCBC")
 
   public val manOfficeWorker: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDCBC")
+
+  public val mechanic: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83D\uDD27")
 
   public val womanMechanic: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDD27")
@@ -2578,11 +4904,17 @@ public object Emojis {
   public val manMechanic: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDD27")
 
+  public val scientist: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83D\uDD2C")
+
   public val womanScientist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDD2C")
 
   public val manScientist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDD2C")
+
+  public val artist: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDFA8")
 
   public val womanArtist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDFA8")
@@ -2590,11 +4922,17 @@ public object Emojis {
   public val manArtist: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDFA8")
 
+  public val firefighter: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83D\uDE92")
+
   public val womanFirefighter: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDE92")
 
   public val manFirefighter: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDE92")
+
+  public val pilot: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\u2708\uFE0F")
 
   public val womanPilot: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\u2708\uFE0F")
@@ -2602,11 +4940,17 @@ public object Emojis {
   public val manPilot: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\u2708\uFE0F")
 
+  public val astronaut: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83D\uDE80")
+
   public val womanAstronaut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83D\uDE80")
 
   public val manAstronaut: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83D\uDE80")
+
+  public val judge: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\u2696\uFE0F")
 
   public val womanJudge: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\u2696\uFE0F")
@@ -2614,11 +4958,29 @@ public object Emojis {
   public val manJudge: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\u2696\uFE0F")
 
-  public val brideWithVeil: DiscordEmoji.Diverse
+  public val personWithVeil: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC70")
 
-  public val manInTuxedo: DiscordEmoji.Diverse
+  public val womanWithVeil: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC70\u200D\u2640\uFE0F")
+
+  public val brideWithVeil: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC70\u200D\u2640\uFE0F")
+
+  public val manWithVeil: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC70\u200D\u2642\uFE0F")
+
+  public val personInTuxedo: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD35")
+
+  public val womanInTuxedo: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDD35\u200D\u2640\uFE0F")
+
+  public val manInTuxedo: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDD35\u200D\u2642\uFE0F")
+
+  public val personWithCrown: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEC5")
 
   public val princess: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC78")
@@ -2644,6 +5006,12 @@ public object Emojis {
   public val manSupervillain: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDB9\u200D\u2642\uFE0F")
 
+  public val ninja: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDD77")
+
+  public val mxClaus: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDF84")
+
   public val mrsClaus: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD36")
 
@@ -2651,6 +5019,9 @@ public object Emojis {
     get() = DiscordEmoji.Diverse("\uD83E\uDD36")
 
   public val santa: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83C\uDF85")
+
+  public val santaClaus: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDF85")
 
   public val mage: DiscordEmoji.Diverse
@@ -2670,6 +5041,9 @@ public object Emojis {
 
   public val manElf: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDD\u200D\u2642\uFE0F")
+
+  public val troll: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCC")
 
   public val vampire: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDDB")
@@ -2719,14 +5093,32 @@ public object Emojis {
   public val angel: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC7C")
 
+  public val babyAngel: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC7C")
+
+  public val pregnantPerson: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEC4")
+
   public val pregnantWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD30")
 
   public val expectingWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD30")
 
+  public val pregnantMan: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDEC3")
+
   public val breastFeeding: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD31")
+
+  public val personFeedingBaby: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBaby: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83C\uDF7C")
+
+  public val manFeedingBaby: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83C\uDF7C")
 
   public val personBowing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE47")
@@ -2765,9 +5157,6 @@ public object Emojis {
     get() = DiscordEmoji.Diverse("\uD83D\uDE45\u200D\u2642\uFE0F")
 
   public val personGesturingOk: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDE46")
-
-  public val okWoman: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDE46")
 
   public val womanGesturingOk: DiscordEmoji.Diverse
@@ -2881,10 +5270,16 @@ public object Emojis {
   public val nailCare: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC85")
 
+  public val nailPolish: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC85")
+
   public val selfie: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDD33")
 
   public val dancer: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC83")
+
+  public val womanDancing: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDC83")
 
   public val manDancing: DiscordEmoji.Diverse
@@ -2911,6 +5306,42 @@ public object Emojis {
   public val manInBusinessSuitLevitating: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDD74\uFE0F")
 
+  public val personInManualWheelchair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchair: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
   public val personWalking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB6")
 
@@ -2922,6 +5353,51 @@ public object Emojis {
 
   public val manWalking: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDEB6\u200D\u2642\uFE0F")
+
+  public val personWalkingFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDEB6\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDEB6\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDEB6\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val personWithProbingCane: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCane: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCane: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDAF")
+
+  public val personWithWhiteCaneFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDD1\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personKneeling: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDCE")
+
+  public val womanKneeling: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2640\uFE0F")
+
+  public val manKneeling: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2642\uFE0F")
+
+  public val personKneelingFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
 
   public val personRunning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC3")
@@ -2935,6 +5411,15 @@ public object Emojis {
   public val manRunning: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC3\u200D\u2642\uFE0F")
 
+  public val personRunningFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83C\uDFC3\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83C\uDFC3\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRight: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83C\uDFC3\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
   public val personStanding: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCD")
 
@@ -2943,33 +5428,6 @@ public object Emojis {
 
   public val manStanding: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83E\uDDCD\u200D\u2642\uFE0F")
-
-  public val personKneeling: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83E\uDDCE")
-
-  public val womanKneeling: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2640\uFE0F")
-
-  public val manKneeling: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83E\uDDCE\u200D\u2642\uFE0F")
-
-  public val womanWithProbingCane: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDAF")
-
-  public val manWithProbingCane: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDAF")
-
-  public val womanInMotorizedWheelchair: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBC")
-
-  public val manInMotorizedWheelchair: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBC")
-
-  public val womanInManualWheelchair: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC69\u200D\uD83E\uDDBD")
-
-  public val manInManualWheelchair: DiscordEmoji.Diverse
-    get() = DiscordEmoji.Diverse("\uD83D\uDC68\u200D\uD83E\uDDBD")
 
   public val peopleHoldingHands: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDD1\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1")
@@ -3005,24 +5463,34 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDC8F")
 
   public val kissWomanMan: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
 
   public val kissWw: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69")
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69")
 
   public val couplekissWw: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69")
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69")
 
   public val kissMm: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
 
   public val couplekissMm: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
+
+  public val kissManMan: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68")
+
+  public val familyAdultAdultChildChild: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\u200D\uD83E\uDDD1\u200D\uD83E\uDDD2\u200D\uD83E\uDDD2")
+
+  public val familyAdultAdultChild: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\u200D\uD83E\uDDD1\u200D\uD83E\uDDD2")
+
+  public val familyAdultChildChild: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\u200D\uD83E\uDDD2\u200D\uD83E\uDDD2")
+
+  public val familyAdultChild: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\u200D\uD83E\uDDD2")
 
   public val family: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC6A")
@@ -3034,16 +5502,13 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67")
 
   public val familyMwgb: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
   public val familyMwbb: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
   public val familyMwgg: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
   public val familyWwb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66")
@@ -3052,16 +5517,13 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67")
 
   public val familyWwgb: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
   public val familyWwbb: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
   public val familyWwgg: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC69\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
   public val familyMmb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66")
@@ -3070,16 +5532,13 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67")
 
   public val familyMmgb: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC66")
 
   public val familyMmbb: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC66\u200D\uD83D\uDC66")
 
   public val familyMmgg: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
   public val familyWomanBoy: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC69\u200D\uD83D\uDC66")
@@ -3111,11 +5570,17 @@ public object Emojis {
   public val familyManGirlGirl: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC68\u200D\uD83D\uDC67\u200D\uD83D\uDC67")
 
+  public val knot: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA2")
+
   public val yarn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF6")
 
   public val thread: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF5")
+
+  public val sewingNeedle: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA1")
 
   public val coat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE5")
@@ -3132,8 +5597,14 @@ public object Emojis {
   public val shirt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC55")
 
+  public val tShirt: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC55")
+
   public val jeans: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC56")
+
+  public val briefs: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE72")
 
   public val shorts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE73")
@@ -3156,7 +5627,13 @@ public object Emojis {
   public val sari: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7B")
 
+  public val thongSandal: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE74")
+
   public val womansFlatShoe: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD7F")
+
+  public val flatShoe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7F")
 
   public val highHeel: DiscordEmoji.Generic
@@ -3165,11 +5642,14 @@ public object Emojis {
   public val sandal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC61")
 
+  public val womansSandal: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC61")
+
   public val boot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC62")
 
-  public val balletShoes: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE70")
+  public val womansBoot: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC62")
 
   public val mansShoe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5E")
@@ -3177,11 +5657,11 @@ public object Emojis {
   public val athleticShoe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5F")
 
+  public val runningShoe: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC5F")
+
   public val hikingBoot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7E")
-
-  public val briefs: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE72")
 
   public val socks: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE6")
@@ -3193,6 +5673,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83E\uDDE3")
 
   public val tophat: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFA9")
+
+  public val topHat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA9")
 
   public val billedCap: DiscordEmoji.Generic
@@ -3210,6 +5693,9 @@ public object Emojis {
   public val helmetWithWhiteCross: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26D1\uFE0F")
 
+  public val militaryHelmet: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE96")
+
   public val crown: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC51")
 
@@ -3217,6 +5703,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDC8D")
 
   public val pouch: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC5D")
+
+  public val clutchBag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC5D")
 
   public val purse: DiscordEmoji.Generic
@@ -3231,10 +5720,16 @@ public object Emojis {
   public val schoolSatchel: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF92")
 
+  public val backpack: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF92")
+
   public val luggage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF3")
 
   public val eyeglasses: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC53")
+
+  public val glasses: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC53")
 
   public val darkSunglasses: DiscordEmoji.Generic
@@ -3243,25 +5738,34 @@ public object Emojis {
   public val goggles: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD7D")
 
-  public val divingMask: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD3F")
-
   public val closedUmbrella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF02")
 
   public val dog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC36")
 
+  public val dogFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC36")
+
   public val cat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC31")
 
+  public val catFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC31")
+
   public val mouse: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC2D")
+
+  public val mouseFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2D")
 
   public val hamster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC39")
 
   public val rabbit: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC30")
+
+  public val rabbitFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC30")
 
   public val fox: DiscordEmoji.Generic
@@ -3276,10 +5780,19 @@ public object Emojis {
   public val pandaFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC3C")
 
+  public val panda: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC3C")
+
+  public val polarBear: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC3B\u200D\u2744\uFE0F")
+
   public val koala: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC28")
 
   public val tiger: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC2F")
+
+  public val tigerFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2F")
 
   public val lionFace: DiscordEmoji.Generic
@@ -3291,7 +5804,13 @@ public object Emojis {
   public val cow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC2E")
 
+  public val cowFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC2E")
+
   public val pig: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC37")
+
+  public val pigFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC37")
 
   public val pigNose: DiscordEmoji.Generic
@@ -3333,8 +5852,14 @@ public object Emojis {
   public val hatchedChick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC25")
 
+  public val goose: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEBF")
+
   public val duck: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD86")
+
+  public val blackBird: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC26\u200D\u2B1B")
 
   public val eagle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD85")
@@ -3354,14 +5879,26 @@ public object Emojis {
   public val horse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC34")
 
+  public val horseFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC34")
+
   public val unicorn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD84")
 
   public val unicornFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD84")
 
+  public val moose: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDECE")
+
   public val bee: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1D")
+
+  public val honeybee: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC1D")
+
+  public val worm: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB1")
 
   public val bug: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1B")
@@ -3372,14 +5909,20 @@ public object Emojis {
   public val snail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0C")
 
-  public val shell: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDC1A")
-
-  public val beetle: DiscordEmoji.Generic
+  public val ladyBeetle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1E")
 
   public val ant: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC1C")
+
+  public val fly: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB0")
+
+  public val beetle: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB2")
+
+  public val cockroach: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB3")
 
   public val mosquito: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9F")
@@ -3417,14 +5960,14 @@ public object Emojis {
   public val squid: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD91")
 
+  public val jellyfish: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEBC")
+
   public val shrimp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD90")
 
   public val lobster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9E")
-
-  public val oyster: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDAA")
 
   public val crab: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD80")
@@ -3450,6 +5993,9 @@ public object Emojis {
   public val shark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD88")
 
+  public val seal: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDAD")
+
   public val crocodile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0A")
 
@@ -3467,6 +6013,9 @@ public object Emojis {
 
   public val orangutan: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA7")
+
+  public val mammoth: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDA3")
 
   public val elephant: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC18")
@@ -3492,6 +6041,9 @@ public object Emojis {
   public val kangaroo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD98")
 
+  public val bison: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDAC")
+
   public val waterBuffalo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC03")
 
@@ -3500,6 +6052,9 @@ public object Emojis {
 
   public val cow2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC04")
+
+  public val donkey: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDECF")
 
   public val racehorse: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0E")
@@ -3510,11 +6065,14 @@ public object Emojis {
   public val ram: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC0F")
 
-  public val llama: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD99")
-
   public val sheep: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC11")
+
+  public val ewe: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC11")
+
+  public val llama: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD99")
 
   public val goat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC10")
@@ -3525,23 +6083,35 @@ public object Emojis {
   public val dog2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC15")
 
+  public val poodle: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC29")
+
   public val guideDog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDAE")
 
   public val serviceDog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC15\u200D\uD83E\uDDBA")
 
-  public val poodle: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDC29")
-
   public val cat2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC08")
+
+  public val blackCat: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC08\u200D\u2B1B")
+
+  public val feather: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB6")
+
+  public val wing: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEBD")
 
   public val rooster: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC13")
 
   public val turkey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD83")
+
+  public val dodo: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDA4")
 
   public val peacock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD9A")
@@ -3564,20 +6134,23 @@ public object Emojis {
   public val rabbit2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC07")
 
-  public val sloth: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDA5")
-
-  public val otter: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDA6")
+  public val raccoon: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD9D")
 
   public val skunk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA8")
 
-  public val raccoon: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD9D")
-
   public val badger: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDA1")
+
+  public val beaver: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDAB")
+
+  public val otter: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDA6")
+
+  public val sloth: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDA5")
 
   public val mouse2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC01")
@@ -3603,6 +6176,9 @@ public object Emojis {
   public val dragonFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC32")
 
+  public val phoenix: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC26\u200D\uD83D\uDD25")
+
   public val cactus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF35")
 
@@ -3617,6 +6193,9 @@ public object Emojis {
 
   public val palmTree: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF34")
+
+  public val wood: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB5")
 
   public val seedling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF31")
@@ -3633,6 +6212,9 @@ public object Emojis {
   public val bamboo: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8D")
 
+  public val pottedPlant: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB4")
+
   public val tanabataTree: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8B")
 
@@ -3645,10 +6227,34 @@ public object Emojis {
   public val mapleLeaf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF41")
 
+  public val nestWithEggs: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEBA")
+
+  public val emptyNest: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB9")
+
   public val mushroom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF44")
 
+  public val brownMushroom: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF44\u200D\uD83D\uDFEB")
+
+  public val shell: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC1A")
+
+  public val spiralShell: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC1A")
+
+  public val coral: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB8")
+
+  public val rock: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA8")
+
   public val earOfRice: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF3E")
+
+  public val sheafOfRice: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3E")
 
   public val bouquet: DiscordEmoji.Generic
@@ -3665,6 +6271,12 @@ public object Emojis {
 
   public val wiltedFlower: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD40")
+
+  public val hyacinth: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEBB")
+
+  public val lotus: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEB7")
 
   public val hibiscus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3A")
@@ -3691,6 +6303,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83C\uDF1C")
 
   public val newMoonWithFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF1A")
+
+  public val newMoonFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1A")
 
   public val fullMoon: DiscordEmoji.Generic
@@ -3741,16 +6356,25 @@ public object Emojis {
   public val star2: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF1F")
 
+  public val glowingStar: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF1F")
+
   public val sparkles: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2728")
 
   public val zap: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26A1")
 
+  public val highVoltage: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26A1")
+
   public val comet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2604\uFE0F")
 
   public val boom: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCA5")
+
+  public val collision: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA5")
 
   public val fire: DiscordEmoji.Generic
@@ -3765,10 +6389,16 @@ public object Emojis {
   public val cloudWithTornado: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2A\uFE0F")
 
+  public val tornado: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF2A\uFE0F")
+
   public val rainbow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF08")
 
   public val sunny: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2600\uFE0F")
+
+  public val sun: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2600\uFE0F")
 
   public val whiteSunSmallCloud: DiscordEmoji.Generic
@@ -3831,7 +6461,13 @@ public object Emojis {
   public val windBlowingFace: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2C\uFE0F")
 
+  public val windFace: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF2C\uFE0F")
+
   public val dash: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCA8")
+
+  public val dashingAway: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA8")
 
   public val droplet: DiscordEmoji.Generic
@@ -3840,6 +6476,9 @@ public object Emojis {
   public val sweatDrops: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA6")
 
+  public val bubbles: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEE7")
+
   public val umbrella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2614")
 
@@ -3847,6 +6486,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\u2602\uFE0F")
 
   public val ocean: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF0A")
+
+  public val waterWave: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF0A")
 
   public val fog: DiscordEmoji.Generic
@@ -3858,6 +6500,9 @@ public object Emojis {
   public val apple: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4E")
 
+  public val redApple: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF4E")
+
   public val pear: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF50")
 
@@ -3866,6 +6511,9 @@ public object Emojis {
 
   public val lemon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4B")
+
+  public val lime: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF4B\u200D\uD83D\uDFE9")
 
   public val banana: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF4C")
@@ -3878,6 +6526,9 @@ public object Emojis {
 
   public val strawberry: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF53")
+
+  public val blueberries: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED0")
 
   public val melon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF48")
@@ -3903,6 +6554,9 @@ public object Emojis {
   public val kiwifruit: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5D")
 
+  public val kiwiFruit: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD5D")
+
   public val tomato: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF45")
 
@@ -3911,6 +6565,9 @@ public object Emojis {
 
   public val avocado: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD51")
+
+  public val peaPod: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEDB")
 
   public val broccoli: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD66")
@@ -3924,23 +6581,35 @@ public object Emojis {
   public val hotPepper: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF36\uFE0F")
 
+  public val bellPepper: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED1")
+
   public val corn: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF3D")
+
+  public val earOfCorn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF3D")
 
   public val carrot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD55")
 
-  public val onion: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDC5")
+  public val olive: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED2")
 
   public val garlic: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC4")
+
+  public val onion: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDC5")
 
   public val potato: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD54")
 
   public val sweetPotato: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF60")
+
+  public val gingerRoot: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEDA")
 
   public val croissant: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD50")
@@ -3972,6 +6641,9 @@ public object Emojis {
   public val cooking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF73")
 
+  public val butter: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDC8")
+
   public val pancakes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5E")
 
@@ -3990,6 +6662,9 @@ public object Emojis {
   public val meatOnBone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF56")
 
+  public val bone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB4")
+
   public val hotdog: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2D")
 
@@ -4002,14 +6677,17 @@ public object Emojis {
   public val fries: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5F")
 
+  public val frenchFries: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF5F")
+
   public val pizza: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF55")
 
+  public val flatbread: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED3")
+
   public val sandwich: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6A")
-
-  public val falafel: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDC6")
 
   public val stuffedFlatbread: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD59")
@@ -4017,11 +6695,17 @@ public object Emojis {
   public val stuffedPita: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD59")
 
+  public val falafel: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDC6")
+
   public val taco: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2E")
 
   public val burrito: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF2F")
+
+  public val tamale: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED4")
 
   public val salad: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD57")
@@ -4035,8 +6719,14 @@ public object Emojis {
   public val paella: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD58")
 
+  public val fondue: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED5")
+
   public val cannedFood: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD6B")
+
+  public val jar: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED9")
 
   public val spaghetti: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5D")
@@ -4044,10 +6734,19 @@ public object Emojis {
   public val ramen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5C")
 
+  public val steamingBowl: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF5C")
+
   public val stew: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF72")
 
+  public val potOfFood: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF72")
+
   public val curry: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF5B")
+
+  public val curryRice: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5B")
 
   public val sushi: DiscordEmoji.Generic
@@ -4056,8 +6755,14 @@ public object Emojis {
   public val bento: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF71")
 
+  public val bentoBox: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF71")
+
   public val dumpling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5F")
+
+  public val oyster: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDAA")
 
   public val friedShrimp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF64")
@@ -4066,6 +6771,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83C\uDF59")
 
   public val rice: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF5A")
+
+  public val cookedRice: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF5A")
 
   public val riceCracker: DiscordEmoji.Generic
@@ -4104,7 +6812,13 @@ public object Emojis {
   public val cake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF70")
 
+  public val shortcake: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF70")
+
   public val birthday: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF82")
+
+  public val birthdayCake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF82")
 
   public val custard: DiscordEmoji.Generic
@@ -4143,11 +6857,11 @@ public object Emojis {
   public val shelledPeanut: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5C")
 
+  public val beans: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED8")
+
   public val honeyPot: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF6F")
-
-  public val butter: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDC8")
 
   public val milk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5B")
@@ -4155,10 +6869,19 @@ public object Emojis {
   public val glassOfMilk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD5B")
 
+  public val pouringLiquid: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED7")
+
   public val babyBottle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7C")
 
+  public val teapot: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDED6")
+
   public val coffee: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2615")
+
+  public val hotBeverage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2615")
 
   public val tea: DiscordEmoji.Generic
@@ -4167,19 +6890,22 @@ public object Emojis {
   public val mate: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC9")
 
-  public val cupWithStraw: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD64")
-
   public val beverageBox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDC3")
 
-  public val iceCube: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDCA")
+  public val cupWithStraw: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD64")
+
+  public val bubbleTea: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCB")
 
   public val sake: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF76")
 
   public val beer: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF7A")
+
+  public val beerMug: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7A")
 
   public val beers: DiscordEmoji.Generic
@@ -4212,6 +6938,9 @@ public object Emojis {
   public val bottleWithPoppingCork: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF7E")
 
+  public val iceCube: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCA")
+
   public val spoon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD44")
 
@@ -4237,6 +6966,12 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83E\uDDC2")
 
   public val soccer: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26BD")
+
+  public val soccerBall: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26BD")
+
+  public val actualFootball: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26BD")
 
   public val basketball: DiscordEmoji.Generic
@@ -4266,6 +7001,9 @@ public object Emojis {
   public val `8ball`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB1")
 
+  public val yoYo: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE80")
+
   public val pingPong: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD3")
 
@@ -4276,6 +7014,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83C\uDFF8")
 
   public val hockey: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFD2")
+
+  public val iceHockey: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD2")
 
   public val fieldHockey: DiscordEmoji.Generic
@@ -4290,6 +7031,9 @@ public object Emojis {
   public val cricketBatBall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCF")
 
+  public val boomerang: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE83")
+
   public val goal: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD45")
 
@@ -4299,6 +7043,15 @@ public object Emojis {
   public val golf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F3")
 
+  public val flagInHole: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F3")
+
+  public val kite: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE81")
+
+  public val playgroundSlide: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEDD")
+
   public val bowAndArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF9")
 
@@ -4307,6 +7060,12 @@ public object Emojis {
 
   public val fishingPoleAndFish: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA3")
+
+  public val fishingPole: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFA3")
+
+  public val divingMask: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3F")
 
   public val boxingGlove: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD4A")
@@ -4323,14 +7082,17 @@ public object Emojis {
   public val runningShirtWithSash: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBD")
 
+  public val runningShirt: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFBD")
+
   public val skateboard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF9")
 
+  public val rollerSkate: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEFC")
+
   public val sled: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF7")
-
-  public val parachute: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE82")
 
   public val iceSkate: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F8\uFE0F")
@@ -4341,11 +7103,17 @@ public object Emojis {
   public val ski: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBF")
 
+  public val skis: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFBF")
+
   public val skier: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26F7\uFE0F")
 
   public val snowboarder: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFC2")
+
+  public val parachute: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE82")
 
   public val personLiftingWeights: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83C\uDFCB\uFE0F")
@@ -4596,10 +7364,16 @@ public object Emojis {
   public val performingArts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAD")
 
+  public val balletShoes: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE70")
+
   public val art: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA8")
 
   public val clapper: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFAC")
+
+  public val clapperBoard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAC")
 
   public val microphone: DiscordEmoji.Generic
@@ -4608,11 +7382,17 @@ public object Emojis {
   public val headphones: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFA7")
 
+  public val headphone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFA7")
+
   public val musicalScore: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBC")
 
   public val musicalKeyboard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB9")
+
+  public val maracas: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE87")
 
   public val drum: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD41")
@@ -4620,20 +7400,29 @@ public object Emojis {
   public val drumWithDrumsticks: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD41")
 
+  public val longDrum: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE98")
+
   public val saxophone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB7")
 
   public val trumpet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBA")
 
-  public val banjo: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE95")
+  public val accordion: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE97")
 
   public val guitar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB8")
 
+  public val banjo: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE95")
+
   public val violin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFBB")
+
+  public val flute: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE88")
 
   public val gameDie: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB2")
@@ -4644,11 +7433,8 @@ public object Emojis {
   public val dart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFAF")
 
-  public val kite: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE81")
-
-  public val yoYo: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE80")
+  public val directHit: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFAF")
 
   public val bowling: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB3")
@@ -4662,7 +7448,13 @@ public object Emojis {
   public val jigsaw: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE9")
 
+  public val puzzlePiece: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDE9")
+
   public val redCar: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE97")
+
+  public val automobile: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE97")
 
   public val taxi: DiscordEmoji.Generic
@@ -4670,6 +7462,12 @@ public object Emojis {
 
   public val blueCar: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE99")
+
+  public val pickupTruck: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEFB")
+
+  public val minibus: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE90")
 
   public val bus: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8C")
@@ -4692,9 +7490,6 @@ public object Emojis {
   public val fireEngine: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE92")
 
-  public val minibus: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDE90")
-
   public val truck: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9A")
 
@@ -4704,8 +7499,29 @@ public object Emojis {
   public val tractor: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9C")
 
-  public val autoRickshaw: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDEFA")
+  public val probingCane: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDAF")
+
+  public val manualWheelchair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBD")
+
+  public val motorizedWheelchair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBC")
+
+  public val crutch: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE7C")
+
+  public val scooter: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEF4")
+
+  public val kickScooter: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEF4")
+
+  public val bike: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB2")
+
+  public val bicycle: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB2")
 
   public val motorScooter: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF5")
@@ -4719,17 +7535,11 @@ public object Emojis {
   public val racingMotorcycle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFCD\uFE0F")
 
-  public val scooter: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDEF4")
+  public val autoRickshaw: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEFA")
 
-  public val bike: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDEB2")
-
-  public val motorizedWheelchair: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDBC")
-
-  public val manualWheelchair: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDBD")
+  public val wheel: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEDE")
 
   public val rotatingLight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA8")
@@ -4761,6 +7571,9 @@ public object Emojis {
   public val train: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8B")
 
+  public val tramCar: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE8B")
+
   public val mountainRailway: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE9E")
 
@@ -4773,10 +7586,16 @@ public object Emojis {
   public val bullettrainFront: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE85")
 
+  public val bulletTrain: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE85")
+
   public val lightRail: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE88")
 
   public val steamLocomotive: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE82")
+
+  public val locomotive: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE82")
 
   public val train2: DiscordEmoji.Generic
@@ -4836,6 +7655,9 @@ public object Emojis {
   public val motorboat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEE5\uFE0F")
 
+  public val motorBoat: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEE5\uFE0F")
+
   public val cruiseShip: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEF3\uFE0F")
 
@@ -4848,10 +7670,19 @@ public object Emojis {
   public val ship: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEA2")
 
+  public val ringBuoy: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEDF")
+
   public val anchor: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2693")
 
+  public val hook: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE9D")
+
   public val fuelpump: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26FD")
+
+  public val fuelPump: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26FD")
 
   public val construction: DiscordEmoji.Generic
@@ -4866,6 +7697,9 @@ public object Emojis {
   public val busstop: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDE8F")
 
+  public val busStop: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE8F")
+
   public val map: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFA\uFE0F")
 
@@ -4875,6 +7709,9 @@ public object Emojis {
   public val moyai: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFF")
 
+  public val moai: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDDFF")
+
   public val statueOfLiberty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFD")
 
@@ -4882,6 +7719,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDDFC")
 
   public val europeanCastle: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFF0")
+
+  public val castle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF0")
 
   public val japaneseCastle: DiscordEmoji.Generic
@@ -4956,11 +7796,17 @@ public object Emojis {
   public val houseBuildings: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD8\uFE0F")
 
+  public val houses: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFD8\uFE0F")
+
   public val houseAbandoned: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDA\uFE0F")
 
   public val derelictHouseBuilding: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFDA\uFE0F")
+
+  public val hut: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDED6")
 
   public val constructionSite: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFD7\uFE0F")
@@ -5013,11 +7859,11 @@ public object Emojis {
   public val mosque: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4C")
 
-  public val hinduTemple: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDED5")
-
   public val synagogue: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4D")
+
+  public val hinduTemple: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDED5")
 
   public val kaaba: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD4B")
@@ -5035,6 +7881,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDEE3\uFE0F")
 
   public val japan: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDDFE")
+
+  public val mapOfJapan: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDFE")
 
   public val riceScene: DiscordEmoji.Generic
@@ -5055,6 +7904,9 @@ public object Emojis {
   public val stars: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF20")
 
+  public val shootingStar: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF20")
+
   public val sparkler: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF87")
 
@@ -5065,6 +7917,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83C\uDF07")
 
   public val citySunrise: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF07")
+
+  public val sunset: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF07")
 
   public val cityDusk: DiscordEmoji.Generic
@@ -5087,6 +7942,9 @@ public object Emojis {
 
   public val watch: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u231A")
+
+  public val mobilePhone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCF1")
 
   public val iphone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF1")
@@ -5124,7 +7982,13 @@ public object Emojis {
   public val compression: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDDC\uFE0F")
 
+  public val clamp: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDDDC\uFE0F")
+
   public val minidisc: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCBD")
+
+  public val computerDisk: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBD")
 
   public val floppyDisk: DiscordEmoji.Generic
@@ -5133,10 +7997,16 @@ public object Emojis {
   public val cd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCBF")
 
+  public val opticalDisk: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCBF")
+
   public val dvd: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCC0")
 
   public val vhs: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCFC")
+
+  public val videocassette: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFC")
 
   public val camera: DiscordEmoji.Generic
@@ -5172,7 +8042,13 @@ public object Emojis {
   public val fax: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE0")
 
+  public val faxMachine: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCE0")
+
   public val tv: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCFA")
+
+  public val television: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCFA")
 
   public val radio: DiscordEmoji.Generic
@@ -5223,10 +8099,16 @@ public object Emojis {
   public val battery: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0B")
 
+  public val lowBattery: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEAB")
+
   public val electricPlug: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD0C")
 
   public val bulb: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCA1")
+
+  public val lightBulb: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCA1")
 
   public val flashlight: DiscordEmoji.Generic
@@ -5234,6 +8116,9 @@ public object Emojis {
 
   public val candle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD6F\uFE0F")
+
+  public val diyaLamp: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE94")
 
   public val fireExtinguisher: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDEF")
@@ -5253,26 +8138,53 @@ public object Emojis {
   public val yen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB4")
 
+  public val yenBanknote: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCB4")
+
   public val euro: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCB6")
+
+  public val euroBanknote: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB6")
 
   public val pound: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB7")
 
+  public val coin: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE99")
+
   public val moneybag: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCB0")
+
+  public val moneyBag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB0")
 
   public val creditCard: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCB3")
 
+  public val identificationCard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEAA")
+
   public val gem: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8E")
+
+  public val gemStone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8E")
 
   public val scales: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2696\uFE0F")
 
+  public val balanceScale: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2696\uFE0F")
+
+  public val ladder: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE9C")
+
   public val toolbox: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF0")
+
+  public val screwdriver: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE9B")
 
   public val wrench: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD27")
@@ -5295,22 +8207,40 @@ public object Emojis {
   public val pick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26CF\uFE0F")
 
+  public val carpentrySaw: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE9A")
+
   public val nutAndBolt: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD29")
 
   public val gear: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2699\uFE0F")
 
+  public val mouseTrap: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA4")
+
   public val bricks: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDF1")
+
+  public val brick: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF1")
 
   public val chains: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26D3\uFE0F")
 
+  public val link: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD17")
+
+  public val brokenChain: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26D3\uFE0F\u200D\uD83D\uDCA5")
+
   public val magnet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF2")
 
   public val gun: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD2B")
+
+  public val pistol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2B")
 
   public val bomb: DiscordEmoji.Generic
@@ -5322,10 +8252,10 @@ public object Emojis {
   public val axe: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE93")
 
-  public val razor: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE92")
-
   public val knife: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD2A")
+
+  public val kitchenKnife: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2A")
 
   public val dagger: DiscordEmoji.Generic
@@ -5343,8 +8273,14 @@ public object Emojis {
   public val smoking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAC")
 
+  public val cigarette: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEAC")
+
   public val coffin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26B0\uFE0F")
+
+  public val headstone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA6")
 
   public val urn: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u26B1\uFE0F")
@@ -5355,9 +8291,6 @@ public object Emojis {
   public val amphora: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFFA")
 
-  public val diyaLamp: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE94")
-
   public val crystalBall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD2E")
 
@@ -5367,7 +8300,13 @@ public object Emojis {
   public val nazarAmulet: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFF")
 
+  public val hamsa: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEAC")
+
   public val barber: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC88")
+
+  public val barberPole: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC88")
 
   public val alembic: DiscordEmoji.Generic
@@ -5382,14 +8321,14 @@ public object Emojis {
   public val hole: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD73\uFE0F")
 
-  public val probingCane: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDDAF")
-
-  public val stethoscope: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE7A")
+  public val xRay: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE7B")
 
   public val adhesiveBandage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDE79")
+
+  public val stethoscope: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE7A")
 
   public val pill: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC8A")
@@ -5415,11 +8354,11 @@ public object Emojis {
   public val thermometer: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF21\uFE0F")
 
-  public val chair: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDE91")
-
   public val broom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF9")
+
+  public val plunger: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA0")
 
   public val basket: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFA")
@@ -5445,10 +8384,25 @@ public object Emojis {
   public val soap: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFC")
 
+  public val toothbrush: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA5")
+
+  public val razor: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE92")
+
+  public val hairPick: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEAE")
+
   public val sponge: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDFD")
 
+  public val bucket: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA3")
+
   public val squeezeBottle: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDF4")
+
+  public val lotionBottle: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF4")
 
   public val bellhop: DiscordEmoji.Generic
@@ -5469,6 +8423,9 @@ public object Emojis {
   public val door: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAA")
 
+  public val chair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE91")
+
   public val couch: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECB\uFE0F")
 
@@ -5481,14 +8438,26 @@ public object Emojis {
   public val sleepingAccommodation: DiscordEmoji.Diverse
     get() = DiscordEmoji.Diverse("\uD83D\uDECC")
 
+  public val personInBed: DiscordEmoji.Diverse
+    get() = DiscordEmoji.Diverse("\uD83D\uDECC")
+
   public val teddyBear: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF8")
+
+  public val nestingDolls: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE86")
 
   public val framePhoto: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDBC\uFE0F")
 
   public val frameWithPicture: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDBC\uFE0F")
+
+  public val mirror: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE9E")
+
+  public val window: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE9F")
 
   public val shoppingBags: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDECD\uFE0F")
@@ -5502,14 +8471,26 @@ public object Emojis {
   public val gift: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF81")
 
+  public val wrappedGift: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF81")
+
   public val balloon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF88")
 
   public val flags: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8F")
 
+  public val carpStreamer: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF8F")
+
   public val ribbon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF80")
+
+  public val magicWand: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE84")
+
+  public val piñata: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE85")
 
   public val confettiBall: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8A")
@@ -5517,14 +8498,23 @@ public object Emojis {
   public val tada: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF89")
 
+  public val partyPopper: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF89")
+
   public val dolls: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF8E")
+
+  public val foldingHandFan: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEAD")
 
   public val izakayaLantern: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFEE")
 
   public val windChime: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF90")
+
+  public val mirrorBall: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA9")
 
   public val redEnvelope: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDE7")
@@ -5558,6 +8548,9 @@ public object Emojis {
 
   public val label: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF7\uFE0F")
+
+  public val placard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEA7")
 
   public val mailboxClosed: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCEA")
@@ -5691,14 +8684,14 @@ public object Emojis {
   public val book: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCD6")
 
+  public val openBook: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCD6")
+
   public val bookmark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD16")
 
   public val safetyPin: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDDF7")
-
-  public val link: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83D\uDD17")
 
   public val paperclip: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCCE")
@@ -5733,10 +8726,16 @@ public object Emojis {
   public val lowerLeftBallpointPen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8A\uFE0F")
 
+  public val pen: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD8A\uFE0F")
+
   public val penFountain: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8B\uFE0F")
 
   public val lowerLeftFountainPen: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD8B\uFE0F")
+
+  public val fountainPen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD8B\uFE0F")
 
   public val blackNib: DiscordEmoji.Generic
@@ -5778,10 +8777,22 @@ public object Emojis {
   public val lock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD12")
 
+  public val locked: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD12")
+
   public val unlock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD13")
 
+  public val unlocked: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD13")
+
+  public val pinkHeart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE77")
+
   public val heart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2764\uFE0F")
+
+  public val redHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2764\uFE0F")
 
   public val orangeHeart: DiscordEmoji.Generic
@@ -5793,6 +8804,9 @@ public object Emojis {
   public val greenHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9A")
 
+  public val lightBlueHeart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE75")
+
   public val blueHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC99")
 
@@ -5802,11 +8816,14 @@ public object Emojis {
   public val blackHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDDA4")
 
-  public val brownHeart: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83E\uDD0E")
+  public val greyHeart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDE76")
 
   public val whiteHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83E\uDD0D")
+
+  public val brownHeart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0E")
 
   public val brokenHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC94")
@@ -5826,7 +8843,13 @@ public object Emojis {
   public val heartbeat: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC93")
 
+  public val beatingHeart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC93")
+
   public val heartpulse: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC97")
+
+  public val growingHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC97")
 
   public val sparklingHeart: DiscordEmoji.Generic
@@ -5837,6 +8860,12 @@ public object Emojis {
 
   public val giftHeart: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9D")
+
+  public val mendingHeart: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2764\uFE0F\u200D\uD83E\uDE79")
+
+  public val heartOnFire: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2764\uFE0F\u200D\uD83D\uDD25")
 
   public val heartDecoration: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDC9F")
@@ -5861,6 +8890,9 @@ public object Emojis {
 
   public val wheelOfDharma: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2638\uFE0F")
+
+  public val khanda: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEAF")
 
   public val starOfDavid: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2721\uFE0F")
@@ -5908,6 +8940,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\u264E")
 
   public val scorpius: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u264F")
+
+  public val scorpio: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u264F")
 
   public val sagittarius: DiscordEmoji.Generic
@@ -6018,6 +9053,9 @@ public object Emojis {
   public val x: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u274C")
 
+  public val crossMark: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u274C")
+
   public val o: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B55")
 
@@ -6036,6 +9074,9 @@ public object Emojis {
   public val noEntrySign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAB")
 
+  public val prohibited: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEAB")
+
   public val `100`: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCAF")
 
@@ -6045,10 +9086,16 @@ public object Emojis {
   public val hotsprings: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2668\uFE0F")
 
+  public val hotSprings: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2668\uFE0F")
+
   public val noPedestrians: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB7")
 
   public val doNotLitter: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEAF")
+
+  public val noLittering: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEAF")
 
   public val noBicycles: DiscordEmoji.Generic
@@ -6073,6 +9120,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\u2755")
 
   public val question: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2753")
+
+  public val questionMark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2753")
 
   public val greyQuestion: DiscordEmoji.Generic
@@ -6138,6 +9188,9 @@ public object Emojis {
   public val m: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u24C2\uFE0F")
 
+  public val circledM: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u24C2\uFE0F")
+
   public val cyclone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDF00")
 
@@ -6150,11 +9203,17 @@ public object Emojis {
   public val wc: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBE")
 
+  public val waterCloset: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEBE")
+
   public val wheelchair: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u267F")
 
   public val parking: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDD7F\uFE0F")
+
+  public val elevator: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDED7")
 
   public val u7a7a: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE33")
@@ -6174,10 +9233,19 @@ public object Emojis {
   public val leftLuggage: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEC5")
 
+  public val wireless: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEDC")
+
   public val mens: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEB9")
 
+  public val mensRoom: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB9")
+
   public val womens: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEBA")
+
+  public val womensRoom: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDEBA")
 
   public val babySymbol: DiscordEmoji.Generic
@@ -6195,13 +9263,22 @@ public object Emojis {
   public val signalStrength: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCF6")
 
+  public val antennaBars: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCF6")
+
   public val koko: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDE01")
 
   public val symbols: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD23")
 
+  public val inputSymbols: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD23")
+
   public val informationSource: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2139\uFE0F")
+
+  public val information: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2139\uFE0F")
 
   public val abc: DiscordEmoji.Generic
@@ -6234,37 +9311,73 @@ public object Emojis {
   public val zero: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("0\uFE0F\u20E3")
 
+  public val number0: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("0\uFE0F\u20E3")
+
   public val one: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("1\uFE0F\u20E3")
+
+  public val number1: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("1\uFE0F\u20E3")
 
   public val two: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("2\uFE0F\u20E3")
 
+  public val number2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("2\uFE0F\u20E3")
+
   public val three: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("3\uFE0F\u20E3")
+
+  public val number3: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("3\uFE0F\u20E3")
 
   public val four: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("4\uFE0F\u20E3")
 
+  public val number4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("4\uFE0F\u20E3")
+
   public val five: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("5\uFE0F\u20E3")
+
+  public val number5: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("5\uFE0F\u20E3")
 
   public val six: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("6\uFE0F\u20E3")
 
+  public val number6: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("6\uFE0F\u20E3")
+
   public val seven: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("7\uFE0F\u20E3")
+
+  public val number7: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("7\uFE0F\u20E3")
 
   public val eight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("8\uFE0F\u20E3")
 
+  public val number8: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("8\uFE0F\u20E3")
+
   public val nine: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("9\uFE0F\u20E3")
+
+  public val number9: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("9\uFE0F\u20E3")
 
   public val keycapTen: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1F")
 
+  public val number10: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD1F")
+
   public val `1234`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD22")
+
+  public val inputNumbers: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD22")
 
   public val hash: DiscordEmoji.Generic
@@ -6336,13 +9449,25 @@ public object Emojis {
   public val arrowRight: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u27A1\uFE0F")
 
+  public val rightArrow: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u27A1\uFE0F")
+
   public val arrowLeft: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2B05\uFE0F")
+
+  public val leftArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B05\uFE0F")
 
   public val arrowUp: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B06\uFE0F")
 
+  public val upArrow: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2B06\uFE0F")
+
   public val arrowDown: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2B07\uFE0F")
+
+  public val downArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2B07\uFE0F")
 
   public val arrowUpperRight: DiscordEmoji.Generic
@@ -6357,7 +9482,13 @@ public object Emojis {
   public val arrowUpperLeft: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2196\uFE0F")
 
+  public val upLeftArrow: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2196\uFE0F")
+
   public val arrowUpDown: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2195\uFE0F")
+
+  public val upDownArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2195\uFE0F")
 
   public val leftRightArrow: DiscordEmoji.Generic
@@ -6396,6 +9527,9 @@ public object Emojis {
   public val notes: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFB6")
 
+  public val musicalNotes: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFB6")
+
   public val heavyPlusSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2795")
 
@@ -6408,6 +9542,9 @@ public object Emojis {
   public val heavyMultiplicationX: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2716\uFE0F")
 
+  public val heavyEqualsSign: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDFF0")
+
   public val infinity: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u267E\uFE0F")
 
@@ -6418,13 +9555,22 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDCB1")
 
   public val tm: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\u2122\uFE0F")
+    get() = DiscordEmoji.Generic("\u2122")
+
+  public val tradeMark: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2122")
 
   public val copyright: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\u00A9\uFE0F")
+    get() = DiscordEmoji.Generic("\u00A9")
+
+  public val c: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u00A9")
 
   public val registered: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\u00AE\uFE0F")
+    get() = DiscordEmoji.Generic("\u00AE")
+
+  public val r: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u00AE")
 
   public val wavyDash: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u3030\uFE0F")
@@ -6438,19 +9584,37 @@ public object Emojis {
   public val end: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1A")
 
+  public val endArrow: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD1A")
+
   public val back: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD19")
+
+  public val backArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD19")
 
   public val on: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1B")
 
+  public val onArrow: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD1B")
+
   public val top: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD1D")
+
+  public val topArrow: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1D")
 
   public val soon: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD1C")
 
+  public val soonArrow: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD1C")
+
   public val heavyCheckMark: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2714\uFE0F")
+
+  public val checkMark: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2714\uFE0F")
 
   public val ballotBoxWithCheck: DiscordEmoji.Generic
@@ -6561,6 +9725,9 @@ public object Emojis {
   public val mute: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD07")
 
+  public val mutedSpeaker: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD07")
+
   public val sound: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD09")
 
@@ -6574,6 +9741,9 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83D\uDD15")
 
   public val mega: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCE3")
+
+  public val megaphone: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDCE3")
 
   public val loudspeaker: DiscordEmoji.Generic
@@ -6603,16 +9773,31 @@ public object Emojis {
   public val spades: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2660\uFE0F")
 
+  public val spadeSuit: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2660\uFE0F")
+
   public val clubs: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2663\uFE0F")
+
+  public val clubSuit: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2663\uFE0F")
 
   public val hearts: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2665\uFE0F")
 
+  public val heartSuit: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2665\uFE0F")
+
   public val diamonds: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2666\uFE0F")
 
+  public val diamondSuit: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u2666\uFE0F")
+
   public val blackJoker: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDCCF")
+
+  public val joker: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDCCF")
 
   public val flowerPlayingCards: DiscordEmoji.Generic
@@ -6624,73 +9809,145 @@ public object Emojis {
   public val clock1: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD50")
 
+  public val oneOclock: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD50")
+
   public val clock2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD51")
+
+  public val twoOclock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD51")
 
   public val clock3: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD52")
 
+  public val threeOclock: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD52")
+
   public val clock4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD53")
+
+  public val fourOclock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD53")
 
   public val clock5: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD54")
 
+  public val fiveOclock: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD54")
+
   public val clock6: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD55")
+
+  public val sixOclock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD55")
 
   public val clock7: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD56")
 
+  public val sevenOclock: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD56")
+
   public val clock8: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD57")
+
+  public val eightOclock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD57")
 
   public val clock9: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD58")
 
+  public val nineOclock: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD58")
+
   public val clock10: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD59")
+
+  public val tenOclock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD59")
 
   public val clock11: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5A")
 
+  public val elevenOclock: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD5A")
+
   public val clock12: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD5B")
+
+  public val twelveOclock: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5B")
 
   public val clock130: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5C")
 
+  public val oneThirty: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD5C")
+
   public val clock230: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD5D")
+
+  public val twoThirty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5D")
 
   public val clock330: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5E")
 
+  public val threeThirty: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD5E")
+
   public val clock430: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD5F")
+
+  public val fourThirty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD5F")
 
   public val clock530: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD60")
 
+  public val fiveThirty: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD60")
+
   public val clock630: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD61")
+
+  public val sixThirty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD61")
 
   public val clock730: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD62")
 
+  public val sevenThirty: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD62")
+
   public val clock830: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD63")
+
+  public val eightThirty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD63")
 
   public val clock930: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD64")
 
+  public val nineThirty: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD64")
+
   public val clock1030: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD65")
+
+  public val tenThirty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD65")
 
   public val clock1130: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD66")
 
+  public val elevenThirty: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD66")
+
   public val clock1230: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD67")
+
+  public val twelveThirty: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83D\uDD67")
 
   public val femaleSign: DiscordEmoji.Generic
@@ -6698,6 +9955,9 @@ public object Emojis {
 
   public val maleSign: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2642\uFE0F")
+
+  public val transgenderSymbol: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26A7")
 
   public val medicalSymbol: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\u2695\uFE0F")
@@ -6786,6 +10046,9 @@ public object Emojis {
   public val flagBlack: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF4")
 
+  public val pirateFlag: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFF4\u200D\u2620\uFE0F")
+
   public val checkeredFlag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFC1")
 
@@ -6798,8 +10061,11 @@ public object Emojis {
   public val gayPrideFlag: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDFF3\uFE0F\u200D\uD83C\uDF08")
 
-  public val pirateFlag: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83C\uDFF4\u200D\u2620\uFE0F")
+  public val transgenderFlag: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFF3\uFE0F\u200D\u26A7\uFE0F")
+
+  public val unitedNations: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDF3")
 
   public val flagAf: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDE6\uD83C\uDDEB")
@@ -7510,16 +10776,13 @@ public object Emojis {
     get() = DiscordEmoji.Generic("\uD83C\uDDEC\uD83C\uDDE7")
 
   public val england: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F")
+    get() = DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F")
 
   public val scotland: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F")
+    get() = DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC73\uDB40\uDC63\uDB40\uDC74\uDB40\uDC7F")
 
   public val wales: DiscordEmoji.Generic
-    get() =
-        DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F")
+    get() = DiscordEmoji.Generic("\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC77\uDB40\uDC6C\uDB40\uDC73\uDB40\uDC7F")
 
   public val flagUs: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDF8")
@@ -7587,8 +10850,10820 @@ public object Emojis {
   public val flagUm: DiscordEmoji.Generic
     get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDF2")
 
-  public val unitedNations: DiscordEmoji.Generic
-    get() = DiscordEmoji.Generic("\uD83C\uDDFA\uD83C\uDDF3")
+  public val handshakeTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFB")
+
+  public val handshakeLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFB")
+
+  public val handshakeTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFC")
+
+  public val handshakeMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFC")
+
+  public val handshakeTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFD")
+
+  public val handshakeMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFD")
+
+  public val handshakeTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFE")
+
+  public val handshakeMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFE")
+
+  public val handshakeTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE\u200D\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val handshakeTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val handshakeTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val handshakeTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val handshakeTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF\u200D\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val handshakeTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFF")
+
+  public val handshakeDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1D\uD83C\uDFFF")
+
+  public val heartHandsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFB")
+
+  public val heartHandsLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFB")
+
+  public val heartHandsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFC")
+
+  public val heartHandsMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFC")
+
+  public val heartHandsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFD")
+
+  public val heartHandsMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFD")
+
+  public val heartHandsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFE")
+
+  public val heartHandsMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFE")
+
+  public val heartHandsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFF")
+
+  public val heartHandsDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF6\uD83C\uDFFF")
+
+  public val palmsUpTogetherTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFB")
+
+  public val palmsUpTogetherLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFB")
+
+  public val palmsUpTogetherTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFC")
+
+  public val palmsUpTogetherMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFC")
+
+  public val palmsUpTogetherTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFD")
+
+  public val palmsUpTogetherMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFD")
+
+  public val palmsUpTogetherTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFE")
+
+  public val palmsUpTogetherMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFE")
+
+  public val palmsUpTogetherTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFF")
+
+  public val palmsUpTogetherDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD32\uD83C\uDFFF")
+
+  public val openHandsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC50\uD83C\uDFFB")
+
+  public val openHandsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC50\uD83C\uDFFC")
+
+  public val openHandsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC50\uD83C\uDFFD")
+
+  public val openHandsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC50\uD83C\uDFFE")
+
+  public val openHandsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC50\uD83C\uDFFF")
+
+  public val raisedHandsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4C\uD83C\uDFFB")
+
+  public val raisedHandsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4C\uD83C\uDFFC")
+
+  public val raisedHandsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4C\uD83C\uDFFD")
+
+  public val raisedHandsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4C\uD83C\uDFFE")
+
+  public val raisedHandsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4C\uD83C\uDFFF")
+
+  public val clapTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4F\uD83C\uDFFB")
+
+  public val clapTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4F\uD83C\uDFFC")
+
+  public val clapTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4F\uD83C\uDFFD")
+
+  public val clapTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4F\uD83C\uDFFE")
+
+  public val clapTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4F\uD83C\uDFFF")
+
+  public val thumbsupTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFB")
+
+  public val `+1Tone1`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFB")
+
+  public val thumbupTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFB")
+
+  public val thumbsupTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFC")
+
+  public val `+1Tone2`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFC")
+
+  public val thumbupTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFC")
+
+  public val thumbsupTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFD")
+
+  public val `+1Tone3`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFD")
+
+  public val thumbupTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFD")
+
+  public val thumbsupTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFE")
+
+  public val `+1Tone4`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFE")
+
+  public val thumbupTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFE")
+
+  public val thumbsupTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFF")
+
+  public val `+1Tone5`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFF")
+
+  public val thumbupTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4D\uD83C\uDFFF")
+
+  public val thumbsdownTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFB")
+
+  public val `1Tone1`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFB")
+
+  public val thumbdownTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFB")
+
+  public val thumbsdownTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFC")
+
+  public val `1Tone2`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFC")
+
+  public val thumbdownTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFC")
+
+  public val thumbsdownTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFD")
+
+  public val `1Tone3`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFD")
+
+  public val thumbdownTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFD")
+
+  public val thumbsdownTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFE")
+
+  public val `1Tone4`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFE")
+
+  public val thumbdownTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFE")
+
+  public val thumbsdownTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFF")
+
+  public val `1Tone5`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFF")
+
+  public val thumbdownTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4E\uD83C\uDFFF")
+
+  public val punchTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4A\uD83C\uDFFB")
+
+  public val punchTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4A\uD83C\uDFFC")
+
+  public val punchTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4A\uD83C\uDFFD")
+
+  public val punchTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4A\uD83C\uDFFE")
+
+  public val punchTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4A\uD83C\uDFFF")
+
+  public val fistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270A\uD83C\uDFFB")
+
+  public val fistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270A\uD83C\uDFFC")
+
+  public val fistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270A\uD83C\uDFFD")
+
+  public val fistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270A\uD83C\uDFFE")
+
+  public val fistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270A\uD83C\uDFFF")
+
+  public val leftFacingFistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFB")
+
+  public val leftFistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFB")
+
+  public val leftFacingFistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFC")
+
+  public val leftFistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFC")
+
+  public val leftFacingFistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFD")
+
+  public val leftFistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFD")
+
+  public val leftFacingFistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFE")
+
+  public val leftFistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFE")
+
+  public val leftFacingFistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFF")
+
+  public val leftFistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1B\uD83C\uDFFF")
+
+  public val rightFacingFistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFB")
+
+  public val rightFistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFB")
+
+  public val rightFacingFistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFC")
+
+  public val rightFistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFC")
+
+  public val rightFacingFistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFD")
+
+  public val rightFistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFD")
+
+  public val rightFacingFistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFE")
+
+  public val rightFistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFE")
+
+  public val rightFacingFistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFF")
+
+  public val rightFistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1C\uD83C\uDFFF")
+
+  public val leftwardsPushingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFB")
+
+  public val leftwardsPushingHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFB")
+
+  public val leftwardsPushingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFC")
+
+  public val leftwardsPushingHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFC")
+
+  public val leftwardsPushingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFD")
+
+  public val leftwardsPushingHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFD")
+
+  public val leftwardsPushingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFE")
+
+  public val leftwardsPushingHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFE")
+
+  public val leftwardsPushingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFF")
+
+  public val leftwardsPushingHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF7\uD83C\uDFFF")
+
+  public val rightwardsPushingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFB")
+
+  public val rightwardsPushingHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFB")
+
+  public val rightwardsPushingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFC")
+
+  public val rightwardsPushingHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFC")
+
+  public val rightwardsPushingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFD")
+
+  public val rightwardsPushingHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFD")
+
+  public val rightwardsPushingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFE")
+
+  public val rightwardsPushingHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFE")
+
+  public val rightwardsPushingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFF")
+
+  public val rightwardsPushingHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF8\uD83C\uDFFF")
+
+  public val fingersCrossedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFB")
+
+  public val handWithIndexAndMiddleFingersCrossedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFB")
+
+  public val fingersCrossedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFC")
+
+  public val handWithIndexAndMiddleFingersCrossedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFC")
+
+  public val fingersCrossedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFD")
+
+  public val handWithIndexAndMiddleFingersCrossedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFD")
+
+  public val fingersCrossedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFE")
+
+  public val handWithIndexAndMiddleFingersCrossedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFE")
+
+  public val fingersCrossedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFF")
+
+  public val handWithIndexAndMiddleFingersCrossedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1E\uD83C\uDFFF")
+
+  public val vTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270C\uD83C\uDFFB")
+
+  public val vTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270C\uD83C\uDFFC")
+
+  public val vTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270C\uD83C\uDFFD")
+
+  public val vTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270C\uD83C\uDFFE")
+
+  public val vTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270C\uD83C\uDFFF")
+
+  public val handWithIndexFingerAndThumbCrossedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFB")
+
+  public val handWithIndexFingerAndThumbCrossedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFB")
+
+  public val handWithIndexFingerAndThumbCrossedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFC")
+
+  public val handWithIndexFingerAndThumbCrossedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFC")
+
+  public val handWithIndexFingerAndThumbCrossedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFD")
+
+  public val handWithIndexFingerAndThumbCrossedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFD")
+
+  public val handWithIndexFingerAndThumbCrossedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFE")
+
+  public val handWithIndexFingerAndThumbCrossedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFE")
+
+  public val handWithIndexFingerAndThumbCrossedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFF")
+
+  public val handWithIndexFingerAndThumbCrossedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF0\uD83C\uDFFF")
+
+  public val loveYouGestureTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFB")
+
+  public val loveYouGestureLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFB")
+
+  public val loveYouGestureTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFC")
+
+  public val loveYouGestureMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFC")
+
+  public val loveYouGestureTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFD")
+
+  public val loveYouGestureMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFD")
+
+  public val loveYouGestureTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFE")
+
+  public val loveYouGestureMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFE")
+
+  public val loveYouGestureTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFF")
+
+  public val loveYouGestureDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1F\uD83C\uDFFF")
+
+  public val metalTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFB")
+
+  public val signOfTheHornsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFB")
+
+  public val metalTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFC")
+
+  public val signOfTheHornsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFC")
+
+  public val metalTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFD")
+
+  public val signOfTheHornsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFD")
+
+  public val metalTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFE")
+
+  public val signOfTheHornsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFE")
+
+  public val metalTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFF")
+
+  public val signOfTheHornsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD18\uD83C\uDFFF")
+
+  public val okHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4C\uD83C\uDFFB")
+
+  public val okHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4C\uD83C\uDFFC")
+
+  public val okHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4C\uD83C\uDFFD")
+
+  public val okHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4C\uD83C\uDFFE")
+
+  public val okHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4C\uD83C\uDFFF")
+
+  public val pinchedFingersTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFC")
+
+  public val pinchedFingersMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFC")
+
+  public val pinchedFingersTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFB")
+
+  public val pinchedFingersLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFB")
+
+  public val pinchedFingersTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFD")
+
+  public val pinchedFingersMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFD")
+
+  public val pinchedFingersTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFE")
+
+  public val pinchedFingersMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFE")
+
+  public val pinchedFingersTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFF")
+
+  public val pinchedFingersDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0C\uD83C\uDFFF")
+
+  public val pinchingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFB")
+
+  public val pinchingHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFB")
+
+  public val pinchingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFC")
+
+  public val pinchingHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFC")
+
+  public val pinchingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFD")
+
+  public val pinchingHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFD")
+
+  public val pinchingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFE")
+
+  public val pinchingHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFE")
+
+  public val pinchingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFF")
+
+  public val pinchingHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD0F\uD83C\uDFFF")
+
+  public val palmDownHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFB")
+
+  public val palmDownHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFB")
+
+  public val palmDownHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFC")
+
+  public val palmDownHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFC")
+
+  public val palmDownHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFD")
+
+  public val palmDownHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFD")
+
+  public val palmDownHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFE")
+
+  public val palmDownHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFE")
+
+  public val palmDownHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFF")
+
+  public val palmDownHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF3\uD83C\uDFFF")
+
+  public val palmUpHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFB")
+
+  public val palmUpHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFB")
+
+  public val palmUpHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFC")
+
+  public val palmUpHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFC")
+
+  public val palmUpHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFD")
+
+  public val palmUpHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFD")
+
+  public val palmUpHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFE")
+
+  public val palmUpHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFE")
+
+  public val palmUpHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFF")
+
+  public val palmUpHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF4\uD83C\uDFFF")
+
+  public val pointLeftTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC48\uD83C\uDFFB")
+
+  public val pointLeftTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC48\uD83C\uDFFC")
+
+  public val pointLeftTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC48\uD83C\uDFFD")
+
+  public val pointLeftTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC48\uD83C\uDFFE")
+
+  public val pointLeftTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC48\uD83C\uDFFF")
+
+  public val pointRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC49\uD83C\uDFFB")
+
+  public val pointRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC49\uD83C\uDFFC")
+
+  public val pointRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC49\uD83C\uDFFD")
+
+  public val pointRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC49\uD83C\uDFFE")
+
+  public val pointRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC49\uD83C\uDFFF")
+
+  public val pointUp2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC46\uD83C\uDFFB")
+
+  public val pointUp2Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC46\uD83C\uDFFC")
+
+  public val pointUp2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC46\uD83C\uDFFD")
+
+  public val pointUp2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC46\uD83C\uDFFE")
+
+  public val pointUp2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC46\uD83C\uDFFF")
+
+  public val pointDownTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC47\uD83C\uDFFB")
+
+  public val pointDownTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC47\uD83C\uDFFC")
+
+  public val pointDownTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC47\uD83C\uDFFD")
+
+  public val pointDownTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC47\uD83C\uDFFE")
+
+  public val pointDownTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC47\uD83C\uDFFF")
+
+  public val pointUpTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u261D\uD83C\uDFFB")
+
+  public val pointUpTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u261D\uD83C\uDFFC")
+
+  public val pointUpTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u261D\uD83C\uDFFD")
+
+  public val pointUpTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u261D\uD83C\uDFFE")
+
+  public val pointUpTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u261D\uD83C\uDFFF")
+
+  public val raisedHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270B\uD83C\uDFFB")
+
+  public val raisedHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270B\uD83C\uDFFC")
+
+  public val raisedHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270B\uD83C\uDFFD")
+
+  public val raisedHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270B\uD83C\uDFFE")
+
+  public val raisedHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270B\uD83C\uDFFF")
+
+  public val raisedBackOfHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFB")
+
+  public val backOfHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFB")
+
+  public val raisedBackOfHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFC")
+
+  public val backOfHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFC")
+
+  public val raisedBackOfHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFD")
+
+  public val backOfHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFD")
+
+  public val raisedBackOfHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFE")
+
+  public val backOfHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFE")
+
+  public val raisedBackOfHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFF")
+
+  public val backOfHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD1A\uD83C\uDFFF")
+
+  public val handSplayedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFB")
+
+  public val raisedHandWithFingersSplayedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFB")
+
+  public val handSplayedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFC")
+
+  public val raisedHandWithFingersSplayedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFC")
+
+  public val handSplayedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFD")
+
+  public val raisedHandWithFingersSplayedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFD")
+
+  public val handSplayedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFE")
+
+  public val raisedHandWithFingersSplayedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFE")
+
+  public val handSplayedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFF")
+
+  public val raisedHandWithFingersSplayedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD90\uD83C\uDFFF")
+
+  public val vulcanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFB")
+
+  public val raisedHandWithPartBetweenMiddleAndRingFingersTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFB")
+
+  public val vulcanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFC")
+
+  public val raisedHandWithPartBetweenMiddleAndRingFingersTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFC")
+
+  public val vulcanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFD")
+
+  public val raisedHandWithPartBetweenMiddleAndRingFingersTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFD")
+
+  public val vulcanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFE")
+
+  public val raisedHandWithPartBetweenMiddleAndRingFingersTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFE")
+
+  public val vulcanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFF")
+
+  public val raisedHandWithPartBetweenMiddleAndRingFingersTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD96\uD83C\uDFFF")
+
+  public val waveTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4B\uD83C\uDFFB")
+
+  public val waveTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4B\uD83C\uDFFC")
+
+  public val waveTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4B\uD83C\uDFFD")
+
+  public val waveTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4B\uD83C\uDFFE")
+
+  public val waveTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC4B\uD83C\uDFFF")
+
+  public val callMeTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFB")
+
+  public val callMeHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFB")
+
+  public val callMeTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFC")
+
+  public val callMeHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFC")
+
+  public val callMeTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFD")
+
+  public val callMeHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFD")
+
+  public val callMeTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFE")
+
+  public val callMeHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFE")
+
+  public val callMeTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFF")
+
+  public val callMeHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD19\uD83C\uDFFF")
+
+  public val leftwardsHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val leftwardsHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFB")
+
+  public val leftwardsHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val leftwardsHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFC")
+
+  public val leftwardsHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val leftwardsHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFD")
+
+  public val leftwardsHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val leftwardsHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFE")
+
+  public val leftwardsHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val leftwardsHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF2\uD83C\uDFFF")
+
+  public val rightwardsHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB")
+
+  public val rightwardsHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFB")
+
+  public val rightwardsHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC")
+
+  public val rightwardsHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFC")
+
+  public val rightwardsHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD")
+
+  public val rightwardsHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFD")
+
+  public val rightwardsHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE")
+
+  public val rightwardsHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFE")
+
+  public val rightwardsHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF")
+
+  public val rightwardsHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF1\uD83C\uDFFF")
+
+  public val muscleTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCAA\uD83C\uDFFB")
+
+  public val muscleTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCAA\uD83C\uDFFC")
+
+  public val muscleTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCAA\uD83C\uDFFD")
+
+  public val muscleTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCAA\uD83C\uDFFE")
+
+  public val muscleTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDCAA\uD83C\uDFFF")
+
+  public val middleFingerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFB")
+
+  public val reversedHandWithMiddleFingerExtendedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFB")
+
+  public val middleFingerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFC")
+
+  public val reversedHandWithMiddleFingerExtendedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFC")
+
+  public val middleFingerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFD")
+
+  public val reversedHandWithMiddleFingerExtendedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFD")
+
+  public val middleFingerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFE")
+
+  public val reversedHandWithMiddleFingerExtendedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFE")
+
+  public val middleFingerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFF")
+
+  public val reversedHandWithMiddleFingerExtendedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD95\uD83C\uDFFF")
+
+  public val writingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270D\uD83C\uDFFB")
+
+  public val writingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270D\uD83C\uDFFC")
+
+  public val writingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270D\uD83C\uDFFD")
+
+  public val writingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270D\uD83C\uDFFE")
+
+  public val writingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u270D\uD83C\uDFFF")
+
+  public val prayTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4F\uD83C\uDFFB")
+
+  public val prayTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4F\uD83C\uDFFC")
+
+  public val prayTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4F\uD83C\uDFFD")
+
+  public val prayTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4F\uD83C\uDFFE")
+
+  public val prayTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4F\uD83C\uDFFF")
+
+  public val indexPointingAtTheViewerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFB")
+
+  public val indexPointingAtTheViewerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFB")
+
+  public val indexPointingAtTheViewerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFC")
+
+  public val indexPointingAtTheViewerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFC")
+
+  public val indexPointingAtTheViewerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFD")
+
+  public val indexPointingAtTheViewerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFD")
+
+  public val indexPointingAtTheViewerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFE")
+
+  public val indexPointingAtTheViewerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFE")
+
+  public val indexPointingAtTheViewerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFF")
+
+  public val indexPointingAtTheViewerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEF5\uD83C\uDFFF")
+
+  public val footTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFB")
+
+  public val footLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFB")
+
+  public val footTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFC")
+
+  public val footMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFC")
+
+  public val footTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFD")
+
+  public val footMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFD")
+
+  public val footTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFE")
+
+  public val footMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFE")
+
+  public val footTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFF")
+
+  public val footDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB6\uD83C\uDFFF")
+
+  public val legTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFB")
+
+  public val legLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFB")
+
+  public val legTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFC")
+
+  public val legMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFC")
+
+  public val legTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFD")
+
+  public val legMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFD")
+
+  public val legTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFE")
+
+  public val legMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFE")
+
+  public val legTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFF")
+
+  public val legDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB5\uD83C\uDFFF")
+
+  public val earTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC42\uD83C\uDFFB")
+
+  public val earTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC42\uD83C\uDFFC")
+
+  public val earTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC42\uD83C\uDFFD")
+
+  public val earTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC42\uD83C\uDFFE")
+
+  public val earTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC42\uD83C\uDFFF")
+
+  public val earWithHearingAidTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFB")
+
+  public val earWithHearingAidLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFB")
+
+  public val earWithHearingAidTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFC")
+
+  public val earWithHearingAidMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFC")
+
+  public val earWithHearingAidTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFD")
+
+  public val earWithHearingAidMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFD")
+
+  public val earWithHearingAidTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFE")
+
+  public val earWithHearingAidMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFE")
+
+  public val earWithHearingAidTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFF")
+
+  public val earWithHearingAidDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDBB\uD83C\uDFFF")
+
+  public val noseTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC43\uD83C\uDFFB")
+
+  public val noseTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC43\uD83C\uDFFC")
+
+  public val noseTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC43\uD83C\uDFFD")
+
+  public val noseTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC43\uD83C\uDFFE")
+
+  public val noseTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC43\uD83C\uDFFF")
+
+  public val babyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC76\uD83C\uDFFB")
+
+  public val babyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC76\uD83C\uDFFC")
+
+  public val babyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC76\uD83C\uDFFD")
+
+  public val babyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC76\uD83C\uDFFE")
+
+  public val babyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC76\uD83C\uDFFF")
+
+  public val childTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFB")
+
+  public val childLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFB")
+
+  public val childTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFC")
+
+  public val childMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFC")
+
+  public val childTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFD")
+
+  public val childMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFD")
+
+  public val childTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFE")
+
+  public val childMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFE")
+
+  public val childTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFF")
+
+  public val childDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD2\uD83C\uDFFF")
+
+  public val girlTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC67\uD83C\uDFFB")
+
+  public val girlTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC67\uD83C\uDFFC")
+
+  public val girlTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC67\uD83C\uDFFD")
+
+  public val girlTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC67\uD83C\uDFFE")
+
+  public val girlTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC67\uD83C\uDFFF")
+
+  public val boyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC66\uD83C\uDFFB")
+
+  public val boyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC66\uD83C\uDFFC")
+
+  public val boyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC66\uD83C\uDFFD")
+
+  public val boyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC66\uD83C\uDFFE")
+
+  public val boyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC66\uD83C\uDFFF")
+
+  public val adultTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val adultLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val adultTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val adultMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val adultTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val adultMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val adultTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val adultMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val adultTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val adultDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val womanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF")
+
+  public val manTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB")
+
+  public val manTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC")
+
+  public val manTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD")
+
+  public val manTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE")
+
+  public val manTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF")
+
+  public val personTone1CurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB1")
+
+  public val personLightSkinToneCurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB1")
+
+  public val personTone2CurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB1")
+
+  public val personMediumLightSkinToneCurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB1")
+
+  public val personTone3CurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB1")
+
+  public val personMediumSkinToneCurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB1")
+
+  public val personTone4CurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB1")
+
+  public val personMediumDarkSkinToneCurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB1")
+
+  public val personTone5CurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB1")
+
+  public val personDarkSkinToneCurlyHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB1")
+
+  public val womanCurlyHairedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB1")
+
+  public val manCurlyHairedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB1")
+
+  public val personTone1RedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB0")
+
+  public val personLightSkinToneRedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB0")
+
+  public val personTone2RedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB0")
+
+  public val personMediumLightSkinToneRedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB0")
+
+  public val personTone3RedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB0")
+
+  public val personMediumSkinToneRedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB0")
+
+  public val personTone4RedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB0")
+
+  public val personMediumDarkSkinToneRedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB0")
+
+  public val personTone5RedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB0")
+
+  public val personDarkSkinToneRedHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB0")
+
+  public val womanRedHairedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB0")
+
+  public val manRedHairedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB0")
+
+  public val manRedHairedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB0")
+
+  public val manRedHairedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB0")
+
+  public val manRedHairedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB0")
+
+  public val manRedHairedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB0")
+
+  public val manRedHairedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB0")
+
+  public val manRedHairedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB0")
+
+  public val manRedHairedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB0")
+
+  public val manRedHairedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB0")
+
+  public val manRedHairedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB0")
+
+  public val blondHairedPersonTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFB")
+
+  public val personWithBlondHairTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFB")
+
+  public val blondHairedPersonTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFC")
+
+  public val personWithBlondHairTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFC")
+
+  public val blondHairedPersonTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFD")
+
+  public val personWithBlondHairTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFD")
+
+  public val blondHairedPersonTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFE")
+
+  public val personWithBlondHairTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFE")
+
+  public val blondHairedPersonTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFF")
+
+  public val personWithBlondHairTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFF")
+
+  public val blondHairedWomanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val blondHairedWomanDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val blondHairedManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val blondHairedManLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val blondHairedManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val blondHairedManMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val blondHairedManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val blondHairedManMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val blondHairedManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val blondHairedManMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val blondHairedManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val blondHairedManDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC71\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personTone1WhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB3")
+
+  public val personLightSkinToneWhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB3")
+
+  public val personTone2WhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB3")
+
+  public val personMediumLightSkinToneWhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB3")
+
+  public val personTone3WhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB3")
+
+  public val personMediumSkinToneWhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB3")
+
+  public val personTone4WhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB3")
+
+  public val personMediumDarkSkinToneWhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB3")
+
+  public val personTone5WhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB3")
+
+  public val personDarkSkinToneWhiteHair: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB3")
+
+  public val womanWhiteHairedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB3")
+
+  public val manWhiteHairedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB3")
+
+  public val personTone1Bald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB2")
+
+  public val personLightSkinToneBald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDB2")
+
+  public val personTone2Bald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB2")
+
+  public val personMediumLightSkinToneBald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDB2")
+
+  public val personTone3Bald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB2")
+
+  public val personMediumSkinToneBald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDB2")
+
+  public val personTone4Bald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB2")
+
+  public val personMediumDarkSkinToneBald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDB2")
+
+  public val personTone5Bald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB2")
+
+  public val personDarkSkinToneBald: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDB2")
+
+  public val womanBaldTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB2")
+
+  public val womanBaldLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDB2")
+
+  public val womanBaldTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB2")
+
+  public val womanBaldMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDB2")
+
+  public val womanBaldTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB2")
+
+  public val womanBaldMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDB2")
+
+  public val womanBaldTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB2")
+
+  public val womanBaldMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDB2")
+
+  public val womanBaldTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB2")
+
+  public val womanBaldDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDB2")
+
+  public val manBaldTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB2")
+
+  public val manBaldLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDB2")
+
+  public val manBaldTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB2")
+
+  public val manBaldMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDB2")
+
+  public val manBaldTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB2")
+
+  public val manBaldMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDB2")
+
+  public val manBaldTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB2")
+
+  public val manBaldMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDB2")
+
+  public val manBaldTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB2")
+
+  public val manBaldDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDB2")
+
+  public val beardedPersonTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFB")
+
+  public val beardedPersonLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFB")
+
+  public val beardedPersonTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFC")
+
+  public val beardedPersonMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFC")
+
+  public val beardedPersonTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFD")
+
+  public val beardedPersonMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFD")
+
+  public val beardedPersonTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFE")
+
+  public val beardedPersonMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFE")
+
+  public val beardedPersonTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFF")
+
+  public val beardedPersonDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFF")
+
+  public val womanTone1Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanLightSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanTone2Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanMediumLightSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanTone3Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanMediumSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanTone4Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanMediumDarkSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanTone5Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanDarkSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manTone1Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manLightSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manTone2Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manMediumLightSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manTone3Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manMediumSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manTone4Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manMediumDarkSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manTone5Beard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manDarkSkinToneBeard: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD4\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val olderAdultTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFB")
+
+  public val olderAdultLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFB")
+
+  public val olderAdultTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFC")
+
+  public val olderAdultMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFC")
+
+  public val olderAdultTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFD")
+
+  public val olderAdultMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFD")
+
+  public val olderAdultTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFE")
+
+  public val olderAdultMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFE")
+
+  public val olderAdultTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFF")
+
+  public val olderAdultDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD3\uD83C\uDFFF")
+
+  public val olderWomanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFB")
+
+  public val grandmaTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFB")
+
+  public val olderWomanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFC")
+
+  public val grandmaTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFC")
+
+  public val olderWomanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFD")
+
+  public val grandmaTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFD")
+
+  public val olderWomanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFE")
+
+  public val grandmaTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFE")
+
+  public val olderWomanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFF")
+
+  public val grandmaTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC75\uD83C\uDFFF")
+
+  public val olderManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC74\uD83C\uDFFB")
+
+  public val olderManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC74\uD83C\uDFFC")
+
+  public val olderManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC74\uD83C\uDFFD")
+
+  public val olderManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC74\uD83C\uDFFE")
+
+  public val olderManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC74\uD83C\uDFFF")
+
+  public val manWithChineseCapTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFB")
+
+  public val manWithGuaPiMaoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFB")
+
+  public val manWithChineseCapTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFC")
+
+  public val manWithGuaPiMaoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFC")
+
+  public val manWithChineseCapTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFD")
+
+  public val manWithGuaPiMaoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFD")
+
+  public val manWithChineseCapTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFE")
+
+  public val manWithGuaPiMaoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFE")
+
+  public val manWithChineseCapTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFF")
+
+  public val manWithGuaPiMaoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC72\uD83C\uDFFF")
+
+  public val personWearingTurbanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFB")
+
+  public val manWithTurbanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFB")
+
+  public val personWearingTurbanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFC")
+
+  public val manWithTurbanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFC")
+
+  public val personWearingTurbanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFD")
+
+  public val manWithTurbanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFD")
+
+  public val personWearingTurbanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFE")
+
+  public val manWithTurbanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFE")
+
+  public val personWearingTurbanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFF")
+
+  public val manWithTurbanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFF")
+
+  public val womanWearingTurbanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanWearingTurbanDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manWearingTurbanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manWearingTurbanDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC73\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val womanWithHeadscarfTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFB")
+
+  public val womanWithHeadscarfLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFB")
+
+  public val womanWithHeadscarfTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFC")
+
+  public val womanWithHeadscarfMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFC")
+
+  public val womanWithHeadscarfTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFD")
+
+  public val womanWithHeadscarfMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFD")
+
+  public val womanWithHeadscarfTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFE")
+
+  public val womanWithHeadscarfMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFE")
+
+  public val womanWithHeadscarfTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFF")
+
+  public val womanWithHeadscarfDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD5\uD83C\uDFFF")
+
+  public val policeOfficerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFB")
+
+  public val copTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFB")
+
+  public val policeOfficerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFC")
+
+  public val copTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFC")
+
+  public val policeOfficerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFD")
+
+  public val copTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFD")
+
+  public val policeOfficerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFE")
+
+  public val copTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFE")
+
+  public val policeOfficerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFF")
+
+  public val copTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFF")
+
+  public val womanPoliceOfficerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanPoliceOfficerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manPoliceOfficerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manPoliceOfficerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6E\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val constructionWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFB")
+
+  public val constructionWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFC")
+
+  public val constructionWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFD")
+
+  public val constructionWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFE")
+
+  public val constructionWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFF")
+
+  public val womanConstructionWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanConstructionWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manConstructionWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manConstructionWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC77\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val guardTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFB")
+
+  public val guardsmanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFB")
+
+  public val guardTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFC")
+
+  public val guardsmanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFC")
+
+  public val guardTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFD")
+
+  public val guardsmanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFD")
+
+  public val guardTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFE")
+
+  public val guardsmanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFE")
+
+  public val guardTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFF")
+
+  public val guardsmanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFF")
+
+  public val womanGuardTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGuardLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGuardTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGuardMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGuardTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGuardMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGuardTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGuardMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGuardTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanGuardDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manGuardTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGuardLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGuardTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGuardMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGuardTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGuardMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGuardTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGuardMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGuardTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manGuardDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC82\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val detectiveTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFB")
+
+  public val spyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFB")
+
+  public val sleuthOrSpyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFB")
+
+  public val detectiveTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFC")
+
+  public val spyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFC")
+
+  public val sleuthOrSpyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFC")
+
+  public val detectiveTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFD")
+
+  public val spyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFD")
+
+  public val sleuthOrSpyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFD")
+
+  public val detectiveTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFE")
+
+  public val spyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFE")
+
+  public val sleuthOrSpyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFE")
+
+  public val detectiveTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFF")
+
+  public val spyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFF")
+
+  public val sleuthOrSpyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFF")
+
+  public val womanDetectiveTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanDetectiveLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanDetectiveTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanDetectiveMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanDetectiveTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanDetectiveMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanDetectiveTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanDetectiveMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanDetectiveTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanDetectiveDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manDetectiveTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manDetectiveLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manDetectiveTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manDetectiveMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manDetectiveTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manDetectiveMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manDetectiveTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manDetectiveMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manDetectiveTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manDetectiveDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD75\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val healthWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2695\uFE0F")
+
+  public val healthWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2695\uFE0F")
+
+  public val healthWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2695\uFE0F")
+
+  public val healthWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2695\uFE0F")
+
+  public val healthWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2695\uFE0F")
+
+  public val healthWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2695\uFE0F")
+
+  public val healthWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2695\uFE0F")
+
+  public val healthWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2695\uFE0F")
+
+  public val healthWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2695\uFE0F")
+
+  public val healthWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2695\uFE0F")
+
+  public val womanHealthWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2695\uFE0F")
+
+  public val manHealthWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2695\uFE0F")
+
+  public val farmerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF3E")
+
+  public val farmerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF3E")
+
+  public val farmerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF3E")
+
+  public val farmerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF3E")
+
+  public val farmerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF3E")
+
+  public val farmerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF3E")
+
+  public val farmerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF3E")
+
+  public val farmerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF3E")
+
+  public val farmerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF3E")
+
+  public val farmerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF3E")
+
+  public val womanFarmerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF3E")
+
+  public val womanFarmerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF3E")
+
+  public val womanFarmerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF3E")
+
+  public val womanFarmerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF3E")
+
+  public val womanFarmerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF3E")
+
+  public val womanFarmerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF3E")
+
+  public val womanFarmerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF3E")
+
+  public val womanFarmerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF3E")
+
+  public val womanFarmerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF3E")
+
+  public val womanFarmerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF3E")
+
+  public val manFarmerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF3E")
+
+  public val manFarmerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF3E")
+
+  public val manFarmerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF3E")
+
+  public val manFarmerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF3E")
+
+  public val manFarmerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF3E")
+
+  public val manFarmerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF3E")
+
+  public val manFarmerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF3E")
+
+  public val manFarmerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF3E")
+
+  public val manFarmerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF3E")
+
+  public val manFarmerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF3E")
+
+  public val cookTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF73")
+
+  public val cookLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF73")
+
+  public val cookTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF73")
+
+  public val cookMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF73")
+
+  public val cookTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF73")
+
+  public val cookMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF73")
+
+  public val cookTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF73")
+
+  public val cookMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF73")
+
+  public val cookTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF73")
+
+  public val cookDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF73")
+
+  public val womanCookTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF73")
+
+  public val womanCookLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF73")
+
+  public val womanCookTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF73")
+
+  public val womanCookMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF73")
+
+  public val womanCookTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF73")
+
+  public val womanCookMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF73")
+
+  public val womanCookTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF73")
+
+  public val womanCookMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF73")
+
+  public val womanCookTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF73")
+
+  public val womanCookDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF73")
+
+  public val manCookTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF73")
+
+  public val manCookLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF73")
+
+  public val manCookTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF73")
+
+  public val manCookMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF73")
+
+  public val manCookTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF73")
+
+  public val manCookMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF73")
+
+  public val manCookTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF73")
+
+  public val manCookMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF73")
+
+  public val manCookTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF73")
+
+  public val manCookDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF73")
+
+  public val studentTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF93")
+
+  public val studentLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF93")
+
+  public val studentTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF93")
+
+  public val studentMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF93")
+
+  public val studentTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF93")
+
+  public val studentMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF93")
+
+  public val studentTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF93")
+
+  public val studentMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF93")
+
+  public val studentTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF93")
+
+  public val studentDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF93")
+
+  public val womanStudentTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF93")
+
+  public val womanStudentLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF93")
+
+  public val womanStudentTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF93")
+
+  public val womanStudentMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF93")
+
+  public val womanStudentTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF93")
+
+  public val womanStudentMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF93")
+
+  public val womanStudentTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF93")
+
+  public val womanStudentMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF93")
+
+  public val womanStudentTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF93")
+
+  public val womanStudentDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF93")
+
+  public val manStudentTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93")
+
+  public val manStudentLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF93")
+
+  public val manStudentTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF93")
+
+  public val manStudentMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF93")
+
+  public val manStudentTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF93")
+
+  public val manStudentMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF93")
+
+  public val manStudentTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF93")
+
+  public val manStudentMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF93")
+
+  public val manStudentTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF93")
+
+  public val manStudentDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF93")
+
+  public val singerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFA4")
+
+  public val singerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFA4")
+
+  public val singerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFA4")
+
+  public val singerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFA4")
+
+  public val singerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFA4")
+
+  public val singerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFA4")
+
+  public val singerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFA4")
+
+  public val singerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFA4")
+
+  public val singerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFA4")
+
+  public val singerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFA4")
+
+  public val womanSingerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFA4")
+
+  public val womanSingerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFA4")
+
+  public val womanSingerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA4")
+
+  public val womanSingerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA4")
+
+  public val womanSingerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFA4")
+
+  public val womanSingerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFA4")
+
+  public val womanSingerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFA4")
+
+  public val womanSingerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFA4")
+
+  public val womanSingerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFA4")
+
+  public val womanSingerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFA4")
+
+  public val manSingerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA4")
+
+  public val manSingerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA4")
+
+  public val manSingerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFA4")
+
+  public val manSingerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFA4")
+
+  public val manSingerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFA4")
+
+  public val manSingerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFA4")
+
+  public val manSingerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFA4")
+
+  public val manSingerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFA4")
+
+  public val manSingerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFA4")
+
+  public val manSingerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFA4")
+
+  public val teacherTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFEB")
+
+  public val teacherLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFEB")
+
+  public val teacherTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFEB")
+
+  public val teacherMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFEB")
+
+  public val teacherTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFEB")
+
+  public val teacherMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFEB")
+
+  public val teacherTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFEB")
+
+  public val teacherMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFEB")
+
+  public val teacherTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFEB")
+
+  public val teacherDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFEB")
+
+  public val womanTeacherTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFEB")
+
+  public val womanTeacherLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFEB")
+
+  public val womanTeacherTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFEB")
+
+  public val womanTeacherMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFEB")
+
+  public val womanTeacherTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFEB")
+
+  public val womanTeacherMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFEB")
+
+  public val womanTeacherTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFEB")
+
+  public val womanTeacherMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFEB")
+
+  public val womanTeacherTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFEB")
+
+  public val womanTeacherDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFEB")
+
+  public val manTeacherTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFEB")
+
+  public val manTeacherLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFEB")
+
+  public val manTeacherTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFEB")
+
+  public val manTeacherMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFEB")
+
+  public val manTeacherTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFEB")
+
+  public val manTeacherMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFEB")
+
+  public val manTeacherTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFEB")
+
+  public val manTeacherMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFEB")
+
+  public val manTeacherTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFEB")
+
+  public val manTeacherDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFEB")
+
+  public val factoryWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFED")
+
+  public val factoryWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFED")
+
+  public val factoryWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFED")
+
+  public val factoryWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFED")
+
+  public val factoryWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFED")
+
+  public val factoryWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFED")
+
+  public val factoryWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFED")
+
+  public val factoryWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFED")
+
+  public val factoryWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFED")
+
+  public val factoryWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFED")
+
+  public val womanFactoryWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFED")
+
+  public val manFactoryWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFED")
+
+  public val technologistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB")
+
+  public val technologistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBB")
+
+  public val technologistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDCBB")
+
+  public val technologistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDCBB")
+
+  public val technologistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDCBB")
+
+  public val technologistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDCBB")
+
+  public val technologistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDCBB")
+
+  public val technologistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDCBB")
+
+  public val technologistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDCBB")
+
+  public val technologistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDCBB")
+
+  public val womanTechnologistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDCBB")
+
+  public val manTechnologistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB")
+
+  public val manTechnologistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBB")
+
+  public val manTechnologistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDCBB")
+
+  public val manTechnologistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDCBB")
+
+  public val manTechnologistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDCBB")
+
+  public val manTechnologistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDCBB")
+
+  public val manTechnologistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDCBB")
+
+  public val manTechnologistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDCBB")
+
+  public val manTechnologistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDCBB")
+
+  public val manTechnologistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDCBB")
+
+  public val officeWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBC")
+
+  public val officeWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDCBC")
+
+  public val officeWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDCBC")
+
+  public val officeWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDCBC")
+
+  public val officeWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDCBC")
+
+  public val officeWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDCBC")
+
+  public val officeWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDCBC")
+
+  public val officeWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDCBC")
+
+  public val officeWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDCBC")
+
+  public val officeWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDCBC")
+
+  public val womanOfficeWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDCBC")
+
+  public val manOfficeWorkerDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDCBC")
+
+  public val mechanicTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDD27")
+
+  public val mechanicLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDD27")
+
+  public val mechanicTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDD27")
+
+  public val mechanicMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDD27")
+
+  public val mechanicTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDD27")
+
+  public val mechanicMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDD27")
+
+  public val mechanicTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDD27")
+
+  public val mechanicMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDD27")
+
+  public val mechanicTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDD27")
+
+  public val mechanicDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDD27")
+
+  public val womanMechanicTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDD27")
+
+  public val womanMechanicLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDD27")
+
+  public val womanMechanicTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDD27")
+
+  public val womanMechanicMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDD27")
+
+  public val womanMechanicTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDD27")
+
+  public val womanMechanicMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDD27")
+
+  public val womanMechanicTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDD27")
+
+  public val womanMechanicMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDD27")
+
+  public val womanMechanicTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDD27")
+
+  public val womanMechanicDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDD27")
+
+  public val manMechanicTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD27")
+
+  public val manMechanicLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD27")
+
+  public val manMechanicTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDD27")
+
+  public val manMechanicMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDD27")
+
+  public val manMechanicTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDD27")
+
+  public val manMechanicMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDD27")
+
+  public val manMechanicTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDD27")
+
+  public val manMechanicMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDD27")
+
+  public val manMechanicTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDD27")
+
+  public val manMechanicDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDD27")
+
+  public val scientistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDD2C")
+
+  public val scientistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDD2C")
+
+  public val scientistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDD2C")
+
+  public val scientistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDD2C")
+
+  public val scientistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDD2C")
+
+  public val scientistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDD2C")
+
+  public val scientistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDD2C")
+
+  public val scientistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDD2C")
+
+  public val scientistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDD2C")
+
+  public val scientistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDD2C")
+
+  public val womanScientistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDD2C")
+
+  public val womanScientistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDD2C")
+
+  public val womanScientistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDD2C")
+
+  public val womanScientistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDD2C")
+
+  public val womanScientistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDD2C")
+
+  public val womanScientistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDD2C")
+
+  public val womanScientistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDD2C")
+
+  public val womanScientistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDD2C")
+
+  public val womanScientistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDD2C")
+
+  public val womanScientistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDD2C")
+
+  public val manScientistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD2C")
+
+  public val manScientistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDD2C")
+
+  public val manScientistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDD2C")
+
+  public val manScientistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDD2C")
+
+  public val manScientistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDD2C")
+
+  public val manScientistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDD2C")
+
+  public val manScientistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDD2C")
+
+  public val manScientistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDD2C")
+
+  public val manScientistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDD2C")
+
+  public val manScientistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDD2C")
+
+  public val artistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFA8")
+
+  public val artistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDFA8")
+
+  public val artistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFA8")
+
+  public val artistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDFA8")
+
+  public val artistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFA8")
+
+  public val artistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDFA8")
+
+  public val artistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFA8")
+
+  public val artistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDFA8")
+
+  public val artistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFA8")
+
+  public val artistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDFA8")
+
+  public val womanArtistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFA8")
+
+  public val womanArtistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDFA8")
+
+  public val womanArtistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA8")
+
+  public val womanArtistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA8")
+
+  public val womanArtistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFA8")
+
+  public val womanArtistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDFA8")
+
+  public val womanArtistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFA8")
+
+  public val womanArtistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDFA8")
+
+  public val womanArtistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFA8")
+
+  public val womanArtistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDFA8")
+
+  public val manArtistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8")
+
+  public val manArtistLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDFA8")
+
+  public val manArtistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFA8")
+
+  public val manArtistMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDFA8")
+
+  public val manArtistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFA8")
+
+  public val manArtistMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDFA8")
+
+  public val manArtistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFA8")
+
+  public val manArtistMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDFA8")
+
+  public val manArtistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFA8")
+
+  public val manArtistDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDFA8")
+
+  public val firefighterTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDE92")
+
+  public val firefighterLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDE92")
+
+  public val firefighterTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDE92")
+
+  public val firefighterMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDE92")
+
+  public val firefighterTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDE92")
+
+  public val firefighterMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDE92")
+
+  public val firefighterTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDE92")
+
+  public val firefighterMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDE92")
+
+  public val firefighterTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDE92")
+
+  public val firefighterDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDE92")
+
+  public val womanFirefighterTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDE92")
+
+  public val womanFirefighterLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDE92")
+
+  public val womanFirefighterTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDE92")
+
+  public val womanFirefighterMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDE92")
+
+  public val womanFirefighterTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDE92")
+
+  public val womanFirefighterMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDE92")
+
+  public val womanFirefighterTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDE92")
+
+  public val womanFirefighterMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDE92")
+
+  public val womanFirefighterTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDE92")
+
+  public val womanFirefighterDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDE92")
+
+  public val manFirefighterTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDE92")
+
+  public val manFirefighterLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDE92")
+
+  public val manFirefighterTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDE92")
+
+  public val manFirefighterMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDE92")
+
+  public val manFirefighterTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDE92")
+
+  public val manFirefighterMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDE92")
+
+  public val manFirefighterTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDE92")
+
+  public val manFirefighterMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDE92")
+
+  public val manFirefighterTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDE92")
+
+  public val manFirefighterDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDE92")
+
+  public val pilotTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2708\uFE0F")
+
+  public val pilotLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2708\uFE0F")
+
+  public val pilotTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2708\uFE0F")
+
+  public val pilotMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2708\uFE0F")
+
+  public val pilotTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2708\uFE0F")
+
+  public val pilotMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2708\uFE0F")
+
+  public val pilotTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2708\uFE0F")
+
+  public val pilotMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2708\uFE0F")
+
+  public val pilotTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2708\uFE0F")
+
+  public val pilotDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2708\uFE0F")
+
+  public val womanPilotTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2708\uFE0F")
+
+  public val womanPilotLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2708\uFE0F")
+
+  public val womanPilotTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2708\uFE0F")
+
+  public val womanPilotMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2708\uFE0F")
+
+  public val womanPilotTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2708\uFE0F")
+
+  public val womanPilotMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2708\uFE0F")
+
+  public val womanPilotTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2708\uFE0F")
+
+  public val womanPilotMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2708\uFE0F")
+
+  public val womanPilotTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2708\uFE0F")
+
+  public val womanPilotDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2708\uFE0F")
+
+  public val manPilotTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2708\uFE0F")
+
+  public val manPilotLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2708\uFE0F")
+
+  public val manPilotTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2708\uFE0F")
+
+  public val manPilotMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2708\uFE0F")
+
+  public val manPilotTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2708\uFE0F")
+
+  public val manPilotMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2708\uFE0F")
+
+  public val manPilotTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2708\uFE0F")
+
+  public val manPilotMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2708\uFE0F")
+
+  public val manPilotTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2708\uFE0F")
+
+  public val manPilotDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2708\uFE0F")
+
+  public val astronautTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDE80")
+
+  public val astronautLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83D\uDE80")
+
+  public val astronautTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDE80")
+
+  public val astronautMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83D\uDE80")
+
+  public val astronautTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDE80")
+
+  public val astronautMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83D\uDE80")
+
+  public val astronautTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDE80")
+
+  public val astronautMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83D\uDE80")
+
+  public val astronautTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDE80")
+
+  public val astronautDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83D\uDE80")
+
+  public val womanAstronautTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDE80")
+
+  public val womanAstronautLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDE80")
+
+  public val womanAstronautTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDE80")
+
+  public val womanAstronautMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83D\uDE80")
+
+  public val womanAstronautTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDE80")
+
+  public val womanAstronautMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83D\uDE80")
+
+  public val womanAstronautTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDE80")
+
+  public val womanAstronautMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83D\uDE80")
+
+  public val womanAstronautTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDE80")
+
+  public val womanAstronautDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83D\uDE80")
+
+  public val manAstronautTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDE80")
+
+  public val manAstronautLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83D\uDE80")
+
+  public val manAstronautTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDE80")
+
+  public val manAstronautMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83D\uDE80")
+
+  public val manAstronautTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDE80")
+
+  public val manAstronautMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83D\uDE80")
+
+  public val manAstronautTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDE80")
+
+  public val manAstronautMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83D\uDE80")
+
+  public val manAstronautTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDE80")
+
+  public val manAstronautDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83D\uDE80")
+
+  public val judgeTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2696\uFE0F")
+
+  public val judgeLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2696\uFE0F")
+
+  public val judgeTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2696\uFE0F")
+
+  public val judgeMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2696\uFE0F")
+
+  public val judgeTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2696\uFE0F")
+
+  public val judgeMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2696\uFE0F")
+
+  public val judgeTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2696\uFE0F")
+
+  public val judgeMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2696\uFE0F")
+
+  public val judgeTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2696\uFE0F")
+
+  public val judgeDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2696\uFE0F")
+
+  public val womanJudgeTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2696\uFE0F")
+
+  public val womanJudgeLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2696\uFE0F")
+
+  public val womanJudgeTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2696\uFE0F")
+
+  public val womanJudgeMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2696\uFE0F")
+
+  public val womanJudgeTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2696\uFE0F")
+
+  public val womanJudgeMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2696\uFE0F")
+
+  public val womanJudgeTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2696\uFE0F")
+
+  public val womanJudgeMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2696\uFE0F")
+
+  public val womanJudgeTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2696\uFE0F")
+
+  public val womanJudgeDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2696\uFE0F")
+
+  public val manJudgeTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2696\uFE0F")
+
+  public val manJudgeLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2696\uFE0F")
+
+  public val manJudgeTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2696\uFE0F")
+
+  public val manJudgeMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2696\uFE0F")
+
+  public val manJudgeTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2696\uFE0F")
+
+  public val manJudgeMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2696\uFE0F")
+
+  public val manJudgeTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2696\uFE0F")
+
+  public val manJudgeMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2696\uFE0F")
+
+  public val manJudgeTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2696\uFE0F")
+
+  public val manJudgeDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2696\uFE0F")
+
+  public val personWithVeilTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFB")
+
+  public val personWithVeilTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFC")
+
+  public val personWithVeilTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFD")
+
+  public val personWithVeilTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFE")
+
+  public val personWithVeilTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFF")
+
+  public val womanWithVeilTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanWithVeilLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanWithVeilTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanWithVeilMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanWithVeilTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanWithVeilMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanWithVeilTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanWithVeilMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanWithVeilTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanWithVeilDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manWithVeilTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manWithVeilLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manWithVeilTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manWithVeilMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manWithVeilTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manWithVeilMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manWithVeilTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manWithVeilMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manWithVeilTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manWithVeilDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC70\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personInTuxedoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFB")
+
+  public val tuxedoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFB")
+
+  public val personInTuxedoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFC")
+
+  public val tuxedoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFC")
+
+  public val personInTuxedoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFD")
+
+  public val tuxedoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFD")
+
+  public val personInTuxedoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFE")
+
+  public val tuxedoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFE")
+
+  public val personInTuxedoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFF")
+
+  public val tuxedoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFF")
+
+  public val womanInTuxedoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanInTuxedoDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manInTuxedoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manInTuxedoLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manInTuxedoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manInTuxedoMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manInTuxedoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manInTuxedoMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manInTuxedoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manInTuxedoMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manInTuxedoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manInTuxedoDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD35\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personWithCrownTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFB")
+
+  public val personWithCrownLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFB")
+
+  public val personWithCrownTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFC")
+
+  public val personWithCrownMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFC")
+
+  public val personWithCrownTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFD")
+
+  public val personWithCrownMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFD")
+
+  public val personWithCrownTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFE")
+
+  public val personWithCrownMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFE")
+
+  public val personWithCrownTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFF")
+
+  public val personWithCrownDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC5\uD83C\uDFFF")
+
+  public val princessTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC78\uD83C\uDFFB")
+
+  public val princessTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC78\uD83C\uDFFC")
+
+  public val princessTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC78\uD83C\uDFFD")
+
+  public val princessTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC78\uD83C\uDFFE")
+
+  public val princessTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC78\uD83C\uDFFF")
+
+  public val princeTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD34\uD83C\uDFFB")
+
+  public val princeTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD34\uD83C\uDFFC")
+
+  public val princeTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD34\uD83C\uDFFD")
+
+  public val princeTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD34\uD83C\uDFFE")
+
+  public val princeTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD34\uD83C\uDFFF")
+
+  public val superheroTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFB")
+
+  public val superheroLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFB")
+
+  public val superheroTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFC")
+
+  public val superheroMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFC")
+
+  public val superheroTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFD")
+
+  public val superheroMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFD")
+
+  public val superheroTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFE")
+
+  public val superheroMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFE")
+
+  public val superheroTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFF")
+
+  public val superheroDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFF")
+
+  public val womanSuperheroTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSuperheroLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSuperheroTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSuperheroMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSuperheroTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSuperheroMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSuperheroTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSuperheroMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSuperheroTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanSuperheroDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manSuperheroTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSuperheroLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSuperheroTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSuperheroMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSuperheroTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSuperheroMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSuperheroTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSuperheroMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSuperheroTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manSuperheroDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB8\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val supervillainTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFB")
+
+  public val supervillainLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFB")
+
+  public val supervillainTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFC")
+
+  public val supervillainMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFC")
+
+  public val supervillainTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFD")
+
+  public val supervillainMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFD")
+
+  public val supervillainTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFE")
+
+  public val supervillainMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFE")
+
+  public val supervillainTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFF")
+
+  public val supervillainDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFF")
+
+  public val womanSupervillainTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSupervillainLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSupervillainTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSupervillainMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSupervillainTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSupervillainMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSupervillainTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSupervillainMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSupervillainTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanSupervillainDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manSupervillainTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSupervillainLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSupervillainTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSupervillainMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSupervillainTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSupervillainMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSupervillainTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSupervillainMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSupervillainTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manSupervillainDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDB9\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val ninjaTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFB")
+
+  public val ninjaLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFB")
+
+  public val ninjaTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFC")
+
+  public val ninjaMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFC")
+
+  public val ninjaTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFD")
+
+  public val ninjaMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFD")
+
+  public val ninjaTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFE")
+
+  public val ninjaMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFE")
+
+  public val ninjaTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFF")
+
+  public val ninjaDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD77\uD83C\uDFFF")
+
+  public val mxClausTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF84")
+
+  public val mxClausLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF84")
+
+  public val mxClausTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF84")
+
+  public val mxClausMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF84")
+
+  public val mxClausTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF84")
+
+  public val mxClausMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF84")
+
+  public val mxClausTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF84")
+
+  public val mxClausMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF84")
+
+  public val mxClausTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF84")
+
+  public val mxClausDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF84")
+
+  public val mrsClausTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFB")
+
+  public val motherChristmasTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFB")
+
+  public val mrsClausTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFC")
+
+  public val motherChristmasTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFC")
+
+  public val mrsClausTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFD")
+
+  public val motherChristmasTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFD")
+
+  public val mrsClausTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFE")
+
+  public val motherChristmasTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFE")
+
+  public val mrsClausTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFF")
+
+  public val motherChristmasTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD36\uD83C\uDFFF")
+
+  public val santaTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF85\uD83C\uDFFB")
+
+  public val santaTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF85\uD83C\uDFFC")
+
+  public val santaTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF85\uD83C\uDFFD")
+
+  public val santaTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF85\uD83C\uDFFE")
+
+  public val santaTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDF85\uD83C\uDFFF")
+
+  public val mageTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFB")
+
+  public val mageLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFB")
+
+  public val mageTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFC")
+
+  public val mageMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFC")
+
+  public val mageTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFD")
+
+  public val mageMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFD")
+
+  public val mageTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFE")
+
+  public val mageMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFE")
+
+  public val mageTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFF")
+
+  public val mageDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFF")
+
+  public val womanMageTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanMageLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanMageTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanMageMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanMageTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanMageMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanMageTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanMageMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanMageTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanMageDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manMageTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manMageLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manMageTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manMageMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manMageTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manMageMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manMageTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manMageMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manMageTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manMageDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD9\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val elfTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFB")
+
+  public val elfLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFB")
+
+  public val elfTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFC")
+
+  public val elfMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFC")
+
+  public val elfTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFD")
+
+  public val elfMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFD")
+
+  public val elfTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFE")
+
+  public val elfMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFE")
+
+  public val elfTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFF")
+
+  public val elfDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFF")
+
+  public val womanElfTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanElfLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanElfTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanElfMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanElfTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanElfMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanElfTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanElfMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanElfTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanElfDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manElfTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manElfLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manElfTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manElfMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manElfTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manElfMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manElfTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manElfMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manElfTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manElfDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDD\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val vampireTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFB")
+
+  public val vampireLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFB")
+
+  public val vampireTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFC")
+
+  public val vampireMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFC")
+
+  public val vampireTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFD")
+
+  public val vampireMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFD")
+
+  public val vampireTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFE")
+
+  public val vampireMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFE")
+
+  public val vampireTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFF")
+
+  public val vampireDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFF")
+
+  public val womanVampireTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanVampireLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanVampireTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanVampireMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanVampireTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanVampireMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanVampireTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanVampireMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanVampireTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanVampireDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manVampireTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manVampireLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manVampireTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manVampireMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manVampireTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manVampireMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manVampireTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manVampireMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manVampireTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manVampireDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDB\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val merpersonTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFB")
+
+  public val merpersonLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFB")
+
+  public val merpersonTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFC")
+
+  public val merpersonMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFC")
+
+  public val merpersonTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFD")
+
+  public val merpersonMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFD")
+
+  public val merpersonTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFE")
+
+  public val merpersonMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFE")
+
+  public val merpersonTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFF")
+
+  public val merpersonDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFF")
+
+  public val mermaidTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val mermaidLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val mermaidTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val mermaidMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val mermaidTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val mermaidMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val mermaidTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val mermaidMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val mermaidTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val mermaidDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val mermanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val mermanLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val mermanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val mermanMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val mermanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val mermanMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val mermanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val mermanMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val mermanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val mermanDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDC\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val fairyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFB")
+
+  public val fairyLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFB")
+
+  public val fairyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFC")
+
+  public val fairyMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFC")
+
+  public val fairyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFD")
+
+  public val fairyMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFD")
+
+  public val fairyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFE")
+
+  public val fairyMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFE")
+
+  public val fairyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFF")
+
+  public val fairyDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFF")
+
+  public val womanFairyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanFairyLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanFairyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanFairyMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanFairyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanFairyMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanFairyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanFairyMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanFairyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanFairyDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manFairyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manFairyLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manFairyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manFairyMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manFairyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manFairyMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manFairyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manFairyMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manFairyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manFairyDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDDA\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val angelTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC7C\uD83C\uDFFB")
+
+  public val angelTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC7C\uD83C\uDFFC")
+
+  public val angelTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC7C\uD83C\uDFFD")
+
+  public val angelTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC7C\uD83C\uDFFE")
+
+  public val angelTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC7C\uD83C\uDFFF")
+
+  public val pregnantPersonTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFB")
+
+  public val pregnantPersonLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFB")
+
+  public val pregnantPersonTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFC")
+
+  public val pregnantPersonMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFC")
+
+  public val pregnantPersonTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFD")
+
+  public val pregnantPersonMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFD")
+
+  public val pregnantPersonTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFE")
+
+  public val pregnantPersonMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFE")
+
+  public val pregnantPersonTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFF")
+
+  public val pregnantPersonDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC4\uD83C\uDFFF")
+
+  public val pregnantWomanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFB")
+
+  public val expectingWomanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFB")
+
+  public val pregnantWomanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFC")
+
+  public val expectingWomanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFC")
+
+  public val pregnantWomanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFD")
+
+  public val expectingWomanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFD")
+
+  public val pregnantWomanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFE")
+
+  public val expectingWomanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFE")
+
+  public val pregnantWomanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFF")
+
+  public val expectingWomanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD30\uD83C\uDFFF")
+
+  public val pregnantManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFB")
+
+  public val pregnantManLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFB")
+
+  public val pregnantManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFC")
+
+  public val pregnantManMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFC")
+
+  public val pregnantManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFD")
+
+  public val pregnantManMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFD")
+
+  public val pregnantManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFE")
+
+  public val pregnantManMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFE")
+
+  public val pregnantManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFF")
+
+  public val pregnantManDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDEC3\uD83C\uDFFF")
+
+  public val breastFeedingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFB")
+
+  public val breastFeedingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFB")
+
+  public val breastFeedingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFC")
+
+  public val breastFeedingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFC")
+
+  public val breastFeedingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFD")
+
+  public val breastFeedingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFD")
+
+  public val breastFeedingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFE")
+
+  public val breastFeedingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFE")
+
+  public val breastFeedingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFF")
+
+  public val breastFeedingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD31\uD83C\uDFFF")
+
+  public val personFeedingBabyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF7C")
+
+  public val personFeedingBabyDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF7C")
+
+  public val womanFeedingBabyDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF7C")
+
+  public val manFeedingBabyDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83C\uDF7C")
+
+  public val personBowingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFB")
+
+  public val bowTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFB")
+
+  public val personBowingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFC")
+
+  public val bowTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFC")
+
+  public val personBowingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFD")
+
+  public val bowTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFD")
+
+  public val personBowingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFE")
+
+  public val bowTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFE")
+
+  public val personBowingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFF")
+
+  public val bowTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFF")
+
+  public val womanBowingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanBowingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanBowingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanBowingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanBowingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanBowingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanBowingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanBowingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanBowingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanBowingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manBowingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manBowingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manBowingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manBowingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manBowingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manBowingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manBowingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manBowingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manBowingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manBowingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE47\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personTippingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFB")
+
+  public val informationDeskPersonTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFB")
+
+  public val personTippingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFC")
+
+  public val informationDeskPersonTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFC")
+
+  public val personTippingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFD")
+
+  public val informationDeskPersonTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFD")
+
+  public val personTippingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFE")
+
+  public val informationDeskPersonTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFE")
+
+  public val personTippingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFF")
+
+  public val informationDeskPersonTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFF")
+
+  public val womanTippingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanTippingHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanTippingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanTippingHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanTippingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanTippingHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanTippingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanTippingHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanTippingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanTippingHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manTippingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manTippingHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manTippingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manTippingHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manTippingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manTippingHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manTippingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manTippingHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manTippingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manTippingHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC81\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personGesturingNoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFB")
+
+  public val noGoodTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFB")
+
+  public val personGesturingNoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFC")
+
+  public val noGoodTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFC")
+
+  public val personGesturingNoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFD")
+
+  public val noGoodTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFD")
+
+  public val personGesturingNoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFE")
+
+  public val noGoodTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFE")
+
+  public val personGesturingNoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFF")
+
+  public val noGoodTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFF")
+
+  public val womanGesturingNoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanGesturingNoDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manGesturingNoTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGesturingNoLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGesturingNoTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGesturingNoMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGesturingNoTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGesturingNoMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGesturingNoTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGesturingNoMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGesturingNoTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manGesturingNoDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE45\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personGesturingOkTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFB")
+
+  public val personGesturingOkTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFC")
+
+  public val personGesturingOkTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFD")
+
+  public val personGesturingOkTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFE")
+
+  public val personGesturingOkTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFF")
+
+  public val womanGesturingOkTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanGesturingOkDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manGesturingOkTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGesturingOkLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGesturingOkTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGesturingOkMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGesturingOkTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGesturingOkMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGesturingOkTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGesturingOkMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGesturingOkTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manGesturingOkDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE46\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personRaisingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFB")
+
+  public val raisingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFB")
+
+  public val personRaisingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFC")
+
+  public val raisingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFC")
+
+  public val personRaisingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFD")
+
+  public val raisingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFD")
+
+  public val personRaisingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFE")
+
+  public val raisingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFE")
+
+  public val personRaisingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFF")
+
+  public val raisingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFF")
+
+  public val womanRaisingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanRaisingHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manRaisingHandTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manRaisingHandLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manRaisingHandTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manRaisingHandMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manRaisingHandTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manRaisingHandMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manRaisingHandTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manRaisingHandMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manRaisingHandTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manRaisingHandDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4B\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val deafPersonTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFB")
+
+  public val deafPersonLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFB")
+
+  public val deafPersonTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFC")
+
+  public val deafPersonMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFC")
+
+  public val deafPersonTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFD")
+
+  public val deafPersonMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFD")
+
+  public val deafPersonTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFE")
+
+  public val deafPersonMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFE")
+
+  public val deafPersonTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFF")
+
+  public val deafPersonDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFF")
+
+  public val deafWomanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val deafWomanLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val deafWomanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val deafWomanMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val deafWomanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val deafWomanMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val deafWomanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val deafWomanMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val deafWomanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val deafWomanDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val deafManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val deafManLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val deafManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val deafManMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val deafManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val deafManMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val deafManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val deafManMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val deafManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val deafManDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCF\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personFacepalmingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFB")
+
+  public val facePalmTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFB")
+
+  public val facepalmTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFB")
+
+  public val personFacepalmingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFC")
+
+  public val facePalmTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFC")
+
+  public val facepalmTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFC")
+
+  public val personFacepalmingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFD")
+
+  public val facePalmTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFD")
+
+  public val facepalmTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFD")
+
+  public val personFacepalmingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFE")
+
+  public val facePalmTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFE")
+
+  public val facepalmTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFE")
+
+  public val personFacepalmingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFF")
+
+  public val facePalmTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFF")
+
+  public val facepalmTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFF")
+
+  public val womanFacepalmingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanFacepalmingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manFacepalmingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manFacepalmingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manFacepalmingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manFacepalmingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manFacepalmingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manFacepalmingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manFacepalmingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manFacepalmingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manFacepalmingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manFacepalmingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD26\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personShruggingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFB")
+
+  public val shrugTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFB")
+
+  public val personShruggingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFC")
+
+  public val shrugTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFC")
+
+  public val personShruggingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFD")
+
+  public val shrugTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFD")
+
+  public val personShruggingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFE")
+
+  public val shrugTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFE")
+
+  public val personShruggingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFF")
+
+  public val shrugTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFF")
+
+  public val womanShruggingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanShruggingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanShruggingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanShruggingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanShruggingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanShruggingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanShruggingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanShruggingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanShruggingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanShruggingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manShruggingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manShruggingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manShruggingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manShruggingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manShruggingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manShruggingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manShruggingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manShruggingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manShruggingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manShruggingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD37\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personPoutingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFB")
+
+  public val personWithPoutingFaceTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFB")
+
+  public val personPoutingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFC")
+
+  public val personWithPoutingFaceTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFC")
+
+  public val personPoutingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFD")
+
+  public val personWithPoutingFaceTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFD")
+
+  public val personPoutingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFE")
+
+  public val personWithPoutingFaceTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFE")
+
+  public val personPoutingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFF")
+
+  public val personWithPoutingFaceTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFF")
+
+  public val womanPoutingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPoutingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPoutingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPoutingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPoutingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPoutingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPoutingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPoutingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPoutingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanPoutingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manPoutingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPoutingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPoutingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPoutingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPoutingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPoutingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPoutingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPoutingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPoutingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manPoutingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4E\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personFrowningTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFB")
+
+  public val personFrowningTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFC")
+
+  public val personFrowningTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFD")
+
+  public val personFrowningTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFE")
+
+  public val personFrowningTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFF")
+
+  public val womanFrowningTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanFrowningLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanFrowningTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanFrowningMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanFrowningTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanFrowningMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanFrowningTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanFrowningMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanFrowningTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanFrowningDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manFrowningTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manFrowningLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manFrowningTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manFrowningMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manFrowningTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manFrowningMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manFrowningTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manFrowningMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manFrowningTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manFrowningDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDE4D\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personGettingHaircutTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFB")
+
+  public val haircutTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFB")
+
+  public val personGettingHaircutTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFC")
+
+  public val haircutTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFC")
+
+  public val personGettingHaircutTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFD")
+
+  public val haircutTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFD")
+
+  public val personGettingHaircutTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFE")
+
+  public val haircutTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFE")
+
+  public val personGettingHaircutTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFF")
+
+  public val haircutTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFF")
+
+  public val womanGettingHaircutTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanGettingHaircutDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manGettingHaircutTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manGettingHaircutDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC87\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personGettingMassageTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFB")
+
+  public val massageTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFB")
+
+  public val personGettingMassageTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFC")
+
+  public val massageTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFC")
+
+  public val personGettingMassageTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFD")
+
+  public val massageTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFD")
+
+  public val personGettingMassageTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFE")
+
+  public val massageTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFE")
+
+  public val personGettingMassageTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFF")
+
+  public val massageTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFF")
+
+  public val womanGettingFaceMassageTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanGettingFaceMassageDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manGettingFaceMassageTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manGettingFaceMassageDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC86\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personInSteamyRoomTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFB")
+
+  public val personInSteamyRoomLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFB")
+
+  public val personInSteamyRoomTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFC")
+
+  public val personInSteamyRoomMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFC")
+
+  public val personInSteamyRoomTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFD")
+
+  public val personInSteamyRoomMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFD")
+
+  public val personInSteamyRoomTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFE")
+
+  public val personInSteamyRoomMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFE")
+
+  public val personInSteamyRoomTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFF")
+
+  public val personInSteamyRoomDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFF")
+
+  public val womanInSteamyRoomTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanInSteamyRoomDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manInSteamyRoomTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manInSteamyRoomDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD6\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val nailCareTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC85\uD83C\uDFFB")
+
+  public val nailCareTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC85\uD83C\uDFFC")
+
+  public val nailCareTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC85\uD83C\uDFFD")
+
+  public val nailCareTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC85\uD83C\uDFFE")
+
+  public val nailCareTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC85\uD83C\uDFFF")
+
+  public val selfieTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD33\uD83C\uDFFB")
+
+  public val selfieTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD33\uD83C\uDFFC")
+
+  public val selfieTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD33\uD83C\uDFFD")
+
+  public val selfieTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD33\uD83C\uDFFE")
+
+  public val selfieTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD33\uD83C\uDFFF")
+
+  public val dancerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC83\uD83C\uDFFB")
+
+  public val dancerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC83\uD83C\uDFFC")
+
+  public val dancerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC83\uD83C\uDFFD")
+
+  public val dancerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC83\uD83C\uDFFE")
+
+  public val dancerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC83\uD83C\uDFFF")
+
+  public val manDancingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFB")
+
+  public val maleDancerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFB")
+
+  public val manDancingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFC")
+
+  public val maleDancerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFC")
+
+  public val manDancingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFD")
+
+  public val maleDancerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFD")
+
+  public val manDancingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFF")
+
+  public val maleDancerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFF")
+
+  public val manDancingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFE")
+
+  public val maleDancerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD7A\uD83C\uDFFE")
+
+  public val levitateTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFB")
+
+  public val manInBusinessSuitLevitatingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFB")
+
+  public val manInBusinessSuitLevitatingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFB")
+
+  public val levitateTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFC")
+
+  public val manInBusinessSuitLevitatingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFC")
+
+  public val manInBusinessSuitLevitatingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFC")
+
+  public val levitateTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFD")
+
+  public val manInBusinessSuitLevitatingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFD")
+
+  public val manInBusinessSuitLevitatingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFD")
+
+  public val levitateTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFE")
+
+  public val manInBusinessSuitLevitatingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFE")
+
+  public val manInBusinessSuitLevitatingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFE")
+
+  public val levitateTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFF")
+
+  public val manInBusinessSuitLevitatingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFF")
+
+  public val manInBusinessSuitLevitatingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDD74\uD83C\uDFFF")
+
+  public val personInManualWheelchairTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBD")
+
+  public val womanInManualWheelchairDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBD")
+
+  public val manInManualWheelchairDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBD")
+
+  public val personInManualWheelchairFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInManualWheelchairFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val manInManualWheelchairFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val womanInManualWheelchairFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBD\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBC")
+
+  public val womanInMotorizedWheelchairDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBC")
+
+  public val manInMotorizedWheelchairDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBC")
+
+  public val personInMotorizedWheelchairFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personInMotorizedWheelchairFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val manInMotorizedWheelchairFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val womanInMotorizedWheelchairFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDBC\u200D\u27A1\uFE0F")
+
+  public val personWalkingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB")
+
+  public val walkingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB")
+
+  public val personWalkingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC")
+
+  public val walkingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC")
+
+  public val personWalkingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD")
+
+  public val walkingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD")
+
+  public val personWalkingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE")
+
+  public val walkingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE")
+
+  public val personWalkingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF")
+
+  public val walkingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF")
+
+  public val womanWalkingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanWalkingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanWalkingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanWalkingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanWalkingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanWalkingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanWalkingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanWalkingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanWalkingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanWalkingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manWalkingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manWalkingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manWalkingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manWalkingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manWalkingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manWalkingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manWalkingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manWalkingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manWalkingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manWalkingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personWalkingFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u27A1\uFE0F")
+
+  public val personWalkingFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanWalkingFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manWalkingFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB6\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val personWithProbingCaneTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDAF")
+
+  public val personWithProbingCaneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDAF")
+
+  public val womanWithProbingCaneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDAF")
+
+  public val manWithProbingCaneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDAF")
+
+  public val personWithWhiteCaneFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personWithWhiteCaneFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val manWithWhiteCaneFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val womanWithWhiteCaneFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDDAF\u200D\u27A1\uFE0F")
+
+  public val personKneelingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB")
+
+  public val personKneelingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB")
+
+  public val personKneelingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC")
+
+  public val personKneelingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC")
+
+  public val personKneelingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD")
+
+  public val personKneelingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD")
+
+  public val personKneelingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE")
+
+  public val personKneelingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE")
+
+  public val personKneelingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF")
+
+  public val personKneelingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF")
+
+  public val womanKneelingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanKneelingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanKneelingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanKneelingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanKneelingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanKneelingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanKneelingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanKneelingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanKneelingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanKneelingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manKneelingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manKneelingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manKneelingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manKneelingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manKneelingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manKneelingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manKneelingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manKneelingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manKneelingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manKneelingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personKneelingFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u27A1\uFE0F")
+
+  public val personKneelingFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanKneelingFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manKneelingFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCE\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val personRunningTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB")
+
+  public val runnerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB")
+
+  public val personRunningTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC")
+
+  public val runnerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC")
+
+  public val personRunningTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD")
+
+  public val runnerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD")
+
+  public val personRunningTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE")
+
+  public val runnerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE")
+
+  public val personRunningTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF")
+
+  public val runnerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF")
+
+  public val womanRunningTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanRunningLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanRunningTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanRunningMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanRunningTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanRunningMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanRunningTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanRunningMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanRunningTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanRunningDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manRunningTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manRunningLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manRunningTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manRunningMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manRunningTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manRunningMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manRunningTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manRunningMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manRunningTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manRunningDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personRunningFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u27A1\uFE0F")
+
+  public val personRunningFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val womanRunningFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2640\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFB\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFC\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFD\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFE\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val manRunningFacingRightDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC3\uD83C\uDFFF\u200D\u2642\uFE0F\u200D\u27A1\uFE0F")
+
+  public val personStandingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFB")
+
+  public val personStandingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFB")
+
+  public val personStandingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFC")
+
+  public val personStandingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFC")
+
+  public val personStandingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFD")
+
+  public val personStandingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFD")
+
+  public val personStandingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFE")
+
+  public val personStandingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFE")
+
+  public val personStandingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFF")
+
+  public val personStandingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFF")
+
+  public val womanStandingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanStandingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanStandingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanStandingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanStandingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanStandingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanStandingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanStandingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanStandingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanStandingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manStandingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manStandingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manStandingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manStandingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manStandingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manStandingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manStandingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manStandingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manStandingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manStandingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDCD\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val peopleHoldingHandsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val peopleHoldingHandsTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val peopleHoldingHandsTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val peopleHoldingHandsTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val peopleHoldingHandsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val peopleHoldingHandsDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val womanAndManHoldingHandsTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val womanAndManHoldingHandsTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val womanAndManHoldingHandsTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val womanAndManHoldingHandsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFF")
+
+  public val womanAndManHoldingHandsDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6B\uD83C\uDFFF")
+
+  public val womenHoldingHandsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFB")
+
+  public val womenHoldingHandsLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFB")
+
+  public val womenHoldingHandsTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFC")
+
+  public val womenHoldingHandsMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFC")
+
+  public val womenHoldingHandsTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFD")
+
+  public val womenHoldingHandsMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFD")
+
+  public val womenHoldingHandsTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFE")
+
+  public val womenHoldingHandsMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFE")
+
+  public val womenHoldingHandsTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val womenHoldingHandsTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val womenHoldingHandsTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val womenHoldingHandsTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val womenHoldingHandsTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val womenHoldingHandsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFF")
+
+  public val womenHoldingHandsDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6D\uD83C\uDFFF")
+
+  public val menHoldingHandsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFB")
+
+  public val menHoldingHandsLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFB")
+
+  public val menHoldingHandsTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFC")
+
+  public val menHoldingHandsMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFC")
+
+  public val menHoldingHandsTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFD")
+
+  public val menHoldingHandsMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFD")
+
+  public val menHoldingHandsTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFE")
+
+  public val menHoldingHandsMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFE")
+
+  public val menHoldingHandsTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val menHoldingHandsTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val menHoldingHandsTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val menHoldingHandsTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val menHoldingHandsTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\uD83E\uDD1D\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val menHoldingHandsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFF")
+
+  public val menHoldingHandsDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC6C\uD83C\uDFFF")
+
+  public val coupleWithHeartTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFB")
+
+  public val coupleWithHeartLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFC")
+
+  public val coupleWithHeartMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFD")
+
+  public val coupleWithHeartMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFE")
+
+  public val coupleWithHeartMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val coupleWithHeartPersonPersonTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val coupleWithHeartPersonPersonTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val coupleWithHeartPersonPersonTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val coupleWithHeartPersonPersonTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartPersonPersonDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val coupleWithHeartTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFF")
+
+  public val coupleWithHeartDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC91\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanManTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanManTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanManTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanManDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val coupleWithHeartWomanWomanTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val coupleWithHeartWomanWomanTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val coupleWithHeartWomanWomanTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val coupleWithHeartWomanWomanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartWomanWomanDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val coupleWithHeartManManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val coupleWithHeartManManTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val coupleWithHeartManManTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val coupleWithHeartManManTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val coupleWithHeartManManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val coupleWithHeartManManDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFB")
+
+  public val kissLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFB")
+
+  public val kissPersonPersonTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissPersonPersonLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissPersonPersonTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissPersonPersonLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissPersonPersonTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissPersonPersonLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissPersonPersonTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissPersonPersonMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFC")
+
+  public val kissMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFC")
+
+  public val kissPersonPersonTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissPersonPersonMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissPersonPersonTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissPersonPersonMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissPersonPersonTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissPersonPersonMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissPersonPersonTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissPersonPersonMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFD")
+
+  public val kissMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFD")
+
+  public val kissPersonPersonTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissPersonPersonMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissPersonPersonTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissPersonPersonMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissPersonPersonTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissPersonPersonMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissPersonPersonTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissPersonPersonMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFE")
+
+  public val kissMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFE")
+
+  public val kissPersonPersonTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFF")
+
+  public val kissPersonPersonTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissPersonPersonDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFB")
+
+  public val kissPersonPersonTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissPersonPersonDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFC")
+
+  public val kissPersonPersonTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissPersonPersonDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFD")
+
+  public val kissPersonPersonTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissPersonPersonDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD1\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83E\uDDD1\uD83C\uDFFE")
+
+  public val kissTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFF")
+
+  public val kissDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC8F\uD83C\uDFFF")
+
+  public val kissWomanManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissWomanManTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissWomanManTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissWomanManTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissWomanManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanManDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissWomanWomanTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFB")
+
+  public val kissWomanWomanTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFC")
+
+  public val kissWomanWomanTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFD")
+
+  public val kissWomanWomanTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFE")
+
+  public val kissWomanWomanTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissWomanWomanDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC69\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC69\uD83C\uDFFF")
+
+  public val kissManManTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManTone1Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManLightSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManTone1Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManTone1Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManTone1Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFB\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManTone2Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManMediumLightSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManTone2Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManMediumLightSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManTone2Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManMediumLightSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManTone2Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManMediumLightSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFC\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManTone3Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManMediumSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManTone3Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManMediumSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManTone3Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManMediumSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManTone3Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManMediumSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFD\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManTone4Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManMediumDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManTone4Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManMediumDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManTone4Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManMediumDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManTone4Tone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManMediumDarkSkinToneDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFE\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManTone5Tone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManDarkSkinToneLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFB")
+
+  public val kissManManTone5Tone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManDarkSkinToneMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFC")
+
+  public val kissManManTone5Tone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManDarkSkinToneMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFD")
+
+  public val kissManManTone5Tone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManDarkSkinToneMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFE")
+
+  public val kissManManTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val kissManManDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDC68\uD83C\uDFFF\u200D\u2764\uFE0F\u200D\uD83D\uDC8B\u200D\uD83D\uDC68\uD83C\uDFFF")
+
+  public val snowboarderTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFB")
+
+  public val snowboarderLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFB")
+
+  public val snowboarderTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFC")
+
+  public val snowboarderMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFC")
+
+  public val snowboarderTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFD")
+
+  public val snowboarderMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFD")
+
+  public val snowboarderTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFE")
+
+  public val snowboarderMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFE")
+
+  public val snowboarderTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFF")
+
+  public val snowboarderDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC2\uD83C\uDFFF")
+
+  public val personLiftingWeightsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFB")
+
+  public val lifterTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFB")
+
+  public val weightLifterTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFB")
+
+  public val personLiftingWeightsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFC")
+
+  public val lifterTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFC")
+
+  public val weightLifterTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFC")
+
+  public val personLiftingWeightsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFD")
+
+  public val lifterTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFD")
+
+  public val weightLifterTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFD")
+
+  public val personLiftingWeightsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFE")
+
+  public val lifterTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFE")
+
+  public val weightLifterTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFE")
+
+  public val personLiftingWeightsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFF")
+
+  public val lifterTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFF")
+
+  public val weightLifterTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFF")
+
+  public val womanLiftingWeightsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanLiftingWeightsDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manLiftingWeightsTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manLiftingWeightsDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCB\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personDoingCartwheelTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFB")
+
+  public val cartwheelTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFB")
+
+  public val personDoingCartwheelTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFC")
+
+  public val cartwheelTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFC")
+
+  public val personDoingCartwheelTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFD")
+
+  public val cartwheelTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFD")
+
+  public val personDoingCartwheelTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFE")
+
+  public val cartwheelTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFE")
+
+  public val personDoingCartwheelTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFF")
+
+  public val cartwheelTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFF")
+
+  public val womanCartwheelingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanCartwheelingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manCartwheelingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manCartwheelingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manCartwheelingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manCartwheelingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manCartwheelingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manCartwheelingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manCartwheelingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manCartwheelingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manCartwheelingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manCartwheelingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD38\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personBouncingBallTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFB")
+
+  public val basketballPlayerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFB")
+
+  public val personWithBallTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFB")
+
+  public val personBouncingBallTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFC")
+
+  public val basketballPlayerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFC")
+
+  public val personWithBallTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFC")
+
+  public val personBouncingBallTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFD")
+
+  public val basketballPlayerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFD")
+
+  public val personWithBallTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFD")
+
+  public val personBouncingBallTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFE")
+
+  public val basketballPlayerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFE")
+
+  public val personWithBallTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFE")
+
+  public val personBouncingBallTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFF")
+
+  public val basketballPlayerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFF")
+
+  public val personWithBallTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFF")
+
+  public val womanBouncingBallTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanBouncingBallDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manBouncingBallTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manBouncingBallLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manBouncingBallTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manBouncingBallMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manBouncingBallTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manBouncingBallMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manBouncingBallTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manBouncingBallMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manBouncingBallTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manBouncingBallDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\u26F9\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personPlayingHandballTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFB")
+
+  public val handballTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFB")
+
+  public val personPlayingHandballTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFC")
+
+  public val handballTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFC")
+
+  public val personPlayingHandballTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFD")
+
+  public val handballTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFD")
+
+  public val personPlayingHandballTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFE")
+
+  public val handballTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFE")
+
+  public val personPlayingHandballTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFF")
+
+  public val handballTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFF")
+
+  public val womanPlayingHandballTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanPlayingHandballDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manPlayingHandballTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manPlayingHandballDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3E\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personGolfingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFB")
+
+  public val personGolfingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFB")
+
+  public val personGolfingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFC")
+
+  public val personGolfingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFC")
+
+  public val personGolfingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFD")
+
+  public val personGolfingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFD")
+
+  public val personGolfingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFE")
+
+  public val personGolfingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFE")
+
+  public val personGolfingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFF")
+
+  public val personGolfingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFF")
+
+  public val womanGolfingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGolfingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanGolfingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGolfingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanGolfingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGolfingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanGolfingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGolfingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanGolfingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanGolfingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manGolfingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGolfingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manGolfingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGolfingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manGolfingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGolfingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manGolfingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGolfingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manGolfingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manGolfingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCC\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val horseRacingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC7\uD83C\uDFFB")
+
+  public val horseRacingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC7\uD83C\uDFFC")
+
+  public val horseRacingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC7\uD83C\uDFFD")
+
+  public val horseRacingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC7\uD83C\uDFFE")
+
+  public val horseRacingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC7\uD83C\uDFFF")
+
+  public val personInLotusPositionTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFB")
+
+  public val personInLotusPositionLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFB")
+
+  public val personInLotusPositionTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFC")
+
+  public val personInLotusPositionMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFC")
+
+  public val personInLotusPositionTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFD")
+
+  public val personInLotusPositionMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFD")
+
+  public val personInLotusPositionTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFE")
+
+  public val personInLotusPositionMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFE")
+
+  public val personInLotusPositionTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFF")
+
+  public val personInLotusPositionDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFF")
+
+  public val womanInLotusPositionTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanInLotusPositionDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manInLotusPositionTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manInLotusPositionDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD8\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personSurfingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFB")
+
+  public val surferTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFB")
+
+  public val personSurfingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFC")
+
+  public val surferTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFC")
+
+  public val personSurfingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFD")
+
+  public val surferTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFD")
+
+  public val personSurfingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFE")
+
+  public val surferTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFE")
+
+  public val personSurfingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFF")
+
+  public val surferTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFF")
+
+  public val womanSurfingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSurfingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSurfingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSurfingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSurfingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSurfingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSurfingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSurfingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSurfingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanSurfingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manSurfingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSurfingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSurfingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSurfingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSurfingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSurfingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSurfingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSurfingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSurfingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manSurfingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFC4\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personSwimmingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFB")
+
+  public val swimmerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFB")
+
+  public val personSwimmingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFC")
+
+  public val swimmerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFC")
+
+  public val personSwimmingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFD")
+
+  public val swimmerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFD")
+
+  public val personSwimmingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFE")
+
+  public val swimmerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFE")
+
+  public val personSwimmingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFF")
+
+  public val swimmerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFF")
+
+  public val womanSwimmingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSwimmingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanSwimmingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSwimmingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanSwimmingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSwimmingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanSwimmingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSwimmingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanSwimmingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanSwimmingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manSwimmingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSwimmingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manSwimmingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSwimmingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manSwimmingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSwimmingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manSwimmingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSwimmingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manSwimmingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manSwimmingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFCA\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personPlayingWaterPoloTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFB")
+
+  public val waterPoloTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFB")
+
+  public val personPlayingWaterPoloTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFC")
+
+  public val waterPoloTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFC")
+
+  public val personPlayingWaterPoloTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFD")
+
+  public val waterPoloTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFD")
+
+  public val personPlayingWaterPoloTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFE")
+
+  public val waterPoloTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFE")
+
+  public val personPlayingWaterPoloTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFF")
+
+  public val waterPoloTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFF")
+
+  public val womanPlayingWaterPoloTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanPlayingWaterPoloDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manPlayingWaterPoloTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manPlayingWaterPoloDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD3D\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personRowingBoatTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFB")
+
+  public val rowboatTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFB")
+
+  public val personRowingBoatTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFC")
+
+  public val rowboatTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFC")
+
+  public val personRowingBoatTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFD")
+
+  public val rowboatTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFD")
+
+  public val personRowingBoatTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFE")
+
+  public val rowboatTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFE")
+
+  public val personRowingBoatTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFF")
+
+  public val rowboatTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFF")
+
+  public val womanRowingBoatTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanRowingBoatDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manRowingBoatTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manRowingBoatLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manRowingBoatTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manRowingBoatMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manRowingBoatTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manRowingBoatMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manRowingBoatTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manRowingBoatMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manRowingBoatTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manRowingBoatDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEA3\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personClimbingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFB")
+
+  public val personClimbingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFB")
+
+  public val personClimbingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFC")
+
+  public val personClimbingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFC")
+
+  public val personClimbingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFD")
+
+  public val personClimbingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFD")
+
+  public val personClimbingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFE")
+
+  public val personClimbingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFE")
+
+  public val personClimbingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFF")
+
+  public val personClimbingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFF")
+
+  public val womanClimbingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanClimbingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanClimbingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanClimbingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanClimbingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanClimbingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanClimbingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanClimbingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanClimbingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanClimbingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manClimbingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manClimbingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manClimbingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manClimbingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manClimbingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manClimbingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manClimbingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manClimbingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manClimbingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manClimbingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDDD7\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personMountainBikingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFB")
+
+  public val mountainBicyclistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFB")
+
+  public val personMountainBikingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFC")
+
+  public val mountainBicyclistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFC")
+
+  public val personMountainBikingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFD")
+
+  public val mountainBicyclistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFD")
+
+  public val personMountainBikingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFE")
+
+  public val mountainBicyclistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFE")
+
+  public val personMountainBikingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFF")
+
+  public val mountainBicyclistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFF")
+
+  public val womanMountainBikingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanMountainBikingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manMountainBikingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manMountainBikingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manMountainBikingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manMountainBikingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manMountainBikingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manMountainBikingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manMountainBikingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manMountainBikingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manMountainBikingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manMountainBikingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB5\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personBikingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFB")
+
+  public val bicyclistTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFB")
+
+  public val personBikingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFC")
+
+  public val bicyclistTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFC")
+
+  public val personBikingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFD")
+
+  public val bicyclistTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFD")
+
+  public val personBikingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFE")
+
+  public val bicyclistTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFE")
+
+  public val personBikingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFF")
+
+  public val bicyclistTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFF")
+
+  public val womanBikingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanBikingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanBikingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanBikingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanBikingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanBikingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanBikingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanBikingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanBikingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanBikingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manBikingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manBikingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manBikingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manBikingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manBikingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manBikingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manBikingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manBikingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manBikingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manBikingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEB4\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val personJugglingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFB")
+
+  public val jugglingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFB")
+
+  public val jugglerTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFB")
+
+  public val personJugglingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFC")
+
+  public val jugglingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFC")
+
+  public val jugglerTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFC")
+
+  public val personJugglingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFD")
+
+  public val jugglingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFD")
+
+  public val jugglerTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFD")
+
+  public val personJugglingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFE")
+
+  public val jugglingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFE")
+
+  public val jugglerTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFE")
+
+  public val personJugglingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFF")
+
+  public val jugglingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFF")
+
+  public val jugglerTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFF")
+
+  public val womanJugglingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanJugglingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFB\u200D\u2640\uFE0F")
+
+  public val womanJugglingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanJugglingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFC\u200D\u2640\uFE0F")
+
+  public val womanJugglingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanJugglingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFD\u200D\u2640\uFE0F")
+
+  public val womanJugglingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanJugglingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFE\u200D\u2640\uFE0F")
+
+  public val womanJugglingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val womanJugglingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFF\u200D\u2640\uFE0F")
+
+  public val manJugglingTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manJugglingLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFB\u200D\u2642\uFE0F")
+
+  public val manJugglingTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manJugglingMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFC\u200D\u2642\uFE0F")
+
+  public val manJugglingTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manJugglingMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFD\u200D\u2642\uFE0F")
+
+  public val manJugglingTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manJugglingMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFE\u200D\u2642\uFE0F")
+
+  public val manJugglingTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val manJugglingDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83E\uDD39\uD83C\uDFFF\u200D\u2642\uFE0F")
+
+  public val bathTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEC0\uD83C\uDFFB")
+
+  public val bathTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEC0\uD83C\uDFFC")
+
+  public val bathTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEC0\uD83C\uDFFD")
+
+  public val bathTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEC0\uD83C\uDFFE")
+
+  public val bathTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDEC0\uD83C\uDFFF")
+
+  public val personInBedTone1: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFB")
+
+  public val personInBedLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFB")
+
+  public val personInBedTone2: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFC")
+
+  public val personInBedMediumLightSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFC")
+
+  public val personInBedTone3: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFD")
+
+  public val personInBedMediumSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFD")
+
+  public val personInBedTone4: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFE")
+
+  public val personInBedMediumDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFE")
+
+  public val personInBedTone5: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFF")
+
+  public val personInBedDarkSkinTone: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83D\uDECC\uD83C\uDFFF")
+
+  public val `skin-tone-1`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFFB")
+
+  public val `skin-tone-2`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFFC")
+
+  public val `skin-tone-3`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFFD")
+
+  public val `skin-tone-4`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFFE")
+
+  public val `skin-tone-5`: DiscordEmoji.Generic
+    get() = DiscordEmoji.Generic("\uD83C\uDFFF")
 
   /**
    * Gets a discord emoji with the given [unicode].

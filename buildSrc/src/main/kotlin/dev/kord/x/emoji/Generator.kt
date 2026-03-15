@@ -38,9 +38,10 @@ data class EmojiItem(
     val names: List<String>,
     val surrogates: String,
     val unicodeVersion: Double,
+    val spriteIndex: Int? = 0,
     val hasDiversity: Boolean = false,
     val hasMultiDiversity: Boolean = false,
-    val diversityChildren: List<EmojiItem> = emptyList(),
+    val diversityChildren: List<Int> = emptyList(),
     val diversity: List<String> = emptyList(),
     val hasDiversityParent: Boolean = false,
     val hasMultiDiversityParent: Boolean = false
@@ -146,7 +147,7 @@ class EmojiPlugin : Plugin<Project> {
         }
     }
 
-    fun String.toCamelCase() = snakeCase.replace(decapitalize()) { result -> result.value.drop(1).toUpperCase() }
+    fun String.toCamelCase() = snakeCase.replace(replaceFirstChar { it.lowercase() }) { result -> result.value.drop(1).uppercase() }
 
     inline fun buildProperty(name: String, type: TypeName, builder: PropertySpec.Builder.() -> Unit) = with(PropertySpec.builder(name, type)) {
         builder()

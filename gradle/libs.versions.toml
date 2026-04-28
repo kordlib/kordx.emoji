@@ -1,0 +1,15 @@
+[versions]
+kotlin = "2.3.21"
+
+[libraries]
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.11.0" }
+kotlinpoet = { group = "com.squareup", name = "kotlinpoet", version = "2.3.0" }
+kord-core = { group = "dev.kord", name = "kord-core", version = "feature-native-SNAPSHOT" }
+codegen-kotlinpoet = { group = "dev.kord.codegen", name = "kotlinpoet", version = "1.0.2" }
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlin-plugin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+kord-gradle-plugin = { id = "dev.kord.gradle-tools", version = "1.10.2-SNAPSHOT" }
+maven-publish-plugin = { id = "com.vanniktech.maven.publish.base", version = "0.36.0" }
+dokka = { id = "org.jetbrains.dokka", version = "2.1.0" }

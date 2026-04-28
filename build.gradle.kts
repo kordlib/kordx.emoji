@@ -17,11 +17,11 @@ plugins {
 
 repositories {
     mavenCentral()
-    maven("https://oss.sonatype.org/content/repositories/snapshots")
+    maven("https://snapshots.kord.dev")
 }
 
 kord {
-    publicationName = "mavenCentral"
+//    publicationName = "mavenCentral"
     metadataHost = Family.OSX
     jvmTarget = JvmTarget.JVM_1_8
 }
@@ -44,7 +44,6 @@ kotlin {
     mingwX64()
 
     macosArm64()
-    macosX64()
 
     iosArm64()
     iosX64()
@@ -53,7 +52,6 @@ kotlin {
     watchosArm64()
     watchosSimulatorArm64()
 
-    tvosX64()
     tvosArm64()
     tvosSimulatorArm64()
 
@@ -87,8 +85,8 @@ dokka {
 
 mavenPublishing {
     coordinates(artifactId = Library.name)
-    publishToMavenCentral()
-    signAllPublications()
+//    publishToMavenCentral()
+//    signAllPublications()
 
     pom {
         name = Library.name
@@ -121,6 +119,17 @@ mavenPublishing {
             connection = "scm:git:ssh://github.com/kordlib/kordx.emoji.git"
             developerConnection = "scm:git:ssh://git@github.com:kordlib/kord.emoji.git"
             url = Library.projectUrl
+        }
+    }
+}
+
+publishing {
+    repositories {
+        maven("https://maven.pkg.github.com/kordlib/kord") {
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
         }
     }
 }

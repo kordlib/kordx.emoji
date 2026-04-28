@@ -3,7 +3,7 @@ package dev.kord.x.emoji
 import com.squareup.kotlinpoet.*
 import com.squareup.kotlinpoet.ParameterizedTypeName.Companion.parameterizedBy
 import dev.kord.codegen.kotlinpoet.*
-import dev.kord.codegen.kotlinpoet.js.jsName
+import dev.kord.codegen.kotlinpoet.js.experimentalJsStatic
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -158,7 +158,7 @@ private abstract class GenerateEmojisTask : DefaultTask() {
             )
             addKdoc("Gets a discord emoji with the given [unicode].")
             addModifiers(KModifier.OPERATOR)
-            addParameter<String>("unicode")
+            addParameter("unicode", STRING)
             returns(EmojiType.Base.name.copy(nullable = true))
             addCode("""return DiscordEmoji.findByUnicodeOrNull(unicode)""")
         }
@@ -195,7 +195,10 @@ private abstract class GenerateEmojisTask : DefaultTask() {
             name.first().isDigit() -> "_$name"
             else -> return
         }
-        jsName(safeName)
+        experimentalJsStatic()
+        addAnnotation(ClassName("kotlin.js", "JsFileName")) {
+            addMember("%S", safeName)
+        }
     }
 
     fun TypeSpec.Builder.applyEmoji(item: EmojiItem, typeName: TypeName, hasHairStyle: Boolean) {
